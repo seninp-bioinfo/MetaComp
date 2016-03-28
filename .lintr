@@ -1,0 +1,5 @@
+linters: with_defaults(
+    "single_quotes_linter" = NULL,
+    "camel_case_linter" = NULL,
+    "line_length_linter" = line_length_linter(100)
+  )
