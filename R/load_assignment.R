@@ -1,4 +1,5 @@
 #' @useDynLib MetaComp
+#' @importFrom data.table fread
 NULL
 
 #' Efficiently loads the table from a file.
@@ -16,11 +17,7 @@ load_assignment <- function(filepath) {
 
   print(paste("loading", filepath))
 
-  DF <- read.table(filepath, header = TRUE, sep = "\t", quote = "",
-                    stringsAsFactors = FALSE, comment.char = ""
-                   #, nrows=n,
-                   # colClasses=c("integer","integer","numeric",
-                   #              "character","numeric","integer")
-                  )
+  DF <- data.table::fread(filepath)
+
   DF
 }
