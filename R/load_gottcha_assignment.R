@@ -13,7 +13,7 @@ NULL
 #' @examples
 #' DF_BWA <- load_assignment( "inst/test_data/allReads-bwa.list.txt" )
 #' @export
-load_assignment <- function(filepath) {
+load_gottcha_assignment <- function(filepath) {
 
   print(paste("loading", filepath))
 
