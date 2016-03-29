@@ -14,6 +14,39 @@ before_install:
   - mkdir ~/.R
   - echo -e "CC=gcc-4.9 -std=gnu99\nCXX=g++-4.9 -std=c++14\nCXX1X=g++-4.9\nCXXFLAGS=-g -O3\nCXX1XFLAGS=-g -O3\nCFLAGS=-g -O3\n" > ~/.R/Makevars
 
+r_binary_packages:
+  - colorspace
+  - dichromat
+  - doParallel
+  - evaluate
+  - foreach
+  - formatR
+  - ggplot2
+  - gridBase
+  - gtable
+  - highr
+  - igraph
+  - irlba
+  - iterators
+  - knitr
+  - labeling
+  - markdown
+  - munsell
+  - NMF
+  - pkgmaker
+  - plyr
+  - RColorBrewer
+  - Rcpp
+  - registry
+  - reshape2
+  - rngtools
+  - scales
+  - stringdist
+  - stringi
+  - stringr
+  - xtable
+  - yaml
+
 r_github_packages:
   - jimhester/covr
   - jimhester/lintr
