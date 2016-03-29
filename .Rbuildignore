@@ -1,4 +1,10 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\.travis.yml$
+^\.travis\.yml$
+^\.Rhistory$
+.Rprofile
+inst/site
+inst/test_data
+NEWS\.md
 ^\.lintr$
+^cran-comments.md$
