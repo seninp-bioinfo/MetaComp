@@ -4,7 +4,7 @@ NULL
 
 #' Efficiently loads the table from a file.
 #'
-#' This is implementation relies on the read.table function from data.table package.
+#' This implementation fully relies on the read.table function from data.table package.
 #'
 #' @param filepath The tab-delimeted taxonomy assignment file
 #'
@@ -15,7 +15,7 @@ NULL
 #' @export
 load_gottcha_assignment <- function(filepath) {
 
-  print(paste("loading", filepath))
+  # print(paste("loading", filepath))
 
   DF <- data.table::fread(filepath)
 
