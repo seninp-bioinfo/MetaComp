@@ -2,7 +2,6 @@
 # load GOTTCHA assignment #1
 #
 dat <- data.frame(load_gottcha_assignment("../test_data/allReads-gottcha-strDB-b.list.txt"))
-
 #dat <- data.frame(load_gottcha_assignment("tests/test_data/allReads-gottcha-strDB-b.list.txt"))
 
 # columns import test

@@ -11,7 +11,7 @@ NULL
 #' @param taxonomy_level The level which need to be plotted.
 #'
 #' @return the ggplot2 plot.
-#'
+#' @examples
 #' @export
 plot_gottcha_as_column <- function(assignment_df, taxonomy_level) {
 
@@ -55,4 +55,4 @@ plot_gottcha_as_column <- function(assignment_df, taxonomy_level) {
             axis.text.y = ggplot2::element_text(size = 14))
 
      p
-   }
+}

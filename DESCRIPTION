@@ -10,7 +10,8 @@ Depends:
 Imports:
     dplyr,
     data.table,
-    ggplot2
+    ggplot2,
+    Cairo
 Suggests:
     testthat
 LinkingTo:
