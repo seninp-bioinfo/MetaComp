@@ -1,9 +1,9 @@
 #' @useDynLib MetaComp
 #' @importFrom dplyr filter select
-#' @import ggplot2
+#' @importFrom ggplot2
 NULL
 
-#' Plots a taxonomic assignment table as a single column.
+#' Generates a single column ggplot for a taxonomic assignment table.
 #'
 #' This implementation...
 #'
@@ -13,25 +13,24 @@ NULL
 #' @return the ggplot2 plot.
 #' @examples
 #' @export
-plot_gottcha_as_column <- function(assignment_df, taxonomy_level) {
+plot_gottcha_columns <- function(assignment, taxonomy_level) {
 
-  LEVEL = TAXA = ROLLUP = tool = NULL # fix the CRAN note
+  # the assumption is that we already have formatted table where the first column is
+  # the name of species, or strandes, etc... and following columns are the ones to be plotted
+  #
+  #
+  # need to scale the data up, column-by-column
+  df <- data.frame(TAXA = assignment$TAXA)
+  #
+  for (j in c(2:ncol(assignment)) ) {
+    df <- cbind(df, assignment[,j] * 100)
+  }
 
-  sub_table <- dplyr::filter(assignment_df, LEVEL == taxonomy_level)
+  names(df) <- names(assignment)
 
-  vals <- dplyr::select(sub_table, TAXA, ROLLUP)
+  melted_df <- melt(df, id.vars = c("TAXA"))
 
-  vals <- dplyr::arrange(vals, dplyr::desc(TAXA))
-
-  #' @importFrom scales rescale
-  #vals$ROLLUP <- rescale(vals$ROLLUP, to = c(0.1, 100))
-  vals$ROLLUP <- vals$ROLLUP * 100
-
-  vals$TAXA <- factor(vals$TAXA, levels = vals$TAXA)
-
-  vals$tool <- "Gottcha"
-
-     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = ROLLUP) ) +
+  p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
        ggplot2::theme_bw() + ggplot2::geom_tile() + ggplot2::ggtitle("Single column test") +
        ggplot2::scale_x_discrete(expand = c(0, 0)) + ggplot2::scale_y_discrete(expand = c(0, 0)) +
        ggplot2::coord_fixed(ratio = 1) +

@@ -28,3 +28,8 @@ ent_row <- dplyr::filter( family_table, TAXA == "Veillonella parvula")
 
 # [0.2] test
 expect_that(ent_row$ROLLUP, equals(0.0375))
+
+#
+# test the failure
+#
+expect_that(load_gottcha_assignment("../test_data/nonexistantfile.txt"), throws_error())
