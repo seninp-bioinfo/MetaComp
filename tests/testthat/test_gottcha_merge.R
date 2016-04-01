@@ -23,9 +23,6 @@ expect_that(dim(species2)[1], equals(105))
 gottcha_assignment1 <- rbind(gottcha_assignment1, species1)
 gottcha_assignment2 <- rbind(species2, gottcha_assignment2)
 #
-gottcha_assignment1$ROLLUP <- scales::rescale(gottcha_assignment1$ROLLUP)
-gottcha_assignment2$ROLLUP <- scales::rescale(gottcha_assignment2$ROLLUP)
+merged <- merge_gottcha_columns(gottcha_assignment1, gottcha_assignment2)
 #
-merged <- merge_gottcha_columns(gottcha_assignment1, gottcha_assignment2, "species")
-#
-expect_that(dim(merged)[1], equals(214))
+expect_that(dim(merged)[1], equals(dim(dat1)[1]))

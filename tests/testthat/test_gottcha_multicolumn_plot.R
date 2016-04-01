@@ -1,20 +1,30 @@
 #
-# load GOTTCHA assignment #1
-#
-#
 # load GOTTCHA assignment
 #
 dat1 <- data.frame(load_gottcha_assignment("../test_data/248/allReads-kraken_mini.list.txt"))
-species <- dplyr::filter(dat1, LEVEL == "species")
-gottcha_assignment1 <- dplyr::filter(dat1, LEVEL != "species")
-gottcha_assignment2 <- dplyr::filter(dat1, LEVEL != "species")
-species1 <- species[1:150,]
-species2 <- species[110:214,]
-gottcha_assignment1 <- rbind(gottcha_assignment1, species1)
-gottcha_assignment2 <- rbind(species2, gottcha_assignment2)
-gottcha_assignment1$ROLLUP <- scales::rescale(gottcha_assignment1$ROLLUP)
+#
+# get only phylum subset
+#
+dat1_phylum <- dplyr::filter(dat1, LEVEL == "phylum")
+dat1_phylum$ROLLUP <- scales::rescale(dat1_phylum$ROLLUP)
+#
+# make two pseudo sets
+#
+phylum <- dat1_phylum$TAXA
+phylum1 <- phylum[1:8]
+phylum2 <- phylum[6:15]
+#
+gottcha_assignment1 <- dplyr::filter(dat1_phylum, TAXA %in% phylum1)
+gottcha_assignment2 <- dplyr::filter(dat1_phylum, TAXA %in% phylum2)
+#
+# merge stuff
+#
+merged_assignment <- merge_gottcha_columns(gottcha_assignment1, gottcha_assignment2)
+#
+#
+#
 gottcha_assignment2$ROLLUP <- scales::rescale(gottcha_assignment2$ROLLUP)
-merged <- merge_gottcha_columns(gottcha_assignment1, gottcha_assignment2, "species")
+#merged <- merge_gottcha_columns(gottcha_assignment1, gottcha_assignment2)
 #
 # create a folder
 #

@@ -22,11 +22,11 @@ plot_gottcha_columns <- function(assignment, taxonomy_level) {
   # need to scale the data up, column-by-column
   df <- data.frame(TAXA = assignment$TAXA)
   #
-  for (j in c(2:ncol(assignment)) ) {
+  for (j in c(3:ncol(assignment)) ) {
     df <- cbind(df, assignment[,j] * 100)
   }
 
-  names(df) <- names(assignment)
+  names(df) <- names(assignment)[-1]
 
   melted_df <- melt(df, id.vars = c("TAXA"))
 
