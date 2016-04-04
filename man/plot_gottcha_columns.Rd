@@ -7,9 +7,9 @@
 plot_gottcha_columns(assignment, taxonomy_level)
 }
 \arguments{
-\item{taxonomy_level}{The level which need to be plotted.}
+\item{assignment}{The gottcha-like merged assignment table.}
 
-\item{assignment_df}{The gottcha-like assignment table.}
+\item{taxonomy_level}{The level which need to be plotted.}
 }
 \value{
 the ggplot2 plot.

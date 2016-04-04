@@ -1,14 +1,19 @@
+#' @importFrom reshape2 melt
+NULL
+
 #' Generates a single column ggplot for a taxonomic assignment table.
 #'
 #' This implementation...
 #'
-#' @param assignment_df The gottcha-like assignment table.
+#' @param assignment The gottcha-like merged assignment table.
 #' @param taxonomy_level The level which need to be plotted.
 #'
 #' @return the ggplot2 plot.
 #'
 #' @export
 plot_gottcha_columns <- function(assignment, taxonomy_level) {
+
+  TAXA = variable = value = tool = NULL # fix the CRAN note
 
   # the assumption is that we already have formatted table where the first column is
   # the name of species, or strandes, etc... and following columns are the ones to be plotted
@@ -23,7 +28,7 @@ plot_gottcha_columns <- function(assignment, taxonomy_level) {
 
   names(df) <- names(assignment)[-1]
 
-  melted_df <- melt(df, id.vars = c("TAXA"))
+  melted_df <- reshape2::melt(df, id.vars = c("TAXA"))
 
   p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
        ggplot2::theme_bw() + ggplot2::geom_tile() + ggplot2::ggtitle("Single column test") +

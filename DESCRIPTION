@@ -9,7 +9,6 @@ Depends:
     R (>= 3.1.0),
 Imports:
     reshape2,
-    plyr,
     dplyr,
     data.table,
     ggplot2,
