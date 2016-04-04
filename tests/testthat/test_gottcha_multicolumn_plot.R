@@ -6,7 +6,8 @@ dat1 <- data.frame(load_gottcha_assignment("../test_data/248/allReads-kraken_min
 # get only phylum subset
 #
 dat1_phylum <- dplyr::filter(dat1, LEVEL == "phylum")
-dat1_phylum$ROLLUP <- scales::rescale(dat1_phylum$ROLLUP)
+names(dat1_phylum)[3] <- "NORM_COV"
+dat1_phylum$NORM_COV <- scales::rescale(dat1_phylum$NORM_COV)
 #
 # make two pseudo sets
 #
@@ -23,7 +24,7 @@ merged_assignment <- merge_gottcha_columns(gottcha_assignment1, gottcha_assignme
 #
 #
 #
-gottcha_assignment2$ROLLUP <- scales::rescale(gottcha_assignment2$ROLLUP)
+gottcha_assignment2$NORM_COV <- scales::rescale(gottcha_assignment2$NORM_COV)
 #merged <- merge_gottcha_columns(gottcha_assignment1, gottcha_assignment2)
 #
 # create a folder

@@ -5,33 +5,34 @@ NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table.
 #'
-#' This implementation...
+#' This implementation is built upon ggplot tile.
 #'
 #' @param assignment_df The gottcha-like assignment table.
 #' @param taxonomy_level The level which need to be plotted.
+#' @param db_desc The column title, something like "ottcha-strDB-v", etc.
 #'
 #' @return the ggplot2 plot.
 #' @examples
 #' @export
-plot_gottcha_as_column <- function(assignment_df, taxonomy_level) {
+plot_gottcha_as_column <- function(assignment_df, taxonomy_level, db_desc) {
 
-  LEVEL = TAXA = ROLLUP = tool = NULL # fix the CRAN note
+  LEVEL = TAXA = NORM_COV = tool = NULL # fix the CRAN note
 
   sub_table <- dplyr::filter(assignment_df, LEVEL == taxonomy_level)
 
-  vals <- dplyr::select(sub_table, TAXA, ROLLUP)
+  vals <- dplyr::select(sub_table, TAXA, NORM_COV)
 
   vals <- dplyr::arrange(vals, dplyr::desc(TAXA))
 
   #' @importFrom scales rescale
-  #vals$ROLLUP <- rescale(vals$ROLLUP, to = c(0.1, 100))
-  vals$ROLLUP <- vals$ROLLUP * 100
+  #vals$NORM_COV <- rescale(vals$NORM_COV, to = c(0.1, 100))
+  vals$NORM_COV <- vals$NORM_COV * 100
 
   vals$TAXA <- factor(vals$TAXA, levels = vals$TAXA)
 
-  vals$tool <- "Gottcha"
+  vals$tool <- db_desc
 
-     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = ROLLUP) ) +
+     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = NORM_COV) ) +
        ggplot2::theme_bw() + ggplot2::geom_tile() + ggplot2::ggtitle("Single column test") +
        ggplot2::scale_x_discrete(expand = c(0, 0)) + ggplot2::scale_y_discrete(expand = c(0, 0)) +
        ggplot2::coord_fixed(ratio = 1) +

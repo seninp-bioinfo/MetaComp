@@ -2,6 +2,7 @@
 # load GOTTCHA assignment
 #
 dat1 <- data.frame(load_gottcha_assignment("../test_data/248/allReads-kraken_mini.list.txt"))
+names(dat1)[3] <- "NORM_COV"
 
 # extract species list
 #

@@ -17,12 +17,12 @@ merge_gottcha_columns <- function(assignment1, assignment2) {
 
   # fix CRAN notes
   #
-  LEVEL = TAXA = ROLLUP = NULL # fix the CRAN note
+  LEVEL = TAXA = NORM_COV = NULL # fix the CRAN note
 
   # extract only rows wich correspond to the desired taxonomy level
   #
-  sub_table1 <- dplyr::select(assignment1, LEVEL, TAXA, ROLLUP)
-  sub_table2 <- dplyr::select(assignment2, LEVEL, TAXA, ROLLUP)
+  sub_table1 <- dplyr::select(assignment1, LEVEL, TAXA, NORM_COV)
+  sub_table2 <- dplyr::select(assignment2, LEVEL, TAXA, NORM_COV)
 
   dm <- merge(sub_table1, sub_table2, by = c("LEVEL", "TAXA"), all = T)
 

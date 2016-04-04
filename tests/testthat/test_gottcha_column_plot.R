@@ -11,7 +11,7 @@ dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 #
 png_name <- file.path(tmp_folder, "gottcha_column_test.png")
-gplot <- plot_gottcha_as_column(dat, "species")
+gplot <- plot_gottcha_as_column(dat, "species", "Gottcha-strDB-v")
 
 Cairo::Cairo(width = 600, height = 1000,
       file = png_name, type = "png",

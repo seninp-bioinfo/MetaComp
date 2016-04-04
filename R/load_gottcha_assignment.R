@@ -2,12 +2,11 @@
 #' @importFrom data.table fread
 NULL
 
-#' Efficiently loads the GOTTCHA (or other EDGE taxonomic assignment) table from a file.
-#' The assumption has been made -- since EDGE tables are generated in automated fashion,
-#' they should be properly formatted, so code doesn't check for any inconsistencies.
-#' It checks for the input file existence however and throws an error if can't find it.
-#'
-#' This implementation fully relies on the read.table function from data.table package.
+#' Efficiently loads the GOTTCHA (or other EDGE-like taxonomic assignment) table from a file.
+#' An assumption has been made: since EDGE tables are generated in automated fashion,
+#' they should be properly formatted, so the code doesn't check for any inconsistencies except
+#' for the input file existence. This implementation fully relies on the read.table function
+#' from data.table package.
 #'
 #' @param filepath The EDGE-generated tab-delimeted taxonomy assignment file.
 #'
