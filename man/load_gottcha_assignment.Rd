@@ -23,7 +23,4 @@ they should be properly formatted, so the code doesn't check for any inconsisten
 for the input file existence. This implementation fully relies on the read.table function
 from data.table package.
 }
-\examples{
-DF_GOTTCHA_STRAIN <- load_assignment( "tests/test_data/248/allReads-gottcha-strDB-b.list.txt" )
-}
 

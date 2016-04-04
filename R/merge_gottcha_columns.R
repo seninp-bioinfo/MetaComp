@@ -1,5 +1,5 @@
 #' @useDynLib MetaComp
-#' @importFrom dplyr filter select
+#' @importFrom dplyr select
 NULL
 
 #' Merges two EDGE's taxonomical assignments. The input data frames are assumed to have the
@@ -11,7 +11,7 @@ NULL
 #' @param assignment2 The gottcha-like, three-column assignment table.
 #'
 #' @return a merged table.
-#' @examples
+#'
 #' @export
 merge_gottcha_columns <- function(assignment1, assignment2) {
 

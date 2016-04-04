@@ -1,6 +1,4 @@
 #' @useDynLib MetaComp
-#' @importFrom dplyr filter select
-#' @importFrom ggplot2
 NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table.
@@ -11,7 +9,7 @@ NULL
 #' @param taxonomy_level The level which need to be plotted.
 #'
 #' @return the ggplot2 plot.
-#' @examples
+#'
 #' @export
 plot_gottcha_columns <- function(assignment, taxonomy_level) {
 

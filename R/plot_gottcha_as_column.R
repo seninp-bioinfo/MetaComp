@@ -1,6 +1,5 @@
 #' @useDynLib MetaComp
 #' @importFrom dplyr filter select
-#' @importFrom ggplot2
 NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table.
@@ -12,7 +11,7 @@ NULL
 #' @param db_desc The column title, something like "ottcha-strDB-v", etc.
 #'
 #' @return the ggplot2 plot.
-#' @examples
+#'
 #' @export
 plot_gottcha_as_column <- function(assignment_df, taxonomy_level, db_desc) {
 

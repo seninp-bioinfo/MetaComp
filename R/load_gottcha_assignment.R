@@ -12,8 +12,6 @@ NULL
 #'
 #' @return the data frame corresponding to the EDGE's taxonomic assignment file.
 #'
-#' @examples
-#' DF_GOTTCHA_STRAIN <- load_assignment( "tests/test_data/248/allReads-gottcha-strDB-b.list.txt" )
 #' @export
 load_gottcha_assignment <- function(filepath) {
 
