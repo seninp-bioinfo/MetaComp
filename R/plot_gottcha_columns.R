@@ -1,6 +1,3 @@
-#' @useDynLib MetaComp
-NULL
-
 #' Generates a single column ggplot for a taxonomic assignment table.
 #'
 #' This implementation...

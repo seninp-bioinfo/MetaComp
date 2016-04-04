@@ -1,4 +1,3 @@
-#' @useDynLib MetaComp
 #' @importFrom dplyr select
 NULL
 

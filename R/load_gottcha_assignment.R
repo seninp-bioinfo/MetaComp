@@ -1,4 +1,3 @@
-#' @useDynLib MetaComp
 #' @importFrom data.table fread
 NULL
 
