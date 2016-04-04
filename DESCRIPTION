@@ -3,8 +3,8 @@ Version: 0.0.1
 Title: Tools for merging EDGE heatmaps
 Description: Implements generic functions for heatmaps manipulation.
 Authors@R: person("Pavel", "Senin", , "psenin@lanl.gov", c("aut", "cre"))
-URL: https://github.com/LANL-Bioinformatics/MetaComp
-BugReports: https://github.com/LANL-Bioinformatics/MetaComp/issues
+URL: https://github.com/seninp-bioinfo/MetaComp
+BugReports: https://github.com/seninp-bioinfo/MetaComp/issues
 Depends:
     R (>= 3.1.0),
 Imports:
@@ -19,6 +19,5 @@ Suggests:
     testthat
 LinkingTo:
 LazyData: true
-SystemRequirements: C++11
 License: GPL-2
 RoxygenNote: 5.0.1
