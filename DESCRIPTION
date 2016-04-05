@@ -15,8 +15,11 @@ Imports:
     Cairo,
     scales
 Suggests:
-    testthat
-LinkingTo:
+    testthat,
+    knitr,
+    rmarkdown
+LinkingTo: 
 LazyData: true
 License: GPL-2
 RoxygenNote: 5.0.1
+VignetteBuilder: knitr
