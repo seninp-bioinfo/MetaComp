@@ -7,31 +7,43 @@ NULL
 #'
 #' @param assignment The gottcha-like merged assignment table.
 #' @param taxonomy_level The level which need to be plotted.
+#' @param label The label to put for the plotted column.
+#' @param filename The PNG file name.
 #'
 #' @return the ggplot2 plot.
 #'
 #' @export
-plot_gottcha_columns <- function(assignment, taxonomy_level) {
+plot_merged_assignment <- function(assignment, taxonomy_level, label, filename) {
 
-  TAXA = variable = value = tool = NULL # fix the CRAN note
+  assignment = dat
+  taxonomy_level = "strain"
+  label = "gottcha test"
+  filename = "sandbox/test.png"
 
-  # the assumption is that we already have formatted table where the first column is
-  # the name of species, or strandes, etc... and following columns are the ones to be plotted
-  #
-  #
-  # need to scale the data up, column-by-column
-  df <- data.frame(TAXA = assignment$TAXA)
-  #
-  for (j in c(3:ncol(assignment)) ) {
-    df <- cbind(df, assignment[,j] * 100)
-  }
+  TAXA = LEVEL = NORM_COV = dat = value = variable = NULL # fix the CRAN note
 
-  names(df) <- names(assignment)[-1]
+  # filter only the requested level
+  df <- dplyr::filter(assignment, LEVEL == taxonomy_level)
+
+  # select needed columns
+  df <- dplyr::select(df, TAXA, NORM_COV)
+
+  # scale the values
+  df$NORM_COV = df$NORM_COV * 100
 
   melted_df <- reshape2::melt(df, id.vars = c("TAXA"))
 
+  melted_df <- dplyr::arrange(melted_df, dplyr::desc(value))
+
+  melted_df$TAXA = factor(x = melted_df$TAXA, levels = melted_df$TAXA, ordered = T)
+
+  levels <- levels(melted_df$TAXA)
+
+  str(melted_df)
+
   p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
-       ggplot2::theme_bw() + ggplot2::geom_tile() + ggplot2::ggtitle("Single column test") +
+       ggplot2::geom_tile(color = "grey", size = 0.3) +
+       ggplot2::ggtitle("Single column test") +
        ggplot2::scale_x_discrete(expand = c(0, 0)) + ggplot2::scale_y_discrete(expand = c(0, 0)) +
        ggplot2::coord_fixed(ratio = 1) +
        ggplot2::scale_fill_gradientn(name = "Normalized abundance: ",
@@ -41,10 +53,10 @@ plot_gottcha_columns <- function(assignment, taxonomy_level) {
               breaks = c(0.1, 1, 10, 100),
               labels = expression(10^-1, 10^0, 10^1, 10^2),
               guide = ggplot2::guide_colorbar(title.theme =
-                                                ggplot2::element_text(size = 16, angle = 0),
-              title.vjust = 0.9, barheight = 0.6, barwidth = 6,
-              label.theme = ggplot2::element_text(size = 12, angle = 0),
-              label.hjust = 0.2)) +
+                ggplot2::element_text(size = 16, angle = 0),
+                title.vjust = 0.9, barheight = 0.6, barwidth = 6,
+                label.theme = ggplot2::element_text(size = 12, angle = 0),
+                label.hjust = 0.2)) +
        ggplot2::theme(legend.position = "bottom", plot.title = ggplot2::element_text(size = 18),
             axis.title.x = ggplot2::element_blank(), axis.title.y = ggplot2::element_blank(),
             axis.text.x = ggplot2::element_text(size = 18),
@@ -53,5 +65,12 @@ plot_gottcha_columns <- function(assignment, taxonomy_level) {
             axis.ticks.y = ggplot2::element_blank(),
             axis.text.y = ggplot2::element_text(size = 14))
 
-     p
+     #p
+
+     Cairo::Cairo(width = 600, height = 800, pointsize = 11,
+                  file = filename, type = "png", res = 96,
+                  bg = "white", canvas = "white")
+     print(p)
+     dev.off()
+
 }

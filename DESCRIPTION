@@ -12,13 +12,12 @@ Imports:
     dplyr,
     data.table,
     ggplot2,
-    Cairo,
-    scales
+    Cairo
 Suggests:
     testthat,
     knitr,
     rmarkdown
-LinkingTo: 
+LinkingTo:
 LazyData: true
 License: GPL-2
 RoxygenNote: 5.0.1

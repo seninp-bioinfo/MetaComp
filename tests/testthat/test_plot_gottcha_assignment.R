@@ -10,15 +10,19 @@ tmp_folder <- file.path(getwd(), "sandbox")
 dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 #
-png_name <- file.path(tmp_folder, "gottcha_column_test.png")
-gplot <- plot_gottcha_as_column(dat, "species", "Gottcha-strDB-v")
+pdf_name <- file.path(tmp_folder, "test_pdf.pdf")
+png_name <- file.path(tmp_folder, "test_png.png")
 
-Cairo::Cairo(width = 600, height = 1000,
-      file = png_name, type = "png",
-      bg = "white", canvas = "white")
+gplot <- plot_gottcha_assignment(dat, "species", "Test Plot #1",
+             "allReads-gottcha-strDB-b", "sandbox/test_pdf")
+
+Cairo::Cairo(width = 400, height = 300,
+      file = png_name, type = "png", pointsize = 10,
+      bg = "white", canvas = "white", dpi = 72)
 print(gplot)
 dev.off()
 
 expect_that(file.exists(png_name), is_true())
+expect_that(file.exists(pdf_name), is_true())
 
 unlink(tmp_folder, recursive = T)
