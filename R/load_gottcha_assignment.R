@@ -2,14 +2,14 @@
 NULL
 
 #' Efficiently loads the GOTTCHA (or other EDGE-like taxonomic assignment) table from a file.
-#' An assumption has been made: since EDGE tables are generated in automated fashion,
+#' An assumption has been made -- since GOTTCHA/EDGE tables are generated in an automated fashion,
 #' they should be properly formatted, so the code doesn't check for any inconsistencies except
 #' for the input file existence. This implementation fully relies on the read.table function
-#' from data.table package.
+#' from data.table package gaining performance.
 #'
-#' @param filepath The EDGE-generated tab-delimeted taxonomy assignment file.
+#' @param filepath An EDGE-generated tab-delimeted GOTTCHA taxonomy assignment file.
 #'
-#' @return the data frame corresponding to the EDGE's taxonomic assignment file.
+#' @return the data frame representing the taxonomic assignment-containing input file.
 #'
 #' @export
 load_gottcha_assignment <- function(filepath) {
@@ -22,10 +22,10 @@ load_gottcha_assignment <- function(filepath) {
 
   # read the file
   #
-  df <- data.table::fread(filepath)
+  df <- data.table::fread(filepath, sep = "\t", header = T)
 
-  # return results
+  # return results, as a data frame to avoid any confusion
   #
-  df
+  as.data.frame(df)
 
 }

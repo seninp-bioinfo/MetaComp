@@ -5,12 +5,10 @@
 \title{Merges two GOTTCHA-like taxonomical assignments. The input data frames are assumed to have the
 following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge procedure.}
 \usage{
-merge_gottcha_assignments(assignment1, assignment2)
+merge_gottcha_assignments(assignments)
 }
 \arguments{
-\item{assignment1}{The gottcha-like assignment table.}
-
-\item{assignment2}{The gottcha-like assignment table.}
+\item{assignments}{A named list of assignments(name is the project ID which be used as a column name).}
 }
 \value{
 a merged table.

@@ -3,24 +3,24 @@
 \name{load_gottcha_assignment}
 \alias{load_gottcha_assignment}
 \title{Efficiently loads the GOTTCHA (or other EDGE-like taxonomic assignment) table from a file.
-An assumption has been made: since EDGE tables are generated in automated fashion,
+An assumption has been made -- since GOTTCHA/EDGE tables are generated in an automated fashion,
 they should be properly formatted, so the code doesn't check for any inconsistencies except
 for the input file existence. This implementation fully relies on the read.table function
-from data.table package.}
+from data.table package gaining performance.}
 \usage{
 load_gottcha_assignment(filepath)
 }
 \arguments{
-\item{filepath}{The EDGE-generated tab-delimeted taxonomy assignment file.}
+\item{filepath}{An EDGE-generated tab-delimeted GOTTCHA taxonomy assignment file.}
 }
 \value{
-the data frame corresponding to the EDGE's taxonomic assignment file.
+the data frame representing the taxonomic assignment-containing input file.
 }
 \description{
 Efficiently loads the GOTTCHA (or other EDGE-like taxonomic assignment) table from a file.
-An assumption has been made: since EDGE tables are generated in automated fashion,
+An assumption has been made -- since GOTTCHA/EDGE tables are generated in an automated fashion,
 they should be properly formatted, so the code doesn't check for any inconsistencies except
 for the input file existence. This implementation fully relies on the read.table function
-from data.table package.
+from data.table package gaining performance.
 }
 

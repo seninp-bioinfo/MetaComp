@@ -2,7 +2,7 @@
 #' @importFrom Cairo CairoPDF
 NULL
 
-#' Generates a single column ggplot for a taxonomic assignment table.
+#' Generates a single column ggplot for a taxonomic assignment table and also outputs a PDF.
 #'
 #' This implementation is built upon ggplot tile.
 #'
@@ -32,7 +32,7 @@ plot_gottcha_assignment <- function(assignment, level, plot_title, column_title,
   vals$NORM_COV <- vals$NORM_COV * 100
 
   # assign factor to TAXA
-  vals$TAXA = factor(x = vals$TAXA, levels = vals$TAXA, ordered = T)
+  vals$TAXA <- factor(x = vals$TAXA, levels = vals$TAXA, ordered = T)
 
   # assign the column title
   vals$tool <- column_title
@@ -49,7 +49,7 @@ plot_gottcha_assignment <- function(assignment, level, plot_title, column_title,
                c("darkblue", "blue", "lightblue", "cyan2", "green",
                  "yellow", "orange", "darkorange1", "red", bias = 10),
               breaks = c(0.1, 1, 10, 100),
-              labels = expression(10^- 1, 10^0, 10^1, 10^2),
+              labels = expression(10^-1, 10^0, 10^1, 10^2),
               guide = ggplot2::guide_colorbar(title.theme =
                        ggplot2::element_text(size = 12, angle = 0),
               title.vjust = 0.9, barheight = 0.6, barwidth = 6,
@@ -64,8 +64,8 @@ plot_gottcha_assignment <- function(assignment, level, plot_title, column_title,
             panel.grid.minor.y = ggplot2::element_blank())
 
 
-     Cairo::CairoPDF(file = filename,
-              width = 7, height = 7, onefile = TRUE, family = "Helvetica",
+     Cairo::CairoPDF(file = filename, width = 7, height = 0.15 * length(vals$TAXA) + 5,
+                     onefile = TRUE, family = "Helvetica",
               title = "R Graphics Output", version = "1.1",
               paper = "special", bg = "white", pointsize = 10)
      print(p)

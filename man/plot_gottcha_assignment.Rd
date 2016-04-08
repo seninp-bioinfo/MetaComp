@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_gottcha_assignment.R
 \name{plot_gottcha_assignment}
 \alias{plot_gottcha_assignment}
-\title{Generates a single column ggplot for a taxonomic assignment table.}
+\title{Generates a single column ggplot for a taxonomic assignment table and also outputs a PDF.}
 \usage{
 plot_gottcha_assignment(assignment, level, plot_title, column_title, filename)
 }

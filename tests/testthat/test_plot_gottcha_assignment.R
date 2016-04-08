@@ -1,28 +1,41 @@
 #
-# load GOTTCHA assignment #1
+# load GOTTCHA assignment
 #
 dat <- data.frame(load_gottcha_assignment("../test_data/248/allReads-gottcha-strDB-b.list.txt"))
-#dat <- data.frame(load_gottcha_assignment("tests/test_data/248/allReads-gottcha-strDB-b.list.txt"))
 
-# create a folder
+# create an outout folder
 #
 tmp_folder <- file.path(getwd(), "sandbox")
 dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
-#
+
+# the file names we are going to save plots into
 #
 pdf_name <- file.path(tmp_folder, "test_pdf.pdf")
 png_name <- file.path(tmp_folder, "test_png.png")
 
-gplot <- plot_gottcha_assignment(dat, "species", "Test Plot #1",
+# generate a PDF and also get a ggplot out
+#
+gplot <- plot_gottcha_assignment(dat, "family", "Test Plot #1",
              "allReads-gottcha-strDB-b", "sandbox/test_pdf")
 
+# write down the plot as PNG
+#
 Cairo::Cairo(width = 400, height = 300,
       file = png_name, type = "png", pointsize = 10,
       bg = "white", canvas = "white", dpi = 72)
 print(gplot)
 dev.off()
 
+# check that the files has been created
+#
 expect_that(file.exists(png_name), is_true())
 expect_that(file.exists(pdf_name), is_true())
 
+# check that the size >0
+#
+expect_that(file.info(png_name)$size > 0, is_true())
+expect_that(file.info(pdf_name)$size > 0, is_true())
+
+# cleanup after the test
+#
 unlink(tmp_folder, recursive = T)

@@ -2,7 +2,6 @@
 # load GOTTCHA assignment #1
 #
 dat <- data.frame(load_gottcha_assignment("../test_data/248/allReads-gottcha-strDB-b.list.txt"))
-#dat <- data.frame(load_gottcha_assignment("tests/test_data/248/allReads-gottcha-strDB-b.list.txt"))
 
 # columns import test
 expect_that( dim(dat)[1], equals(42) )

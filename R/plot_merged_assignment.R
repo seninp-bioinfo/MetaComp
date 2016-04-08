@@ -1,4 +1,6 @@
 #' @importFrom reshape2 melt
+#' @importFrom cowplot switch_axis_position
+#' @importFrom plyr daply
 NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table.
@@ -7,70 +9,84 @@ NULL
 #'
 #' @param assignment The gottcha-like merged assignment table.
 #' @param taxonomy_level The level which need to be plotted.
-#' @param label The label to put for the plotted column.
+#' @param title The plot title.
 #' @param filename The PNG file name.
 #'
 #' @return the ggplot2 plot.
 #'
 #' @export
-plot_merged_assignment <- function(assignment, taxonomy_level, label, filename) {
+plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) {
 
-  assignment = dat
-  taxonomy_level = "strain"
-  label = "gottcha test"
-  filename = "sandbox/test.png"
+  #assignment = merged[1:10,]
+  #taxonomy_level = "species"
+  #title = "GOTTCHA assignment merge test"
+  #filename = "sandbox/test.png"
 
-  TAXA = LEVEL = NORM_COV = dat = value = variable = NULL # fix the CRAN note
+  TAXA = LEVEL = NORM_COV = value = variable = NULL # fix the CRAN note
 
   # filter only the requested level
-  df <- dplyr::filter(assignment, LEVEL == taxonomy_level)
+  df <- dplyr::filter(assignment, LEVEL == taxonomy_level)[1:10,]
 
-  # select needed columns
-  df <- dplyr::select(df, TAXA, NORM_COV)
+  # get rid of the level column
+  df <- within(df, rm(LEVEL))
 
   # scale the values
-  df$NORM_COV = df$NORM_COV * 100
+  for (i in c(2:length(names(df)))) {
+   df[,i] = df[,i] * 100
+  }
 
-  melted_df <- reshape2::melt(df, id.vars = c("TAXA"))
+  # compute row sum for each of rows
+  df$sum <- plyr::daply(df, plyr::.(TAXA), function(x){ sum(x[-1]) / (length(x) - 1)})
 
-  melted_df <- dplyr::arrange(melted_df, dplyr::desc(value))
+  # order rows by the sum value
+  df <- dplyr::arrange(df, sum)
+  df$TAXA <- factor(x = df$TAXA, levels = unique(df$TAXA), ordered = T)
 
-  melted_df$TAXA = factor(x = melted_df$TAXA, levels = melted_df$TAXA, ordered = T)
-
-  levels <- levels(melted_df$TAXA)
-
-  str(melted_df)
+  # melt for plotting
+  melted_df <- reshape2::melt(within(df, rm(sum)), id.vars = c("TAXA"))
 
   p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
-       ggplot2::geom_tile(color = "grey", size = 0.3) +
-       ggplot2::ggtitle("Single column test") +
-       ggplot2::scale_x_discrete(expand = c(0, 0)) + ggplot2::scale_y_discrete(expand = c(0, 0)) +
-       ggplot2::coord_fixed(ratio = 1) +
-       ggplot2::scale_fill_gradientn(name = "Normalized abundance: ",
-              limits = c(0.1, 100), trans = "log", colours =
-               c("darkblue", "blue", "lightblue", "cyan2", "green", "yellow", "orange",
-                         "darkorange1", "red", bias = 10),
-              breaks = c(0.1, 1, 10, 100),
-              labels = expression(10^-1, 10^0, 10^1, 10^2),
-              guide = ggplot2::guide_colorbar(title.theme =
-                ggplot2::element_text(size = 16, angle = 0),
-                title.vjust = 0.9, barheight = 0.6, barwidth = 6,
-                label.theme = ggplot2::element_text(size = 12, angle = 0),
-                label.hjust = 0.2)) +
-       ggplot2::theme(legend.position = "bottom", plot.title = ggplot2::element_text(size = 18),
-            axis.title.x = ggplot2::element_blank(), axis.title.y = ggplot2::element_blank(),
-            axis.text.x = ggplot2::element_text(size = 18),
-            panel.grid.major.y = ggplot2::element_blank(),
-            panel.grid.minor.y = ggplot2::element_blank(),
-            axis.ticks.y = ggplot2::element_blank(),
-            axis.text.y = ggplot2::element_text(size = 14))
+        ggplot2::theme_bw() +
+        ggplot2::geom_tile(color = "grey80", size = 0.3) +
+        ggplot2::ggtitle(title) +
+        ggplot2::scale_x_discrete(expand = c(0, 0)) +
+        ggplot2::scale_y_discrete(expand = c(0, 0)) +
+        ggplot2::coord_fixed(ratio = 1) +
+        ggplot2::scale_fill_gradientn(name = "Normalized abundance: ",
+            limits = c(0.1, 100), trans = "log", colours =
+            c("darkblue", "blue", "lightblue", "cyan2", "green",
+                 "yellow", "orange", "darkorange1", "red", bias = 10),
+                  breaks = c(0.1, 1, 10, 100),
+                  labels = expression(10^-1, 10^0, 10^1, 10^2),
+                  guide = ggplot2::guide_colorbar(title.theme =
+                      ggplot2::element_text(size = 12, angle = 0),
+                      title.vjust = 0.9, barheight = 0.6, barwidth = 6,
+                      label.theme = ggplot2::element_text(size = 9, angle = 0),
+                      label.hjust = 0.2)) +
+       ggplot2::theme(plot.title = ggplot2::element_text(size = 14),
+                   axis.title.x = ggplot2::element_text(size = 0), axis.title.y = ggplot2::element_blank(),
+                   axis.text.x = ggplot2::element_text(size = 10, angle = 55, hjust = 1.1, vjust = 1),
+                   axis.ticks.y = ggplot2::element_blank(),
+                   axis.text.y = ggplot2::element_text(size = 10),
+                   panel.grid.major.y = ggplot2::element_blank(),
+                   panel.grid.minor.y = ggplot2::element_blank(),
+                   #legend.position = c(0, 0),
+                   #legend.justification = c(0, 0.3),
+                   #plot.margin=grid::unit(c(0.1,0.1,3,0.1), 'lines'),
+                   legend.direction = "horizontal", legend.position = "bottom")
 
-     #p
+  p <- cowplot::switch_axis_position(p, axis = "x")
 
-     Cairo::Cairo(width = 600, height = 800, pointsize = 11,
-                  file = filename, type = "png", res = 96,
-                  bg = "white", canvas = "white")
-     print(p)
-     dev.off()
+  #ggdraw(p)
+  #id <- which(p$layout$name == "guide-box")
+  #p$layout[id, c("l","r")] <- c(1, ncol(p))
+  #ggdraw(p)
+
+  Cairo::CairoPDF(file = filename, width = 9, height = 0.15 * length(df$TAXA) + 5,
+                  onefile = TRUE, family = "Helvetica",
+                  title = "R Graphics Output", version = "1.1",
+                  paper = "special", bg = "white", pointsize = 10)
+  print(cowplot::ggdraw(p))
+  dev.off()
 
 }

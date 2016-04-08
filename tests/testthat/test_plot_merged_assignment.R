@@ -1,0 +1,77 @@
+# load GOTTCHA assignments
+#
+#
+# test folders
+#
+list_dirs <- function(path = ".", pattern = NULL, all.dirs = FALSE,
+                                      full.names = FALSE, ignore.case = FALSE) {
+  # use full.names=TRUE to pass to file.info
+    all <-  list.files(path, pattern, all.dirs, full.names = TRUE, recursive = FALSE, ignore.case)
+    dirs <- all[file.info(all)$isdir]
+    if (isTRUE(full.names))
+      return(dirs)
+    else
+      return(basename(dirs))
+}
+#
+# projects
+#
+projects <- data.frame(folder = paste(getwd(), "/../test_data/",
+              list_dirs(paste(getwd(), "/../test_data", sep = "")), sep = ""))
+#
+# accessions (projects_id)
+#
+projects$accession <- paste("Project_", stringr::str_match(projects$folder, ".*/(.*)")[,2],
+                            sep = "")
+#
+# taxonomic assignments
+#
+find_file <-  function(path = ".", filename = "", recursive = TRUE) {
+    #print(paste("searching ", filename, " in ", path))
+    all <- list.files(path, filename, full.names = TRUE, recursive = recursive, ignore.case = TRUE)
+    all <- all[!file.info(all)$isdir]
+    if (length(all) > 0) {
+      return(all)
+    }else {
+      return(NA)
+    }
+ }
+#
+projects$assignment <-
+  plyr::daply(projects, plyr::.(accession), function(x) {
+    find_file(paste(x$folder, "/", sep = ""), "allReads-gottcha-strDB-b.list.txt", recursive = T)
+  })
+#
+# cleanup those without an assignment
+#
+projects <- dplyr::filter(projects, !(is.na(assignment)))
+#
+# make a list
+#
+input_assignments_list = plyr::dlply(projects, plyr::.(accession), function(x){
+  #print(paste(x$assignment))
+  dat <- load_gottcha_assignment(x$assignment)
+  dat
+  #res = list(dat)
+  #names(res) <- x$accession
+  #res
+})
+names(input_assignments_list) <- projects$accession
+#
+#
+#
+merged <- merge_gottcha_assignments(input_assignments_list)
+#
+# create a folder
+#
+tmp_folder <- file.path(getwd(), "sandbox")
+dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
+#
+#
+pdf_name <- file.path(tmp_folder, "test_pdf.pdf")
+
+gplot <- plot_merged_assignment(merged, "species", "Test Plot #1", "sandbox/test_pdf")
+
+expect_that(file.exists(pdf_name), is_true())
+
+unlink(tmp_folder, recursive = T)

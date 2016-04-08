@@ -4,14 +4,14 @@
 \alias{plot_merged_assignment}
 \title{Generates a single column ggplot for a taxonomic assignment table.}
 \usage{
-plot_merged_assignment(assignment, taxonomy_level, label, filename)
+plot_merged_assignment(assignment, taxonomy_level, title, filename)
 }
 \arguments{
 \item{assignment}{The gottcha-like merged assignment table.}
 
 \item{taxonomy_level}{The level which need to be plotted.}
 
-\item{label}{The label to put for the plotted column.}
+\item{title}{The plot title.}
 
 \item{filename}{The PNG file name.}
 }

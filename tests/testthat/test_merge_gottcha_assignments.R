@@ -24,6 +24,10 @@ expect_that(dim(species2)[1], equals(105))
 gottcha_assignment1 <- rbind(gottcha_assignment1, species1)
 gottcha_assignment2 <- rbind(species2, gottcha_assignment2)
 #
-merged <- merge_gottcha_assignments(gottcha_assignment1, gottcha_assignment2)
+#
+input = list("project1" = gottcha_assignment1, "project2" = gottcha_assignment2)
+#
+#
+merged <- merge_gottcha_assignments(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))
