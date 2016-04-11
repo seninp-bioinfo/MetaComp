@@ -4,7 +4,7 @@ NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table and also outputs a PDF.
 #'
-#' This implementation is built upon ggplot tile.
+#' This implementation is built upon ggplot geom_tile.
 #'
 #' @param assignment The gottcha-like assignment table.
 #' @param level The taxonomic level to plot (i.e., family, strain, etc...).

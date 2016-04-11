@@ -16,7 +16,7 @@ png_name <- file.path(tmp_folder, "test_png.png")
 # generate a PDF and also get a ggplot out
 #
 gplot <- plot_gottcha_assignment(dat, "family", "Test Plot #1",
-             "allReads-gottcha-strDB-b", "sandbox/test_pdf")
+             "allReads-gottcha-strDB-b", file.path(tmp_folder, "test_pdf"))
 
 # write down the plot as PNG
 #
@@ -38,4 +38,4 @@ expect_that(file.info(pdf_name)$size > 0, is_true())
 
 # cleanup after the test
 #
-unlink(tmp_folder, recursive = T)
+#unlink(tmp_folder, recursive = T)

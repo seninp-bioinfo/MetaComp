@@ -21,6 +21,6 @@ plot_gottcha_assignment(assignment, level, plot_title, column_title, filename)
 the ggplot2 plot.
 }
 \description{
-This implementation is built upon ggplot tile.
+This implementation is built upon ggplot geom_tile.
 }
 

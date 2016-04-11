@@ -2,19 +2,23 @@
 % Please edit documentation in R/merge_gottcha_assignments.R
 \name{merge_gottcha_assignments}
 \alias{merge_gottcha_assignments}
-\title{Merges two GOTTCHA-like taxonomical assignments. The input data frames are assumed to have the
-following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge procedure.}
+\title{Merges two or more GOTTCHA-like taxonomical assignments. The input data frames are assumed to
+have the following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge
+procedure, all other columns will be ignored.}
 \usage{
 merge_gottcha_assignments(assignments)
 }
 \arguments{
-\item{assignments}{A named list of assignments(name is the project ID which be used as a column name).}
+\item{assignments}{A named list of assignments (the list element's name will be used as a
+resulting data frame column name).}
 }
 \value{
-a merged table.
+A merged table, which is a data frame whose rows are taxonomical ids and columns are
+         the input assignments ids.
 }
 \description{
-Merges two GOTTCHA-like taxonomical assignments. The input data frames are assumed to have the
-following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge procedure.
+Merges two or more GOTTCHA-like taxonomical assignments. The input data frames are assumed to
+have the following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge
+procedure, all other columns will be ignored.
 }
 

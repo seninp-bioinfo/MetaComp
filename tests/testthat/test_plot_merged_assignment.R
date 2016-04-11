@@ -17,7 +17,7 @@ list_dirs <- function(path = ".", pattern = NULL, all.dirs = FALSE,
 # projects
 #
 projects <- data.frame(folder = paste(getwd(), "/../test_data/",
-              list_dirs(paste(getwd(), "/../test_data", sep = "")), sep = ""))
+              list_dirs(paste(getwd(), "/../test_data/", sep = "")), sep = ""))
 #
 # accessions (projects_id)
 #
@@ -70,8 +70,9 @@ dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 pdf_name <- file.path(tmp_folder, "test_pdf.pdf")
 
-gplot <- plot_merged_assignment(merged, "species", "Test Plot #1", "sandbox/test_pdf")
+gplot <- plot_merged_assignment(merged, "species", "Test Plot #1", file.path(tmp_folder, "test_pdf"))
 
 expect_that(file.exists(pdf_name), is_true())
 
-unlink(tmp_folder, recursive = T)
+#unlink(tmp_folder, recursive = T)
+
