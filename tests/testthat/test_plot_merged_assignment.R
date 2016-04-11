@@ -65,7 +65,7 @@ dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 pdf_name <- file.path(tmp_folder, "test_pdf.pdf")
 
-gplot <- plot_merged_assignment(merged, "species", "Test Plot #1",
+gplot <- plot_merged_assignment(merged, "species", "Test Plot #2",
                                 file.path(tmp_folder, "test_pdf"))
 
 expect_that(file.exists(pdf_name), is_true())

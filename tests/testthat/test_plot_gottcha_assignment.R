@@ -20,9 +20,9 @@ gplot <- plot_gottcha_assignment(dat, "family", "Test Plot #1",
 
 # write down the plot as PNG
 #
-Cairo::Cairo(width = 400, height = 300,
-      file = png_name, type = "png", pointsize = 10,
-      bg = "white", canvas = "white", dpi = 72)
+Cairo::Cairo(width = 500, height = 500,
+      file = png_name, type = "png", pointsize = 18,
+      bg = "white", canvas = "white", dpi = 86)
 print(gplot)
 dev.off()
 
