@@ -1,4 +1,5 @@
 #' @importFrom data.table fread
+#' @importFrom plyr dlply
 NULL
 
 #' Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
@@ -11,6 +12,8 @@ NULL
 #'
 #' @export
 load_gottcha_assignments <- function(filepath) {
+
+  V1 = V2 = NULL
 
   # check for the file existence
   #

@@ -1,10 +1,6 @@
 # load GOTTCHA assignments
 #
 
-# test folders
-#
-setwd("/Users/psenin/GitHub/MetaComp/tests/testthat")
-
 # projects
 #
 data_file <- "../test_data/test_table.txt"
