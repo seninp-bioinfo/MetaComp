@@ -9,7 +9,7 @@ NULL
 #'
 #' @param filepath A path to EDGE-generated tab-delimeted GOTTCHA taxonomy assignment file.
 #'
-#' @return the data frame representing the read table.
+#' @return a data frame representing the read table.
 #'
 #' @export
 load_gottcha_assignment <- function(filepath) {

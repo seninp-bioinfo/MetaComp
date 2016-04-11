@@ -14,7 +14,7 @@ load_gottcha_assignment(filepath)
 \item{filepath}{A path to EDGE-generated tab-delimeted GOTTCHA taxonomy assignment file.}
 }
 \value{
-the data frame representing the read table.
+a data frame representing the read table.
 }
 \description{
 Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) table from a file.
