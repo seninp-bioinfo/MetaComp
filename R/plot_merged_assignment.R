@@ -12,31 +12,27 @@ NULL
 #' @param title The plot title.
 #' @param filename The PNG file name.
 #'
-#' @return the ggplot2 plot.
-#'
 #' @export
 plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) {
 
-  #assignment = merged[1:10,]
-  #taxonomy_level = "species"
-  #title = "GOTTCHA assignment merge test"
-  #filename = "sandbox/test.png"
-
-  TAXA = LEVEL = NORM_COV = value = variable = NULL # fix the CRAN note
+  TAXA = LEVEL = value = variable = NULL # fix the CRAN note
 
   # filter only the requested level
-  df <- dplyr::filter(assignment, LEVEL == taxonomy_level)[1:10,]
+  df <- dplyr::filter(assignment, LEVEL == taxonomy_level)[1:10, ]
 
   # get rid of the level column
   df <- within(df, rm(LEVEL))
 
   # scale the values
   for (i in c(2:length(names(df)))) {
-   df[,i] = df[,i] * 100
+   df[, i] <- df[, i] * 100
   }
 
   # compute row sum for each of rows
-  df$sum <- plyr::daply(df, plyr::.(TAXA), function(x){ sum(x[-1]) / (length(x) - 1)})
+  df$sum <- plyr::daply(df, plyr::.(TAXA), function(x){
+                                                        sum(x[-1]) / (length(x) - 1)
+                                                      }
+                        )
 
   # order rows by the sum value
   df <- dplyr::arrange(df, sum)
@@ -64,8 +60,10 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
                       label.theme = ggplot2::element_text(size = 9, angle = 0),
                       label.hjust = 0.2)) +
        ggplot2::theme(plot.title = ggplot2::element_text(size = 14),
-                   axis.title.x = ggplot2::element_text(size = 0), axis.title.y = ggplot2::element_blank(),
-                   axis.text.x = ggplot2::element_text(size = 10, angle = 55, hjust = 1.1, vjust = 1),
+                   axis.title.x = ggplot2::element_text(size = 0),
+                   axis.title.y = ggplot2::element_blank(),
+                   axis.text.x = ggplot2::element_text(size = 10, angle = 55,
+                                                       hjust = 1.1, vjust = 1),
                    axis.ticks.y = ggplot2::element_blank(),
                    axis.text.y = ggplot2::element_text(size = 10),
                    panel.grid.major.y = ggplot2::element_blank(),
@@ -76,11 +74,6 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
                    legend.direction = "horizontal", legend.position = "bottom")
 
   p <- cowplot::switch_axis_position(p, axis = "x")
-
-  #ggdraw(p)
-  #id <- which(p$layout$name == "guide-box")
-  #p$layout[id, c("l","r")] <- c(1, ncol(p))
-  #ggdraw(p)
 
   Cairo::CairoPDF(file = filename, width = 9, height = 0.15 * length(df$TAXA) + 5,
                   onefile = TRUE, family = "Helvetica",

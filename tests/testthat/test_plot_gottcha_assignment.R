@@ -38,4 +38,4 @@ expect_that(file.info(pdf_name)$size > 0, is_true())
 
 # cleanup after the test
 #
-#unlink(tmp_folder, recursive = T)
+unlink(tmp_folder, recursive = T)

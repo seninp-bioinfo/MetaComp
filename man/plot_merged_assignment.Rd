@@ -15,9 +15,6 @@ plot_merged_assignment(assignment, taxonomy_level, title, filename)
 
 \item{filename}{The PNG file name.}
 }
-\value{
-the ggplot2 plot.
-}
 \description{
 This implementation...
 }
