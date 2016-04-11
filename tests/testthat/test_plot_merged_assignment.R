@@ -27,7 +27,6 @@ projects$accession <- paste("Project_", stringr::str_match(projects$folder, ".*/
 # taxonomic assignments
 #
 find_file <-  function(path = ".", filename = "", recursive = TRUE) {
-    #print(paste("searching ", filename, " in ", path))
     all <- list.files(path, filename, full.names = TRUE, recursive = recursive, ignore.case = TRUE)
     all <- all[!file.info(all)$isdir]
     if (length(all) > 0) {
@@ -48,13 +47,9 @@ projects <- dplyr::filter(projects, !(is.na(assignment)))
 #
 # make a list
 #
-input_assignments_list = plyr::dlply(projects, plyr::.(accession), function(x){
-  #print(paste(x$assignment))
+input_assignments_list <- plyr::dlply(projects, plyr::.(accession), function(x){
   dat <- load_gottcha_assignment(x$assignment)
   dat
-  #res = list(dat)
-  #names(res) <- x$accession
-  #res
 })
 names(input_assignments_list) <- projects$accession
 #
@@ -70,9 +65,9 @@ dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 pdf_name <- file.path(tmp_folder, "test_pdf.pdf")
 
-gplot <- plot_merged_assignment(merged, "species", "Test Plot #1", file.path(tmp_folder, "test_pdf"))
+gplot <- plot_merged_assignment(merged, "species", "Test Plot #1",
+                                file.path(tmp_folder, "test_pdf"))
 
 expect_that(file.exists(pdf_name), is_true())
 
 unlink(tmp_folder, recursive = T)
-
