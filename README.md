@@ -27,6 +27,10 @@ The `merge_gottcha_assignments` function is capable to merge a named list of GOT
 
 #### 3.0 Plotting a single assignment as a heatmap
 The function `plot_gottcha_assignment` accepts a single assignment table and outputs a ggplot object or produces a PDF plot using ggplot2's `geom_tile`.
+
+![Single column plot](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/test1.png)
     
 #### 3.1 Plotting a multiple assignments as a heatmap
 The function `plot_gottcha_assignment` accepts a single merged assignment table and outputs a ggplot object or produces a PDF plot using ggplot2's `geom_tile`.
+
+![Multiple columns plot](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/test2.png)
