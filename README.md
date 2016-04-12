@@ -71,9 +71,9 @@ To execute the scrip, use Rscript as shown below:
     
 this command line arguments are (some of these are clickable -- so you can see examples):
 * `Rscript` - a way to execute the [R script](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/Rscript.html)
-* [`merge_and_plot_gottcha_assignments.R`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merge_and_plot_gottcha_assignments.R)- the above script
+* [`merge_and_plot_gottcha_assignments.R`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merge_and_plot_gottcha_assignments.R)- the above script filename
 * [`assignments_table.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/assignments_table.txt) - the tab delimeted table of assignments (<project_id> <assignment_path>)
 * [`merged_assignments.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merged_assignments.txt) - the tab-delimeted output file name
-* `family` - a level at which the plot should be produced
+* `family` - a LEVEL at which the plot should be produced
 * `"Merge test plot"`- the output plot's title
-* [`merge_test`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_test.pdf) - the output plot filename, `".pdf"` will be added
+* `merge_test` - the output plot filename mask, [`".pdf"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_test.pdf) and [`".svg"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_test.svg) files will be produced...
