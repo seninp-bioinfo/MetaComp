@@ -16,12 +16,12 @@ list_dirs <- function(path = ".", pattern = NULL, all.dirs = FALSE,
 #
 # projects
 #
-projects <- data.frame(folder = paste(dirname(getwd()), "/", "test_data/",
-              list_dirs(paste(dirname(getwd()), "/", "test_data/", sep = "")), sep = ""))
+projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
+              list_dirs(file.path(dirname(getwd()), "test_data", sep = "")), sep = ""))
 #
 # accessions (projects_id)
 #
-projects$accession <- paste("Project_", stringr::str_match(projects$folder, ".*/(.*)")[,2],
+projects$accession <- paste("Project_", stringr::str_match(projects$folder, ".*/(.*)/")[,2],
                             sep = "")
 #
 # taxonomic assignments
@@ -63,11 +63,9 @@ tmp_folder <- file.path(getwd(), "sandbox")
 dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 #
-pdf_name <- file.path(tmp_folder, "test_pdf.pdf")
-
 gplot <- plot_merged_assignment(merged, "species", "Test Plot #2",
-                                file.path(tmp_folder, "test_pdf"))
+                                file.path(tmp_folder, "test_pdf2"))
 
-expect_that(file.exists(pdf_name), is_true())
+expect_that(file.exists(file.path(tmp_folder, "test_pdf2.pdf")), is_true())
 
 unlink(tmp_folder, recursive = T)
