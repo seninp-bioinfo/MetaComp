@@ -12,4 +12,3 @@ the_list <- load_gottcha_assignments(data_file)
 # tests
 #
 expect_that(length(the_list), equals(12))
-

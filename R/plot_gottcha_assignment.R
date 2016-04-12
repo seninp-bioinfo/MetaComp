@@ -10,14 +10,14 @@ NULL
 #' @param level The taxonomic level to plot (i.e., family, strain, etc...).
 #' @param plot_title The plot title, e.g., "Project XX, Run YY".
 #' @param column_title The column title, e.g.,  "allReads-gottcha-speDB-b".
-#' @param filename The PDF file name.
+#' @param filename The PDF file name mask.
 #'
 #' @return the ggplot2 plot.
 #'
 #' @export
 plot_gottcha_assignment <- function(assignment, level, plot_title, column_title, filename) {
 
-  LEVEL = TAXA = NORM_COV = tool = NULL # fix the CRAN note
+  LEVEL <- TAXA <- NORM_COV <- tool <- NULL # fix the CRAN note
 
   # subset rows
   sub_table <- dplyr::filter(assignment, LEVEL == level)

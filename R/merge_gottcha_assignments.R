@@ -16,7 +16,7 @@ merge_gottcha_assignments <- function(assignments) {
 
   # fix CRAN notes
   #
-  LEVEL = TAXA = NORM_COV = NULL # fix the CRAN note
+  LEVEL <- TAXA <- NORM_COV <- NULL # fix the CRAN note
 
   # extract only rows wich correspond to the desired taxonomy level and name the first column
   #

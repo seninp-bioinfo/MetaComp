@@ -15,7 +15,7 @@ plot_gottcha_assignment(assignment, level, plot_title, column_title, filename)
 
 \item{column_title}{The column title, e.g.,  "allReads-gottcha-speDB-b".}
 
-\item{filename}{The PDF file name.}
+\item{filename}{The PDF file name mask.}
 }
 \value{
 the ggplot2 plot.

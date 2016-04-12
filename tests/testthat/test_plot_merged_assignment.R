@@ -21,7 +21,7 @@ projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
 #
 # accessions (projects_id)
 #
-projects$accession <- paste("Project_", stringr::str_match(projects$folder, ".*/(.*)/")[,2],
+projects$accession <- paste("Project_", stringr::str_match(projects$folder, ".*/(.*)/")[, 2],
                             sep = "")
 #
 # taxonomic assignments

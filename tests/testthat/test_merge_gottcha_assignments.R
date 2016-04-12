@@ -14,8 +14,8 @@ expect_that(length(species$TAXA), equals(214))
 gottcha_assignment1 <- dplyr::filter(dat1, LEVEL != "species")
 gottcha_assignment2 <- dplyr::filter(dat1, LEVEL != "species")
 #
-species1 <- species[1:150,]
-species2 <- species[110:214,]
+species1 <- species[1:150, ]
+species2 <- species[110:214, ]
 #
 expect_that(dim(species1)[1], equals(150))
 expect_that(dim(species2)[1], equals(105))

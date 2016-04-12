@@ -13,7 +13,7 @@ plot_merged_assignment(assignment, taxonomy_level, title, filename)
 
 \item{title}{The plot title.}
 
-\item{filename}{The PNG file name.}
+\item{filename}{The output file mask, PDF and SVG files will be produced with Cairo device.}
 }
 \description{
 This implementation...

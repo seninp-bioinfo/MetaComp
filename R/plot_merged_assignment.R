@@ -10,12 +10,12 @@ NULL
 #' @param assignment The gottcha-like merged assignment table.
 #' @param taxonomy_level The level which need to be plotted.
 #' @param title The plot title.
-#' @param filename The PNG file name.
+#' @param filename The output file mask, PDF and SVG files will be produced with Cairo device.
 #'
 #' @export
 plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) {
 
-  TAXA = LEVEL = value = variable = NULL # fix the CRAN note
+  TAXA <- LEVEL <- value <- variable <- NULL # fix the CRAN note
 
   # filter only the requested level
   df <- dplyr::filter(assignment, LEVEL == taxonomy_level)
@@ -75,7 +75,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
 
   p <- cowplot::switch_axis_position(p, axis = "x")
 
-  Cairo::CairoPDF(file = filename, width = 0.3 * length(df[1,]) + 6,
+  Cairo::CairoPDF(file = filename, width = 0.3 * length(df[1, ]) + 6,
                   height = 0.15 * length(df$TAXA) + 5,
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
@@ -83,7 +83,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
   print(cowplot::ggdraw(p))
   dev.off()
 
-  Cairo::CairoSVG(file = filename, width = 0.3 * length(df[1,]) + 6,
+  Cairo::CairoSVG(file = filename, width = 0.3 * length(df[1, ]) + 6,
                   height = 0.15 * length(df$TAXA) + 5,
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
