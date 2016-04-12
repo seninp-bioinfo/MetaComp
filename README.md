@@ -1,6 +1,6 @@
 # MetaComp
 
-Metagenome comparison heatmap ... 
+Metagenome comparison heatmap.
 
 [![Build Status](https://travis-ci.org/seninp-bioinfo/MetaComp.svg?branch=master)](https://travis-ci.org/seninp-bioinfo/MetaComp?branch=master)
 [![codecov.io](http://codecov.io/github/seninp-bioinfo/MetaComp/coverage.svg?branch=master)](http://codecov.io/github/seninp-bioinfo/MetaComp?branch=master)
@@ -77,4 +77,3 @@ this command line arguments are (some of these are clickable -- so you can see e
 * `family` - a level at which the plot should be produced
 * `"Merge test plot"`- the output plot's title
 * [`merge_test`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_test.pdf) - the output plot filename, `".pdf"` will be added
-*
