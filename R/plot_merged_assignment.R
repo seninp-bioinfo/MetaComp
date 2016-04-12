@@ -83,4 +83,12 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
   print(cowplot::ggdraw(p))
   dev.off()
 
+  Cairo::CairoSVG(file = filename, width = 0.3 * length(df[1,]) + 6,
+                  height = 0.15 * length(df$TAXA) + 5,
+                  onefile = TRUE, family = "Helvetica",
+                  title = "R Graphics Output", version = "1.1",
+                  paper = "special", bg = "white", pointsize = 10)
+  print(cowplot::ggdraw(p))
+  dev.off()
+
 }
