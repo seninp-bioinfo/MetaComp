@@ -1,0 +1,12 @@
+Project_100187	../../tests/test_data/100187/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100197	../../tests/test_data/100197/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100198	../../tests/test_data/100198/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100218	../../tests/test_data/100218/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100236	../../tests/test_data/100236/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100237	../../tests/test_data/100237/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100301	../../tests/test_data/100301/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100400	../../tests/test_data/100400/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100404	../../tests/test_data/100404/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100455	../../tests/test_data/100455/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_100456	../../tests/test_data/100456/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt
+Project_248	../../tests/test_data/248/allReads-gottcha-strDB-b.list.txt
