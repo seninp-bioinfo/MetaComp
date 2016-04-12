@@ -34,3 +34,46 @@ The function `plot_gottcha_assignment` accepts a single assignment table and out
 The function `plot_gottcha_assignment` accepts a single merged assignment table and outputs a ggplot object or produces a PDF plot using ggplot2's `geom_tile`.
 
 ![Multiple columns plot](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/test2.png)
+
+#### 4.0. Running merge in a batch mode
+The following script can be used to run the merge procedure in a batch mode: 
+    
+    # load library
+    require(MetaComp)
+    #
+    # configure runtime
+    options(echo = TRUE)
+    args <- commandArgs(trailingOnly = TRUE)
+    #
+    # print provided args
+    print(paste("provided args: ", args))
+    #
+    # acquire values
+    srcFile <- args[1]
+    destFile <- args[2]
+    taxonomyLevelArg <- args[3]
+    plotTitleArg <- args[4]
+    plotFile <- args[5]
+    #
+    # read the data and produce the merged table
+    merged <- merge_gottcha_assignments(load_gottcha_assignments(srcFile))
+    #
+    # write the merge table as a TAB-delimeted file
+    write.table(merged, file = destFile, col.names = T, row.names = F, quote = T, sep = "\t")
+    #
+    # produce a PDF of the merged assignment
+    plot_merged_assignment(merged, taxonomyLevelArg, plotTitleArg, plotFile)
+    
+To execute the scrip, use Rscript as shown below:
+
+    $> Rscript merge_and_plot_gottcha_assignments.R assignments_table.txt merged_assignments.txt family "Merge test plot" merge_test
+    
+this command line arguments are:
+* `Rscript` - a way to execute the [R script](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/Rscript.html)
+* `merge_and_plot_gottcha_assignments.R`- the above script
+* `assignments_table.txt` - the tab delimeted table of assignments (<project_id> <assignment_path>)
+* [`merged_assignments.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merged_assignments.txt) - the tab-delimeted output file name
+* `family` - a level at which the plot should be produced
+* `"Merge test plot"`- the output plot's title
+* [`merge_test`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_test.pdf) - the output plot filename, `".pdf"` will be added
+*
