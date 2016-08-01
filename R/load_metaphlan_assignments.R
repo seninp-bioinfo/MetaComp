@@ -2,7 +2,7 @@
 #' @importFrom plyr dlply
 NULL
 
-#' Efficiently loads a Metaphlan (or other EDGE-like taxonomic assignment) tables from a list
+#' Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
 #' of files. Outputs a named list of assignments.
 #'
 #' @param filepath A path to tab delimeted, two-column file whose first column is a project_id
@@ -11,7 +11,7 @@ NULL
 #' @return a list of all read assignments.
 #'
 #' @export
-load_gottcha_assignments <- function(filepath) {
+load_metaphlan_assignments <- function(filepath) {
 
   V1 <- NULL
 
@@ -23,12 +23,12 @@ load_gottcha_assignments <- function(filepath) {
 
   # read the file
   #
-  df <- data.table::fread(filepath, sep = "\t", header = F)
+  df <- data.table::fread(filepath, header = F)
 
   # read files
   #
   input_assignments_list <- plyr::dlply(df, plyr::.(V1), function(x) {
-    MetaComp::load_gottcha_assignment(x$V2)
+    MetaComp::load_metaphlan_assignment(x$V2)
   })
 
   # name the list

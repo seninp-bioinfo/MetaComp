@@ -1,0 +1,34 @@
+#' @importFrom data.table fread
+NULL
+
+#' Efficiently loads a EDGE-produced Mataphlan taxonomic assignment from a file.
+#' An assumption has been made -- since Metaphlan/EDGE tables are generated in an automated fashion,
+#' they should be properly formatted -- thus the code doesn't check for any inconsistencies except
+#' for the very file existence. Note however, the unassigned to taxa entries are removed.
+#' This implementation fully relies on the read.table function from data.table package
+#' gaining performance over traditional R techniques.
+#'
+#' @param filepath A path to EDGE-generated tab-delimeted Metaphlan taxonomy assignment file.
+#'
+#' @return a data frame representing the read table.
+#'
+#' @export
+load_metaphlan_assignment <- function(filepath) {
+
+  # check for the file existence
+  #
+  if ( !file.exists(filepath) ) {
+    stop(paste("Specified file \"", filepath, "\" doesn't exist!"))
+  }
+
+  # read the file
+  #
+  df <- data.table::fread(filepath, sep = "\t", header = T)
+
+  df <- df[df$LEVEL != "", ]
+
+  # return results, "as a data frame" to avoid any confusion
+  #
+  as.data.frame(df)
+
+}
