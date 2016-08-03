@@ -23,9 +23,14 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
   # get rid of the level column
   df <- within(df, rm(LEVEL))
 
-  # scale the values
-  for (i in c(2:length(names(df)))) {
-   df[, i] <- df[, i] * 100
+  values_range <- range(df[,2:length(names(df))])
+  print(paste(values_range, values_range[2]))
+
+  if (values_range[2] <= 1) { # rescale if needed
+    # scale the values
+    for (i in c(2:length(names(df)))) {
+      df[, i] <- df[, i] * 100
+    }
   }
 
   # compute row sum for each of rows

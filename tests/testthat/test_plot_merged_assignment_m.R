@@ -20,7 +20,7 @@ projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
               list_dirs(file.path(dirname(getwd()), "test_data", sep = "")), sep = ""),
               stringsAsFactors = F)
 # the weird transform...
-projects <- data.frame(folder = projects[grep("/\\d+/", projects$folder), ], stringsAsFactors = F)
+projects <- data.frame(folder = projects[-(grep("/\\d+/", projects$folder)), ], stringsAsFactors = F)
 #
 # accessions (projects_id)
 #
@@ -41,7 +41,7 @@ find_file <-  function(path = ".", filename = "", recursive = TRUE) {
 #
 projects$assignment <-
   plyr::daply(projects, plyr::.(accession), function(x) {
-    find_file(paste(x$folder, "/", sep = ""), "allReads-gottcha-strDB-b.list.txt", recursive = T)
+    find_file(paste(x$folder, "/", sep = ""), "allReads-metaphlan.list.txt", recursive = T)
   })
 #
 # cleanup those without an assignment
@@ -58,7 +58,7 @@ names(input_assignments_list) <- projects$accession
 #
 #
 #
-merged <- merge_gottcha_assignments(input_assignments_list)
+merged <- merge_metaphlan_assignments(input_assignments_list)
 #
 # create a folder
 #
@@ -66,9 +66,9 @@ tmp_folder <- file.path(getwd(), "sandbox")
 dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 #
-gplot <- plot_merged_assignment(merged, "species", "Test Plot #2",
-                                file.path(tmp_folder, "test_pdf2"))
+gplot <- plot_merged_assignment(merged, "species", "Test Plot #3",
+                                file.path(tmp_folder, "test_pdf3"))
 
-expect_that(file.exists(file.path(tmp_folder, "test_pdf2.pdf")), is_true())
+expect_that(file.exists(file.path(tmp_folder, "test_pdf3.pdf")), is_true())
 
 unlink(tmp_folder, recursive = T)
