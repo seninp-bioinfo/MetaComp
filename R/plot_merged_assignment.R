@@ -24,7 +24,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
   df <- within(df, rm(LEVEL))
 
   values_range <- range(df[,2:length(names(df))])
-  print(paste(values_range, values_range[2]))
+  # print(paste(values_range, values_range[2]))
 
   if (values_range[2] <= 1) { # rescale if needed
     # scale the values
