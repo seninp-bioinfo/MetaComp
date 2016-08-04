@@ -41,7 +41,7 @@ find_file <-  function(path = ".", filename = "", recursive = TRUE) {
 #
 projects$assignment <-
   plyr::daply(projects, plyr::.(accession), function(x) {
-    find_file(paste(x$folder, "/", sep = ""), "allReads-metaphlan.list.txt", recursive = T)
+    find_file(paste(x$folder, "/", sep = ""), "allReads-kraken_mini.list.txt", recursive = T)
   })
 #
 # cleanup those without an assignment
@@ -51,14 +51,14 @@ projects <- dplyr::filter(projects, !(is.na(assignment)))
 # make a list
 #
 input_assignments_list <- plyr::dlply(projects, plyr::.(accession), function(x){
-  dat <- load_metaphlan_assignment(x$assignment)
+  dat <- load_kraken_assignment(x$assignment)
   dat
 })
 names(input_assignments_list) <- projects$accession
 #
 #
 #
-merged <- merge_metaphlan_assignments(input_assignments_list)
+merged <- merge_kraken_assignments(input_assignments_list)
 #
 # create a folder
 #
@@ -66,7 +66,7 @@ tmp_folder <- file.path(getwd(), "sandbox")
 dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 #
-gplot <- plot_merged_assignment(merged, "species", "Test Plot #3",
+gplot <- plot_merged_assignment(merged, "family", "Test Plot #3",
                                 file.path(tmp_folder, "test_pdf3"))
 
 expect_that(file.exists(file.path(tmp_folder, "test_pdf3.pdf")), is_true())

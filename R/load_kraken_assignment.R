@@ -1,4 +1,5 @@
-#' @importFrom data.table fread scales
+#' @importFrom data.table fread
+#' @importFrom scales rescale
 NULL
 
 #' Efficiently loads a EDGE-produced Kraken taxonomic assignment from a file.
