@@ -20,7 +20,9 @@ projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
               list_dirs(file.path(dirname(getwd()), "test_data", sep = "")), sep = ""),
               stringsAsFactors = F)
 # the weird transform...
+# nolint start
 projects <- data.frame(folder = projects[grep("/\\d+/", projects$folder), ], stringsAsFactors = F)
+# nolint end
 #
 # accessions (projects_id)
 #

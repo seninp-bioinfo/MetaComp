@@ -25,7 +25,7 @@ ent_row <- dplyr::filter( family_table, TAXA == "Propionibacteriaceae")
 # [0.2] test
 # family Propionibacteriaceae 4123 8 31957
 expect_that(ent_row$ROLLUP, equals(4123))
-expect_that(ent_row$NORM_ROLLUP, equals(0.00220481))
+expect_that(ent_row$NORM_ROLLUP, equals(0.2913297))
 
 #
 # test the failure

@@ -59,7 +59,9 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
             c("darkblue", "blue", "lightblue", "cyan2", "green",
                  "yellow", "orange", "darkorange1", "red", bias = 10),
                   breaks = c(0.1, 1, 10, 100),
+                  # nolint start
                   labels = expression(10^-1, 10^0, 10^1, 10^2),
+                  # nolint end
                   guide = ggplot2::guide_colorbar(title.theme =
                       ggplot2::element_text(size = 12, angle = 0),
                       title.vjust = 0.9, barheight = 0.6, barwidth = 6,
