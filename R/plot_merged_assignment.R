@@ -23,10 +23,11 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
   # get rid of the level column
   df <- within(df, rm(LEVEL))
 
-  values_range <- range(df[,2:length(names(df))])
-  # print(paste(values_range, values_range[2]))
+  values_range <- range(df[, 2:length(names(df))])
 
-  if (values_range[2] <= 1) { # rescale if needed
+  # rescale if needed
+  #
+  if (values_range[2] <= 1) {
     # scale the values
     for (i in c(2:length(names(df)))) {
       df[, i] <- df[, i] * 100

@@ -28,18 +28,13 @@ plot_metaphlan_assignment <- function(assignment, level, plot_title, column_titl
   # sort rows by the abundance
   vals <- dplyr::arrange(vals, ROLLUP)
 
-  # rescale values
-  # vals$ROLLUP <- vals$ROLLUP * 100
-
   # assign factor to TAXA
   vals$TAXA <- factor(x = vals$TAXA, levels = vals$TAXA, ordered = T)
 
   # assign the column title
   vals$tool <- column_title
 
-  # print(vals)
-
-     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = ROLLUP) ) +
+  p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = ROLLUP) ) +
        ggplot2::theme_bw() +
        ggplot2::geom_tile(color = "grey", size = 0.3) +
        ggplot2::ggtitle(plot_title) +
