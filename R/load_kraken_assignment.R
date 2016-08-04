@@ -1,5 +1,4 @@
 #' @importFrom data.table fread
-#' @importFrom scales rescale
 NULL
 
 #' Efficiently loads a EDGE-produced Kraken taxonomic assignment from a file.
@@ -32,7 +31,8 @@ load_kraken_assignment <- function(filepath) {
 
   # add a normilized rollup
   #
-  df$NORM_ROLLUP <- scales::rescale(df$ROLLUP)
+  max_rollup <- df[df$LEVEL == "root", ]$ROLLUP
+  df$NORM_ROLLUP <- df$ROLLUP / max_rollup * 100
 
   # return results, "as a data frame" to avoid any confusion
   #

@@ -6,7 +6,7 @@ NULL
 #'
 #' This implementation is built upon ggplot geom_tile.
 #'
-#' @param assignment The metaphlan-like assignment table.
+#' @param assignment The kraken-like assignment table.
 #' @param level The taxonomic level to plot (i.e., family, strain, etc...).
 #' @param plot_title The plot title, e.g., "Project XX, Run YY".
 #' @param column_title The column title, e.g.,  "allReads-gottcha-speDB-b".
@@ -15,18 +15,18 @@ NULL
 #' @return the ggplot2 plot.
 #'
 #' @export
-plot_metaphlan_assignment <- function(assignment, level, plot_title, column_title, filename) {
+plot_kraken_assignment <- function(assignment, level, plot_title, column_title, filename) {
 
-  LEVEL <- TAXA <- ROLLUP <- tool <- NULL # fix the CRAN note
+  LEVEL <- TAXA <- NORM_ROLLUP <- tool <- NULL # fix the CRAN note
 
   # subset rows
   sub_table <- dplyr::filter(assignment, LEVEL == level)
 
   # subset columns
-  vals <- dplyr::select(sub_table, TAXA, ROLLUP)
+  vals <- dplyr::select(sub_table, TAXA, NORM_ROLLUP)
 
   # sort rows by the abundance
-  vals <- dplyr::arrange(vals, ROLLUP)
+  vals <- dplyr::arrange(vals, NORM_ROLLUP)
 
   # assign factor to TAXA
   vals$TAXA <- factor(x = vals$TAXA, levels = vals$TAXA, ordered = T)
@@ -34,7 +34,7 @@ plot_metaphlan_assignment <- function(assignment, level, plot_title, column_titl
   # assign the column title
   vals$tool <- column_title
 
-  p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = ROLLUP) ) +
+  p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = NORM_ROLLUP) ) +
        ggplot2::theme_bw() +
        ggplot2::geom_tile(color = "grey", size = 0.3) +
        ggplot2::ggtitle(plot_title) +
