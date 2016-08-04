@@ -1,4 +1,4 @@
-#' @importFrom data.table fread
+#' @importFrom data.table fread scales
 NULL
 
 #' Efficiently loads a EDGE-produced Kraken taxonomic assignment from a file.
@@ -25,7 +25,13 @@ load_kraken_assignment <- function(filepath) {
   #
   df <- data.table::fread(filepath, sep = "\t", header = T)
 
+  # remove empty (non-assigned) lines
+  #
   df <- df[df$LEVEL != "", ]
+
+  # add a normilized rollup
+  #
+  df$NORM_ROLLUP <- scales::rescale(df$ROLLUP)
 
   # return results, "as a data frame" to avoid any confusion
   #

@@ -25,6 +25,8 @@ load_metaphlan_assignment <- function(filepath) {
   #
   df <- data.table::fread(filepath, sep = "\t", header = T)
 
+  # remove empty (non-assigned) lines
+  #
   df <- df[df$LEVEL != "", ]
 
   # return results, "as a data frame" to avoid any confusion
