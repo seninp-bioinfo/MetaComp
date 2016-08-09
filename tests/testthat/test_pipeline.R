@@ -7,7 +7,7 @@ test_data_folder <- dirname(getwd())
 
 # the configuration file
 #
-test_data_file <- file.path(test_data_folder, "test_data/test_table.txt")
+test_data_file <- file.path(test_data_folder, "test_data/test_table_gottcha.txt")
 
 # execute the common pipeline
 #

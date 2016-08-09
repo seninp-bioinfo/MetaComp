@@ -3,7 +3,7 @@
 
 # projects
 #
-data_file <- "../test_data/test_table.txt"
+data_file <- "../test_data/test_table_gottcha.txt"
 
 # read em
 #
