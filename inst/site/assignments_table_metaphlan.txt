@@ -1,0 +1,9 @@
+Project_248 ../../tests/test_data/248/allReads-metaphlan.list.txt
+SSputum-dil-DNase-cDNA  ../../tests/test_data/SSputum-dil-DNase-cDNA/metaphlan/allReads-metaphlan.list.txt
+SSputum-dil-DNase-RAB ../../tests/test_data/SSputum-dil-DNase-RAB/metaphlan/allReads-metaphlan.list.txt
+SSputum-dil-no-cDNA ../../tests/test_data/SSputum-dil-no-cDNA/metaphlan/allReads-metaphlan.list.txt
+SSputum-dil-no-RAB  ../../tests/test_data/SSputum-dil-no-RAB/metaphlan/allReads-metaphlan.list.txt
+SSputum-DNase-cDNA  ../../tests/test_data/SSputum-DNase-cDNA/metaphlan/allReads-metaphlan.list.txt
+SSputum-DNase-RAB ../../tests/test_data/SSputum-DNase-RAB/metaphlan/allReads-metaphlan.list.txt
+SSputum-no-cDNA ../../tests/test_data/SSputum-no-cDNA/metaphlan/allReads-metaphlan.list.txt
+SSputum-no-RAB  ../../tests/test_data/SSputum-no-RAB/metaphlan/allReads-metaphlan.list.txt

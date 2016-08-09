@@ -1,0 +1,111 @@
+"LEVEL"	"TAXA"	"Project_248"	"SSputum-dil-DNase-cDNA"	"SSputum-dil-DNase-RAB"	"SSputum-dil-no-cDNA"	"SSputum-dil-no-RAB"	"SSputum-DNase-cDNA"	"SSputum-DNase-RAB"	"SSputum-no-cDNA"	"SSputum-no-RAB"
+"class"	"Actinobacteria"	0	77.47643	0	25.57721	0	71.77754	0	23.82496	100
+"class"	"Bacilli"	8.32286	0	0	7.87264	0	0	0	10.47293	0
+"class"	"Bacteroidia"	71.98234	0	0	0	0	0	0	1.85827	0
+"class"	"Betaproteobacteria"	0	8.56136	0	17.37323	0	0	0	10.66978	0
+"class"	"Clostridia"	0	0	0	0	0	0	0	0.90434	0
+"class"	"Gammaproteobacteria"	0	13.96221	0	49.17693	100	28.22246	0	52.11151	0
+"class"	"Negativicutes"	19.69479	0	0	0	0	0	0	0.1582	0
+"family"	"Actinomycetaceae"	0	0	0	0	0	0	0	0.21302	0
+"family"	"Bacillales uncl"	0	0	0	0	0	0	0	0.14797	0
+"family"	"Clostridiales Family XI Incertae Sedis"	0	0	0	0	0	0	0	0.90434	0
+"family"	"Comamonadaceae"	0	0.7304	0	0	0	0	0	0	0
+"family"	"Coriobacteriaceae"	0	0	0	0	0	0	0	0.26195	0
+"family"	"Corynebacteriaceae"	0	0	0	23.29752	0	1.70137	0	19.86486	100
+"family"	"Dermacoccaceae"	0	14.19004	0	0	0	0	0	0	0
+"family"	"Enterobacteriaceae"	0	0	0	3.84821	0	0	0	4.77664	0
+"family"	"Enterococcaceae"	0	0	0	0	0	0	0	0.16697	0
+"family"	"Lactobacillaceae"	0	0	0	2.43381	0	0	0	2.65346	0
+"family"	"Microbacteriaceae"	0	47.52366	0	0	0	70.07617	0	0	0
+"family"	"Micrococcaceae"	0	0	0	2.27968	0	0	0	3.48514	0
+"family"	"Moraxellaceae"	0	13.96221	0	15.32731	100	28.22246	0	14.02089	0
+"family"	"Neisseriaceae"	0	7.83096	0	17.37323	0	0	0	10.66978	0
+"family"	"Pasteurellaceae"	0	0	0	20.21912	0	0	0	17.18428	0
+"family"	"Porphyromonadaceae"	31.7593	0	0	0	0	0	0	0.20668	0
+"family"	"Prevotellaceae"	40.22304	0	0	0	0	0	0	1.65159	0
+"family"	"Propionibacteriaceae"	0	15.76274	0	0	0	0	0	0	0
+"family"	"Pseudomonadaceae"	0	0	0	7.13347	0	0	0	12.1222	0
+"family"	"Staphylococcaceae"	0	0	0	0	0	0	0	0.97648	0
+"family"	"Streptococcaceae"	8.32286	0	0	5.43883	0	0	0	6.52806	0
+"family"	"Veillonellaceae"	19.69479	0	0	0	0	0	0	0.1582	0
+"family"	"Xanthomonadaceae"	0	0	0	2.64882	0	0	0	4.0075	0
+"genus"	"Acinetobacter"	0	0	0	0	0	0	0	2.16007	0
+"genus"	"Actinomyces"	0	0	0	0	0	0	0	0.21302	0
+"genus"	"Atopobium"	0	0	0	0	0	0	0	0.26195	0
+"genus"	"Corynebacterium"	0	0	0	23.29752	0	1.70137	0	19.86486	100
+"genus"	"Delftia"	0	0.7304	0	0	0	0	0	0	0
+"genus"	"Dermacoccus"	0	14.19004	0	0	0	0	0	0	0
+"genus"	"Enterococcus"	0	0	0	0	0	0	0	0.16697	0
+"genus"	"Escherichia"	0	0	0	1.54843	0	0	0	1.59947	0
+"genus"	"Gemella"	0	0	0	0	0	0	0	0.14797	0
+"genus"	"Haemophilus"	0	0	0	20.21912	0	0	0	17.18428	0
+"genus"	"Klebsiella"	0	0	0	2.29979	0	0	0	3.17718	0
+"genus"	"Lactobacillus"	0	0	0	2.43381	0	0	0	2.65346	0
+"genus"	"Megasphaera"	0.45657	0	0	0	0	0	0	0	0
+"genus"	"Moraxella"	0	13.96221	0	15.32731	100	28.22246	0	11.86083	0
+"genus"	"Neisseria"	0	0	0	16.63209	0	0	0	8.4891	0
+"genus"	"Peptoniphilus"	0	0	0	0	0	0	0	0.90434	0
+"genus"	"Porphyromonas"	31.7593	0	0	0	0	0	0	0.20668	0
+"genus"	"Prevotella"	40.22304	0	0	0	0	0	0	1.65159	0
+"genus"	"Propionibacterium"	0	15.76274	0	0	0	0	0	0	0
+"genus"	"Pseudomonas"	0	0	0	7.13347	0	0	0	12.1222	0
+"genus"	"Rothia"	0	0	0	2.27968	0	0	0	3.48514	0
+"genus"	"Staphylococcus"	0	0	0	0	0	0	0	0.97648	0
+"genus"	"Stenotrophomonas"	0	0	0	2.64882	0	0	0	4.0075	0
+"genus"	"Streptococcus"	8.32286	0	0	5.43883	0	0	0	6.52806	0
+"genus"	"Tropheryma"	0	47.52366	0	0	0	70.07617	0	0	0
+"genus"	"Veillonella"	19.23822	0	0	0	0	0	0	0.1582	0
+"kingdom"	"Bacteria"	100	100	0	100	100	100	0	100	100
+"order"	"Actinomycetales"	0	77.47643	0	25.57721	0	71.77754	0	23.56301	100
+"order"	"Bacillales"	0	0	0	0	0	0	0	1.12445	0
+"order"	"Bacteroidales"	71.98234	0	0	0	0	0	0	1.85827	0
+"order"	"Burkholderiales"	0	0.7304	0	0	0	0	0	0	0
+"order"	"Clostridiales"	0	0	0	0	0	0	0	0.90434	0
+"order"	"Coriobacteriales"	0	0	0	0	0	0	0	0.26195	0
+"order"	"Enterobacteriales"	0	0	0	3.84821	0	0	0	4.77664	0
+"order"	"Lactobacillales"	8.32286	0	0	7.87264	0	0	0	9.34848	0
+"order"	"Neisseriales"	0	7.83096	0	17.37323	0	0	0	10.66978	0
+"order"	"Pasteurellales"	0	0	0	20.21912	0	0	0	17.18428	0
+"order"	"Pseudomonadales"	0	13.96221	0	22.46077	100	28.22246	0	26.14309	0
+"order"	"Selenomonadales"	19.69479	0	0	0	0	0	0	0.1582	0
+"order"	"Xanthomonadales"	0	0	0	2.64882	0	0	0	4.0075	0
+"phylum"	"Actinobacteria"	0	77.47643	0	25.57721	0	71.77754	0	23.82496	100
+"phylum"	"Bacteroidetes"	71.98234	0	0	0	0	0	0	1.85827	0
+"phylum"	"Firmicutes"	28.01766	0	0	7.87264	0	0	0	11.53547	0
+"phylum"	"Proteobacteria"	0	22.52357	0	66.55016	100	28.22246	0	62.78129	0
+"species"	"Acinetobacter baumannii"	0	0	0	0	0	0	0	2.16007	0
+"species"	"Actinomyces odontolyticus"	0	0	0	0	0	0	0	0.21302	0
+"species"	"Atopobium parvulum"	0	0	0	0	0	0	0	0.04448	0
+"species"	"Atopobium vaginae"	0	0	0	0	0	0	0	0.21747	0
+"species"	"Corynebacterium striatum"	0	0	0	23.29752	0	1.70137	0	19.86486	100
+"species"	"Delftia acidovorans"	0	0.7304	0	0	0	0	0	0	0
+"species"	"Enterococcus faecalis"	0	0	0	0	0	0	0	0.16697	0
+"species"	"Escherichia coli"	0	0	0	0	0	0	0	1.59947	0
+"species"	"Haemophilus influenzae"	0	0	0	20.21912	0	0	0	14.99928	0
+"species"	"Haemophilus parainfluenzae"	0	0	0	0	0	0	0	0.61133	0
+"species"	"Klebsiella pneumoniae"	0	0	0	1.24947	0	0	0	1.43005	0
+"species"	"Lactobacillus fermentum"	0	0	0	0	0	0	0	0.52209	0
+"species"	"Lactobacillus rhamnosus"	0	0	0	2.43381	0	0	0	2.13138	0
+"species"	"Megasphaera micronuciformis"	0.45657	0	0	0	0	0	0	0	0
+"species"	"Moraxella catarrhalis"	0	13.96221	0	15.32731	100	28.22246	0	11.86083	0
+"species"	"Neisseria mucosa"	0	0	0	16.63209	0	0	0	8.4891	0
+"species"	"Porphyromonas endodontalis"	31.7593	0	0	0	0	0	0	0.20668	0
+"species"	"Prevotella bivia"	0	0	0	0	0	0	0	0.70311	0
+"species"	"Prevotella melaninogenica"	0	0	0	0	0	0	0	0.34949	0
+"species"	"Prevotella oris"	21.26904	0	0	0	0	0	0	0.03023	0
+"species"	"Prevotella tannerae"	18.954	0	0	0	0	0	0	0	0
+"species"	"Prevotella veroralis"	0	0	0	0	0	0	0	0.56876	0
+"species"	"Propionibacterium acnes"	0	15.76274	0	0	0	0	0	0	0
+"species"	"Pseudomonas aeruginosa"	0	0	0	7.13347	0	0	0	11.74115	0
+"species"	"Pseudomonas fluorescens"	0	0	0	0	0	0	0	0.38105	0
+"species"	"Rothia mucilaginosa"	0	0	0	2.27968	0	0	0	3.48514	0
+"species"	"Staphylococcus aureus"	0	0	0	0	0	0	0	0.97648	0
+"species"	"Stenotrophomonas maltophilia"	0	0	0	2.64882	0	0	0	4.0075	0
+"species"	"Streptococcus agalactiae"	0	0	0	0	0	0	0	0.90162	0
+"species"	"Streptococcus australis"	0	0	0	0	0	0	0	0.12389	0
+"species"	"Streptococcus infantis"	0	0	0	0	0	0	0	0.56578	0
+"species"	"Streptococcus mitis"	0	0	0	1.47868	0	0	0	0.88703	0
+"species"	"Streptococcus parasanguinis"	8.32286	0	0	3.96015	0	0	0	3.78202	0
+"species"	"Streptococcus salivarius"	0	0	0	0	0	0	0	0.26771	0
+"species"	"Tropheryma whipplei"	0	47.52366	0	0	0	70.07617	0	0	0
+"species"	"Veillonella atypica"	19.23822	0	0	0	0	0	0	0	0

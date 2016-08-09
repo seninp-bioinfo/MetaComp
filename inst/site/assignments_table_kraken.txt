@@ -1,0 +1,9 @@
+Project_248 ../../tests/test_data/248/allReads-kraken_mini.list.txt
+Project_SSputum-dil-DNase-cDNA  ../../tests/test_data/SSputum-dil-DNase-cDNA/kraken_mini/allReads-kraken_mini.list.txt
+Project_SSputum-dil-DNase-RAB ../../tests/test_data/SSputum-dil-DNase-RAB/kraken_mini/allReads-kraken_mini.list.txt
+Project_SSputum-dil-no-cDNA ../../tests/test_data/SSputum-dil-no-cDNA/kraken_mini/allReads-kraken_mini.list.txt
+Project_SSputum-dil-no-RAB  ../../tests/test_data/SSputum-dil-no-RAB/kraken_mini/allReads-kraken_mini.list.txt
+Project_SSputum-DNase-cDNA  ../../tests/test_data/SSputum-DNase-cDNA/kraken_mini/allReads-kraken_mini.list.txt
+Project_SSputum-DNase-RAB ../../tests/test_data/SSputum-DNase-RAB/kraken_mini/allReads-kraken_mini.list.txt
+Project_SSputum-no-cDNA ../../tests/test_data/SSputum-no-cDNA/kraken_mini/allReads-kraken_mini.list.txt
+Project_SSputum-no-RAB  ../../tests/test_data/SSputum-no-RAB/kraken_mini/allReads-kraken_mini.list.txt
