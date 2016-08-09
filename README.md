@@ -70,13 +70,13 @@ The following script can be used to run the merge procedure in a batch mode:
     
 To execute the scrip, use Rscript as shown below:
 
-    $> Rscript merge_and_plot_gottcha_assignments.R assignments_table.txt merged_assignments.txt \
+    $> Rscript merge_and_plot_gottcha_assignments.R assignments_table_gottcha.txt merged_assignments.txt \
                                                                      family "Merge test plot" merge_test
     
 this command line arguments are (some of these are clickable -- so you can see examples):
 * `Rscript` - a way to execute the [R script](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/Rscript.html)
 * [`merge_and_plot_gottcha_assignments.R`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merge_and_plot_gottcha_assignments.R)- the above script filename
-* [`assignments_table.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/assignments_table.txt) - the tab delimeted table of assignments (two columns: `project_id` TAB `assignment_path`)
+* [`assignments_table_gottcha.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/assignments_table_gottcha.txt) - the tab delimeted table of assignments (two columns: `project_id` TAB `assignment_path`)
 * [`merged_assignments.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merged_assignments.txt) - the tab-delimeted output file name
 * `family` - a LEVEL at which the plot should be produced
 * `"Merge test plot"`- the output plot's title
