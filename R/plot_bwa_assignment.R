@@ -1,5 +1,6 @@
 #' @importFrom dplyr filter select
 #' @importFrom Cairo CairoPDF
+#' @importFrom grDevices dev.off
 NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table and also outputs a PDF.

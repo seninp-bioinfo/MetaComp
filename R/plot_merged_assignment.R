@@ -1,6 +1,9 @@
 #' @importFrom reshape2 melt
 #' @importFrom cowplot switch_axis_position
 #' @importFrom plyr daply
+#' @importFrom grDevices dev.off
+#' @importFrom Cairo CairoPDF
+#' @importFrom Cairo CairoSVG
 NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table.

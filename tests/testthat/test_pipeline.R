@@ -25,7 +25,7 @@ dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 
 # [2.1] create the pdf
 #
-gplot <- plot_merged_assignment(merged_assignments_table, "family", "Test Plot #3",
+gplot <- plot_merged_assignment(merged_assignments_table, "family", 60, "Test Plot #3",
                                 file.path(tmp_folder, "test_pdf3"))
 
 # [2.2] test that file exists
