@@ -28,7 +28,7 @@ merge_bwa_assignments <- function(assignments) {
   #
   for (i in 2:length(assignments)) {
     res  <- base::merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_ROLLUP),
-                  by = c("LEVEL", "TAXA"), all = T)
+                  by.x = c("LEVEL", "TAXA"), by.y = c("LEVEL", "TAXA"), all = T)
     names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
   }
 
