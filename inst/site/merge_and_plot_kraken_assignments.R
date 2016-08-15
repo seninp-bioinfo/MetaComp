@@ -22,4 +22,4 @@ merged <- merge_kraken_assignments(load_kraken_assignments(srcFile))
 write.table(merged, file = destFile, col.names = T, row.names = F, quote = T, sep = "\t")
 #
 # produce a PDF of the merged assignment
-plot_merged_assignment(merged, taxonomyLevelArg, plotTitleArg, plotFile)
+plot_merged_assignment(merged, taxonomyLevelArg, 60, plotTitleArg, plotFile)

@@ -1,0 +1,3783 @@
+"LEVEL"	"TAXA"	"Project_248"	"Project_SSputum-dil-DNase-cDNA"	"Project_SSputum-dil-DNase-RAB"	"Project_SSputum-dil-no-cDNA"	"Project_SSputum-dil-no-RAB"	"Project_SSputum-DNase-cDNA"	"Project_SSputum-DNase-RAB"	"Project_SSputum-no-cDNA"	"Project_SSputum-no-RAB"
+"class"	"Actinobacteria"	155	4388	1665	501	26	9777	2967	4446	24
+"class"	"Alphaproteobacteria"	1	180	8	4	0	71	8	14	0
+"class"	"Bacilli"	1066	3497	3790	3669	158	9233	6556	10332	148
+"class"	"Bacteroidia"	975	778	728	311	21	2025	1083	1103	17
+"class"	"Betaproteobacteria"	50	3775	2548	369	8	7272	3467	4234	10
+"class"	"Clostridia"	60	78	7	32	1	212	94	35	0
+"class"	"Coriobacteriia"	14	46	112	3	0	83	105	78	0
+"class"	"Cytophagia"	0	1	0	0	0	0	0	0	0
+"class"	"Deinococci"	0	3	0	0	0	2	0	0	0
+"class"	"Deltaproteobacteria"	0	0	0	0	0	2	0	0	0
+"class"	"Epsilonproteobacteria"	0	1	0	0	0	11	0	0	0
+"class"	"Flavobacteriia"	0	48	108	3	1	124	194	14	0
+"class"	"Fusobacteriia"	27	856	1422	97	0	2562	1494	154	0
+"class"	"Gammaproteobacteria"	216	62865	34915	16287	502	159306	44963	78303	489
+"class"	"Mollicutes"	0	136	178	0	0	360	673	7	2
+"class"	"Negativicutes"	76	327	173	35	6	844	714	211	0
+"class"	"Spirochaetia"	27	22	165	5	0	68	51	29	0
+"family"	"Acidaminococcaceae"	0	0	0	0	2	5	1	2	0
+"family"	"Actinomycetaceae"	2	0	0	0	0	5	0	10	0
+"family"	"Adenoviridae"	0	2	0	2	0	3	0	22	2
+"family"	"Aerococcaceae"	0	4	17	1	0	6	15	0	0
+"family"	"Aeromonadaceae"	0	0	0	0	0	0	0	4	0
+"family"	"Alcaligenaceae"	0	52	86	141	1	69	132	1009	0
+"family"	"Alcanivoracaceae"	0	0	0	0	0	0	0	2	0
+"family"	"Alteromonadaceae"	0	0	0	0	0	0	1	0	0
+"family"	"Anelloviridae"	1	1	0	0	0	0	0	8	0
+"family"	"Atopobiaceae"	10	45	112	2	0	81	105	62	0
+"family"	"Bacillaceae"	0	8	4	1	0	7	8	4	0
+"family"	"Bacteroidaceae"	9	20	0	25	4	31	16	85	2
+"family"	"Bifidobacteriaceae"	36	9	0	26	0	31	1	128	1
+"family"	"Borreliaceae"	0	0	0	0	0	0	0	3	0
+"family"	"Bradyrhizobiaceae"	0	1	0	0	0	1	0	0	0
+"family"	"Brucellaceae"	1	10	0	0	0	7	8	2	0
+"family"	"Burkholderiaceae"	48	74	0	30	1	67	54	764	0
+"family"	"Campylobacteraceae"	0	1	0	0	0	11	0	0	0
+"family"	"Carnobacteriaceae"	0	11	8	1	0	26	3	2	0
+"family"	"Caulobacteraceae"	0	0	0	0	0	1	0	0	0
+"family"	"Cellulomonadaceae"	0	0	0	0	0	0	0	1	0
+"family"	"Chromobacteriaceae"	0	0	0	0	0	1	0	0	0
+"family"	"Closteroviridae"	0	0	0	0	0	6	1	0	0
+"family"	"Clostridiaceae"	0	1	0	0	0	3	0	1	0
+"family"	"Comamonadaceae"	1	1022	3	43	0	375	0	491	0
+"family"	"Coronaviridae"	0	1031	6826	14	2	3217	15459	11	0
+"family"	"Corynebacteriaceae"	2	2738	815	239	14	6885	1439	1758	14
+"family"	"Cytophagaceae"	0	1	0	0	0	0	0	0	0
+"family"	"Deinococcaceae"	0	2	0	0	0	0	0	0	0
+"family"	"Dermacoccaceae"	0	4	0	0	0	0	0	0	0
+"family"	"Desulfovibrionaceae"	0	0	0	0	0	2	0	0	0
+"family"	"Ectothiorhodospiraceae"	0	0	0	0	0	1	0	0	0
+"family"	"Eggerthellaceae"	4	1	0	1	0	2	0	16	0
+"family"	"Enterobacteriaceae"	186	4139	2437	3287	112	9678	4592	15677	124
+"family"	"Enterococcaceae"	0	181	28	246	15	394	254	474	10
+"family"	"Erythrobacteraceae"	0	0	0	0	0	9	0	0	0
+"family"	"Flavobacteriaceae"	0	48	108	3	1	124	194	14	0
+"family"	"Fusobacteriaceae"	24	842	1409	97	0	2535	1471	154	0
+"family"	"Halomonadaceae"	0	0	0	0	0	1	0	0	0
+"family"	"Herpesviridae"	0	8	0	262	2	19	2	1522	3
+"family"	"Hyphomicrobiaceae"	0	0	8	0	0	1	0	0	0
+"family"	"Inoviridae"	0	0	104	0	0	0	13	2	0
+"family"	"Iridoviridae"	0	0	0	0	0	0	0	1	0
+"family"	"Jonesiaceae"	0	0	0	0	0	1	0	0	0
+"family"	"Kineosporiaceae"	0	2	0	0	0	3	0	0	0
+"family"	"Lachnospiraceae"	0	1	0	0	0	0	0	1	0
+"family"	"Lactobacillaceae"	3	425	461	928	47	1418	1360	3088	46
+"family"	"Legionellaceae"	0	3	0	0	0	10	19	0	0
+"family"	"Leptotrichiaceae"	3	14	13	0	0	27	23	0	0
+"family"	"Leuconostocaceae"	0	34	0	0	0	6	0	0	0
+"family"	"Listeriaceae"	0	0	0	0	0	0	0	0	1
+"family"	"Luteoviridae"	0	0	0	0	0	1	0	0	0
+"family"	"Methylobacteriaceae"	0	118	0	1	0	32	0	0	0
+"family"	"Methylophilaceae"	0	1	2	0	0	2	0	0	0
+"family"	"Microbacteriaceae"	0	1	0	0	0	0	0	0	0
+"family"	"Micrococcaceae"	22	675	850	222	11	1534	1190	2508	8
+"family"	"Microviridae"	0	23198	45721	25107	38878	33934	62298	126558	38449
+"family"	"Moraxellaceae"	0	47449	22146	4238	206	107754	23587	9804	185
+"family"	"Mycobacteriaceae"	0	2	0	2	0	2	0	10	0
+"family"	"Mycoplasmataceae"	0	136	178	0	0	360	673	7	2
+"family"	"Myoviridae"	0	2	31	13	0	1	0	37	0
+"family"	"Neisseriaceae"	1	2565	2331	141	6	6580	3121	1850	9
+"family"	"Nitrosomonadaceae"	0	0	0	0	0	0	0	1	0
+"family"	"Nocardiaceae"	0	3	0	0	0	3	0	0	0
+"family"	"Orthomyxoviridae"	0	53	22	0	0	83	89	0	0
+"family"	"Oscillospiraceae"	0	0	0	0	0	2	0	0	0
+"family"	"Oxalobacteraceae"	0	54	23	14	0	166	160	109	1
+"family"	"Paenibacillaceae"	0	0	0	0	0	1	0	0	0
+"family"	"Papillomaviridae"	0	0	0	0	0	0	0	2	0
+"family"	"Paramyxoviridae"	0	571	6201	9	1	1945	10017	6	2
+"family"	"Pasteurellaceae"	10	8794	9196	4501	169	23320	15118	9496	160
+"family"	"Peptoniphilaceae"	0	58	7	9	0	162	67	13	0
+"family"	"Peptostreptococcaceae"	57	18	0	23	1	43	27	18	0
+"family"	"Picornaviridae"	0	252	955	1	2	676	1526	3	0
+"family"	"Piscirickettsiaceae"	0	0	0	0	0	0	0	3	0
+"family"	"Planococcaceae"	0	1	0	0	0	0	1	0	0
+"family"	"Podoviridae"	0	0	0	1	1	1	3	4	0
+"family"	"Porphyromonadaceae"	99	137	96	20	0	326	123	62	0
+"family"	"Potyviridae"	0	22	378	0	0	94	356	0	0
+"family"	"Poxviridae"	0	21	41	41	9	12	0	108	4
+"family"	"Prevotellaceae"	849	621	632	262	17	1668	944	956	15
+"family"	"Propionibacteriaceae"	93	546	0	2	0	126	119	16	0
+"family"	"Pseudoalteromonadaceae"	0	0	0	0	0	3	0	0	0
+"family"	"Pseudomonadaceae"	20	1727	669	3749	10	17408	1214	37209	13
+"family"	"Retroviridae"	0	0	0	106	1	4	4	624	0
+"family"	"Rhizobiaceae"	0	37	0	0	0	13	0	0	0
+"family"	"Rhodobacteraceae"	0	0	0	0	0	1	0	0	0
+"family"	"Rhodobiaceae"	0	0	0	1	0	0	0	1	0
+"family"	"Rhodocyclaceae"	0	3	0	0	0	1	0	6	0
+"family"	"Rhodospirillaceae"	0	0	0	2	0	0	0	6	0
+"family"	"Rikenellaceae"	18	0	0	4	0	0	0	0	0
+"family"	"Ruminococcaceae"	3	0	0	0	0	2	0	2	0
+"family"	"Secoviridae"	0	4	0	0	0	18	41	1	0
+"family"	"Shewanellaceae"	0	0	0	1	0	0	0	0	0
+"family"	"Siphoviridae"	8	18	3	19	1	3	0	121	2
+"family"	"Sphingomonadaceae"	0	14	0	0	0	6	0	5	0
+"family"	"Spirochaetaceae"	27	22	165	5	0	68	51	26	0
+"family"	"Staphylococcaceae"	5	1605	1461	884	27	4191	3033	1508	19
+"family"	"Streptococcaceae"	1058	1207	1811	1608	69	3183	1882	5256	72
+"family"	"Thermaceae"	0	1	0	0	0	2	0	0	0
+"family"	"Togaviridae"	0	1	0	0	0	0	0	0	0
+"family"	"Veillonellaceae"	76	327	173	35	4	839	713	209	0
+"family"	"Vibrionaceae"	0	1	1	0	0	7	5	5	0
+"family"	"Virgaviridae"	0	101	281	0	0	188	864	0	0
+"family"	"Xanthomonadaceae"	0	752	466	511	5	1124	427	6103	7
+"genus"	"3alikevirus"	0	0	0	1	0	0	0	2	0
+"genus"	"77likevirus"	0	0	0	1	0	0	0	1	0
+"genus"	"Achromobacter"	0	39	74	132	1	48	123	953	0
+"genus"	"Acidaminococcus"	0	0	0	0	2	5	1	2	0
+"genus"	"Acidovorax"	1	9	0	1	0	5	0	13	0
+"genus"	"Acinetobacter"	0	2606	3710	1862	74	6343	4727	3696	50
+"genus"	"Actinobacillus"	0	350	552	7	0	1007	677	10	0
+"genus"	"Aerococcus"	0	4	17	1	0	6	15	0	0
+"genus"	"Aeromonas"	0	0	0	0	0	0	0	2	0
+"genus"	"Aggregatibacter"	0	81	209	10	0	196	216	43	0
+"genus"	"Agrobacterium"	0	37	0	0	0	11	0	0	0
+"genus"	"Alcanivorax"	0	0	0	0	0	0	0	2	0
+"genus"	"Alicycliphilus"	0	4	0	6	0	2	0	34	0
+"genus"	"Alistipes"	18	0	0	4	0	0	0	0	0
+"genus"	"Alphacoronavirus"	0	1026	6826	14	2	3173	15379	11	0
+"genus"	"Alphapapillomavirus"	0	0	0	0	0	0	0	2	0
+"genus"	"Alphatorquevirus"	0	1	0	0	0	0	0	2	0
+"genus"	"Alphavirus"	0	1	0	0	0	0	0	0	0
+"genus"	"Amycolicicoccus"	0	1	0	0	0	0	0	0	0
+"genus"	"Anaerococcus"	0	4	0	0	0	18	24	1	0
+"genus"	"Arcanobacterium"	2	0	0	0	0	0	0	7	0
+"genus"	"Atopobium"	10	45	112	2	0	81	105	58	0
+"genus"	"Azospira"	0	3	0	0	0	1	0	4	0
+"genus"	"Azotobacter"	0	2	0	0	0	17	1	0	0
+"genus"	"Bacillus"	0	8	4	1	0	7	8	2	0
+"genus"	"Bacteroides"	9	20	0	25	4	31	16	85	2
+"genus"	"Basfia"	0	9	3	0	0	19	3	0	0
+"genus"	"Betacoronavirus"	0	5	0	0	0	44	80	0	0
+"genus"	"Bibersteinia"	0	178	106	2	0	338	306	2	0
+"genus"	"Bifidobacterium"	36	9	0	22	0	30	1	127	1
+"genus"	"Bordetella"	0	13	12	9	0	20	9	56	0
+"genus"	"Borrelia"	0	0	0	0	0	0	0	3	0
+"genus"	"Bradyrhizobium"	0	1	0	0	0	1	0	0	0
+"genus"	"Brevundimonas"	0	0	0	0	0	1	0	0	0
+"genus"	"Brucella"	0	0	0	0	0	1	4	2	0
+"genus"	"Burkholderia"	0	25	0	29	1	47	54	735	0
+"genus"	"Butyrivibrio"	0	0	0	0	0	0	0	1	0
+"genus"	"Campylobacter"	0	1	0	0	0	11	0	0	0
+"genus"	"Capnocytophaga"	0	46	108	2	1	115	194	14	0
+"genus"	"Carnobacterium"	0	11	8	1	0	26	3	2	0
+"genus"	"Cellulomonas"	0	0	0	0	0	0	0	1	0
+"genus"	"Chromohalobacter"	0	0	0	0	0	1	0	0	0
+"genus"	"Chroococcidiopsis"	0	0	0	0	0	2	0	0	0
+"genus"	"Citrobacter"	0	1	2	0	0	3	1	3	0
+"genus"	"Clostridium"	0	1	0	0	0	3	0	1	0
+"genus"	"Collimonas"	0	10	8	4	0	38	21	26	0
+"genus"	"Comamonas"	0	1	0	0	0	1	0	1	0
+"genus"	"Comovirus"	0	4	0	0	0	18	41	1	0
+"genus"	"Corynebacterium"	2	2738	815	239	14	6885	1439	1758	14
+"genus"	"Crinivirus"	0	0	0	0	0	6	1	0	0
+"genus"	"Cronobacter"	0	27	12	9	0	47	63	39	0
+"genus"	"Cryptobacterium"	4	1	0	1	0	2	0	16	0
+"genus"	"Cupriavidus"	0	27	0	1	0	11	0	11	0
+"genus"	"Cytomegalovirus"	0	0	0	0	0	0	0	2	0
+"genus"	"D3112likevirus"	0	1	0	2	0	0	0	26	0
+"genus"	"D3likevirus"	0	1	0	0	0	0	0	14	0
+"genus"	"Deinococcus"	0	2	0	0	0	0	0	0	0
+"genus"	"Delftia"	0	1007	1	36	0	364	0	443	0
+"genus"	"Desulfovibrio"	0	0	0	0	0	2	0	0	0
+"genus"	"Dickeya"	0	10	1	0	0	22	16	3	0
+"genus"	"Edwardsiella"	0	5	1	0	0	18	17	1	0
+"genus"	"Enterobacter"	0	298	337	48	2	757	512	415	0
+"genus"	"Enterococcus"	0	169	28	246	15	386	254	473	10
+"genus"	"Enterovirus"	0	252	955	1	2	676	1526	3	0
+"genus"	"Erwinia"	0	8	13	1	0	24	17	0	0
+"genus"	"Erythrobacter"	0	0	0	0	0	9	0	0	0
+"genus"	"Escherichia"	183	1868	889	1029	36	4149	1261	4341	51
+"genus"	"Exiguobacterium"	0	21	0	0	0	1	0	0	0
+"genus"	"Filifactor"	57	16	0	20	0	39	27	13	0
+"genus"	"Finegoldia"	0	54	7	9	0	144	43	12	0
+"genus"	"Fusobacterium"	24	842	1409	97	0	2535	1471	154	0
+"genus"	"Gallibacterium"	0	4	2	0	0	9	8	0	0
+"genus"	"Gardnerella"	0	0	0	4	0	1	0	1	0
+"genus"	"Haemophilus"	10	7904	7990	4468	168	21155	12915	9392	159
+"genus"	"Herbaspirillum"	0	9	1	2	0	6	1	18	0
+"genus"	"Herminiimonas"	0	20	6	5	0	45	56	32	0
+"genus"	"Histophilus"	0	3	0	0	0	6	0	0	0
+"genus"	"Hpunalikevirus"	0	0	0	0	0	0	0	9	0
+"genus"	"Hyphomicrobium"	0	0	8	0	0	1	0	0	0
+"genus"	"Influenzavirus A"	0	53	22	0	0	83	89	0	0
+"genus"	"Inovirus"	0	0	104	0	0	0	13	2	0
+"genus"	"Janthinobacterium"	0	15	8	3	0	77	82	33	1
+"genus"	"Jonesia"	0	0	0	0	0	1	0	0	0
+"genus"	"Kineococcus"	0	2	0	0	0	3	0	0	0
+"genus"	"Kinetoplastibacterium"	0	0	0	0	0	0	0	1	0
+"genus"	"Klebsiella"	0	373	241	1808	64	844	475	8501	53
+"genus"	"Kocuria"	0	2	0	0	0	0	0	0	0
+"genus"	"Kytococcus"	0	4	0	0	0	0	0	0	0
+"genus"	"Lachnoclostridium"	0	1	0	0	0	0	0	0	0
+"genus"	"Lactobacillus"	3	425	458	928	47	1416	1360	3086	46
+"genus"	"Lactococcus"	0	10	0	0	0	4	4	0	1
+"genus"	"Lambdalikevirus"	0	12	3	2	0	1	0	1	0
+"genus"	"Laribacter"	0	0	0	0	0	1	0	0	0
+"genus"	"Legionella"	0	3	0	0	0	10	19	0	0
+"genus"	"Leifsonia"	0	1	0	0	0	0	0	0	0
+"genus"	"Lentivirus"	0	0	0	2	0	0	0	6	0
+"genus"	"Leptothrix"	0	0	11	0	0	0	0	0	0
+"genus"	"Leptotrichia"	1	9	5	0	0	20	19	0	0
+"genus"	"Leuconostoc"	0	34	0	0	0	6	0	0	0
+"genus"	"Listeria"	0	0	0	0	0	0	0	0	1
+"genus"	"Lymphocryptovirus"	0	0	0	2	0	0	0	4	0
+"genus"	"Macrococcus"	0	1	0	0	0	3	9	1	0
+"genus"	"Mageeibacillus"	3	0	0	0	0	2	0	2	0
+"genus"	"Mannheimia"	0	132	300	3	0	264	852	6	0
+"genus"	"Mastadenovirus"	0	2	0	2	0	3	0	22	2
+"genus"	"Megasphaera"	0	1	0	0	0	1	0	0	0
+"genus"	"Melissococcus"	0	0	0	0	0	0	0	1	0
+"genus"	"Metapneumovirus"	0	31	25	0	0	76	250	0	0
+"genus"	"Methylibium"	0	2	92	0	0	10	0	2	0
+"genus"	"Methylobacterium"	0	118	0	1	0	32	0	0	0
+"genus"	"Methylophaga"	0	0	0	0	0	0	0	3	0
+"genus"	"Methylotenera"	0	1	2	0	0	2	0	0	0
+"genus"	"Micrococcus"	0	4	0	0	0	31	0	1	0
+"genus"	"Microvirus"	0	23198	45721	25107	38878	33934	62298	126558	38449
+"genus"	"Mobiluncus"	0	0	0	0	0	5	0	3	0
+"genus"	"Moraxella"	0	44675	18426	2376	132	101082	18851	6100	135
+"genus"	"Mycobacterium"	0	1	0	2	0	2	0	10	0
+"genus"	"Mycoplasma"	0	135	178	0	0	360	673	7	2
+"genus"	"Neisseria"	1	2565	2331	141	6	6580	3121	1850	9
+"genus"	"Nitrosomonas"	0	0	0	0	0	0	0	1	0
+"genus"	"Nocardia"	0	0	0	0	0	1	0	0	0
+"genus"	"Novosphingobium"	0	0	0	0	0	2	0	0	0
+"genus"	"Oceanobacillus"	0	0	0	0	0	0	0	2	0
+"genus"	"Ochrobactrum"	1	10	0	0	0	6	4	0	0
+"genus"	"Odoribacter"	8	0	0	0	0	0	0	2	0
+"genus"	"Olsenella"	0	0	0	0	0	0	0	4	0
+"genus"	"Ornithobacterium"	0	1	0	0	0	2	0	0	0
+"genus"	"Orthopoxvirus"	0	21	41	41	9	12	0	108	4
+"genus"	"Oscillibacter"	0	0	0	0	0	2	0	0	0
+"genus"	"P2likevirus"	0	0	0	3	0	0	0	4	0
+"genus"	"Paenibacillus"	0	0	0	0	0	1	0	0	0
+"genus"	"Pandoraea"	0	0	0	0	0	0	0	8	0
+"genus"	"Pantoea"	0	2	8	0	0	14	5	2	0
+"genus"	"Parabacteroides"	0	0	0	0	0	2	0	0	0
+"genus"	"Paracoccus"	0	0	0	0	0	1	0	0	0
+"genus"	"Paraglaciecola"	0	0	0	0	0	0	1	0	0
+"genus"	"Parvibaculum"	0	0	0	1	0	0	0	1	0
+"genus"	"Pasteurella"	0	133	34	11	1	326	141	43	1
+"genus"	"Pectobacterium"	0	57	4	2	0	126	46	2	0
+"genus"	"Pediococcus"	0	0	3	0	0	2	0	2	0
+"genus"	"Peptoclostridium"	0	2	0	3	1	4	0	5	0
+"genus"	"Phietalikevirus"	0	0	0	7	1	1	0	8	2
+"genus"	"Phikzlikevirus"	0	0	31	4	0	1	0	9	0
+"genus"	"Photobacterium"	0	0	0	0	0	2	0	0	0
+"genus"	"Photorhabdus"	0	1	2	0	0	0	0	0	0
+"genus"	"Pneumovirus"	0	128	1333	0	0	424	2236	4	0
+"genus"	"Polerovirus"	0	0	0	0	0	1	0	0	0
+"genus"	"Porphyromonas"	17	46	18	8	0	101	51	26	0
+"genus"	"Potyvirus"	0	22	378	0	0	94	356	0	0
+"genus"	"Prevotella"	849	621	632	262	17	1668	944	956	15
+"genus"	"Propionibacterium"	93	546	0	2	0	126	119	16	0
+"genus"	"Proteus"	0	65	21	189	2	177	189	415	10
+"genus"	"Providencia"	0	23	2	22	0	81	177	90	1
+"genus"	"Pseudoalteromonas"	0	0	0	0	0	3	0	0	0
+"genus"	"Pseudomonas"	20	1725	669	3749	10	17391	1213	37209	13
+"genus"	"Pseudoxanthomonas"	0	0	1	0	0	6	5	0	0
+"genus"	"Psychrobacter"	0	168	10	0	0	329	9	8	0
+"genus"	"Punalikevirus"	0	0	0	4	0	0	0	9	0
+"genus"	"Pusillimonas"	0	0	0	0	0	1	0	0	0
+"genus"	"Rahnella"	0	7	3	0	0	43	33	0	0
+"genus"	"Ralstonia"	48	22	0	0	0	9	0	10	0
+"genus"	"Ramlibacter"	0	1	2	0	0	2	0	0	0
+"genus"	"Ranavirus"	0	0	0	0	0	0	0	1	0
+"genus"	"Raoultella"	0	7	2	0	0	27	23	1	0
+"genus"	"Respirovirus"	0	411	4843	9	1	1431	7529	2	2
+"genus"	"Rhizobium"	0	0	0	0	0	2	0	0	0
+"genus"	"Rhodococcus"	0	3	0	0	0	2	0	0	0
+"genus"	"Rhodoferax"	0	0	0	0	0	1	0	0	0
+"genus"	"Riemerella"	0	0	0	0	0	6	0	0	0
+"genus"	"Rothia"	22	669	850	222	11	1503	1190	2507	8
+"genus"	"Rubrivivax"	0	0	0	0	0	1	0	0	0
+"genus"	"Rubulavirus"	0	1	0	0	0	14	2	0	0
+"genus"	"Salmonella"	3	103	62	22	1	274	38	137	1
+"genus"	"Sebaldella"	0	2	0	0	0	2	4	0	0
+"genus"	"Selenomonas"	1	4	0	1	0	15	11	19	0
+"genus"	"Serratia"	0	1075	681	134	5	2629	1386	1572	6
+"genus"	"Shewanella"	0	0	0	1	0	0	0	0	0
+"genus"	"Shigella"	0	97	62	17	2	193	104	105	2
+"genus"	"Shimwellia"	0	11	6	0	0	21	9	0	0
+"genus"	"Siccibacter"	0	1	0	1	0	1	3	3	0
+"genus"	"Simplexvirus"	0	8	0	260	2	19	2	1516	3
+"genus"	"Sodalis"	0	1	0	1	0	1	0	22	0
+"genus"	"Solibacillus"	0	1	0	0	0	0	1	0	0
+"genus"	"Sphingobium"	0	6	0	0	0	1	0	1	0
+"genus"	"Sphingomonas"	0	8	0	0	0	3	0	4	0
+"genus"	"Spirosoma"	0	1	0	0	0	0	0	0	0
+"genus"	"Staphylococcus"	5	1604	1461	884	27	4188	3024	1507	19
+"genus"	"Stenotrophomonas"	0	742	440	510	5	1102	421	6094	7
+"genus"	"Streptobacillus"	2	3	8	0	0	5	0	0	0
+"genus"	"Streptococcus"	1058	1197	1811	1608	69	3179	1878	5256	71
+"genus"	"Tannerella"	74	91	78	12	0	223	72	34	0
+"genus"	"Tetragenococcus"	0	12	0	0	0	8	0	0	0
+"genus"	"Thauera"	0	0	0	0	0	0	0	2	0
+"genus"	"Thermus"	0	1	0	0	0	2	0	0	0
+"genus"	"Thioalkalivibrio"	0	0	0	0	0	1	0	0	0
+"genus"	"Thiomonas"	0	0	0	0	0	0	0	1	0
+"genus"	"Tistrella"	0	0	0	2	0	0	0	6	0
+"genus"	"Tobamovirus"	0	101	281	0	0	188	864	0	0
+"genus"	"Tolumonas"	0	0	0	0	0	0	0	2	0
+"genus"	"Treponema"	27	22	165	5	0	68	51	26	0
+"genus"	"Tropheryma"	0	408	0	10	1	1187	218	15	1
+"genus"	"Ureaplasma"	0	1	0	0	0	0	0	0	0
+"genus"	"Veillonella"	75	322	173	34	4	823	702	190	0
+"genus"	"Vibrio"	0	1	1	0	0	5	5	5	0
+"genus"	"Weeksella"	0	0	0	1	0	0	0	0	0
+"genus"	"Xanthomonas"	0	9	25	1	0	12	1	7	0
+"genus"	"Xenorhabdus"	0	2	0	0	0	4	9	0	0
+"genus"	"Xylella"	0	1	0	0	0	4	0	2	0
+"genus"	"Yersinia"	0	71	58	3	0	172	197	21	0
+"order"	"Actinomycetales"	2	0	0	0	0	5	0	10	0
+"order"	"Aeromonadales"	0	0	0	0	0	0	0	4	0
+"order"	"Alteromonadales"	0	0	0	1	0	3	1	0	0
+"order"	"Bacillales"	5	1635	1465	885	27	4200	3042	1512	20
+"order"	"Bacteroidales"	975	778	728	311	21	2025	1083	1103	17
+"order"	"Bifidobacteriales"	36	9	0	26	0	31	1	128	1
+"order"	"Burkholderiales"	49	1204	215	228	2	688	346	2376	1
+"order"	"Campylobacterales"	0	1	0	0	0	11	0	0	0
+"order"	"Caudovirales"	8	20	34	33	2	5	3	162	2
+"order"	"Caulobacterales"	0	0	0	0	0	1	0	0	0
+"order"	"Chromatiales"	0	0	0	0	0	1	0	0	0
+"order"	"Clostridiales"	60	78	7	32	1	212	94	35	0
+"order"	"Coriobacteriales"	10	45	112	2	0	81	105	62	0
+"order"	"Corynebacteriales"	2	2743	815	241	14	6890	1439	1768	14
+"order"	"Cytophagales"	0	1	0	0	0	0	0	0	0
+"order"	"Deinococcales"	0	2	0	0	0	0	0	0	0
+"order"	"Desulfovibrionales"	0	0	0	0	0	2	0	0	0
+"order"	"Eggerthellales"	4	1	0	1	0	2	0	16	0
+"order"	"Enterobacteriales"	186	4139	2437	3287	112	9678	4592	15677	124
+"order"	"Flavobacteriales"	0	48	108	3	1	124	194	14	0
+"order"	"Fusobacteriales"	27	856	1422	97	0	2562	1494	154	0
+"order"	"Herpesvirales"	0	8	0	262	2	19	2	1522	3
+"order"	"Kineosporiales"	0	2	0	0	0	3	0	0	0
+"order"	"Lactobacillales"	1061	1862	2325	2784	131	5033	3514	8820	128
+"order"	"Legionellales"	0	3	0	0	0	10	19	0	0
+"order"	"Methylophilales"	0	1	2	0	0	2	0	0	0
+"order"	"Micrococcales"	22	1088	850	232	12	2722	1408	2524	9
+"order"	"Mononegavirales"	0	571	6201	9	1	1945	10017	6	2
+"order"	"Mycoplasmatales"	0	136	178	0	0	360	673	7	2
+"order"	"Neisseriales"	1	2565	2331	141	6	6581	3121	1850	9
+"order"	"Nidovirales"	0	1031	6826	14	2	3217	15459	11	0
+"order"	"Nitrosomonadales"	0	0	0	0	0	0	0	1	0
+"order"	"Oceanospirillales"	0	0	0	0	0	1	0	2	0
+"order"	"Pasteurellales"	10	8794	9196	4501	169	23320	15118	9496	160
+"order"	"Picornavirales"	0	256	955	1	2	694	1567	4	0
+"order"	"Pleurocapsales"	0	0	0	0	0	2	0	0	0
+"order"	"Propionibacteriales"	93	546	0	2	0	126	119	16	0
+"order"	"Pseudomonadales"	20	49176	22815	7987	216	125162	24801	47013	198
+"order"	"Rhizobiales"	1	166	8	2	0	54	8	3	0
+"order"	"Rhodobacterales"	0	0	0	0	0	1	0	0	0
+"order"	"Rhodocyclales"	0	3	0	0	0	1	0	6	0
+"order"	"Rhodospirillales"	0	0	0	2	0	0	0	6	0
+"order"	"Selenomonadales"	76	327	173	35	6	844	714	211	0
+"order"	"Sphingomonadales"	0	14	0	0	0	15	0	5	0
+"order"	"Spirochaetales"	27	22	165	5	0	68	51	29	0
+"order"	"Thermales"	0	1	0	0	0	2	0	0	0
+"order"	"Thiotrichales"	0	0	0	0	0	0	0	3	0
+"order"	"Vibrionales"	0	1	1	0	0	7	5	5	0
+"order"	"Xanthomonadales"	0	752	466	511	5	1124	427	6103	7
+"phylum"	"Actinobacteria"	169	4434	1777	504	26	9860	3072	4524	24
+"phylum"	"Bacteroidetes"	975	827	836	314	22	2149	1277	1117	17
+"phylum"	"Candidatus Saccharibacteria"	0	6	0	0	0	15	0	0	0
+"phylum"	"Cyanobacteria"	0	0	0	0	0	2	0	0	0
+"phylum"	"Deinococcus-Thermus"	0	3	0	0	0	2	0	0	0
+"phylum"	"Firmicutes"	1202	3902	3970	3736	165	10289	7364	10578	148
+"phylum"	"Fusobacteria"	27	856	1422	97	0	2562	1494	154	0
+"phylum"	"Proteobacteria"	267	66821	37471	16660	510	166662	48438	82551	499
+"phylum"	"Spirochaetes"	27	22	165	5	0	68	51	29	0
+"phylum"	"Tenericutes"	0	136	178	0	0	360	673	7	2
+"replicon"	"104773257"	0	0	0	0	0	0	0	1	0
+"replicon"	"104779316"	0	0	0	1	0	372	0	6	0
+"replicon"	"107021562"	0	3	0	3	0	3	1	67	0
+"replicon"	"107025343"	0	1	0	2	0	0	2	37	0
+"replicon"	"107028231"	0	0	0	0	0	1	0	18	0
+"replicon"	"108805998"	0	10	5	0	1	13	8	1	0
+"replicon"	"108810166"	0	5	6	0	0	14	19	0	0
+"replicon"	"10955266"	0	0	0	0	0	0	0	1	0
+"replicon"	"110640213"	0	26	16	30	2	50	15	130	2
+"replicon"	"110645304"	0	64	21	111	0	139	55	1369	0
+"replicon"	"110801439"	0	2	0	0	0	0	0	0	0
+"replicon"	"110804074"	0	16	6	2	0	26	9	12	0
+"replicon"	"11095661"	0	1	27	17	23	14	30	105	33
+"replicon"	"111184167"	0	2	0	0	0	0	0	0	0
+"replicon"	"113460149"	0	1	0	0	0	2	0	0	0
+"replicon"	"113866031"	0	1	0	0	0	0	0	0	0
+"replicon"	"115345482"	0	2	0	0	0	0	0	0	0
+"replicon"	"115350056"	0	0	0	0	0	2	0	4	0
+"replicon"	"115357970"	0	0	0	0	0	1	1	6	0
+"replicon"	"115360317"	0	1	0	1	0	1	0	2	0
+"replicon"	"115607417"	0	0	0	0	0	0	0	2	0
+"replicon"	"115607420"	0	0	0	0	0	0	0	1	0
+"replicon"	"116048575"	0	50	14	237	0	146	43	1965	0
+"replicon"	"116332681"	0	0	0	0	0	0	0	1	0
+"replicon"	"116493574"	0	8	2	2	0	9	5	7	0
+"replicon"	"116510843"	0	0	0	0	0	2	0	0	0
+"replicon"	"116513228"	0	0	0	0	0	0	0	2	0
+"replicon"	"116515308"	0	8	15	2	0	18	10	13	1
+"replicon"	"116617174"	0	1	0	0	0	0	0	0	0
+"replicon"	"116626972"	6	31	42	4	0	85	18	7	0
+"replicon"	"116628683"	0	64	94	43	2	147	243	119	0
+"replicon"	"116686245"	0	0	0	0	0	1	0	11	0
+"replicon"	"116687164"	0	0	0	0	0	0	0	12	0
+"replicon"	"116688024"	0	1	0	6	1	5	8	78	0
+"replicon"	"116691273"	0	0	0	3	0	1	1	44	0
+"replicon"	"117622295"	0	21	15	21	0	52	14	98	2
+"replicon"	"117676079"	0	0	0	1	0	0	0	0	0
+"replicon"	"118430724"	0	0	0	0	0	0	0	1	0
+"replicon"	"118725053"	0	0	0	0	0	0	0	2	0
+"replicon"	"119352440"	0	0	0	0	0	0	0	1	0
+"replicon"	"119382757"	0	0	0	0	0	1	0	0	0
+"replicon"	"119953625"	0	0	0	1	0	0	0	12	0
+"replicon"	"119967833"	0	0	0	0	1	0	0	0	0
+"replicon"	"121582466"	1	0	0	0	0	0	0	0	0
+"replicon"	"121582553"	0	1	0	0	0	0	0	0	0
+"replicon"	"121592436"	0	4	0	0	0	1	0	4	0
+"replicon"	"121596444"	0	0	0	0	0	1	0	0	0
+"replicon"	"121598179"	0	1	0	0	0	0	0	0	0
+"replicon"	"121633901"	0	205	65	10	2	478	109	100	0
+"replicon"	"122891714"	0	0	0	1	0	0	0	0	0
+"replicon"	"123440403"	0	0	1	0	0	8	11	0	0
+"replicon"	"124265193"	0	2	92	0	0	10	0	2	0
+"replicon"	"125622882"	0	0	0	0	0	0	0	0	1
+"replicon"	"125661357"	0	783	1434	841	1340	1065	1985	4036	1320
+"replicon"	"125661369"	0	136	247	120	201	150	332	748	198
+"replicon"	"125661381"	0	321	675	364	547	482	931	1792	535
+"replicon"	"125661393"	0	135	284	134	236	196	374	895	258
+"replicon"	"125661405"	0	68	187	88	165	98	236	680	140
+"replicon"	"125661417"	0	83	174	92	177	128	240	591	150
+"replicon"	"125661429"	0	109	237	134	217	158	317	792	192
+"replicon"	"125661441"	0	336	662	379	508	484	888	1932	525
+"replicon"	"125661453"	0	332	675	321	540	470	904	1902	556
+"replicon"	"125661465"	0	282	591	280	483	393	791	1545	479
+"replicon"	"125661477"	0	238	413	232	353	329	649	1389	390
+"replicon"	"125661489"	0	198	392	215	303	320	530	1249	322
+"replicon"	"125661501"	0	306	595	338	519	442	844	1673	478
+"replicon"	"125661513"	0	3	14	7	10	9	13	83	11
+"replicon"	"125661525"	0	82	170	97	148	99	221	529	110
+"replicon"	"125661537"	0	159	313	173	303	250	441	893	276
+"replicon"	"125661549"	0	138	240	140	213	174	365	788	201
+"replicon"	"125661561"	0	101	183	108	178	142	281	599	179
+"replicon"	"125661573"	0	87	118	64	104	79	158	478	107
+"replicon"	"125661585"	0	45	90	52	97	69	150	307	82
+"replicon"	"125661597"	0	49	106	54	103	80	145	340	113
+"replicon"	"125661609"	0	37	93	42	62	57	102	274	69
+"replicon"	"125661621"	0	588	1175	639	1002	795	1494	3184	979
+"replicon"	"125661633"	0	570	1160	602	974	866	1565	3212	989
+"replicon"	"125716887"	50	39	123	8	2	29	35	63	0
+"replicon"	"126207488"	0	104	152	0	0	235	176	4	0
+"replicon"	"126438353"	0	0	0	0	0	1	0	0	0
+"replicon"	"126442307"	0	0	0	0	0	1	0	0	0
+"replicon"	"126640097"	0	0	0	1	0	0	0	2	0
+"replicon"	"126640109"	0	0	0	0	0	0	0	1	0
+"replicon"	"126640115"	0	190	267	37	0	466	322	83	3
+"replicon"	"126697566"	0	1	0	2	1	4	0	0	0
+"replicon"	"13357558"	0	1	0	0	0	0	0	0	0
+"replicon"	"134047083"	0	0	0	2	1	0	0	15	0
+"replicon"	"134093294"	0	20	6	5	0	45	56	32	0
+"replicon"	"134284374"	0	1	0	0	0	2	0	0	0
+"replicon"	"134287530"	0	0	0	0	0	1	0	1	0
+"replicon"	"134292031"	0	0	0	0	0	2	0	0	0
+"replicon"	"134294128"	0	1	0	0	0	4	4	2	0
+"replicon"	"139424470"	0	0	0	0	0	0	0	2	0
+"replicon"	"139472888"	0	0	1	1	1	8	2	4	0
+"replicon"	"14141823"	0	0	0	1	0	0	0	1	0
+"replicon"	"14210819"	0	382	709	412	581	501	1050	1962	634
+"replicon"	"14210820"	0	272	526	288	507	435	749	1563	472
+"replicon"	"14210821"	0	545	1046	588	902	768	1457	2843	883
+"replicon"	"14210822"	0	324	639	347	541	492	886	1784	531
+"replicon"	"14210823"	0	204	389	186	320	298	537	1069	314
+"replicon"	"14210824"	0	287	519	288	467	408	709	1510	486
+"replicon"	"14210825"	0	109	222	128	188	155	326	713	166
+"replicon"	"14210826"	0	65	150	77	111	90	190	382	107
+"replicon"	"14210827"	0	75	141	76	134	88	188	429	113
+"replicon"	"14210828"	0	126	260	129	195	171	326	722	192
+"replicon"	"14210829"	0	102	209	106	152	150	275	608	173
+"replicon"	"14210830"	0	137	267	138	198	183	352	740	203
+"replicon"	"14210831"	0	105	179	113	159	134	263	585	172
+"replicon"	"14210832"	0	91	228	123	195	159	299	631	177
+"replicon"	"14210833"	0	219	392	226	343	327	662	1208	380
+"replicon"	"145294025"	0	0	0	2	0	0	0	2	0
+"replicon"	"145294042"	0	0	0	0	0	0	0	4	0
+"replicon"	"145301211"	0	0	0	0	0	0	0	2	0
+"replicon"	"145597324"	0	7	5	0	0	8	10	3	0
+"replicon"	"145968208"	0	0	0	0	0	0	0	1	0
+"replicon"	"146280397"	0	5	0	0	0	31	0	3	0
+"replicon"	"146305042"	1	37	4	0	0	41	4	2	0
+"replicon"	"146309667"	0	41	35	2	0	89	39	1	0
+"replicon"	"146317663"	0	2	2	2	0	0	0	2	0
+"replicon"	"146319850"	0	0	0	1	0	6	0	1	0
+"replicon"	"146337175"	0	1	0	0	0	0	0	0	0
+"replicon"	"146432248"	0	0	0	0	0	2	1	0	0
+"replicon"	"148244139"	0	0	0	0	0	0	0	3	0
+"replicon"	"148251626"	0	0	0	0	0	1	0	0	0
+"replicon"	"148266447"	0	31	37	22	2	117	51	41	0
+"replicon"	"148543243"	0	9	0	1	0	18	3	4	1
+"replicon"	"148545259"	0	1	1	0	0	16	0	0	0
+"replicon"	"148552929"	0	1	0	0	0	0	0	0	0
+"replicon"	"148651817"	0	164	10	0	0	307	9	6	0
+"replicon"	"148727082"	2	0	0	0	0	0	0	0	0
+"replicon"	"148825133"	1	718	651	588	21	1849	976	1164	16
+"replicon"	"148826757"	0	750	604	269	12	1929	900	627	14
+"replicon"	"14974"	0	0	6	0	0	0	0	0	0
+"replicon"	"150002608"	0	3	0	0	0	5	2	0	0
+"replicon"	"150006674"	0	0	0	0	0	2	0	0	0
+"replicon"	"150375692"	0	0	0	3	0	0	0	1	0
+"replicon"	"150392480"	0	55	48	19	1	137	92	44	2
+"replicon"	"151220212"	0	32	26	25	3	80	67	35	0
+"replicon"	"151933471"	0	1	1	0	0	6	4	0	0
+"replicon"	"152968582"	0	40	23	243	10	80	38	1078	3
+"replicon"	"152973416"	0	0	0	9	0	0	0	44	1
+"replicon"	"152973607"	0	1	0	5	0	0	0	20	0
+"replicon"	"152973731"	0	0	0	4	0	0	0	13	0
+"replicon"	"152973830"	0	0	0	0	0	0	0	2	0
+"replicon"	"152973854"	0	0	0	0	0	1	0	0	0
+"replicon"	"152977688"	0	10	4	0	0	21	3	0	0
+"replicon"	"152979768"	0	15	8	3	0	77	82	33	1
+"replicon"	"152983466"	0	87	29	366	1	166	46	3585	3
+"replicon"	"153007346"	0	7	0	0	0	3	2	0	0
+"replicon"	"153010078"	1	3	0	0	0	3	2	0	0
+"replicon"	"153902260"	0	0	4	0	0	0	0	0	0
+"replicon"	"153902271"	0	0	17	0	0	0	0	0	0
+"replicon"	"153946813"	0	6	4	0	0	11	14	0	0
+"replicon"	"154173617"	0	1	0	0	0	10	0	0	0
+"replicon"	"154250456"	0	0	0	1	0	0	0	1	0
+"replicon"	"15601865"	0	28	9	5	0	93	31	11	1
+"replicon"	"156071807"	0	1	0	0	0	0	0	2	0
+"replicon"	"156071808"	0	1	0	0	0	0	0	1	0
+"replicon"	"15671982"	0	2	0	0	0	0	0	0	0
+"replicon"	"15674250"	0	6	1	9	0	5	1	29	0
+"replicon"	"156932229"	0	10	4	0	0	16	17	2	0
+"replicon"	"156936507"	0	0	0	0	0	0	0	3	0
+"replicon"	"156978331"	0	27	36	17	1	90	69	28	1
+"replicon"	"157144296"	0	11	0	5	0	23	32	26	0
+"replicon"	"157149300"	0	0	0	1	0	0	0	11	0
+"replicon"	"157149330"	0	0	0	1	0	0	0	5	0
+"replicon"	"157149429"	0	0	0	0	0	0	0	1	0
+"replicon"	"157149498"	0	0	0	3	0	0	0	6	0
+"replicon"	"157149504"	0	0	0	0	0	0	0	2	0
+"replicon"	"157149651"	5	14	26	34	2	41	41	125	0
+"replicon"	"157154711"	0	18	7	0	0	45	13	17	0
+"replicon"	"157159467"	0	17	11	2	0	38	45	21	0
+"replicon"	"157163852"	5	20	0	3	0	41	105	26	0
+"replicon"	"157368249"	0	28	13	0	0	76	28	0	0
+"replicon"	"157412014"	0	0	0	3	0	0	0	1	0
+"replicon"	"157418083"	0	0	0	1	0	0	0	6	0
+"replicon"	"157420211"	0	0	0	0	0	1	0	0	0
+"replicon"	"157690798"	0	0	0	0	0	0	0	1	0
+"replicon"	"157834972"	0	0	0	0	0	0	0	1	0
+"replicon"	"15793034"	0	137	303	6	1	371	395	153	1
+"replicon"	"15829254"	0	25	7	5	0	61	21	10	0
+"replicon"	"15902044"	2	6	13	3	0	38	18	19	0
+"replicon"	"159162017"	0	0	0	0	0	1	4	0	0
+"replicon"	"159184118"	0	5	0	0	0	2	0	0	0
+"replicon"	"159185562"	0	2	0	0	0	0	0	0	0
+"replicon"	"160895450"	0	962	1	22	0	344	0	232	0
+"replicon"	"161168445"	0	1	0	0	0	0	1	0	0
+"replicon"	"16119200"	0	0	0	2	0	0	0	0	0
+"replicon"	"16120353"	0	2	2	1	0	6	14	1	0
+"replicon"	"161501984"	0	2	4	0	0	5	3	2	0
+"replicon"	"161506634"	0	1	0	0	0	0	0	1	0
+"replicon"	"161508266"	0	25	36	31	0	100	67	48	0
+"replicon"	"161510924"	0	0	0	0	0	4	0	3	0
+"replicon"	"161523180"	0	1	0	0	0	2	0	0	0
+"replicon"	"161612313"	0	1	1	0	0	1	1	2	0
+"replicon"	"161869018"	0	117	307	12	0	249	299	137	2
+"replicon"	"162418099"	0	9	2	0	0	16	16	2	0
+"replicon"	"16271976"	0	586	498	288	7	1362	880	624	12
+"replicon"	"162960935"	2	1307	1502	1460	50	3474	2081	2589	49
+"replicon"	"163849457"	0	4	0	0	0	0	0	0	0
+"replicon"	"163854304"	0	2	0	1	0	0	8	9	0
+"replicon"	"163866863"	0	1	28	0	0	3	37	0	0
+"replicon"	"16445223"	0	14	9	1	0	43	14	9	0
+"replicon"	"16507983"	0	0	0	65	1	4	4	324	0
+"replicon"	"165975457"	0	80	78	1	0	221	75	3	0
+"replicon"	"167031021"	0	1	0	0	0	93	0	3	0
+"replicon"	"167412463"	0	0	0	0	0	0	0	2	0
+"replicon"	"16758993"	0	5	2	0	0	5	0	1	0
+"replicon"	"16763390"	0	3	1	0	0	9	0	0	0
+"replicon"	"169302972"	0	4	0	0	0	0	0	0	0
+"replicon"	"169302980"	0	0	0	1	0	2	1	1	0
+"replicon"	"169627108"	0	0	0	1	0	0	0	5	0
+"replicon"	"169632029"	0	101	156	22	1	259	199	49	2
+"replicon"	"169786889"	0	6	0	0	0	1	0	0	0
+"replicon"	"169794206"	0	194	293	29	0	491	409	90	0
+"replicon"	"169823697"	0	54	7	9	0	144	43	12	0
+"replicon"	"169832377"	3	10	9	13	1	25	24	53	2
+"replicon"	"170016236"	0	2	0	0	0	0	0	0	0
+"replicon"	"170016294"	0	0	0	0	0	1	0	0	0
+"replicon"	"170018061"	0	22	10	2	0	47	21	12	0
+"replicon"	"170022262"	0	4	6	0	0	8	8	0	0
+"replicon"	"170079663"	0	23	21	4	0	58	18	12	0
+"replicon"	"170650740"	0	0	0	0	0	0	0	1	0
+"replicon"	"170650751"	0	0	0	0	0	0	0	1	0
+"replicon"	"170650756"	0	0	0	0	0	0	0	1	0
+"replicon"	"170650760"	0	0	0	5	0	1	0	8	0
+"replicon"	"170679574"	0	43	16	20	0	89	24	117	0
+"replicon"	"170717206"	0	2	0	0	0	4	0	0	0
+"replicon"	"170719187"	0	7	10	0	0	21	3	3	0
+"replicon"	"170731356"	0	0	0	4	0	6	5	91	0
+"replicon"	"170734517"	0	2	0	2	0	0	6	59	0
+"replicon"	"170735571"	0	1	0	1	0	1	17	48	0
+"replicon"	"170745058"	0	0	0	0	0	1	0	0	0
+"replicon"	"170746450"	0	2	0	0	0	1	0	0	0
+"replicon"	"171056692"	0	0	11	0	0	0	0	0	0
+"replicon"	"172039680"	0	4	0	24	0	5	0	152	1
+"replicon"	"172055989"	0	0	0	3	0	0	0	3	0
+"replicon"	"172059067"	0	1	0	0	0	0	0	9	0
+"replicon"	"172062142"	0	0	0	0	0	0	0	4	0
+"replicon"	"172064800"	0	0	0	0	0	0	0	5	0
+"replicon"	"17313217"	0	0	0	0	0	0	0	3	0
+"replicon"	"17426228"	0	0	0	0	0	0	0	0	2
+"replicon"	"17544719"	0	0	0	0	0	1	0	3	0
+"replicon"	"17981815"	0	0	0	0	0	0	0	2	0
+"replicon"	"182680572"	0	0	0	0	0	2	0	0	0
+"replicon"	"182682970"	1	5	14	8	0	18	15	21	0
+"replicon"	"18308982"	0	1	0	0	0	3	0	0	0
+"replicon"	"184152655"	0	2	0	2	0	10	10	6	1
+"replicon"	"184154476"	0	21	14	28	2	42	9	240	0
+"replicon"	"184156320"	0	215	280	207	5	600	388	342	5
+"replicon"	"184159988"	0	0	0	0	0	2	0	1	0
+"replicon"	"184160017"	0	1	0	5	0	0	0	6	0
+"replicon"	"184199646"	0	2	0	0	0	0	0	0	0
+"replicon"	"18450286"	0	0	0	0	0	0	0	0	1
+"replicon"	"18466424"	0	1	0	2	0	0	0	5	0
+"replicon"	"186893344"	0	7	4	0	0	17	15	1	0
+"replicon"	"187476514"	0	1	0	0	0	2	0	0	0
+"replicon"	"187729967"	0	0	0	0	0	0	0	1	0
+"replicon"	"187730020"	0	20	7	2	0	53	17	8	1
+"replicon"	"187925958"	1	0	0	0	0	1	0	0	0
+"replicon"	"187927112"	16	16	0	0	0	5	0	3	0
+"replicon"	"188532165"	0	5	11	0	0	3	5	0	0
+"replicon"	"188535863"	0	0	0	1	0	0	0	0	0
+"replicon"	"188574270"	0	0	1	0	0	0	0	0	0
+"replicon"	"188579286"	0	7	0	0	0	1	0	0	0
+"replicon"	"188584601"	0	0	0	0	0	1	0	0	0
+"replicon"	"188989396"	0	2	0	0	0	1	0	0	0
+"replicon"	"188993864"	4	4	9	4	0	9	1	12	0
+"replicon"	"1890233"	0	0	2	0	0	0	0	0	0
+"replicon"	"189348893"	0	0	0	0	0	1	0	0	0
+"replicon"	"189427122"	0	0	0	2	0	0	0	2	0
+"replicon"	"189438863"	1	2	0	0	0	1	0	8	0
+"replicon"	"189458505"	0	0	0	0	0	0	0	3	0
+"replicon"	"190149269"	0	84	154	1	0	249	142	2	0
+"replicon"	"190571920"	0	1	0	0	0	0	0	1	0
+"replicon"	"190572091"	0	162	146	254	3	299	105	2500	3
+"replicon"	"190893983"	0	0	0	0	0	2	0	0	0
+"replicon"	"191636824"	0	5	0	3	0	12	2	7	0
+"replicon"	"191639869"	0	2	0	0	0	0	1	9	0
+"replicon"	"193082772"	0	90	116	0	0	254	412	4	1
+"replicon"	"194021541"	0	1	1	0	0	0	0	0	0
+"replicon"	"194097589"	0	12	10	5	0	47	18	93	1
+"replicon"	"194172857"	4	7	13	5	0	16	16	24	0
+"replicon"	"194363778"	0	64	24	20	0	140	67	517	1
+"replicon"	"194396645"	0	6	9	3	0	9	9	27	0
+"replicon"	"194399680"	0	0	29	0	0	2	13	0	0
+"replicon"	"194399682"	0	0	5	0	0	0	0	0	0
+"replicon"	"194399684"	0	11	71	0	0	36	127	0	0
+"replicon"	"194399688"	0	0	9	0	0	3	0	0	0
+"replicon"	"194399692"	0	0	0	0	0	0	23	0	0
+"replicon"	"194399694"	0	0	0	0	0	3	5	0	0
+"replicon"	"194399696"	0	0	21	0	0	0	0	0	0
+"replicon"	"194399698"	0	1	18	0	0	12	64	0	0
+"replicon"	"194399700"	0	2	7	0	0	8	15	0	0
+"replicon"	"194399702"	0	0	34	0	0	1	7	0	0
+"replicon"	"194399704"	0	0	0	0	0	8	0	0	0
+"replicon"	"194442198"	3	0	0	0	0	0	0	0	0
+"replicon"	"194442203"	0	2	1	0	0	8	1	1	0
+"replicon"	"194447175"	0	0	0	0	0	0	0	1	0
+"replicon"	"194447301"	0	0	0	4	0	0	0	2	0
+"replicon"	"194447306"	0	1	1	1	0	9	1	11	0
+"replicon"	"1944536"	0	1	0	26	0	2	0	156	0
+"replicon"	"194733773"	0	1	0	2	0	1	0	14	0
+"replicon"	"194733902"	0	5	3	0	0	9	2	0	0
+"replicon"	"19703352"	4	324	495	10	0	1000	533	12	0
+"replicon"	"197247352"	0	3	1	0	0	5	1	0	0
+"replicon"	"197283915"	0	44	8	108	2	96	102	263	3
+"replicon"	"197361212"	0	2	0	0	0	7	2	0	0
+"replicon"	"19745201"	0	2	0	1	0	7	0	5	0
+"replicon"	"197944726"	0	0	0	0	0	1	0	1	0
+"replicon"	"198241740"	0	1	3	0	0	6	0	1	0
+"replicon"	"19908645"	0	0	3	0	0	3	14	0	0
+"replicon"	"19908650"	0	4	2	0	0	1	9	0	0
+"replicon"	"20177424"	0	0	0	0	0	1	0	0	0
+"replicon"	"203288797"	0	0	0	0	0	0	0	3	0
+"replicon"	"20522115"	0	4	0	0	0	18	41	1	0
+"replicon"	"205351346"	0	6	2	0	0	6	0	0	0
+"replicon"	"206479926"	0	0	0	0	0	0	0	1	0
+"replicon"	"206558403"	0	1	0	5	0	1	2	120	0
+"replicon"	"206561868"	0	1	0	0	0	1	1	71	0
+"replicon"	"206575367"	0	0	0	1	0	0	0	6	0
+"replicon"	"206575481"	0	0	0	0	0	0	0	1	0
+"replicon"	"206575712"	0	21	12	8	1	37	35	46	1
+"replicon"	"207855516"	0	0	1	0	0	3	1	0	0
+"replicon"	"209395529"	0	0	0	1	0	0	0	0	0
+"replicon"	"209395693"	0	19	8	0	0	54	20	16	0
+"replicon"	"209401009"	0	0	0	0	0	0	0	2	0
+"replicon"	"209552419"	0	0	0	0	0	0	0	4	0
+"replicon"	"209558587"	0	1	0	4	0	2	3	6	0
+"replicon"	"209916825"	0	0	0	2	0	0	0	4	0
+"replicon"	"209916829"	0	0	0	1	0	0	0	0	0
+"replicon"	"209917191"	0	23	5	1	0	66	22	21	0
+"replicon"	"209921952"	0	0	0	0	0	0	0	3	0
+"replicon"	"21229478"	0	1	2	0	0	0	0	1	0
+"replicon"	"21240774"	0	0	2	0	0	0	0	0	0
+"replicon"	"21281729"	0	25	43	15	0	80	61	15	0
+"replicon"	"213155358"	0	0	0	1	0	0	1	4	0
+"replicon"	"213155370"	0	146	302	46	1	426	346	87	1
+"replicon"	"213690928"	1	2	0	2	0	3	0	4	0
+"replicon"	"215274578"	0	0	0	2	0	0	0	8	0
+"replicon"	"215276192"	0	0	0	0	0	0	0	2	0
+"replicon"	"215401108"	0	0	0	1	0	0	0	1	0
+"replicon"	"215401171"	0	0	0	0	0	0	0	1	0
+"replicon"	"215479924"	0	1	0	0	0	0	0	3	0
+"replicon"	"215479976"	0	0	0	0	0	0	0	1	0
+"replicon"	"215481761"	0	171	301	20	0	485	385	58	1
+"replicon"	"215485161"	0	75	43	22	4	165	28	128	3
+"replicon"	"216089"	0	996	1777	1146	1596	1460	2501	5142	1622
+"replicon"	"217316372"	0	222	933	1	2	579	1433	2	0
+"replicon"	"217316392"	0	2	0	0	0	6	3	0	0
+"replicon"	"217316398"	0	0	0	0	0	0	3	0	0
+"replicon"	"217316402"	0	15	16	0	0	42	9	0	0
+"replicon"	"217316416"	0	0	0	0	0	5	3	0	0
+"replicon"	"217316424"	0	0	0	0	0	6	1	0	0
+"replicon"	"217316454"	0	0	0	0	0	7	2	0	0
+"replicon"	"218454959"	0	0	0	0	0	0	0	1	0
+"replicon"	"218528082"	0	5	0	0	0	1	0	0	0
+"replicon"	"218533256"	0	1	0	0	0	0	0	0	0
+"replicon"	"218547440"	0	29	12	1	0	70	22	10	0
+"replicon"	"218552585"	0	17	8	4	0	48	22	16	0
+"replicon"	"218556939"	0	29	26	25	0	69	21	90	3
+"replicon"	"218561636"	0	0	0	1	0	0	0	5	0
+"replicon"	"218687878"	0	48	19	25	5	76	14	93	1
+"replicon"	"218692794"	0	0	0	1	0	0	0	8	0
+"replicon"	"218693476"	0	26	4	2	1	46	15	24	0
+"replicon"	"218698419"	0	27	15	14	0	72	26	82	2
+"replicon"	"218703261"	0	133	44	47	0	336	44	226	1
+"replicon"	"218888746"	0	61	31	186	0	160	56	1708	1
+"replicon"	"218963145"	0	0	0	0	0	2	0	0	0
+"replicon"	"21909536"	0	2	1	1	0	3	3	1	0
+"replicon"	"219870279"	0	10	13	0	0	18	17	0	0
+"replicon"	"219964305"	0	1	3	0	0	3	36	0	0
+"replicon"	"220903286"	0	0	0	0	0	2	0	0	0
+"replicon"	"220933193"	0	0	0	0	0	1	0	0	0
+"replicon"	"221230948"	1	2	4	8	0	16	14	33	0
+"replicon"	"22123922"	0	5	4	0	0	16	14	1	0
+"replicon"	"222102329"	0	1	0	0	0	0	0	0	0
+"replicon"	"222109225"	0	1	0	0	0	0	0	0	0
+"replicon"	"222142576"	0	0	0	0	0	0	0	1	0
+"replicon"	"222150250"	0	1	0	0	0	3	9	0	0
+"replicon"	"222152201"	0	0	0	0	0	2	0	1	0
+"replicon"	"222154829"	0	28	17	19	2	68	25	99	0
+"replicon"	"224472836"	0	1	0	0	0	0	0	0	0
+"replicon"	"224472841"	0	1	3	0	0	4	18	0	0
+"replicon"	"224472846"	0	1	0	0	0	2	4	0	0
+"replicon"	"224475494"	0	0	0	0	0	1	2	0	0
+"replicon"	"224581838"	0	0	0	0	0	5	0	1	0
+"replicon"	"22536185"	0	7	14	172	8	15	77	241	6
+"replicon"	"225631039"	0	0	0	0	0	2	0	1	0
+"replicon"	"225851546"	0	0	0	0	0	0	1	0	0
+"replicon"	"225853611"	3	12	14	6	1	28	12	32	2
+"replicon"	"225855735"	6	7	8	5	0	22	18	28	0
+"replicon"	"225857809"	6	11	6	6	1	22	18	17	0
+"replicon"	"225860012"	4	8	14	3	0	18	32	16	2
+"replicon"	"225862057"	0	0	1	0	0	0	0	0	0
+"replicon"	"225867617"	0	0	0	0	0	2	0	3	0
+"replicon"	"225869487"	0	0	0	1	0	0	1	0	0
+"replicon"	"226235018"	0	0	1	0	0	0	2	0	0
+"replicon"	"226303489"	0	3	0	0	0	2	0	0	0
+"replicon"	"226938934"	0	0	0	0	0	1	0	0	0
+"replicon"	"226942170"	0	1	0	0	0	7	0	0	0
+"replicon"	"226973390"	0	527	1118	588	935	811	1471	3020	884
+"replicon"	"227812678"	0	1	0	0	0	0	1	0	0
+"replicon"	"227831830"	1	2009	541	46	6	4916	1069	478	2
+"replicon"	"229587578"	2	68	45	42	0	572	14	1217	0
+"replicon"	"229599883"	0	1	0	0	0	0	0	0	0
+"replicon"	"229606122"	0	0	0	0	0	0	0	1	0
+"replicon"	"229915734"	0	0	0	0	0	1	0	0	0
+"replicon"	"23097455"	0	0	0	0	0	0	0	2	0
+"replicon"	"237653092"	0	0	0	0	0	0	0	2	0
+"replicon"	"237784637"	0	0	0	2	0	0	0	12	0
+"replicon"	"237806776"	0	0	0	0	0	0	0	2	0
+"replicon"	"238866525"	0	0	0	0	0	0	2	0	0
+"replicon"	"238892256"	0	37	26	192	6	86	63	893	2
+"replicon"	"238899406"	0	26	18	2	1	38	7	11	0
+"replicon"	"239507361"	0	0	0	0	0	0	0	2	0
+"replicon"	"239781638"	0	7	6	0	0	11	1	0	0
+"replicon"	"239916571"	0	4	0	0	0	31	0	1	0
+"replicon"	"240111940"	0	2	0	0	0	0	0	0	0
+"replicon"	"240136783"	0	86	0	1	0	22	0	0	0
+"replicon"	"240141741"	0	0	0	0	0	1	0	0	0
+"replicon"	"241114100"	2	0	0	0	0	0	0	0	0
+"replicon"	"241195472"	0	0	0	1	0	0	0	1	0
+"replicon"	"241589533"	1	0	0	0	0	0	0	0	0
+"replicon"	"241661625"	25	3	0	0	0	0	0	3	0
+"replicon"	"241665037"	3	1	0	0	0	1	0	1	0
+"replicon"	"242237460"	0	2	0	0	0	1	0	1	0
+"replicon"	"25010075"	0	4	8	85	2	12	29	116	3
+"replicon"	"25026556"	0	11	5	2	0	14	9	18	0
+"replicon"	"251781468"	0	1	0	1	0	0	2	0	0
+"replicon"	"251787652"	0	3	0	0	0	10	6	0	0
+"replicon"	"251791816"	0	77	206	10	0	187	202	43	0
+"replicon"	"251794036"	0	0	0	0	0	1	0	0	0
+"replicon"	"253686409"	0	37	1	1	0	55	8	0	0
+"replicon"	"253750923"	0	0	1	1	0	1	1	0	0
+"replicon"	"253752822"	0	1	2	0	0	3	0	0	0
+"replicon"	"253754647"	0	1	1	2	0	4	1	5	0
+"replicon"	"253771435"	0	33	11	2	0	63	17	17	0
+"replicon"	"253995374"	0	0	0	0	0	2	0	0	0
+"replicon"	"254160123"	0	32	12	2	0	58	22	12	0
+"replicon"	"254558653"	0	11	0	0	0	4	0	0	0
+"replicon"	"254667448"	0	0	0	0	0	0	0	1	0
+"replicon"	"254791136"	0	31	10	5	0	50	19	11	0
+"replicon"	"254804028"	0	148	103	13	0	397	150	150	0
+"replicon"	"255534169"	0	1	0	0	0	1	0	0	0
+"replicon"	"255767013"	0	0	0	0	0	0	1	0	0
+"replicon"	"255961261"	0	13	14	0	0	741	9	13	0
+"replicon"	"255961475"	0	2	0	0	0	3	0	0	0
+"replicon"	"256368465"	0	0	0	0	0	0	1	0	0
+"replicon"	"256818848"	0	46	108	2	1	110	193	14	0
+"replicon"	"256823905"	0	4	0	0	0	0	0	0	0
+"replicon"	"256826460"	4	1	0	1	0	2	0	16	0
+"replicon"	"256831255"	0	0	0	0	0	1	0	0	0
+"replicon"	"257065520"	0	4	0	0	0	18	24	1	0
+"replicon"	"257124814"	1	9	5	0	0	20	19	0	0
+"replicon"	"257136356"	0	0	0	0	0	0	0	1	0
+"replicon"	"257783814"	10	45	112	2	0	81	105	58	0
+"replicon"	"258506995"	0	41	48	114	5	152	152	299	12
+"replicon"	"258509940"	0	0	0	2	0	0	0	2	0
+"replicon"	"258538191"	0	31	38	86	8	135	182	233	1
+"replicon"	"260600006"	0	0	0	0	0	0	0	1	0
+"replicon"	"260685375"	1	1	0	0	0	0	0	1	0
+"replicon"	"260751835"	0	0	0	0	0	0	0	3	0
+"replicon"	"260751930"	0	0	0	0	0	0	0	1	0
+"replicon"	"260752012"	0	0	0	0	0	0	0	3	0
+"replicon"	"260842239"	0	26	11	1	0	40	24	25	0
+"replicon"	"260853213"	0	16	11	6	0	37	14	18	0
+"replicon"	"260866153"	0	18	15	3	0	45	19	12	0
+"replicon"	"260871126"	0	0	0	0	0	0	0	3	0
+"replicon"	"261819370"	0	12	1	0	0	36	20	2	0
+"replicon"	"261866721"	0	3	26	0	0	4	30	0	0
+"replicon"	"262064129"	0	445	977	521	771	714	1289	2527	782
+"replicon"	"262064174"	0	0	6	0	0	0	3	0	0
+"replicon"	"262392383"	0	0	0	0	0	0	2	0	0
+"replicon"	"26245917"	0	20	11	31	0	47	11	104	3
+"replicon"	"262479002"	0	0	0	0	0	1	0	0	0
+"replicon"	"26655522"	0	0	0	0	0	5	0	0	0
+"replicon"	"268318562"	0	7	5	0	0	13	16	3	0
+"replicon"	"269114774"	0	45	62	0	0	106	261	3	1
+"replicon"	"269118642"	0	2	0	0	0	2	4	0	0
+"replicon"	"269122800"	2	3	8	0	0	5	0	0	0
+"replicon"	"269137358"	0	0	0	0	0	4	1	1	0
+"replicon"	"269201690"	0	17	34	17	0	60	53	32	0
+"replicon"	"269797069"	75	322	173	34	4	823	702	190	0
+"replicon"	"26986745"	0	2	0	0	0	106	0	2	0
+"replicon"	"271498578"	0	0	0	0	0	1	7	0	0
+"replicon"	"27466918"	0	87	22	106	3	130	109	158	0
+"replicon"	"2772662"	0	0	0	0	0	0	0	2	0
+"replicon"	"281416434"	0	0	0	0	0	0	0	1	0
+"replicon"	"281427817"	0	0	0	2	0	0	0	8	0
+"replicon"	"281490498"	0	0	0	0	0	0	1	0	0
+"replicon"	"28197945"	0	1	0	0	0	1	0	1	0
+"replicon"	"283454955"	0	0	0	0	0	0	0	1	0
+"replicon"	"283454959"	29	0	0	3	0	6	0	20	0
+"replicon"	"283457089"	13	549	755	199	10	1259	1004	2366	6
+"replicon"	"283782520"	0	0	0	2	0	1	0	1	0
+"replicon"	"283783779"	0	1	2	0	0	3	1	2	0
+"replicon"	"284034943"	0	1	0	0	0	0	0	0	0
+"replicon"	"284047386"	0	0	0	0	0	1	0	0	0
+"replicon"	"285016821"	0	5	7	0	0	4	1	0	0
+"replicon"	"28572175"	0	203	0	3	0	614	85	6	0
+"replicon"	"28867243"	0	4	1	0	0	121	0	2	0
+"replicon"	"28876316"	0	0	0	1	0	0	0	0	0
+"replicon"	"288872851"	0	795	1483	766	1289	1112	1951	4045	1273
+"replicon"	"288904223"	0	2	9	2	0	0	1	1	0
+"replicon"	"288932888"	0	19	22	5	0	48	26	52	2
+"replicon"	"28894912"	0	2	4	2	0	3	1	1	0
+"replicon"	"289163353"	0	1	0	0	0	5	15	0	0
+"replicon"	"289166909"	52	107	28	95	1	313	128	440	0
+"replicon"	"289549371"	0	5	10	0	0	27	24	0	0
+"replicon"	"29028667"	0	0	0	0	0	0	0	1	0
+"replicon"	"290473094"	0	2	0	0	0	4	9	0	0
+"replicon"	"290579526"	0	4	0	4	0	4	0	1	0
+"replicon"	"290766003"	0	0	0	45	1	4	0	263	1
+"replicon"	"290766081"	0	0	0	37	0	6	0	295	0
+"replicon"	"291280824"	0	29	10	4	0	82	22	12	0
+"replicon"	"29134936"	0	0	31	4	0	1	0	9	0
+"replicon"	"29140543"	0	3	3	0	0	5	2	1	0
+"replicon"	"291434858"	0	1	0	0	0	0	0	1	0
+"replicon"	"291464753"	0	0	0	1	0	0	0	2	0
+"replicon"	"291481467"	0	5	0	0	0	2	0	1	0
+"replicon"	"29165615"	0	27	24	15	0	87	65	32	0
+"replicon"	"292486492"	0	1	0	0	0	0	2	0	0
+"replicon"	"292897734"	0	1	0	0	0	2	2	0	0
+"replicon"	"29374661"	0	70	19	174	8	170	69	294	9
+"replicon"	"29377803"	0	0	0	3	0	0	0	3	0
+"replicon"	"29377876"	0	0	0	1	0	0	0	0	0
+"replicon"	"29377895"	0	0	0	0	0	0	0	2	0
+"replicon"	"294009986"	0	2	0	0	0	0	0	1	0
+"replicon"	"294502110"	0	5	4	0	0	7	11	1	0
+"replicon"	"294514841"	0	0	0	0	0	0	1	0	0
+"replicon"	"294672793"	0	0	0	0	0	2	0	0	0
+"replicon"	"295129529"	10	60	0	0	0	8	4	0	0
+"replicon"	"29539243"	0	0	10	0	0	0	0	0	0
+"replicon"	"295441884"	0	1	0	0	0	0	0	2	0
+"replicon"	"295691862"	0	4	0	4	0	18	5	21	0
+"replicon"	"295697839"	0	0	0	1	1	2	0	10	0
+"replicon"	"296100371"	0	28	9	5	0	65	84	71	0
+"replicon"	"296105497"	0	1	0	0	0	0	0	0	0
+"replicon"	"296112228"	0	44675	18426	2376	132	101082	18851	6100	135
+"replicon"	"296127869"	0	0	0	0	0	0	0	1	0
+"replicon"	"296137611"	0	0	0	0	0	0	0	1	0
+"replicon"	"296453187"	0	1	0	0	0	2	0	12	0
+"replicon"	"296556485"	0	0	0	2	0	0	0	3	0
+"replicon"	"297537197"	0	1	2	0	0	0	0	0	0
+"replicon"	"297570613"	2	0	0	0	0	0	0	7	0
+"replicon"	"297595171"	0	2	1	0	0	1	21	0	0
+"replicon"	"297625198"	0	1	0	0	0	1	0	1	0
+"replicon"	"298345126"	0	0	0	0	0	5	0	3	0
+"replicon"	"298501502"	1	7	11	9	0	11	23	19	1
+"replicon"	"298882994"	0	0	6	0	0	0	0	0	0
+"replicon"	"299768250"	0	25	65	1	0	55	116	3	0
+"replicon"	"300021538"	0	0	3	0	0	0	0	0	0
+"replicon"	"300172302"	0	3	0	0	0	2	0	0	0
+"replicon"	"30018278"	0	1	1	0	0	0	0	1	0
+"replicon"	"300309346"	0	9	1	2	0	6	1	18	0
+"replicon"	"30043925"	0	0	0	0	0	0	0	2	0
+"replicon"	"30061571"	0	6	3	0	1	29	12	17	0
+"replicon"	"300714588"	0	1	2	0	0	15	8	0	0
+"replicon"	"300857417"	0	1	0	0	0	3	3	0	0
+"replicon"	"301065125"	0	1	2	6	0	14	2	11	0
+"replicon"	"302334808"	0	0	0	0	0	0	0	4	0
+"replicon"	"302344773"	119	378	373	129	5	1071	530	446	8
+"replicon"	"302346166"	75	148	169	90	6	319	228	266	6
+"replicon"	"302381116"	0	0	0	0	0	1	0	0	0
+"replicon"	"302384444"	0	1	0	0	0	0	0	0	0
+"replicon"	"30248031"	0	0	0	0	0	0	0	1	0
+"replicon"	"302669123"	0	0	0	0	0	0	0	1	0
+"replicon"	"304269231"	0	587	1145	614	968	848	1461	3089	896
+"replicon"	"304269243"	0	528	977	522	807	675	1306	2620	843
+"replicon"	"304269255"	0	523	976	534	811	759	1432	2698	835
+"replicon"	"304269267"	0	381	790	438	664	598	1032	2062	649
+"replicon"	"304269279"	0	401	827	442	727	560	1117	2198	672
+"replicon"	"304269291"	0	368	694	389	605	549	1018	1849	593
+"replicon"	"304443238"	0	0	0	1	0	0	0	0	0
+"replicon"	"304633245"	0	0	0	0	0	0	0	1	0
+"replicon"	"30519795"	0	1	0	0	0	0	0	0	0
+"replicon"	"305672698"	0	0	0	0	0	0	1	0	0
+"replicon"	"307066636"	2	6	6	3	0	18	20	15	0
+"replicon"	"307126151"	2	9	9	5	1	33	24	30	1
+"replicon"	"307128764"	0	5	1	0	0	10	3	2	0
+"replicon"	"308185541"	0	2	6	0	0	4	1	1	0
+"replicon"	"308189206"	0	0	0	0	0	0	0	1	0
+"replicon"	"30840968"	0	0	0	0	0	2	0	0	0
+"replicon"	"308513210"	3	0	0	0	0	2	0	2	0
+"replicon"	"311063459"	0	0	0	0	0	1	0	0	0
+"replicon"	"311103224"	0	7	27	1	0	7	19	5	0
+"replicon"	"311109684"	0	0	0	0	0	0	0	1	0
+"replicon"	"311111670"	9	120	95	23	1	244	186	141	2
+"replicon"	"311113888"	0	0	0	2	0	0	0	0	0
+"replicon"	"311277332"	0	10	38	0	0	53	76	6	0
+"replicon"	"312132275"	0	0	0	4	0	0	0	9	1
+"replicon"	"313122775"	0	0	0	1	0	1	0	4	0
+"replicon"	"313667359"	0	251	168	23	2	642	353	358	0
+"replicon"	"315037230"	0	1	0	0	0	4	3	2	0
+"replicon"	"3153166"	0	0	0	0	0	0	0	3	0
+"replicon"	"317046238"	0	0	1	0	0	2	2	0	0
+"replicon"	"317140354"	0	0	0	0	0	0	0	1	0
+"replicon"	"319760024"	0	1	0	0	0	0	0	0	0
+"replicon"	"319760738"	0	0	0	1	0	0	0	15	0
+"replicon"	"319765069"	0	3	0	4	0	2	0	14	0
+"replicon"	"319774951"	0	539	367	204	6	1384	664	480	3
+"replicon"	"319785620"	0	0	1	0	0	5	5	0	0
+"replicon"	"319891290"	0	1	1	1	0	3	3	1	0
+"replicon"	"319896422"	1	682	525	226	5	1688	674	525	7
+"replicon"	"320449106"	0	1	0	0	0	0	0	0	0
+"replicon"	"321311376"	0	4	0	0	0	1	0	0	0
+"replicon"	"322688191"	0	1	0	0	0	0	0	7	0
+"replicon"	"322690193"	0	0	0	0	0	2	0	0	0
+"replicon"	"322830733"	0	2	2	0	0	16	16	0	0
+"replicon"	"323695738"	0	4	1	0	0	2	12	0	0
+"replicon"	"32447382"	0	205	0	7	1	573	133	9	1
+"replicon"	"32470581"	1	0	0	0	0	0	0	0	0
+"replicon"	"325168279"	0	2	0	0	0	3	0	0	0
+"replicon"	"325278757"	8	0	0	0	0	0	0	2	0
+"replicon"	"325291453"	0	18	0	0	0	3	0	0	0
+"replicon"	"325295716"	0	1	0	1	0	1	3	2	0
+"replicon"	"325297172"	5	0	0	4	0	0	0	8	0
+"replicon"	"325514012"	0	0	0	0	0	0	0	1	0
+"replicon"	"325557737"	0	0	0	0	0	0	0	1	0
+"replicon"	"325953647"	0	0	0	1	0	0	0	0	0
+"replicon"	"325955721"	0	0	0	1	0	3	5	0	0
+"replicon"	"325977200"	0	1	6	1	0	0	0	0	0
+"replicon"	"326314823"	0	0	0	0	0	1	0	0	0
+"replicon"	"326468182"	0	1	28	0	0	5	16	0	0
+"replicon"	"326468184"	0	1	1	0	0	2	8	0	0
+"replicon"	"326468186"	0	0	1	0	0	4	2	0	0
+"replicon"	"326468188"	0	1	49	0	0	4	13	0	0
+"replicon"	"326468190"	0	2	18	0	0	0	37	0	0
+"replicon"	"326468192"	0	0	68	0	0	0	0	0	0
+"replicon"	"326468204"	0	0	1	0	0	0	4	0	0
+"replicon"	"326649640"	0	8	5	0	0	23	75	0	0
+"replicon"	"326802614"	0	4	17	1	0	6	15	0	0
+"replicon"	"327312315"	186	47	77	23	3	141	86	133	0
+"replicon"	"328946930"	0	0	0	0	0	0	0	1	0
+"replicon"	"328956382"	0	0	0	0	0	0	0	1	0
+"replicon"	"330500914"	0	15	0	0	0	17	0	2	0
+"replicon"	"330806657"	0	10	3	0	0	976	12	17	0
+"replicon"	"330822653"	0	0	0	1	0	0	0	5	0
+"replicon"	"330831849"	0	2	0	0	0	0	0	0	0
+"replicon"	"330837866"	1	4	0	1	0	15	11	19	0
+"replicon"	"331265438"	62	101	101	71	6	289	207	352	11
+"replicon"	"33151282"	0	29	28	0	0	56	5	3	0
+"replicon"	"331700395"	0	2	0	0	0	8	0	0	0
+"replicon"	"332139403"	0	0	1	0	0	2	0	0	0
+"replicon"	"332159624"	0	0	0	0	0	1	2	0	0
+"replicon"	"332283253"	0	0	0	0	0	1	0	0	0
+"replicon"	"332288085"	0	4	2	0	0	9	8	0	0
+"replicon"	"332299201"	4	26	0	0	0	32	14	0	0
+"replicon"	"332715374"	0	9	0	0	0	3	0	0	0
+"replicon"	"33323506"	0	0	0	3	0	0	0	2	0
+"replicon"	"33338762"	0	0	0	0	0	0	0	2	0
+"replicon"	"333898208"	0	2	0	0	0	41	1	0	0
+"replicon"	"333904249"	0	1	2	0	0	2	0	0	0
+"replicon"	"333911667"	0	45	0	14	0	20	0	211	0
+"replicon"	"333917679"	0	1	0	0	0	0	0	0	0
+"replicon"	"333924895"	0	26	18	0	0	77	25	3	0
+"replicon"	"333929848"	0	22	10	1	0	69	25	1	0
+"replicon"	"334145811"	0	5	2	2	0	30	24	3	0
+"replicon"	"334346522"	0	1	0	0	0	0	0	0	0
+"replicon"	"33465830"	0	0	0	0	0	0	0	1	0
+"replicon"	"335317"	0	0	0	1	0	0	0	1	0
+"replicon"	"33591275"	0	2	0	0	0	0	0	13	0
+"replicon"	"33594723"	0	3	4	0	0	6	1	2	0
+"replicon"	"33598993"	0	0	5	0	0	3	0	1	0
+"replicon"	"336053510"	0	0	0	2	0	1	0	4	0
+"replicon"	"336063372"	0	0	8	0	0	0	0	0	0
+"replicon"	"336112679"	0	0	0	0	0	2	0	0	0
+"replicon"	"336246508"	0	16	11	0	0	64	25	9	0
+"replicon"	"336324561"	0	2	0	48	2	4	0	338	2
+"replicon"	"337277607"	0	1	2	0	0	2	0	0	0
+"replicon"	"337281488"	179	65	153	183	7	213	123	767	5
+"replicon"	"337289620"	0	2	0	0	0	5	1	1	0
+"replicon"	"338202319"	0	0	0	0	0	0	0	1	0
+"replicon"	"338202336"	1	0	0	0	0	0	0	0	0
+"replicon"	"338202359"	0	5	0	0	0	10	8	2	0
+"replicon"	"338736863"	0	0	4	0	0	1	0	0	0
+"replicon"	"339441064"	0	0	0	0	0	0	0	1	0
+"replicon"	"339484941"	0	1	0	0	0	16	0	3	0
+"replicon"	"339492077"	0	5	1	0	0	5	2	6	0
+"replicon"	"339511346"	0	0	0	0	0	0	0	1	0
+"replicon"	"339511347"	0	0	0	0	0	0	0	1	0
+"replicon"	"339511365"	0	0	0	0	0	0	0	2	0
+"replicon"	"339511366"	1	0	0	0	0	0	0	0	0
+"replicon"	"339905954"	0	0	0	0	0	1	0	0	0
+"replicon"	"339998036"	0	5	2	0	0	7	4	0	0
+"replicon"	"340008351"	0	0	0	0	0	0	1	0	0
+"replicon"	"340397867"	75	72	143	74	4	168	79	188	2
+"replicon"	"340620779"	0	0	0	0	0	5	1	0	0
+"replicon"	"340785197"	0	10	8	4	0	38	21	26	0
+"replicon"	"340789630"	0	0	0	0	0	1	0	0	0
+"replicon"	"340792956"	1	116	27	0	0	295	41	5	0
+"replicon"	"342162671"	27	56	3	40	0	86	55	224	2
+"replicon"	"342164902"	29	0	0	0	0	0	0	2	0
+"replicon"	"344205421"	0	351	146	45	1	326	112	976	1
+"replicon"	"344332697"	0	0	0	0	0	5	4	0	0
+"replicon"	"344332706"	0	0	0	0	0	2	2	0	0
+"replicon"	"344915202"	0	11	8	4	0	25	13	15	0
+"replicon"	"345297184"	0	62	63	4	0	125	63	15	0
+"replicon"	"34539880"	9	11	7	2	0	30	12	11	0
+"replicon"	"345428590"	2	862	1130	80	6	2376	2150	434	6
+"replicon"	"346683061"	0	0	1	0	0	0	0	0	0
+"replicon"	"347430512"	0	3	0	0	0	0	0	0	0
+"replicon"	"347524522"	0	0	0	0	0	2	0	0	0
+"replicon"	"347526385"	0	0	0	0	0	1	0	0	0
+"replicon"	"347533700"	0	0	0	0	0	0	0	1	0
+"replicon"	"347750429"	0	3	0	1	0	2	0	0	0
+"replicon"	"347750441"	0	0	0	0	0	1	0	0	0
+"replicon"	"348025247"	0	1	0	0	0	1	0	0	0
+"replicon"	"350268398"	0	0	0	0	0	2	0	0	0
+"replicon"	"350280512"	0	219	391	226	374	301	569	1182	345
+"replicon"	"350280524"	0	267	479	294	433	390	667	1320	406
+"replicon"	"350280536"	0	146	350	214	311	263	451	946	284
+"replicon"	"350280584"	0	0	2	0	0	0	1	0	0
+"replicon"	"350280606"	0	0	3	0	0	0	0	0	0
+"replicon"	"352516173"	0	12	0	0	0	8	0	0	0
+"replicon"	"352683411"	0	0	0	0	2	4	1	2	0
+"replicon"	"352962797"	0	0	2	0	0	0	0	0	0
+"replicon"	"352962809"	0	0	0	0	0	0	3	0	0
+"replicon"	"352962821"	0	0	0	0	0	0	1	0	0
+"replicon"	"352962833"	0	0	1	0	0	0	0	0	0
+"replicon"	"352962857"	0	1	2	0	0	0	0	0	0
+"replicon"	"352962869"	0	2	9	0	0	3	6	0	0
+"replicon"	"352962881"	0	1	14	0	0	1	6	0	0
+"replicon"	"352962893"	0	1	2	0	0	0	1	0	0
+"replicon"	"360034408"	0	0	0	0	0	1	0	4	0
+"replicon"	"365961730"	9	50	0	0	0	14	33	0	0
+"replicon"	"365963975"	15	61	0	0	0	9	31	0	0
+"replicon"	"365966241"	0	0	2	0	0	7	7	0	0
+"replicon"	"365968300"	0	31	70	6	1	92	68	38	0
+"replicon"	"365972921"	10	59	0	1	0	4	21	1	0
+"replicon"	"3688477"	0	0	0	2	0	0	0	1	0
+"replicon"	"371486894"	0	0	0	0	0	1	0	0	0
+"replicon"	"372486701"	0	3	0	0	0	1	0	4	0
+"replicon"	"373447175"	0	0	1	2	0	2	0	1	1
+"replicon"	"373447414"	0	0	0	0	0	0	0	2	0
+"replicon"	"373447653"	0	0	2	0	0	1	0	1	0
+"replicon"	"373447891"	0	0	0	2	0	0	0	2	0
+"replicon"	"373448133"	0	1	1	2	0	0	0	4	0
+"replicon"	"373448367"	0	2	0	1	0	0	0	0	0
+"replicon"	"373448604"	0	0	1	1	1	0	0	2	0
+"replicon"	"373448847"	0	0	4	2	0	0	0	4	0
+"replicon"	"373449076"	0	0	3	1	0	0	0	7	0
+"replicon"	"373449318"	0	0	0	0	1	0	0	4	0
+"replicon"	"373449558"	0	1	0	0	0	0	0	2	0
+"replicon"	"374307319"	57	16	0	20	0	39	27	13	0
+"replicon"	"374337044"	2	0	0	1	0	1	1	3	0
+"replicon"	"374531244"	0	0	0	1	0	0	0	27	0
+"replicon"	"374531645"	0	0	0	0	0	0	0	5	0
+"replicon"	"375133618"	0	178	62	0	0	103	61	7	0
+"replicon"	"37524032"	0	1	2	0	0	0	0	0	0
+"replicon"	"375253814"	74	91	78	12	0	223	72	34	0
+"replicon"	"375256816"	0	22	5	0	0	45	31	3	0
+"replicon"	"375264031"	0	0	1	0	0	2	1	0	0
+"replicon"	"375282101"	0	0	0	0	0	1	3	0	0
+"replicon"	"375287586"	0	3	0	0	0	6	0	0	0
+"replicon"	"375289729"	0	0	0	0	0	0	0	10	0
+"replicon"	"375291975"	0	0	0	8	1	2	0	61	1
+"replicon"	"375356399"	4	9	0	8	1	10	4	24	0
+"replicon"	"37551435"	0	0	4	1	0	1	0	0	1
+"replicon"	"376241700"	0	2	0	16	1	1	0	61	1
+"replicon"	"376244562"	0	0	0	0	0	0	0	11	0
+"replicon"	"376247367"	0	0	0	0	0	0	0	1	1
+"replicon"	"376250168"	0	1	0	1	0	0	0	4	0
+"replicon"	"376253128"	0	1	0	17	0	0	0	90	0
+"replicon"	"376256018"	0	0	0	0	0	0	0	3	0
+"replicon"	"376274175"	0	0	0	0	0	0	1	0	0
+"replicon"	"376276498"	0	0	0	0	0	0	0	1	0
+"replicon"	"376283503"	0	1	0	14	0	5	0	70	1
+"replicon"	"376286528"	0	0	0	5	0	0	0	39	0
+"replicon"	"376289208"	0	0	0	10	1	2	0	50	1
+"replicon"	"376292118"	0	0	0	4	1	1	0	63	2
+"replicon"	"377520096"	0	18	10	4	1	28	20	17	1
+"replicon"	"377542923"	0	0	0	0	0	0	0	1	0
+"replicon"	"377807001"	0	1	0	0	0	0	0	0	0
+"replicon"	"377808757"	0	0	0	0	0	0	0	2	0
+"replicon"	"377808793"	0	0	1	0	0	2	0	0	0
+"replicon"	"378443454"	0	3	3	0	0	6	0	0	0
+"replicon"	"378448274"	0	0	1	0	0	8	1	1	0
+"replicon"	"378696079"	0	643	630	268	13	1765	1050	658	16
+"replicon"	"378697983"	0	1	0	0	0	3	0	0	0
+"replicon"	"378710836"	0	25	8	1	0	55	19	8	0
+"replicon"	"378715377"	0	0	0	0	0	0	0	2	0
+"replicon"	"378764971"	0	0	0	0	0	0	1	0	0
+"replicon"	"378773696"	0	33	10	1	1	81	36	9	0
+"replicon"	"378947941"	0	13	21	2	1	354	12	14	0
+"replicon"	"378953804"	0	1	1	0	0	3	0	0	0
+"replicon"	"378958130"	0	1	1	0	0	6	0	1	0
+"replicon"	"378962821"	0	0	0	2	0	0	0	0	0
+"replicon"	"378972501"	0	0	0	0	0	1	0	0	0
+"replicon"	"378973567"	0	0	0	0	0	2	0	0	0
+"replicon"	"378975690"	0	0	0	0	0	1	0	0	0
+"replicon"	"378975832"	0	0	0	1	0	0	0	15	0
+"replicon"	"378975985"	0	0	0	7	0	0	0	44	0
+"replicon"	"378976146"	0	0	0	0	0	0	0	1	0
+"replicon"	"378976153"	0	0	0	0	0	0	0	1	0
+"replicon"	"378976159"	0	38	22	235	3	66	41	1103	8
+"replicon"	"378982542"	0	5	0	2	0	4	0	24	1
+"replicon"	"378987264"	0	0	0	1	0	0	0	3	0
+"replicon"	"378987404"	0	2	1	0	0	10	1	0	0
+"replicon"	"379013365"	0	29	27	19	0	66	57	27	0
+"replicon"	"379019812"	0	22	36	22	0	70	52	25	0
+"replicon"	"379699217"	0	0	3	0	0	5	0	0	0
+"replicon"	"379704392"	0	5	22	0	0	7	20	3	0
+"replicon"	"379706264"	0	1	0	0	0	7	0	0	0
+"replicon"	"379714283"	0	3	1	0	0	5	0	0	0
+"replicon"	"379726618"	0	0	0	0	0	0	0	1	0
+"replicon"	"379744720"	0	0	0	0	0	1	0	2	0
+"replicon"	"379759437"	0	0	0	0	0	0	0	1	0
+"replicon"	"379793806"	0	0	0	0	0	1	0	0	0
+"replicon"	"379794527"	0	24	21	2	0	42	50	2	0
+"replicon"	"38018022"	0	0	0	0	0	1	1	0	0
+"replicon"	"380710182"	0	8	55	0	0	30	134	1	0
+"replicon"	"380710190"	0	14	80	0	0	36	174	1	0
+"replicon"	"380710198"	0	13	39	1	0	40	185	0	0
+"replicon"	"380710206"	0	13	109	1	0	52	260	0	0
+"replicon"	"380710214"	0	16	81	1	0	47	153	0	0
+"replicon"	"380710222"	0	10	68	1	0	29	199	1	0
+"replicon"	"380710230"	0	16	72	0	0	42	145	0	0
+"replicon"	"380710238"	0	13	55	0	0	30	147	0	0
+"replicon"	"380710246"	0	12	65	0	0	30	189	0	0
+"replicon"	"380710254"	0	17	51	0	0	33	170	0	0
+"replicon"	"380710264"	0	15	57	0	0	36	190	0	0
+"replicon"	"380710272"	0	13	50	0	0	36	197	0	0
+"replicon"	"380710280"	0	13	50	1	0	37	172	1	0
+"replicon"	"380776962"	0	1	0	25	0	2	0	108	0
+"replicon"	"381335653"	0	0	0	0	0	2	0	2	0
+"replicon"	"38229112"	0	0	0	1	0	0	0	1	0
+"replicon"	"38232642"	0	1	0	2	0	2	0	16	0
+"replicon"	"383187966"	0	0	0	0	0	10	8	0	0
+"replicon"	"383309625"	0	33	10	2	0	84	38	16	0
+"replicon"	"383313191"	0	3	1	0	0	7	0	0	0
+"replicon"	"383327320"	0	1	0	1	0	5	3	2	0
+"replicon"	"383479207"	0	1	1	3	0	3	0	0	0
+"replicon"	"383484660"	0	0	0	0	0	2	0	0	0
+"replicon"	"38348858"	0	1	3	10	2	1	0	14	2
+"replicon"	"383493132"	0	1	1	0	0	3	0	2	0
+"replicon"	"383494824"	0	1	0	0	0	7	0	0	0
+"replicon"	"383755859"	0	0	0	0	0	1	0	0	0
+"replicon"	"383843664"	0	0	0	0	0	1	0	0	0
+"replicon"	"383843665"	0	0	0	0	0	0	0	4	0
+"replicon"	"383843666"	1	0	0	0	2	0	0	3	0
+"replicon"	"384120592"	0	0	4	0	0	11	13	1	0
+"replicon"	"384124469"	0	5	4	1	0	8	12	4	0
+"replicon"	"384129960"	0	220	296	220	8	550	409	448	4
+"replicon"	"384133676"	0	0	0	2	0	0	1	5	0
+"replicon"	"384133685"	0	0	0	39	2	4	0	45	0
+"replicon"	"384137007"	0	3	4	1	0	19	11	1	0
+"replicon"	"384141246"	0	214	288	245	7	505	328	426	8
+"replicon"	"384145110"	0	0	0	0	0	0	0	1	0
+"replicon"	"384177910"	0	0	2	0	0	1	0	0	0
+"replicon"	"384189768"	1	0	0	0	0	0	0	0	0
+"replicon"	"384194622"	0	0	0	1	0	0	0	1	0
+"replicon"	"384196195"	0	1	0	3	0	4	0	21	0
+"replicon"	"384198022"	0	0	0	1	0	5	0	1	0
+"replicon"	"384200575"	2	1	0	0	0	2	0	8	0
+"replicon"	"384202563"	0	1	0	7	0	1	0	15	0
+"replicon"	"384222553"	0	0	0	0	0	0	0	1	0
+"replicon"	"384255905"	0	5	1	0	0	17	9	0	0
+"replicon"	"384412706"	0	7	6	0	0	12	17	0	0
+"replicon"	"384417079"	0	0	3	0	0	1	0	0	0
+"replicon"	"384425691"	0	1	1	0	0	0	0	0	0
+"replicon"	"384442354"	0	0	0	0	0	1	0	0	0
+"replicon"	"384503605"	0	1	1	0	0	3	1	0	0
+"replicon"	"384505696"	0	1	0	0	0	1	1	0	0
+"replicon"	"384507788"	0	2	0	0	0	4	0	0	0
+"replicon"	"384509884"	0	2	1	0	0	2	0	0	0
+"replicon"	"384511964"	0	29	5	15	1	66	48	45	0
+"replicon"	"384514544"	0	2	1	0	0	12	0	0	0
+"replicon"	"384516725"	0	37	11	23	1	80	65	70	2
+"replicon"	"384519623"	0	0	0	5	0	0	0	2	0
+"replicon"	"384519696"	0	0	0	1	0	0	0	0	0
+"replicon"	"384519756"	0	0	0	0	0	0	0	2	0
+"replicon"	"384541560"	0	0	0	0	0	0	0	3	0
+"replicon"	"384541569"	0	0	0	0	0	0	0	5	0
+"replicon"	"384541581"	0	12	15	3	0	38	9	10	0
+"replicon"	"384545954"	0	0	0	0	0	0	0	2	0
+"replicon"	"384546269"	0	26	46	5	0	68	38	16	0
+"replicon"	"384548923"	0	20	22	4	0	62	70	10	0
+"replicon"	"384597744"	0	2	0	26	0	1	0	107	0
+"replicon"	"384860682"	0	35	25	18	0	105	60	26	0
+"replicon"	"384863363"	0	0	0	8	0	1	0	1	0
+"replicon"	"384863396"	0	28	27	20	1	79	68	41	0
+"replicon"	"384865886"	0	37	25	10	0	82	50	13	0
+"replicon"	"384868588"	0	34	31	15	1	102	61	24	2
+"replicon"	"385202809"	0	15	154	2	0	66	254	0	0
+"replicon"	"385202810"	0	14	94	0	0	41	160	0	0
+"replicon"	"385202811"	0	194	1248	3	0	586	2620	1	0
+"replicon"	"385202812"	0	11	35	0	0	20	75	0	0
+"replicon"	"385202813"	0	8	77	0	0	24	168	0	0
+"replicon"	"385202814"	0	5	49	0	0	10	98	1	0
+"replicon"	"385235550"	0	141	190	235	8	382	256	438	5
+"replicon"	"385239402"	0	0	0	5	0	0	1	7	0
+"replicon"	"385239413"	0	1	0	13	0	0	0	9	0
+"replicon"	"385323172"	0	87	52	17	0	194	129	137	4
+"replicon"	"385327372"	0	418	107	6	0	1136	199	102	0
+"replicon"	"385334895"	0	5	3	4	0	20	10	116	0
+"replicon"	"385337120"	0	114	165	5	0	303	259	128	1
+"replicon"	"385339062"	0	183	488	11	0	434	411	110	0
+"replicon"	"385340991"	0	418	84	14	0	1073	211	76	1
+"replicon"	"385780298"	0	29	29	15	0	83	38	26	0
+"replicon"	"385782932"	0	0	0	0	0	0	0	1	0
+"replicon"	"385782956"	0	11	5	0	0	20	14	0	0
+"replicon"	"385785459"	0	0	0	0	0	1	0	0	0
+"replicon"	"385806437"	0	2	1	0	0	8	1	0	0
+"replicon"	"385811786"	0	13	19	48	0	34	7	244	0
+"replicon"	"385814818"	0	0	0	0	0	0	0	3	0
+"replicon"	"385816611"	0	0	0	0	0	5	3	3	0
+"replicon"	"385818461"	1	0	0	0	0	0	0	0	0
+"replicon"	"385818534"	0	4	1	0	0	7	11	5	0
+"replicon"	"385821700"	0	2	1	1	0	13	2	7	0
+"replicon"	"385824947"	0	7	3	1	0	15	10	2	0
+"replicon"	"385826720"	0	35	43	115	10	149	137	361	5
+"replicon"	"385829555"	0	0	0	0	0	2	0	0	0
+"replicon"	"385829589"	0	2	0	0	0	0	1	0	0
+"replicon"	"385833938"	0	31	58	103	5	144	154	275	8
+"replicon"	"385836969"	0	0	0	0	0	0	1	0	0
+"replicon"	"385839613"	0	0	0	0	0	0	0	5	0
+"replicon"	"385839804"	0	0	0	1	0	0	0	0	0
+"replicon"	"385839818"	0	1	0	1	0	4	3	0	0
+"replicon"	"385850283"	0	158	224	14	0	460	286	119	2
+"replicon"	"385852231"	1	94	151	7	0	235	183	80	0
+"replicon"	"385854193"	0	114	46	14	0	272	93	113	0
+"replicon"	"385856165"	0	230	45	4	0	639	100	72	1
+"replicon"	"386009639"	0	1	0	0	0	99	0	0	0
+"replicon"	"386014600"	0	0	0	0	0	1	1	0	0
+"replicon"	"386018640"	0	10	0	0	0	11	1	2	0
+"replicon"	"386022942"	7	70	0	0	0	20	5	0	0
+"replicon"	"386032579"	0	33	25	230	8	69	46	1152	7
+"replicon"	"386037709"	0	0	0	0	0	0	0	6	0
+"replicon"	"386056071"	0	61	32	176	1	181	48	1973	0
+"replicon"	"386062973"	0	63	23	331	1	173	45	2870	3
+"replicon"	"386069650"	2	31	0	0	0	13	16	0	0
+"replicon"	"386077236"	0	0	0	0	0	5	0	0	0
+"replicon"	"386083114"	0	0	0	0	0	1	0	0	0
+"replicon"	"386085705"	3	17	51	1	0	67	26	6	0
+"replicon"	"386263233"	0	701	818	357	11	2283	1529	767	13
+"replicon"	"386265029"	0	707	651	485	20	1861	1023	876	11
+"replicon"	"386307442"	0	1	0	0	0	3	4	0	0
+"replicon"	"386315972"	0	0	0	1	0	4	0	7	0
+"replicon"	"386318029"	0	0	0	1	0	1	1	0	0
+"replicon"	"386320386"	0	0	0	0	0	1	0	0	0
+"replicon"	"386326719"	0	36	17	0	0	67	37	0	0
+"replicon"	"386331671"	0	0	0	0	0	1	0	0	0
+"replicon"	"386336689"	1	2	7	0	0	2	1	2	0
+"replicon"	"386343608"	3	20	57	1	0	69	34	9	0
+"replicon"	"386345754"	0	0	0	0	0	2	0	2	0
+"replicon"	"386361880"	0	1	1	1	0	6	6	8	1
+"replicon"	"386577002"	0	0	2	1	0	7	1	1	0
+"replicon"	"386578980"	0	0	2	1	0	3	1	3	0
+"replicon"	"386581047"	0	1	1	0	0	1	2	0	0
+"replicon"	"386583127"	0	1	1	0	0	3	0	0	0
+"replicon"	"386585202"	0	0	0	0	0	2	0	1	0
+"replicon"	"386587281"	0	0	1	0	0	2	0	1	0
+"replicon"	"386589256"	0	2	10	0	0	5	1	0	0
+"replicon"	"386593590"	0	26	16	1	0	64	15	16	2
+"replicon"	"386597751"	0	31	27	30	1	64	24	80	3
+"replicon"	"386602509"	0	0	0	1	0	0	0	11	0
+"replicon"	"386602643"	0	28	26	27	2	80	28	90	3
+"replicon"	"386607309"	0	24	12	1	0	57	46	8	0
+"replicon"	"386611903"	0	0	0	0	0	0	0	1	0
+"replicon"	"386611993"	0	0	0	0	0	4	0	0	0
+"replicon"	"386612163"	0	26	13	2	1	44	17	18	0
+"replicon"	"386617342"	0	0	0	8	0	1	0	17	0
+"replicon"	"386617516"	0	177	71	157	6	349	55	649	6
+"replicon"	"386622414"	0	31	19	13	0	78	22	69	1
+"replicon"	"386627431"	0	0	0	0	0	0	0	5	0
+"replicon"	"386627436"	0	0	0	0	0	0	0	4	0
+"replicon"	"386627502"	1	40	27	21	0	83	27	99	2
+"replicon"	"386632422"	1	32	31	23	0	101	24	121	0
+"replicon"	"386637348"	179	0	0	0	0	0	0	2	0
+"replicon"	"386637352"	1	34	19	30	1	71	20	106	1
+"replicon"	"386698504"	0	21	7	1	0	58	24	7	0
+"replicon"	"386703215"	0	22	6	3	0	61	13	22	0
+"replicon"	"386707734"	0	29	19	0	0	36	12	17	0
+"replicon"	"386716467"	0	165	124	191	1	337	137	2101	2
+"replicon"	"386727822"	0	17	31	6	0	95	81	9	0
+"replicon"	"386730646"	0	0	0	0	0	0	0	1	0
+"replicon"	"386739353"	0	3	2	0	0	3	0	0	0
+"replicon"	"386741417"	0	23	2	22	0	81	177	90	1
+"replicon"	"386829725"	0	33	33	8	0	77	63	11	0
+"replicon"	"386833612"	0	39	5	3	0	68	36	7	0
+"replicon"	"387119833"	0	4	1	0	0	2	7	0	0
+"replicon"	"387122089"	0	220	314	231	18	560	416	468	5
+"replicon"	"387128982"	0	0	0	0	0	0	0	3	0
+"replicon"	"387131618"	10	5	0	0	0	9	3	6	0
+"replicon"	"387132089"	272	8	0	9	3	28	15	31	0
+"replicon"	"387135561"	0	1	0	0	0	3	2	0	0
+"replicon"	"387137613"	0	2	0	0	0	7	1	0	0
+"replicon"	"387139674"	0	0	1	0	0	3	1	0	0
+"replicon"	"387141638"	0	28	30	14	0	89	49	23	0
+"replicon"	"387149188"	0	39	30	22	2	98	72	23	0
+"replicon"	"387502364"	10	63	0	0	0	10	3	2	0
+"replicon"	"387504713"	0	0	0	2	0	0	0	6	0
+"replicon"	"387504721"	0	0	0	0	0	0	0	1	0
+"replicon"	"387504828"	0	0	0	0	0	0	0	2	0
+"replicon"	"387504934"	0	24	6	4	0	57	23	20	0
+"replicon"	"387601291"	0	33	22	4	0	85	68	8	0
+"replicon"	"387604868"	0	0	0	1	0	0	0	2	0
+"replicon"	"387605479"	0	54	31	43	0	193	96	138	1
+"replicon"	"387610385"	0	0	0	0	0	1	0	0	0
+"replicon"	"387610477"	0	15	18	6	0	57	29	26	0
+"replicon"	"387615190"	0	0	0	1	0	0	0	7	0
+"replicon"	"387615344"	0	44	13	26	2	53	22	113	2
+"replicon"	"387619774"	0	30	21	4	0	72	18	3	0
+"replicon"	"387625543"	1	14	16	3	0	19	11	13	0
+"replicon"	"387756560"	2	12	7	2	0	19	13	15	0
+"replicon"	"387758384"	0	7	6	2	0	24	13	31	1
+"replicon"	"387760314"	75	60	120	85	4	168	71	156	3
+"replicon"	"387779217"	0	28	26	7	1	99	53	8	0
+"replicon"	"387783149"	139	112	142	94	2	307	129	179	0
+"replicon"	"387785181"	2	2	0	1	0	0	0	2	0
+"replicon"	"387787130"	0	5	9	5	0	18	27	23	0
+"replicon"	"387823261"	0	38	17	1	0	68	14	10	0
+"replicon"	"387825439"	0	30	9	2	0	43	19	20	0
+"replicon"	"387828053"	0	170	73	146	7	380	71	556	10
+"replicon"	"387866146"	0	0	0	0	0	3	2	0	0
+"replicon"	"387869382"	0	0	0	0	0	3	0	0	0
+"replicon"	"387873410"	0	1	0	0	0	0	0	0	0
+"replicon"	"387878539"	177	105	178	172	5	290	138	823	13
+"replicon"	"387880559"	0	17	9	5	0	47	24	12	0
+"replicon"	"387887350"	0	11	6	0	0	21	9	0	0
+"replicon"	"387891255"	4	98	25	92	0	2566	59	1022	0
+"replicon"	"387900762"	0	2	0	1	0	2	2	3	0
+"replicon"	"387905813"	0	0	0	0	0	1	1	1	0
+"replicon"	"387908808"	7	16	31	5	0	62	20	12	0
+"replicon"	"388476123"	0	17	22	4	0	44	16	9	0
+"replicon"	"389839000"	0	8	1	0	0	8	15	0	0
+"replicon"	"389849360"	0	0	0	0	0	5	0	0	0
+"replicon"	"389855709"	1	0	1	0	0	1	0	0	0
+"replicon"	"389867183"	0	0	0	0	0	3	0	3	0
+"replicon"	"389869887"	0	0	0	0	0	0	0	1	0
+"replicon"	"389870171"	0	0	0	1	0	0	0	0	0
+"replicon"	"389870257"	0	0	0	4	0	0	0	1	0
+"replicon"	"389874236"	0	0	0	2	0	0	0	6	0
+"replicon"	"392301696"	0	0	0	0	0	1	0	0	0
+"replicon"	"392301780"	0	0	0	0	0	0	1	0	0
+"replicon"	"392301804"	0	0	1	0	0	1	1	0	0
+"replicon"	"392301816"	0	0	4	0	0	2	5	0	0
+"replicon"	"392301828"	0	0	1	0	0	2	4	0	0
+"replicon"	"392301840"	0	0	0	0	0	0	3	0	0
+"replicon"	"392301900"	0	1	1	0	0	0	2	0	0
+"replicon"	"392301912"	0	0	3	0	0	1	3	0	0
+"replicon"	"392301924"	0	0	0	0	0	0	4	0	0
+"replicon"	"392301936"	0	0	1	0	0	0	4	0	0
+"replicon"	"392301948"	0	2	2	0	0	0	0	0	0
+"replicon"	"392301960"	0	1	2	0	0	0	3	0	0
+"replicon"	"392301972"	0	1	1	0	0	1	4	0	0
+"replicon"	"392301984"	0	3	2	0	0	15	12	0	0
+"replicon"	"392301996"	0	0	1	0	0	0	0	0	0
+"replicon"	"392302008"	0	0	1	0	0	0	3	0	0
+"replicon"	"392302020"	0	0	2	0	0	1	0	0	0
+"replicon"	"392389424"	0	1	0	0	0	2	0	0	0
+"replicon"	"392399583"	0	93	14	1	0	231	17	0	0
+"replicon"	"392419087"	0	3	0	1	0	55	1	4	0
+"replicon"	"392427891"	0	2	3	7	0	8	2	21	0
+"replicon"	"392976417"	0	1	0	0	0	0	0	0	0
+"replicon"	"392976441"	0	0	0	0	0	0	1	0	0
+"replicon"	"392976867"	0	25	24	2	0	62	58	55	0
+"replicon"	"392981410"	0	65	22	201	1	173	47	1809	0
+"replicon"	"392987295"	0	2	0	0	0	2	0	1	0
+"replicon"	"393198727"	0	1	0	0	0	0	1	0	0
+"replicon"	"395443650"	0	0	1	0	0	13	1	5	0
+"replicon"	"397648808"	0	2	0	1	0	1	0	3	0
+"replicon"	"397652752"	0	6	0	0	0	13	2	1	0
+"replicon"	"397655102"	0	25	13	0	0	70	35	25	1
+"replicon"	"397660804"	0	1	0	1	0	0	0	7	0
+"replicon"	"397668839"	0	2	0	1	0	5	0	11	0
+"replicon"	"397685123"	0	0	0	0	0	10	1	0	0
+"replicon"	"397692770"	0	1	0	0	0	5	0	1	0
+"replicon"	"397698583"	0	32	0	17	3	54	69	57	1
+"replicon"	"398255449"	0	178	1364	1	2	572	2936	1	0
+"replicon"	"399529119"	0	0	0	0	0	0	0	2	0
+"replicon"	"401761514"	0	57	59	11	0	135	60	150	0
+"replicon"	"401823911"	0	0	38	0	0	0	3	0	0
+"replicon"	"402479281"	0	166	1514	1	0	610	3083	1	0
+"replicon"	"402552844"	0	1	0	0	0	0	2	0	0
+"replicon"	"402564811"	0	0	0	0	0	0	1	7	0
+"replicon"	"402567932"	0	0	0	0	0	0	0	1	0
+"replicon"	"402778297"	0	27	27	210	12	71	44	843	5
+"replicon"	"403056439"	0	3	1	1	0	16	4	0	0
+"replicon"	"403060703"	0	0	4	0	0	1	1	1	0
+"replicon"	"403514032"	0	0	0	1	0	1	0	0	0
+"replicon"	"403521294"	0	0	0	0	0	1	0	0	0
+"replicon"	"404434716"	0	0	0	0	0	1	3	0	0
+"replicon"	"404434717"	0	0	0	0	0	1	2	0	0
+"replicon"	"404477334"	0	32	28	6	1	78	65	6	0
+"replicon"	"405759923"	3	19	5	8	2	65	16	32	1
+"replicon"	"406025807"	0	0	0	0	0	0	0	2	0
+"replicon"	"406025865"	0	2	0	0	0	8	0	0	0
+"replicon"	"406028180"	0	0	0	1	0	0	0	1	0
+"replicon"	"406598989"	0	25	0	0	0	3	0	0	0
+"replicon"	"406678922"	0	0	0	0	0	0	0	2	0
+"replicon"	"406679016"	0	0	0	0	0	0	0	4	0
+"replicon"	"406679107"	0	0	0	1	0	0	0	0	1
+"replicon"	"406679199"	0	0	0	0	0	0	0	1	0
+"replicon"	"406679291"	0	0	0	0	0	0	0	2	0
+"replicon"	"406708523"	0	2	11	52	3	2	3	85	2
+"replicon"	"407450786"	0	0	0	0	0	3	0	0	0
+"replicon"	"407466711"	0	31	6	2	0	52	12	19	0
+"replicon"	"407471876"	0	0	0	0	0	0	0	1	0
+"replicon"	"407479587"	0	20	10	4	0	47	22	26	0
+"replicon"	"407484675"	0	0	0	2	0	0	0	4	0
+"replicon"	"407484805"	0	0	0	0	0	0	0	2	0
+"replicon"	"407691594"	0	72	164	5	0	281	281	1	0
+"replicon"	"407693844"	0	0	0	0	0	0	0	2	0
+"replicon"	"407717513"	0	3	0	0	0	0	0	0	0
+"replicon"	"407930685"	0	160	244	246	8	455	286	429	9
+"replicon"	"407934369"	13	50	0	0	0	18	5	1	0
+"replicon"	"407936729"	0	3	0	1	0	3	0	9	0
+"replicon"	"408400746"	0	1	0	1	0	4	0	8	0
+"replicon"	"408414082"	0	0	0	0	0	3	0	6	0
+"replicon"	"408669191"	2	3	0	0	0	1	0	0	0
+"replicon"	"408905835"	1	0	0	0	0	0	0	0	0
+"replicon"	"408905844"	0	0	0	0	0	1	0	0	0
+"replicon"	"409247109"	0	1	0	0	0	3	0	0	0
+"replicon"	"409913960"	0	4	0	5	1	7	3	13	0
+"replicon"	"409995665"	0	6	0	1	0	12	5	2	0
+"replicon"	"410032027"	0	8	52	0	0	28	177	0	0
+"replicon"	"410417816"	0	1	0	0	0	1	0	4	0
+"replicon"	"410470815"	0	2	2	0	0	1	0	2	0
+"replicon"	"410475456"	0	2	0	0	0	2	4	6	0
+"replicon"	"410475457"	2	3	7	7	0	20	18	16	0
+"replicon"	"410480052"	0	0	0	0	0	0	0	1	0
+"replicon"	"410480139"	0	21	8	4	0	41	12	15	0
+"replicon"	"410593712"	0	3	7	10	0	5	1	32	0
+"replicon"	"410683947"	0	1	0	0	0	0	0	0	0
+"replicon"	"41189515"	0	0	0	1	0	0	0	0	0
+"replicon"	"412337338"	0	1	1	1	0	3	0	4	0
+"replicon"	"414073323"	0	3	0	0	0	0	0	0	0
+"replicon"	"417358931"	0	2	1	0	0	8	13	0	0
+"replicon"	"418489383"	0	0	0	0	0	0	0	1	0
+"replicon"	"423261980"	0	0	0	1	1	1	3	4	0
+"replicon"	"42516522"	27	22	165	5	0	63	50	23	0
+"replicon"	"42518084"	0	9	6	1	0	18	21	6	0
+"replicon"	"425706118"	0	4	59	0	0	5	35	0	0
+"replicon"	"42632299"	0	0	0	0	0	0	0	7	0
+"replicon"	"426406915"	0	25	21	1	0	2059	34	25	0
+"replicon"	"42779081"	0	0	0	1	0	0	0	0	0
+"replicon"	"428161102"	0	0	0	0	0	0	0	1	0
+"replicon"	"428205073"	0	0	0	0	0	2	0	0	0
+"replicon"	"428277412"	0	0	0	0	0	0	1	0	0
+"replicon"	"428765681"	0	24	2	26	2	69	62	48	0
+"replicon"	"428782011"	0	1	0	1	0	1	0	0	0
+"replicon"	"428782787"	0	6	0	0	0	0	0	0	0
+"replicon"	"428783279"	0	1	0	0	0	0	0	0	0
+"replicon"	"431799958"	0	1	0	0	0	86	0	3	0
+"replicon"	"431805251"	0	2	0	4	0	1	0	34	0
+"replicon"	"431925209"	2	2	0	0	0	19	0	7	0
+"replicon"	"433651058"	6	4	0	0	0	6	0	9	0
+"replicon"	"433652471"	22	0	0	1	0	4	0	19	0
+"replicon"	"437999533"	0	0	0	0	0	0	0	1	0
+"replicon"	"440228796"	0	49	6	0	0	108	16	6	0
+"replicon"	"440285501"	0	26	30	1	0	50	11	3	0
+"replicon"	"443615330"	0	18	8	3	0	44	18	25	0
+"replicon"	"444324184"	0	0	0	6	0	0	0	27	0
+"replicon"	"444324407"	0	0	0	9	0	0	0	20	0
+"replicon"	"444350194"	0	20	9	2	0	54	35	12	0
+"replicon"	"445058371"	0	12	3	0	0	10	10	0	0
+"replicon"	"4456886"	0	0	3	0	0	0	0	0	0
+"replicon"	"447911521"	0	3	0	0	0	3	0	4	0
+"replicon"	"447915004"	0	37	24	6	0	1643	24	119	0
+"replicon"	"448239774"	0	789	506	131	4	1889	1062	1559	5
+"replicon"	"448244584"	0	1	0	0	0	0	0	1	0
+"replicon"	"448244985"	0	0	0	0	0	0	0	1	0
+"replicon"	"448245045"	0	0	0	1	0	0	0	4	0
+"replicon"	"448822683"	0	0	0	16	1	1	0	46	1
+"replicon"	"449306365"	0	0	0	0	0	0	0	3	0
+"replicon"	"449306421"	0	0	0	5	0	0	0	15	0
+"replicon"	"449306535"	0	4	6	1	0	9	8	3	0
+"replicon"	"451942744"	0	246	94	0	0	659	168	9	0
+"replicon"	"452119554"	0	4	1	0	0	10	2	1	0
+"replicon"	"452892165"	0	0	0	1	0	0	0	0	0
+"replicon"	"45439865"	0	4	5	0	0	6	15	4	0
+"replicon"	"455737153"	0	65	179	102	4	186	122	438	1
+"replicon"	"456062337"	0	2	0	0	0	0	0	0	0
+"replicon"	"46198308"	0	0	0	0	0	2	0	0	0
+"replicon"	"462045533"	0	0	0	0	0	0	0	1	0
+"replicon"	"46369870"	0	14	64	0	0	32	200	0	0
+"replicon"	"46401626"	0	0	0	1	0	0	0	5	0
+"replicon"	"465285143"	0	0	0	0	0	0	5	0	0
+"replicon"	"469816145"	0	0	0	14	3	3	0	68	0
+"replicon"	"469816294"	0	0	0	0	0	0	0	2	0
+"replicon"	"469820173"	0	1	0	0	0	0	0	0	0
+"replicon"	"469820182"	0	191	267	24	2	481	394	69	0
+"replicon"	"470152509"	0	5	0	0	0	18	13	0	0
+"replicon"	"470157235"	0	0	0	0	0	0	0	1	0
+"replicon"	"470157438"	0	1	0	0	0	2	1	2	0
+"replicon"	"470165991"	0	178	106	2	0	338	306	2	0
+"replicon"	"470173039"	0	0	0	0	0	0	0	1	0
+"replicon"	"470180668"	0	1	0	0	0	1	1	0	0
+"replicon"	"470190315"	0	21	25	18	0	66	49	32	1
+"replicon"	"470192280"	0	28	29	15	0	75	58	43	0
+"replicon"	"470194245"	0	21	30	18	1	87	59	33	0
+"replicon"	"470196211"	0	24	33	18	0	69	42	25	0
+"replicon"	"470198176"	0	23	21	19	0	61	47	24	3
+"replicon"	"470201995"	0	0	0	0	0	0	0	1	0
+"replicon"	"470211964"	0	2	0	0	0	0	0	0	0
+"replicon"	"470217946"	0	30	31	13	1	79	47	29	0
+"replicon"	"470221770"	0	21	23	17	0	65	53	34	0
+"replicon"	"470223734"	0	21	28	13	0	66	49	34	0
+"replicon"	"470461182"	0	3	0	0	0	3	1	0	0
+"replicon"	"470469929"	0	0	1	0	0	0	0	1	0
+"replicon"	"47088326"	0	0	0	0	0	0	0	2	0
+"replicon"	"471265562"	0	0	3	0	0	0	0	0	0
+"replicon"	"471332236"	0	23	21	1	0	45	13	10	0
+"replicon"	"472323176"	0	7	1	0	0	35	7	11	0
+"replicon"	"472332507"	0	23	40	0	0	32	122	1	0
+"replicon"	"472335239"	0	16	50	1	0	38	133	0	0
+"replicon"	"472433664"	0	3	0	0	0	3	0	2	0
+"replicon"	"472433924"	0	0	0	0	0	0	0	1	0
+"replicon"	"472433974"	0	1	0	0	0	0	0	0	0
+"replicon"	"472434164"	0	1	0	0	0	0	0	0	0
+"replicon"	"472455754"	0	0	0	0	0	0	0	1	0
+"replicon"	"476411542"	0	0	0	0	0	0	1	0	0
+"replicon"	"476417161"	0	0	0	5	0	3	1	22	0
+"replicon"	"476419016"	1	0	0	0	0	1	0	2	1
+"replicon"	"478476202"	0	55	18	209	1	132	48	2062	0
+"replicon"	"478483683"	0	0	0	0	0	2	1	0	0
+"replicon"	"479133135"	0	1	0	1	0	0	0	1	0
+"replicon"	"479134147"	3	17	10	4	0	36	23	18	0
+"replicon"	"479134154"	2	5	9	5	0	36	28	19	0
+"replicon"	"479134917"	1	0	0	0	0	0	0	4	0
+"replicon"	"479155735"	0	0	0	0	0	0	0	1	0
+"replicon"	"479166807"	0	0	0	0	0	0	0	4	0
+"replicon"	"479170689"	0	0	0	0	0	1	0	1	0
+"replicon"	"479176048"	0	0	0	0	0	0	0	1	0
+"replicon"	"479179495"	0	13	1	15	0	17	17	43	0
+"replicon"	"479181986"	0	0	0	0	0	0	1	3	0
+"replicon"	"479185170"	18	0	0	4	0	0	0	0	0
+"replicon"	"479197640"	3	0	0	1	0	3	0	6	0
+"replicon"	"479201824"	0	0	0	0	0	1	0	0	0
+"replicon"	"479210985"	0	0	0	0	0	0	0	1	0
+"replicon"	"479270911"	0	50	17	113	2	116	70	1486	1
+"replicon"	"479327332"	0	0	0	0	0	0	1	0	0
+"replicon"	"479327350"	0	1	0	0	0	0	0	0	0
+"replicon"	"479327380"	0	0	0	0	0	0	1	0	0
+"replicon"	"479327400"	0	0	0	0	0	0	6	0	0
+"replicon"	"479327429"	0	0	0	0	0	0	2	0	0
+"replicon"	"479327439"	0	0	1	0	0	0	0	0	0
+"replicon"	"479327478"	0	0	0	0	0	0	1	0	0
+"replicon"	"479327487"	0	0	0	0	0	0	6	0	0
+"replicon"	"479327497"	0	0	0	0	0	0	2	0	0
+"replicon"	"479327546"	0	0	0	0	0	0	2	0	0
+"replicon"	"479328021"	0	4	9	23	1	18	15	38	1
+"replicon"	"479330719"	0	0	0	1	0	0	0	2	0
+"replicon"	"479336697"	0	0	0	2	0	1	1	3	0
+"replicon"	"480527845"	0	0	0	0	0	2	0	0	0
+"replicon"	"480527846"	0	0	0	0	0	1	2	0	0
+"replicon"	"480530348"	5	5	5	1	0	14	12	12	0
+"replicon"	"480532168"	2	9	6	4	1	19	12	19	0
+"replicon"	"480533968"	2	10	5	1	0	13	15	19	0
+"replicon"	"480535788"	0	9	14	3	0	14	19	15	0
+"replicon"	"480542665"	0	0	0	1	0	1	0	0	0
+"replicon"	"480542938"	0	0	0	0	0	0	0	1	0
+"replicon"	"480543209"	0	0	0	0	1	0	0	1	0
+"replicon"	"480543485"	0	0	0	1	0	0	0	2	0
+"replicon"	"481112035"	0	0	1	0	0	0	0	1	0
+"replicon"	"481847813"	0	7	2	0	0	27	23	1	0
+"replicon"	"482884694"	0	19	52	1	0	36	122	2	0
+"replicon"	"482889214"	8	44	0	0	0	10	0	0	0
+"replicon"	"482892482"	0	0	0	0	0	5	0	0	0
+"replicon"	"482897536"	0	1	0	0	0	5	1	0	0
+"replicon"	"482902549"	0	2	1	0	0	4	1	0	0
+"replicon"	"482907133"	0	0	0	0	0	0	0	2	0
+"replicon"	"482907335"	0	0	0	0	0	1	0	2	0
+"replicon"	"485191029"	0	0	0	0	0	0	0	1	0
+"replicon"	"488575046"	0	0	1	0	0	0	0	0	0
+"replicon"	"488601775"	0	0	0	0	0	0	0	1	0
+"replicon"	"488650489"	1	11	5	10	1	18	5	51	2
+"replicon"	"488652559"	0	1	3	0	0	1	2	0	0
+"replicon"	"49169782"	0	9	44	1	0	21	140	0	0
+"replicon"	"494702401"	0	2	13	13	1	3	1	24	1
+"replicon"	"49482253"	0	19	23	12	0	77	53	17	2
+"replicon"	"49484912"	0	33	37	10	0	81	76	16	2
+"replicon"	"499142348"	0	0	0	0	0	2	1	1	0
+"replicon"	"50083297"	0	21	52	1	0	37	57	2	0
+"replicon"	"501145231"	0	0	0	1	0	0	0	2	0
+"replicon"	"501145339"	0	0	0	0	0	1	0	0	0
+"replicon"	"50118965"	0	0	1	0	0	1	1	0	0
+"replicon"	"501435806"	0	0	0	0	0	1	0	0	0
+"replicon"	"501673812"	0	9	27	42	0	44	2	279	0
+"replicon"	"501677485"	0	7	7	1	0	426	17	21	0
+"replicon"	"507380240"	12	361	599	25	0	1024	627	60	0
+"replicon"	"507514533"	0	1	0	0	0	0	0	0	0
+"replicon"	"508126650"	0	0	1	0	0	0	0	0	0
+"replicon"	"50841496"	9	55	0	0	0	14	1	0	0
+"replicon"	"50844468"	0	0	0	0	0	0	1	0	0
+"replicon"	"508605261"	0	9	7	1	0	18	2	0	0
+"replicon"	"50913346"	0	1	0	2	0	6	2	5	0
+"replicon"	"511052542"	0	0	0	0	0	0	0	2	0
+"replicon"	"511055778"	0	0	0	0	0	0	0	2	0
+"replicon"	"511774854"	0	2	23	0	0	16	52	0	0
+"replicon"	"511774866"	0	0	1	0	0	0	4	0	0
+"replicon"	"512442353"	0	0	0	0	0	0	0	5	0
+"replicon"	"512538239"	0	3	4	45	2	7	14	114	2
+"replicon"	"512543719"	0	1	3	16	0	13	5	31	1
+"replicon"	"512576139"	0	8	2	4	0	61	0	26	0
+"replicon"	"512590512"	0	10	0	2	0	5	8	0	0
+"replicon"	"512615653"	0	2	1	0	0	31	4	1	0
+"replicon"	"512647881"	0	8	19	0	0	16	4	1	0
+"replicon"	"512657636"	0	0	0	0	0	0	0	1	0
+"replicon"	"512683057"	0	3	6	0	0	30	1	0	0
+"replicon"	"512689975"	0	1	0	2	0	0	0	5	0
+"replicon"	"512697424"	0	1	6	13	0	10	5	41	0
+"replicon"	"513843219"	0	0	0	0	0	0	0	1	0
+"replicon"	"514058020"	0	0	0	0	0	0	1	0	0
+"replicon"	"514058035"	0	0	0	0	0	0	14	0	0
+"replicon"	"514058762"	0	5	1	0	0	9	13	0	0
+"replicon"	"514064966"	0	25	31	12	0	62	50	47	0
+"replicon"	"514407635"	0	53	28	204	0	124	46	1875	1
+"replicon"	"51594359"	0	6	3	0	0	15	10	2	0
+"replicon"	"518646702"	0	46	14	1	0	94	37	0	0
+"replicon"	"518656469"	0	0	0	0	0	0	0	1	0
+"replicon"	"521166214"	0	36	14	0	1	104	29	1	0
+"replicon"	"521178150"	0	1	0	0	0	6	0	0	0
+"replicon"	"521187702"	0	72	34	0	0	231	28	0	0
+"replicon"	"521210823"	0	37	29	15	0	78	50	26	0
+"replicon"	"523414886"	0	1	2	10	1	12	1	11	0
+"replicon"	"523512490"	0	6	0	8	0	8	3	13	0
+"replicon"	"523515562"	0	0	0	0	0	0	0	2	0
+"replicon"	"523515595"	0	35	43	219	9	171	119	602	13
+"replicon"	"523518464"	0	39	51	92	5	145	182	280	3
+"replicon"	"523521389"	0	211	269	232	15	525	322	458	8
+"replicon"	"523525145"	0	0	0	1	0	0	0	0	0
+"replicon"	"523525242"	0	1	0	1	0	1	0	5	0
+"replicon"	"523525298"	0	110	203	215	5	275	204	480	4
+"replicon"	"523529002"	0	0	0	1	0	0	1	5	0
+"replicon"	"523529100"	0	1	0	0	0	0	0	2	0
+"replicon"	"523529121"	0	131	199	34	0	351	271	76	1
+"replicon"	"523801190"	0	3	8	0	0	12	30	0	0
+"replicon"	"523801201"	0	2	2	0	0	3	4	0	0
+"replicon"	"523801206"	0	7	14	0	0	13	58	0	0
+"replicon"	"523801211"	0	0	2	0	0	3	10	0	0
+"replicon"	"523911441"	0	0	0	0	0	0	0	1	0
+"replicon"	"52424055"	0	9	3	0	0	19	3	0	0
+"replicon"	"524849151"	0	0	0	0	0	0	0	1	0
+"replicon"	"524849535"	0	0	0	0	0	0	0	1	0
+"replicon"	"525655613"	0	19	37	0	0	38	123	0	0
+"replicon"	"525662379"	0	18	43	1	0	40	110	0	0
+"replicon"	"525689963"	0	40	69	1	0	123	106	1	1
+"replicon"	"525695032"	0	3	14	0	0	22	21	1	0
+"replicon"	"525701099"	0	19	39	0	0	34	120	2	0
+"replicon"	"525706521"	1	0	0	0	0	1	2	3	0
+"replicon"	"525808973"	0	3	3	2	0	6	3	4	1
+"replicon"	"525811113"	0	0	0	0	0	0	0	2	0
+"replicon"	"525814190"	0	4	3	0	0	8	4	0	0
+"replicon"	"525832341"	0	0	0	0	0	0	0	25	0
+"replicon"	"525833502"	0	0	0	0	0	0	0	1	0
+"replicon"	"525836786"	0	2	2	0	0	5	0	1	0
+"replicon"	"525842565"	0	0	0	0	0	0	0	2	0
+"replicon"	"525855729"	0	5	3	1	0	11	1	1	0
+"replicon"	"525932970"	0	0	0	0	0	0	0	3	0
+"replicon"	"525937625"	0	1	0	2	0	0	0	2	0
+"replicon"	"525945526"	0	1	1	0	0	7	1	0	0
+"replicon"	"525968348"	0	1	0	0	0	0	0	0	0
+"replicon"	"526178036"	0	0	0	0	0	0	0	1	0
+"replicon"	"526218030"	0	2	0	0	0	7	0	0	0
+"replicon"	"526225953"	0	2	1	0	0	9	2	0	0
+"replicon"	"526230725"	0	6	0	0	0	13	7	0	0
+"replicon"	"526244872"	0	0	0	0	0	0	0	2	0
+"replicon"	"526467231"	0	18	39	0	0	46	122	1	0
+"replicon"	"527329219"	1	2	7	0	0	3	3	3	0
+"replicon"	"528816716"	0	2	1	0	0	7	1	4	0
+"replicon"	"528981796"	0	32	47	131	1	41	104	947	0
+"replicon"	"529054381"	0	0	0	0	0	1	0	0	0
+"replicon"	"529067771"	0	0	0	0	0	0	0	1	0
+"replicon"	"529087732"	0	0	0	0	0	4	5	0	0
+"replicon"	"529218781"	0	2	1	0	0	3	0	0	0
+"replicon"	"529229871"	0	0	0	0	0	0	0	6	0
+"replicon"	"529230034"	0	0	0	1	0	0	0	0	0
+"replicon"	"529232713"	0	1	0	3	1	3	1	6	0
+"replicon"	"529235720"	0	21	13	78	0	81	87	149	7
+"replicon"	"529974880"	0	0	0	0	0	0	0	17	0
+"replicon"	"529985600"	0	30	20	166	3	64	43	819	7
+"replicon"	"530314182"	0	0	0	0	0	0	0	2	0
+"replicon"	"530409698"	0	0	4	0	0	1	6	0	0
+"replicon"	"530572997"	0	3	0	10	1	0	0	47	0
+"replicon"	"530627845"	0	44	24	204	14	114	37	1112	6
+"replicon"	"530802061"	0	2	37	0	0	12	100	0	0
+"replicon"	"530802069"	0	4	51	0	0	38	192	1	0
+"replicon"	"530802077"	0	8	27	0	0	22	124	0	0
+"replicon"	"530802085"	0	7	39	0	0	17	100	0	0
+"replicon"	"530802093"	0	6	48	0	0	18	112	0	0
+"replicon"	"530802101"	0	1	26	0	0	5	93	0	0
+"replicon"	"530802109"	0	17	98	0	0	38	175	0	0
+"replicon"	"530802117"	0	3	20	1	0	11	78	0	0
+"replicon"	"530802125"	0	18	64	0	0	37	154	0	0
+"replicon"	"530802133"	0	7	34	0	0	11	90	0	0
+"replicon"	"530802141"	0	1	29	0	0	17	103	0	0
+"replicon"	"530802159"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802191"	0	0	0	0	0	1	1	0	0
+"replicon"	"530802246"	0	0	0	0	0	0	5	0	0
+"replicon"	"530802257"	0	0	0	0	0	2	0	0	0
+"replicon"	"530802268"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802279"	0	0	0	0	0	0	2	0	0
+"replicon"	"530802290"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802312"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802377"	0	0	0	0	0	1	2	0	0
+"replicon"	"530802399"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802410"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802454"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802465"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802476"	0	1	0	0	0	1	1	0	0
+"replicon"	"530802498"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802531"	0	0	0	0	0	1	3	0	0
+"replicon"	"530802542"	0	1	0	0	0	0	1	0	0
+"replicon"	"530802564"	0	0	0	0	0	0	1	0	0
+"replicon"	"530802575"	0	0	0	0	0	1	0	0	0
+"replicon"	"530802586"	0	0	0	0	0	1	0	0	0
+"replicon"	"530891924"	0	0	0	0	0	2	1	2	0
+"replicon"	"532129140"	0	0	0	1	0	0	0	0	0
+"replicon"	"532129754"	0	4	132	0	0	26	74	0	0
+"replicon"	"532129773"	0	22	207	1	0	72	369	0	0
+"replicon"	"532129782"	0	2	39	0	0	16	83	0	0
+"replicon"	"532129791"	0	0	3	0	0	0	7	0	0
+"replicon"	"532129801"	0	9	30	1	0	19	71	0	0
+"replicon"	"532129810"	0	0	1	0	0	0	1	0	0
+"replicon"	"532129823"	0	7	108	1	0	48	197	0	0
+"replicon"	"532129859"	0	1	1	0	0	0	4	0	0
+"replicon"	"532129878"	0	9	91	0	0	24	156	0	0
+"replicon"	"532129896"	0	6	85	0	0	27	103	1	0
+"replicon"	"532129905"	0	1	0	0	0	3	7	0	0
+"replicon"	"532129916"	0	4	63	0	0	26	115	0	0
+"replicon"	"532129925"	0	2	73	0	0	13	78	0	0
+"replicon"	"532129948"	0	0	5	0	0	0	1	0	0
+"replicon"	"532130000"	0	1	9	0	0	4	7	0	0
+"replicon"	"532130689"	0	0	0	0	0	0	0	1	0
+"replicon"	"532130742"	0	0	0	0	0	0	0	1	0
+"replicon"	"532354121"	130	10	3	7	0	24	25	25	1
+"replicon"	"532355525"	0	3	1	2	1	7	5	9	2
+"replicon"	"532358222"	0	20	21	5	0	49	45	14	0
+"replicon"	"532433692"	0	0	0	1	0	0	0	0	0
+"replicon"	"532435496"	29	21	10	3	0	64	57	21	0
+"replicon"	"534508017"	8	157	315	62	0	511	311	82	0
+"replicon"	"534701969"	0	140	91	1	0	419	93	7	0
+"replicon"	"53711291"	0	1	0	4	1	12	0	33	0
+"replicon"	"53717639"	0	0	0	1	0	0	0	0	0
+"replicon"	"537435369"	0	3	0	0	0	7	3	0	0
+"replicon"	"537441500"	0	31	25	6	0	60	53	18	1
+"replicon"	"537459744"	0	22	20	19	0	76	100	18	0
+"replicon"	"537462731"	0	0	0	1	0	0	0	1	0
+"replicon"	"537801800"	0	0	0	0	0	0	0	1	0
+"replicon"	"538346599"	5	1	0	12	1	9	0	32	0
+"replicon"	"538349851"	2	0	0	11	0	8	0	23	1
+"replicon"	"538353400"	7	2	1	15	1	5	2	23	1
+"replicon"	"538357775"	54	4	14	17	4	7	1	49	1
+"replicon"	"538360566"	0	1	0	0	0	0	0	0	0
+"replicon"	"538369494"	61	2	4	8	1	5	0	44	1
+"replicon"	"538374242"	3	5	0	9	0	5	1	22	1
+"replicon"	"538379295"	3	3	1	11	0	9	3	25	0
+"replicon"	"54021964"	0	0	0	0	0	1	0	0	0
+"replicon"	"540342156"	0	3	14	0	0	5	22	0	0
+"replicon"	"54292964"	0	0	0	0	0	0	1	0	0
+"replicon"	"54295983"	0	0	0	0	0	1	0	0	0
+"replicon"	"54307237"	0	0	0	0	0	2	0	0	0
+"replicon"	"543171587"	1	0	0	0	0	0	0	0	0
+"replicon"	"543171632"	1	0	0	0	0	0	0	0	0
+"replicon"	"543941914"	0	1	0	0	0	2	1	0	0
+"replicon"	"543951066"	4	370	573	243	17	1110	966	645	12
+"replicon"	"544388862"	0	24	4	2	0	45	13	9	0
+"replicon"	"544393402"	0	2	0	0	0	0	0	0	0
+"replicon"	"544574430"	1	39	20	20	2	78	30	101	0
+"replicon"	"544579032"	0	0	0	0	0	0	0	20	0
+"replicon"	"545628283"	0	1	0	0	0	0	0	0	0
+"replicon"	"545633528"	0	29	18	13	0	64	40	25	0
+"replicon"	"545636471"	0	31	27	7	0	80	44	16	2
+"replicon"	"545699145"	0	8	106	0	0	15	81	0	0
+"replicon"	"545699154"	0	12	98	0	0	33	114	0	0
+"replicon"	"545699163"	0	0	0	0	0	0	2	0	0
+"replicon"	"548558394"	0	0	0	39	0	0	0	294	0
+"replicon"	"549452631"	1	0	3	0	0	4	1	0	0
+"replicon"	"549471505"	0	0	0	0	0	0	0	2	0
+"replicon"	"549478129"	0	6	1	0	0	17	0	0	0
+"replicon"	"549487522"	0	0	0	0	0	1	0	1	0
+"replicon"	"549700897"	0	0	1	0	0	1	1	2	0
+"replicon"	"549704410"	0	3	0	0	0	0	0	0	0
+"replicon"	"549707555"	0	5	0	0	0	1	0	0	0
+"replicon"	"549713031"	0	0	4	0	0	1	0	0	0
+"replicon"	"549722728"	0	4	1	0	0	8	1	0	0
+"replicon"	"549728080"	0	0	0	0	0	1	0	0	0
+"replicon"	"550443072"	0	32	22	277	6	93	36	1142	10
+"replicon"	"550899431"	0	2	3	0	0	9	0	1	0
+"replicon"	"552628837"	14	26	73	52	3	93	53	165	0
+"replicon"	"552737301"	4	26	91	27	1	70	55	160	1
+"replicon"	"554463091"	0	1	0	0	0	0	1	0	0
+"replicon"	"554572927"	0	0	1	0	0	0	0	0	0
+"replicon"	"554573638"	0	1	0	0	0	0	0	0	0
+"replicon"	"554574102"	0	0	0	1	0	0	0	1	0
+"replicon"	"554575035"	0	0	0	0	0	0	0	2	0
+"replicon"	"554575962"	0	0	0	0	0	0	0	1	0
+"replicon"	"554581631"	0	3	0	55	0	2	2	266	1
+"replicon"	"554642795"	0	28	26	9	0	66	60	23	0
+"replicon"	"554648462"	0	2	1	0	0	8	1	1	0
+"replicon"	"556503834"	0	31	15	1	0	52	18	12	0
+"replicon"	"556550243"	0	67	33	201	10	158	50	698	10
+"replicon"	"556555082"	0	0	0	0	0	0	0	3	0
+"replicon"	"556555179"	0	0	0	14	0	0	0	75	2
+"replicon"	"556560056"	3	5	13	5	0	13	30	17	0
+"replicon"	"556579581"	0	0	0	0	0	0	0	8	0
+"replicon"	"556587607"	0	1	1	0	0	4	1	0	0
+"replicon"	"556589855"	0	3	2	0	0	15	9	0	0
+"replicon"	"557220722"	0	0	0	1	0	62	0	0	0
+"replicon"	"557225837"	0	5	0	1	0	4	0	9	0
+"replicon"	"557607004"	0	0	2	0	0	0	0	0	0
+"replicon"	"557826865"	0	21	0	0	0	0	0	0	0
+"replicon"	"55820103"	12	37	67	3	0	55	21	3	0
+"replicon"	"55821993"	10	21	60	7	0	62	23	6	0
+"replicon"	"55847711"	0	0	0	0	0	0	0	1	0
+"replicon"	"558665962"	0	74	13	156	0	176	58	1578	1
+"replicon"	"558672313"	0	57	24	185	0	171	69	1671	1
+"replicon"	"558684762"	0	7	2	0	0	9	1	0	0
+"replicon"	"559996969"	0	5	1	0	0	13	1	0	0
+"replicon"	"559997377"	0	0	0	1	0	0	0	0	0
+"replicon"	"560141539"	0	0	0	1	0	2	0	0	0
+"replicon"	"560148973"	0	1	0	0	0	0	0	0	0
+"replicon"	"560151351"	0	2	4	0	0	11	21	4	0
+"replicon"	"560154719"	0	10	4	1	0	27	14	11	0
+"replicon"	"560188207"	0	0	0	0	1	0	0	2	0
+"replicon"	"562817310"	0	0	0	0	0	1	0	0	0
+"replicon"	"563651606"	0	1	1	0	0	3	3	1	0
+"replicon"	"563711419"	0	6	0	0	0	15	0	0	0
+"replicon"	"56412276"	0	1	0	0	0	2	1	0	0
+"replicon"	"564911138"	0	0	0	0	0	0	0	8	0
+"replicon"	"564949884"	0	49	18	219	0	179	50	2210	2
+"replicon"	"565632295"	0	0	0	1	0	0	0	1	0
+"replicon"	"565636615"	0	186	275	29	1	446	403	85	1
+"replicon"	"565643352"	0	0	0	3	1	0	0	8	0
+"replicon"	"565643472"	0	5	1	2	0	14	23	12	0
+"replicon"	"56692568"	0	0	0	3	0	0	0	7	0
+"replicon"	"56713341"	0	0	0	0	0	0	0	1	0
+"replicon"	"56713625"	0	1	0	0	0	0	0	1	0
+"replicon"	"56718463"	0	0	25	0	0	0	6	0	0
+"replicon"	"568125122"	0	67	174	192	0	81	88	1311	0
+"replicon"	"568136993"	5	239	31	17	1	3130	9	326	0
+"replicon"	"568151185"	0	45	24	175	1	149	46	1708	0
+"replicon"	"568179884"	0	0	0	1	0	46	0	2	0
+"replicon"	"568185322"	0	1	1	1	0	57	0	1	0
+"replicon"	"568306739"	4	75	31	196	0	151	62	1925	1
+"replicon"	"569559213"	0	16	220	0	0	49	221	0	0
+"replicon"	"569559214"	0	1	21	0	0	2	1	0	0
+"replicon"	"569559215"	0	0	3	0	0	1	10	0	0
+"replicon"	"569559216"	0	3	3	0	0	3	34	0	0
+"replicon"	"569559220"	0	2	59	0	0	19	66	0	0
+"replicon"	"569559221"	0	1	20	0	0	17	61	0	0
+"replicon"	"569559222"	0	9	124	0	0	30	170	0	0
+"replicon"	"57014152"	0	0	0	0	0	0	0	1	0
+"replicon"	"57115749"	0	0	0	0	0	1	0	3	0
+"replicon"	"574959962"	0	0	0	0	0	0	0	1	0
+"replicon"	"57634611"	0	28	29	18	0	92	63	39	0
+"replicon"	"57639934"	0	0	0	0	0	0	0	4	0
+"replicon"	"57650036"	0	34	30	19	1	97	66	32	0
+"replicon"	"57865352"	4	128	24	80	4	192	84	127	0
+"replicon"	"58036263"	0	0	0	0	0	0	0	1	0
+"replicon"	"58036264"	1	1	0	1	0	1	0	5	0
+"replicon"	"5809676"	0	0	1	0	0	0	0	0	0
+"replicon"	"5815305"	0	277	528	305	446	394	684	1493	438
+"replicon"	"5815306"	0	284	497	305	473	382	690	1327	432
+"replicon"	"5815307"	0	243	448	290	402	325	620	1222	380
+"replicon"	"5815308"	0	137	297	163	265	210	421	778	232
+"replicon"	"5815309"	0	87	203	91	156	141	251	523	171
+"replicon"	"5815310"	0	216	449	247	423	375	657	1236	400
+"replicon"	"5815311"	0	234	448	239	406	338	605	1203	394
+"replicon"	"5815312"	0	650	1381	777	1176	1004	1869	3801	1129
+"replicon"	"58579623"	0	0	1	0	0	0	0	0	0
+"replicon"	"588492819"	0	1	0	0	0	9	15	0	0
+"replicon"	"589286872"	0	0	0	0	1	0	0	1	0
+"replicon"	"590001402"	0	0	0	0	0	1	0	0	0
+"replicon"	"59800473"	0	9	10	1	0	22	5	111	0
+"replicon"	"60115514"	0	0	0	2	0	0	0	6	0
+"replicon"	"602243850"	0	0	0	0	0	0	0	0	1
+"replicon"	"604624241"	0	0	0	0	0	1	0	0	0
+"replicon"	"604624400"	0	3	7	0	0	12	70	0	0
+"replicon"	"604624444"	0	4	6	0	0	10	19	0	0
+"replicon"	"604624629"	0	5	0	0	0	7	21	0	0
+"replicon"	"604624872"	0	3	0	0	0	12	37	0	0
+"replicon"	"604641853"	0	1	2	0	0	1	2	0	0
+"replicon"	"604641867"	0	0	3	0	0	1	1	0	0
+"replicon"	"604641925"	0	0	3	0	0	2	4	0	0
+"replicon"	"604641953"	0	0	2	0	0	1	3	0	0
+"replicon"	"604641967"	0	0	2	0	0	0	4	0	0
+"replicon"	"604642008"	0	0	2	0	0	0	5	0	0
+"replicon"	"604642036"	0	0	0	0	0	1	2	0	0
+"replicon"	"604642050"	0	0	4	0	0	0	6	0	0
+"replicon"	"604642077"	0	0	1	0	0	1	9	0	0
+"replicon"	"604642106"	0	0	1	0	0	0	2	0	0
+"replicon"	"604642119"	0	0	11	0	0	0	18	0	0
+"replicon"	"604642133"	0	0	1	0	0	0	3	0	0
+"replicon"	"604642146"	0	0	1	0	0	0	1	0	0
+"replicon"	"604642160"	0	0	0	0	0	1	2	0	0
+"replicon"	"604642174"	0	0	0	0	0	2	2	0	0
+"replicon"	"604642187"	0	0	0	0	0	0	1	0	0
+"replicon"	"604642201"	0	0	0	0	0	2	1	0	0
+"replicon"	"604642214"	0	0	0	0	0	0	4	0	0
+"replicon"	"604642228"	0	1	0	0	0	0	1	0	0
+"replicon"	"604642256"	0	0	1	0	0	2	5	0	0
+"replicon"	"604642311"	0	0	2	0	0	2	7	0	0
+"replicon"	"604642339"	0	0	1	0	0	0	1	0	0
+"replicon"	"604642366"	0	0	1	0	0	0	1	0	0
+"replicon"	"604642406"	0	0	0	0	0	0	8	0	0
+"replicon"	"604642420"	0	0	1	0	0	0	1	0	0
+"replicon"	"604642472"	0	1	2	0	0	1	3	0	0
+"replicon"	"604642488"	0	0	3	0	0	1	1	0	0
+"replicon"	"604642502"	0	1	0	0	0	0	0	0	0
+"replicon"	"604642516"	0	0	0	0	0	1	4	0	0
+"replicon"	"604642531"	0	0	2	0	0	1	7	0	0
+"replicon"	"604642545"	0	0	0	0	0	1	0	0	0
+"replicon"	"604642559"	0	0	1	0	0	0	2	0	0
+"replicon"	"604642573"	0	0	2	0	0	1	2	0	0
+"replicon"	"604642601"	0	0	0	0	0	1	1	0	0
+"replicon"	"604642617"	0	1	3	0	0	0	4	0	0
+"replicon"	"604642644"	0	0	2	0	0	0	2	0	0
+"replicon"	"604642658"	0	0	0	0	0	0	1	0	0
+"replicon"	"604642685"	0	0	5	0	0	1	4	0	0
+"replicon"	"604642699"	0	0	1	0	0	0	0	0	0
+"replicon"	"604642712"	0	0	3	0	0	2	2	0	0
+"replicon"	"604642726"	0	0	3	0	0	1	7	0	0
+"replicon"	"604642766"	0	0	2	0	0	0	7	0	0
+"replicon"	"604642779"	0	1	0	0	0	0	1	0	0
+"replicon"	"604642807"	0	0	1	0	0	0	9	0	0
+"replicon"	"604642821"	0	0	0	0	0	0	5	0	0
+"replicon"	"604642850"	0	0	2	0	0	0	1	0	0
+"replicon"	"604642864"	0	0	2	0	0	1	2	0	0
+"replicon"	"604642877"	0	0	2	0	0	1	5	0	0
+"replicon"	"604642904"	0	0	2	0	0	0	2	0	0
+"replicon"	"604642932"	0	0	2	0	0	1	2	0	0
+"replicon"	"604642946"	0	0	3	0	0	2	3	0	0
+"replicon"	"604642972"	0	1	4	0	0	0	0	0	0
+"replicon"	"604642986"	0	0	1	0	0	1	0	0	0
+"replicon"	"604643042"	0	0	0	0	0	0	2	0	0
+"replicon"	"604643056"	0	0	1	0	0	0	1	0	0
+"replicon"	"604643070"	0	0	1	0	0	0	0	0	0
+"replicon"	"604643098"	0	0	3	0	0	1	0	0	0
+"replicon"	"604643180"	0	0	2	0	0	0	0	0	0
+"replicon"	"604643193"	0	0	2	0	0	1	1	0	0
+"replicon"	"604643207"	0	0	0	0	0	0	1	0	0
+"replicon"	"604643221"	0	0	2	0	0	1	2	0	0
+"replicon"	"604643248"	0	0	1	0	0	0	0	0	0
+"replicon"	"604643262"	0	0	1	0	0	2	2	0	0
+"replicon"	"604643276"	0	0	1	0	0	0	1	0	0
+"replicon"	"604643320"	0	0	1	0	0	1	0	0	0
+"replicon"	"604643333"	0	1	0	0	0	1	4	0	0
+"replicon"	"604643349"	0	1	2	0	0	2	2	0	0
+"replicon"	"604643362"	0	0	0	0	0	1	1	0	0
+"replicon"	"604643376"	0	0	0	0	0	0	2	0	0
+"replicon"	"604643404"	0	0	1	0	0	0	4	0	0
+"replicon"	"604643459"	0	0	2	0	0	1	2	0	0
+"replicon"	"604643488"	0	0	1	0	0	0	3	0	0
+"replicon"	"604643502"	0	0	1	0	0	1	0	0	0
+"replicon"	"604643516"	0	0	0	0	0	2	10	0	0
+"replicon"	"604643544"	0	0	3	0	0	0	1	0	0
+"replicon"	"604643559"	0	0	3	0	0	1	5	0	0
+"replicon"	"604643573"	0	0	4	0	0	5	32	0	0
+"replicon"	"604643600"	0	4	11	0	0	3	15	2	0
+"replicon"	"60679597"	0	7	0	9	2	4	10	20	2
+"replicon"	"610636428"	0	0	0	0	0	0	1	0	0
+"replicon"	"612340474"	0	0	2	0	0	0	0	0	0
+"replicon"	"612348232"	0	0	0	0	0	1	0	0	0
+"replicon"	"612348234"	0	0	1	1	0	0	0	0	0
+"replicon"	"612348235"	0	1	0	0	0	0	0	0	0
+"replicon"	"612348236"	0	0	0	0	0	0	0	1	0
+"replicon"	"612348240"	0	0	0	1	0	0	0	1	0
+"replicon"	"612348243"	0	0	2	0	1	0	0	1	0
+"replicon"	"612348246"	0	0	1	1	0	0	0	0	0
+"replicon"	"612348254"	0	0	1	0	0	0	0	0	0
+"replicon"	"612348258"	0	0	0	0	0	0	0	1	0
+"replicon"	"612348260"	0	0	0	0	0	0	0	2	0
+"replicon"	"612348262"	0	1	0	1	0	0	0	0	0
+"replicon"	"612348264"	0	0	2	1	0	0	0	1	0
+"replicon"	"612348266"	0	0	2	0	0	0	0	2	0
+"replicon"	"612348270"	0	1	0	0	0	0	0	0	0
+"replicon"	"612348272"	0	0	0	2	0	0	0	1	0
+"replicon"	"612348276"	0	0	0	0	0	0	0	1	0
+"replicon"	"612348278"	0	1	0	0	0	0	0	2	0
+"replicon"	"612348280"	0	0	1	0	0	0	0	2	0
+"replicon"	"612348281"	0	1	1	1	0	0	0	1	0
+"replicon"	"612348283"	0	0	1	1	0	0	0	1	0
+"replicon"	"612348284"	0	0	0	0	0	1	0	2	0
+"replicon"	"612348286"	0	0	3	1	0	0	0	2	0
+"replicon"	"612348289"	0	1	0	0	1	0	0	1	0
+"replicon"	"612348291"	0	0	0	0	0	1	0	1	0
+"replicon"	"612348298"	0	0	0	1	0	0	0	1	0
+"replicon"	"612506755"	0	31	394	0	0	101	648	0	1
+"replicon"	"612506782"	0	13	116	2	0	54	187	0	0
+"replicon"	"612506791"	0	4	23	0	0	4	34	0	0
+"replicon"	"612506809"	0	2	23	0	1	7	50	0	0
+"replicon"	"612506827"	0	0	0	0	0	0	1	0	0
+"replicon"	"612506836"	0	0	1	0	0	1	6	0	0
+"replicon"	"612506854"	0	1	19	0	0	6	37	0	0
+"replicon"	"612506881"	0	19	139	1	0	70	342	0	0
+"replicon"	"612506890"	0	0	7	0	0	1	9	0	0
+"replicon"	"612506899"	0	0	1	0	0	0	0	0	0
+"replicon"	"612506917"	0	0	1	0	0	1	5	0	0
+"replicon"	"612506926"	0	1	23	0	0	10	25	0	0
+"replicon"	"612506944"	0	25	385	1	0	110	610	0	0
+"replicon"	"612506953"	0	2	21	0	0	6	35	0	0
+"replicon"	"612506962"	0	21	235	1	0	71	311	1	0
+"replicon"	"612506971"	0	0	5	0	0	0	14	0	0
+"replicon"	"612506980"	0	0	0	0	0	0	3	0	0
+"replicon"	"612506989"	0	1	25	0	0	8	43	0	0
+"replicon"	"612507016"	0	26	368	0	0	93	464	0	1
+"replicon"	"612507034"	0	0	2	0	0	0	17	0	0
+"replicon"	"612507043"	0	0	3	0	0	1	4	0	0
+"replicon"	"612507061"	0	4	10	0	0	5	38	0	0
+"replicon"	"612507079"	0	2	22	0	0	10	27	0	0
+"replicon"	"612507088"	0	0	8	0	0	1	2	0	0
+"replicon"	"612507097"	0	0	5	0	0	1	11	0	0
+"replicon"	"612507106"	0	0	5	0	0	5	12	0	0
+"replicon"	"612507124"	0	2	26	0	0	2	41	0	0
+"replicon"	"612507142"	0	0	1	0	0	0	6	0	0
+"replicon"	"612507160"	0	30	271	0	0	62	395	0	0
+"replicon"	"612507169"	0	0	3	0	0	0	5	0	0
+"replicon"	"612507187"	0	39	505	1	0	142	725	0	0
+"replicon"	"612507232"	0	0	1	0	0	0	14	0	0
+"replicon"	"612507241"	0	7	57	0	0	26	142	0	0
+"replicon"	"612507250"	0	2	5	0	0	0	8	0	0
+"replicon"	"612507259"	0	24	427	0	0	86	655	0	0
+"replicon"	"612507268"	0	14	113	0	0	51	239	0	0
+"replicon"	"612507277"	0	2	18	0	0	0	37	0	0
+"replicon"	"612507290"	0	0	6	0	0	0	8	0	0
+"replicon"	"612507293"	0	1	0	0	0	3	16	0	0
+"replicon"	"612507294"	0	10	11	0	0	15	100	0	0
+"replicon"	"612507296"	0	0	0	0	0	0	1	0	0
+"replicon"	"612507297"	0	2	1	0	0	1	2	0	0
+"replicon"	"612507298"	0	0	0	0	0	0	1	0	0
+"replicon"	"612507299"	0	0	6	0	0	1	6	0	0
+"replicon"	"612507305"	0	0	0	0	0	1	1	0	0
+"replicon"	"612507313"	0	1	14	0	0	8	41	0	0
+"replicon"	"612507315"	0	1	2	0	0	2	4	0	0
+"replicon"	"614705045"	0	1	11	0	0	3	17	0	0
+"replicon"	"614705072"	0	2	4	0	0	1	4	0	0
+"replicon"	"614705086"	0	0	4	0	0	1	5	0	0
+"replicon"	"614705100"	0	2	17	0	0	4	51	0	0
+"replicon"	"614705114"	0	4	12	0	0	5	26	0	0
+"replicon"	"614705142"	0	0	7	0	0	1	1	0	0
+"replicon"	"614705156"	0	1	12	0	0	8	27	0	0
+"replicon"	"614705170"	0	6	45	0	0	10	110	1	0
+"replicon"	"614705184"	0	0	7	0	0	1	4	0	0
+"replicon"	"614705198"	0	0	7	0	0	4	3	0	0
+"replicon"	"614705212"	0	2	4	0	0	2	5	0	0
+"replicon"	"614705226"	0	3	16	0	0	6	22	0	0
+"replicon"	"614705254"	0	0	3	0	0	3	5	0	0
+"replicon"	"614705268"	0	14	127	0	0	46	375	0	0
+"replicon"	"614705282"	0	5	62	0	0	17	122	0	0
+"replicon"	"614705296"	0	1	6	0	0	0	3	0	0
+"replicon"	"614705312"	0	1	5	0	0	0	4	0	0
+"replicon"	"614705326"	0	2	23	0	0	6	18	0	0
+"replicon"	"614705356"	0	0	6	0	0	2	8	0	0
+"replicon"	"614705383"	0	0	15	0	0	8	34	0	0
+"replicon"	"614705397"	0	0	21	0	0	6	37	0	0
+"replicon"	"614705411"	0	0	1	0	0	1	4	0	0
+"replicon"	"614705425"	0	0	13	0	0	2	14	0	0
+"replicon"	"614705441"	0	0	11	0	0	7	18	0	0
+"replicon"	"614705455"	0	0	7	0	0	0	3	0	0
+"replicon"	"614705469"	0	1	22	0	0	6	17	0	0
+"replicon"	"614705483"	0	0	8	0	0	3	6	0	0
+"replicon"	"614705498"	0	1	5	0	0	0	4	0	0
+"replicon"	"614705512"	0	0	11	0	0	5	17	0	0
+"replicon"	"614705526"	0	0	15	0	0	8	21	0	0
+"replicon"	"614705540"	0	1	10	0	0	2	2	0	0
+"replicon"	"614705554"	0	1	8	0	0	1	7	0	0
+"replicon"	"614705568"	0	1	13	0	0	4	16	0	0
+"replicon"	"614705596"	0	2	6	0	0	0	4	0	0
+"replicon"	"614705610"	0	2	14	0	0	2	10	0	0
+"replicon"	"614705624"	0	4	16	0	0	1	33	1	0
+"replicon"	"614705640"	0	0	8	0	0	5	19	0	0
+"replicon"	"614705656"	0	1	20	0	0	3	27	0	0
+"replicon"	"614705670"	0	2	19	0	0	7	28	0	0
+"replicon"	"614705684"	0	3	25	0	0	8	56	0	0
+"replicon"	"614705698"	0	0	10	0	0	4	17	0	0
+"replicon"	"614705712"	0	2	14	0	0	7	28	0	0
+"replicon"	"614705727"	0	2	24	0	0	2	29	0	0
+"replicon"	"614705769"	0	5	101	0	0	25	112	0	0
+"replicon"	"614705797"	0	0	7	0	0	2	4	0	0
+"replicon"	"614705811"	0	0	3	0	0	1	4	0	0
+"replicon"	"614705839"	0	1	13	0	0	3	14	0	0
+"replicon"	"614705867"	0	0	2	0	0	2	4	0	0
+"replicon"	"614705894"	0	1	6	0	0	1	6	0	0
+"replicon"	"62128"	0	0	4	0	0	0	0	0	0
+"replicon"	"62178570"	0	2	1	0	0	5	0	0	0
+"replicon"	"62316961"	0	0	0	0	0	0	1	0	0
+"replicon"	"62388892"	0	0	0	0	0	0	0	1	0
+"replicon"	"62530888"	0	1	0	0	0	1	1	0	0
+"replicon"	"62530898"	0	0	0	0	0	4	6	0	0
+"replicon"	"651853778"	0	46	27	188	0	130	56	1854	0
+"replicon"	"651859679"	0	51	22	138	0	130	58	1391	0
+"replicon"	"651868701"	0	54	20	135	1	132	64	1336	0
+"replicon"	"651874622"	0	62	22	159	1	145	66	1381	0
+"replicon"	"658307174"	0	0	0	0	0	0	0	4	0
+"replicon"	"658307233"	0	0	0	0	1	0	0	1	0
+"replicon"	"658307475"	0	0	0	1	0	0	0	0	0
+"replicon"	"658307760"	0	0	0	0	0	0	0	3	0
+"replicon"	"658608029"	0	0	0	0	0	0	0	1	0
+"replicon"	"66043271"	0	3	12	0	0	118	5	6	0
+"replicon"	"661920598"	0	0	0	0	0	0	0	1	0
+"replicon"	"661921305"	0	1	0	0	0	0	0	0	0
+"replicon"	"661921484"	0	1	0	0	0	0	0	0	0
+"replicon"	"662859611"	0	0	0	0	0	1	0	0	0
+"replicon"	"66395164"	0	0	0	0	0	0	0	1	0
+"replicon"	"66395293"	0	0	0	0	0	0	0	2	0
+"replicon"	"66395370"	0	0	0	0	0	1	0	0	0
+"replicon"	"66395656"	0	0	0	0	0	0	0	1	0
+"replicon"	"66395885"	0	0	0	0	0	0	0	1	0
+"replicon"	"66396267"	0	0	0	2	0	0	0	0	0
+"replicon"	"66396333"	0	0	0	1	0	0	0	0	0
+"replicon"	"66766352"	0	0	0	0	0	1	0	1	0
+"replicon"	"667668758"	0	3	17	0	0	16	49	0	0
+"replicon"	"667668765"	0	1	0	0	0	9	2	0	0
+"replicon"	"667714390"	0	11	18	0	0	17	73	0	0
+"replicon"	"667714394"	0	2	14	0	0	16	45	0	0
+"replicon"	"667714398"	0	4	18	0	0	13	58	0	0
+"replicon"	"669258221"	0	0	0	0	0	0	0	3	0
+"replicon"	"669333224"	0	1	5	0	0	2	2	0	0
+"replicon"	"669333249"	0	1	15	0	0	4	23	0	0
+"replicon"	"669333261"	0	0	3	0	0	0	5	0	0
+"replicon"	"669333273"	0	0	4	0	0	0	4	0	0
+"replicon"	"669333285"	0	2	12	0	0	4	20	0	0
+"replicon"	"669333307"	0	1	37	0	0	3	60	0	0
+"replicon"	"669333319"	0	1	45	0	0	7	40	0	0
+"replicon"	"669333331"	0	4	41	0	0	17	107	0	0
+"replicon"	"669333343"	0	5	11	0	0	4	21	0	0
+"replicon"	"669333355"	0	1	8	0	0	5	23	0	0
+"replicon"	"670145244"	1	0	0	0	0	0	0	0	0
+"replicon"	"674304938"	0	0	0	0	0	1	0	0	0
+"replicon"	"682122904"	0	0	0	0	0	0	0	1	0
+"replicon"	"68448677"	0	1	0	0	0	0	0	0	0
+"replicon"	"68535062"	0	7	2	22	1	12	0	192	1
+"replicon"	"6969640"	0	0	1	1	0	0	0	0	0
+"replicon"	"701216630"	0	0	0	0	0	0	1	0	0
+"replicon"	"701216651"	0	0	0	0	0	8	4	0	0
+"replicon"	"701216714"	0	0	0	0	0	5	3	0	0
+"replicon"	"701216756"	0	0	0	0	0	1	1	0	0
+"replicon"	"70725001"	0	20	3	4	0	27	21	10	0
+"replicon"	"70728250"	0	8	7	0	0	416	24	9	0
+"replicon"	"71057164"	0	9	50	0	0	36	139	1	0
+"replicon"	"71064581"	0	1	0	0	0	7	0	1	0
+"replicon"	"717006888"	0	0	0	0	0	0	0	1	0
+"replicon"	"71725141"	0	0	0	0	0	0	0	1	0
+"replicon"	"71733195"	0	3	11	0	0	132	5	0	0
+"replicon"	"71842875"	0	0	0	0	0	0	0	3	0
+"replicon"	"71842887"	0	0	0	0	0	0	0	2	0
+"replicon"	"71842899"	0	0	0	0	0	0	0	6	0
+"replicon"	"71842911"	0	2	5	0	1	2	9	19	1
+"replicon"	"71842923"	0	23	32	21	34	30	51	120	41
+"replicon"	"71842935"	0	1	2	1	3	4	4	19	2
+"replicon"	"71842947"	0	0	2	0	0	0	0	4	0
+"replicon"	"71842959"	0	34	54	24	61	46	82	189	55
+"replicon"	"71842971"	0	22	60	28	40	53	86	162	55
+"replicon"	"71842983"	0	1	0	1	0	0	1	12	1
+"replicon"	"71842995"	0	47	94	36	85	46	128	319	75
+"replicon"	"71843007"	0	15	24	12	16	21	21	73	16
+"replicon"	"71843031"	0	0	2	1	3	0	3	25	5
+"replicon"	"71902667"	0	2	3	2	0	5	0	2	0
+"replicon"	"71909814"	0	1	0	4	2	2	2	15	0
+"replicon"	"721347195"	0	0	0	0	0	3	12	0	0
+"replicon"	"721347204"	0	0	0	0	0	3	18	0	0
+"replicon"	"723605010"	0	0	1	0	0	0	0	0	0
+"replicon"	"723605243"	0	0	0	0	0	0	0	1	0
+"replicon"	"723605458"	0	0	0	0	0	0	0	1	0
+"replicon"	"723605664"	0	0	0	0	0	0	0	1	0
+"replicon"	"72384244"	0	0	0	0	0	0	0	1	0
+"replicon"	"727377817"	0	1	0	0	0	0	0	0	0
+"replicon"	"727879998"	0	0	2	0	0	1	8	0	0
+"replicon"	"730091864"	0	0	4	0	0	0	0	0	0
+"replicon"	"730977575"	0	0	3	0	0	0	0	0	0
+"replicon"	"732554745"	0	0	0	0	0	0	0	2	0
+"replicon"	"732688112"	0	0	1	0	0	0	4	0	0
+"replicon"	"73661309"	0	2	0	0	0	11	6	0	0
+"replicon"	"73919059"	0	8	0	0	0	12	37	0	0
+"replicon"	"73919133"	0	11	17	0	0	11	0	0	0
+"replicon"	"73919135"	0	8	0	0	0	7	0	0	0
+"replicon"	"73919146"	0	19	5	0	0	22	4	0	0
+"replicon"	"73919148"	0	5	0	0	0	13	31	0	0
+"replicon"	"73919151"	0	2	0	0	0	14	15	0	0
+"replicon"	"73919206"	0	0	0	0	0	3	2	0	0
+"replicon"	"73919211"	0	0	0	0	0	1	0	0	0
+"replicon"	"74310614"	0	13	8	1	1	26	15	12	1
+"replicon"	"744394189"	0	2	1	0	0	3	17	0	0
+"replicon"	"744516692"	0	0	0	0	0	1	1	0	0
+"replicon"	"744692776"	0	0	0	0	0	0	0	2	0
+"replicon"	"747017265"	0	0	0	1	0	0	0	0	0
+"replicon"	"747017336"	0	0	0	0	0	0	0	1	0
+"replicon"	"747017541"	0	0	0	1	0	0	0	0	0
+"replicon"	"751251573"	0	0	1	0	0	0	8	0	0
+"replicon"	"757399525"	0	2	13	0	0	11	29	0	0
+"replicon"	"758794649"	0	0	0	0	0	1	1	0	0
+"replicon"	"759021862"	0	14	6	0	0	18	61	0	0
+"replicon"	"759021867"	0	7	14	0	0	15	59	0	0
+"replicon"	"759021872"	0	11	10	0	0	11	61	0	0
+"replicon"	"759021877"	0	10	15	0	0	14	51	0	0
+"replicon"	"759021882"	0	4	8	0	0	7	45	0	0
+"replicon"	"759021887"	0	3	0	0	0	3	11	0	0
+"replicon"	"759021892"	0	5	18	0	0	14	68	0	0
+"replicon"	"764044028"	0	4466	8777	4763	7266	6623	11828	23768	7336
+"replicon"	"764161128"	0	0	0	0	0	0	0	1	0
+"replicon"	"76786714"	0	2	10	62	2	9	7	102	2
+"replicon"	"77358697"	0	105	158	9	1	219	200	98	0
+"replicon"	"77358982"	0	0	0	0	0	3	0	0	0
+"replicon"	"78045556"	0	0	2	1	0	5	0	4	0
+"replicon"	"78059643"	0	2	0	0	0	2	0	1	0
+"replicon"	"78060853"	0	0	0	0	0	0	0	11	0
+"replicon"	"78064658"	0	1	0	0	0	4	1	11	0
+"replicon"	"794078032"	0	0	0	0	0	1	0	0	0
+"replicon"	"81427616"	0	3	0	0	0	10	1	12	0
+"replicon"	"815859033"	0	0	0	22	1	2	0	125	0
+"replicon"	"820945227"	0	1	0	24	0	0	0	192	1
+"replicon"	"822896089"	0	0	0	0	0	0	0	2	0
+"replicon"	"823104953"	0	1	0	0	0	0	0	0	0
+"replicon"	"823758379"	0	0	0	0	0	0	0	2	0
+"replicon"	"823758409"	0	0	0	0	0	0	0	1	0
+"replicon"	"823962666"	0	0	89	0	0	2	91	0	0
+"replicon"	"82542618"	0	14	9	1	0	20	18	17	0
+"replicon"	"82749777"	0	27	28	2	1	80	35	5	0
+"replicon"	"82775382"	0	13	6	0	0	30	20	10	0
+"replicon"	"828761698"	0	0	0	0	0	0	0	2	0
+"replicon"	"836600679"	0	0	0	0	0	1	0	0	0
+"replicon"	"83716035"	0	1	0	0	0	0	0	0	0
+"replicon"	"844398545"	1	0	0	0	0	0	0	0	0
+"replicon"	"84621657"	0	0	2	0	0	0	0	0	0
+"replicon"	"848469578"	0	0	0	0	0	0	0	5	0
+"replicon"	"849250250"	0	2	0	0	0	0	0	0	0
+"replicon"	"849254577"	0	2	0	0	0	0	0	0	0
+"replicon"	"849255373"	0	0	0	1	0	0	0	2	0
+"replicon"	"85057978"	0	1	0	1	0	1	0	22	0
+"replicon"	"85372828"	0	0	0	0	0	9	0	0	0
+"replicon"	"87159837"	0	0	0	0	0	0	0	2	0
+"replicon"	"87159847"	0	0	0	3	0	0	0	3	0
+"replicon"	"87159884"	0	39	41	23	1	82	71	38	2
+"replicon"	"87198026"	0	0	0	0	0	2	0	0	0
+"replicon"	"88193823"	0	31	40	22	1	88	63	41	0
+"replicon"	"88900616"	0	2	2	3	1	1	0	4	0
+"replicon"	"88954063"	0	0	0	0	0	1	0	0	0
+"replicon"	"89152530"	0	0	0	0	0	0	0	4	0
+"replicon"	"89898822"	0	0	0	0	0	1	0	0	0
+"replicon"	"902947391"	0	2	25	0	0	6	37	0	0
+"replicon"	"90592575"	0	0	0	2	0	0	0	6	0
+"replicon"	"906476064"	1	0	0	0	0	0	0	0	0
+"replicon"	"90819652"	0	1	1	0	0	1	0	3	0
+"replicon"	"908273952"	0	114	578	0	0	351	1283	1	0
+"replicon"	"90960990"	0	1	0	0	0	1	5	3	0
+"replicon"	"91206245"	0	0	0	2	0	0	0	9	0
+"replicon"	"91209055"	0	44	16	27	1	81	33	111	1
+"replicon"	"92112136"	0	0	0	0	0	1	0	0	0
+"replicon"	"93004445"	0	16	124	0	0	37	246	0	0
+"replicon"	"93004452"	0	18	74	0	0	35	164	0	0
+"replicon"	"93004831"	0	2	0	0	0	9	0	1	0
+"replicon"	"94308945"	0	20	0	0	0	9	0	6	0
+"replicon"	"94984109"	0	2	0	0	0	0	0	0	0
+"replicon"	"94987631"	0	0	2	3	0	6	1	2	0
+"replicon"	"94989509"	0	3	1	0	0	5	3	4	0
+"replicon"	"94991497"	0	2	1	3	0	5	0	4	0
+"replicon"	"94993396"	0	1	1	1	0	7	4	4	0
+"replicon"	"95102525"	0	1	0	0	0	1	14	0	0
+"replicon"	"95102527"	0	10	6	0	0	19	43	1	0
+"replicon"	"9625366"	0	0	0	0	0	0	0	2	0
+"replicon"	"9626158"	0	0	0	0	0	1	0	0	0
+"replicon"	"9626243"	0	4	2	1	0	0	0	0	0
+"replicon"	"9626372"	0	2046	4303	2351	3532	3192	5768	10791	3507
+"replicon"	"9628600"	0	0	0	0	0	0	0	7	0
+"replicon"	"9629352"	0	1	4	0	0	3	19	0	0
+"replicon"	"9630327"	0	0	0	1	0	0	0	0	0
+"replicon"	"9635581"	0	1	0	0	0	0	0	9	0
+"species"	"[Clostridium] saccharolyticum"	0	1	0	0	0	0	0	0	0
+"species"	"[Haemophilus] ducreyi"	0	29	28	0	0	56	5	3	0
+"species"	"[Haemophilus] parasuis"	0	10	13	0	0	18	17	0	0
+"species"	"[Mannheimia] succiniciproducens"	0	9	3	0	0	19	3	0	0
+"species"	"Achromobacter xylosoxidans"	0	39	74	132	1	48	123	953	0
+"species"	"Acidaminococcus fermentans"	0	0	0	0	0	1	0	0	0
+"species"	"Acidaminococcus intestini"	0	0	0	0	2	4	1	2	0
+"species"	"Acidovorax avenae"	0	0	0	0	0	1	0	0	0
+"species"	"Acidovorax ebreus"	0	1	0	0	0	0	0	0	0
+"species"	"Acidovorax sp. JS42"	1	5	0	0	0	1	0	4	0
+"species"	"Acidovorax sp. KKS102"	0	3	0	1	0	3	0	9	0
+"species"	"Acinetobacter baumannii"	0	2382	3531	1860	74	6148	4493	3684	50
+"species"	"Acinetobacter calcoaceticus"	0	178	62	0	0	103	61	7	0
+"species"	"Acinetobacter oleivorans"	0	25	65	1	0	55	116	3	0
+"species"	"Acinetobacter phage Bphi-B1251"	0	0	0	1	1	1	3	4	0
+"species"	"Acinetobacter sp. ADP1"	0	21	52	1	0	37	57	2	0
+"species"	"Actinobacillus pleuropneumoniae"	0	268	384	2	0	705	393	9	0
+"species"	"Actinobacillus succinogenes"	0	10	4	0	0	21	3	0	0
+"species"	"Actinobacillus suis"	0	72	164	5	0	281	281	1	0
+"species"	"Aerococcus urinae"	0	4	17	1	0	6	15	0	0
+"species"	"Aeromonas salmonicida"	0	0	0	0	0	0	0	2	0
+"species"	"Aggregatibacter actinomycetemcomitans"	0	4	3	0	0	9	14	0	0
+"species"	"Aggregatibacter aphrophilus"	0	77	206	10	0	187	202	43	0
+"species"	"Agrobacterium fabrum"	0	7	0	0	0	2	0	0	0
+"species"	"Agrobacterium sp. H13-3"	0	29	0	0	0	9	0	0	0
+"species"	"Agrobacterium vitis"	0	1	0	0	0	0	0	0	0
+"species"	"Alcanivorax dieselolei"	0	0	0	0	0	0	0	2	0
+"species"	"Alicycliphilus denitrificans"	0	4	0	6	0	2	0	34	0
+"species"	"Alistipes shahii"	18	0	0	4	0	0	0	0	0
+"species"	"Alphapapillomavirus 7"	0	0	0	0	0	0	0	2	0
+"species"	"Amycolicicoccus subflavus"	0	1	0	0	0	0	0	0	0
+"species"	"Anaerococcus prevotii"	0	4	0	0	0	18	24	1	0
+"species"	"Arcanobacterium haemolyticum"	2	0	0	0	0	0	0	7	0
+"species"	"Atopobium parvulum"	10	45	112	2	0	81	105	58	0
+"species"	"Azospira oryzae"	0	3	0	0	0	1	0	4	0
+"species"	"Azotobacter vinelandii"	0	2	0	0	0	17	1	0	0
+"species"	"Bacillus anthracis"	0	2	0	0	0	0	1	0	0
+"species"	"Bacillus cereus"	0	2	2	1	0	1	5	1	0
+"species"	"Bacillus coagulans"	0	0	0	0	0	3	0	0	0
+"species"	"Bacillus cytotoxicus"	0	0	0	0	0	1	0	0	0
+"species"	"Bacillus pumilus"	0	0	0	0	0	0	0	1	0
+"species"	"Bacillus subtilis"	0	4	0	0	0	1	2	0	0
+"species"	"Bacillus thuringiensis"	0	0	2	0	0	1	0	0	0
+"species"	"Bacteroides fragilis"	4	17	0	21	4	26	14	77	2
+"species"	"Bacteroides salanitronis"	5	0	0	4	0	0	0	8	0
+"species"	"Bacteroides vulgatus"	0	3	0	0	0	5	2	0	0
+"species"	"beta proteobacterium CB"	0	2	0	0	0	0	0	0	0
+"species"	"Betacoronavirus 1"	0	3	0	0	0	42	80	0	0
+"species"	"Bibersteinia trehalosi"	0	178	106	2	0	338	306	2	0
+"species"	"Bifidobacterium animalis"	1	0	0	3	0	0	0	5	0
+"species"	"Bifidobacterium bifidum"	0	0	0	0	0	1	0	0	0
+"species"	"Bifidobacterium breve"	0	1	0	8	0	7	1	43	0
+"species"	"Bifidobacterium dentium"	29	0	0	3	0	6	0	20	0
+"species"	"Bifidobacterium longum"	6	8	0	8	0	16	0	58	1
+"species"	"Bifidobacterium thermophilum"	0	0	0	0	0	0	0	1	0
+"species"	"Bordetella avium"	0	1	0	0	0	2	0	0	0
+"species"	"Bordetella bronchiseptica"	0	2	6	1	0	7	0	9	0
+"species"	"Bordetella parapertussis"	0	5	6	0	0	7	1	4	0
+"species"	"Bordetella pertussis"	0	3	0	7	0	4	0	34	0
+"species"	"Bordetella petrii"	0	2	0	1	0	0	8	9	0
+"species"	"Borrelia duttonii"	0	0	0	0	0	0	0	3	0
+"species"	"Bradyrhizobium sp. BTAi1"	0	0	0	0	0	1	0	0	0
+"species"	"Bradyrhizobium sp. ORS 278"	0	1	0	0	0	0	0	0	0
+"species"	"Brevundimonas subvibrioides"	0	0	0	0	0	1	0	0	0
+"species"	"Brucella abortus"	0	0	0	0	0	0	1	0	0
+"species"	"Brucella canis"	0	0	0	0	0	0	1	1	0
+"species"	"Brucella melitensis"	0	0	0	0	0	0	1	0	0
+"species"	"Brucella microti"	0	0	0	0	0	0	1	0	0
+"species"	"Brucella pinnipedialis"	0	0	0	0	0	1	0	0	0
+"species"	"Brucella suis"	0	0	0	0	0	0	0	1	0
+"species"	"Burkholderia ambifaria"	0	4	0	1	0	4	1	30	0
+"species"	"Burkholderia cenocepacia"	0	12	0	26	1	20	44	666	0
+"species"	"Burkholderia cepacia"	0	0	0	0	0	0	1	8	0
+"species"	"Burkholderia glumae"	0	0	0	0	0	1	0	0	0
+"species"	"Burkholderia lata"	0	3	0	0	0	6	1	23	0
+"species"	"Burkholderia multivorans"	0	1	0	0	0	3	0	0	0
+"species"	"Burkholderia pseudomallei"	0	0	0	1	0	3	0	0	0
+"species"	"Burkholderia sp. KJ006"	0	2	0	1	0	3	3	4	0
+"species"	"Burkholderia sp. RPE64"	0	1	0	0	0	0	0	0	0
+"species"	"Burkholderia sp. YI23"	0	1	0	0	0	0	0	0	0
+"species"	"Burkholderia thailandensis"	0	0	0	0	0	0	0	1	0
+"species"	"Burkholderia vietnamiensis"	0	1	0	0	0	7	4	3	0
+"species"	"Butyrivibrio proteoclasticus"	0	0	0	0	0	0	0	1	0
+"species"	"Campylobacter curvus"	0	1	0	0	0	10	0	0	0
+"species"	"Campylobacter jejuni"	0	0	0	0	0	1	0	0	0
+"species"	"Candidatus Saccharibacteria bacterium RAAC3_TM7_1"	0	6	0	0	0	15	0	0	0
+"species"	"Capnocytophaga canimorsus"	0	0	0	0	0	5	1	0	0
+"species"	"Capnocytophaga ochracea"	0	46	108	2	1	110	193	14	0
+"species"	"Carnobacterium maltaromaticum"	0	9	7	1	0	18	2	0	0
+"species"	"Carnobacterium sp. 17-4"	0	0	0	0	0	0	0	1	0
+"species"	"Carnobacterium sp. WN1359"	0	2	1	0	0	8	1	1	0
+"species"	"Cellulomonas flavigena"	0	0	0	0	0	0	0	1	0
+"species"	"Chromohalobacter salexigens"	0	0	0	0	0	1	0	0	0
+"species"	"Chroococcidiopsis thermalis"	0	0	0	0	0	2	0	0	0
+"species"	"Citrobacter rodentium"	0	1	2	0	0	3	1	3	0
+"species"	"Clostridium perfringens"	0	1	0	0	0	3	0	0	0
+"species"	"Clostridium sp. SY8519"	0	0	0	0	0	0	0	1	0
+"species"	"Collimonas fungivorans"	0	10	8	4	0	38	21	26	0
+"species"	"Comamonas testosteroni"	0	1	0	0	0	1	0	1	0
+"species"	"Corynebacterium argentoratense"	0	140	91	1	0	419	93	7	0
+"species"	"Corynebacterium aurimucosum"	1	2009	541	46	6	4916	1069	481	2
+"species"	"Corynebacterium callunae"	0	1	0	0	0	2	1	3	0
+"species"	"Corynebacterium diphtheriae"	0	6	0	77	4	13	0	479	7
+"species"	"Corynebacterium efficiens"	0	11	5	2	0	14	9	18	0
+"species"	"Corynebacterium glutamicum"	0	0	0	0	0	0	0	13	0
+"species"	"Corynebacterium halotolerans"	0	246	94	0	0	659	168	9	0
+"species"	"Corynebacterium jeikeium"	0	7	2	22	1	12	0	192	1
+"species"	"Corynebacterium kroppenstedtii"	0	0	0	2	0	0	0	12	0
+"species"	"Corynebacterium maris"	0	0	0	0	0	1	0	1	0
+"species"	"Corynebacterium pseudotuberculosis"	0	114	20	1	0	283	27	0	0
+"species"	"Corynebacterium resistens"	0	2	0	48	2	4	0	338	2
+"species"	"Corynebacterium terpenotabidum"	0	72	34	0	0	231	28	0	0
+"species"	"Corynebacterium ulcerans"	0	10	1	0	0	30	3	2	0
+"species"	"Corynebacterium urealyticum"	0	4	0	40	1	6	0	198	2
+"species"	"Corynebacterium variabile"	1	116	27	0	0	295	41	5	0
+"species"	"Cowpox virus"	0	1	1	1	0	0	0	6	0
+"species"	"Cronobacter sakazakii"	0	27	12	9	0	47	63	39	0
+"species"	"Cryptobacterium curtum"	4	1	0	1	0	2	0	16	0
+"species"	"Cucumber green mottle mosaic virus"	0	101	163	0	0	185	771	0	0
+"species"	"Cucurbit aphid-borne yellows virus"	0	0	0	0	0	1	0	0	0
+"species"	"Cucurbit yellow stunting disorder virus"	0	0	0	0	0	6	1	0	0
+"species"	"Cupriavidus metallidurans"	0	26	0	1	0	11	0	10	0
+"species"	"Cupriavidus necator"	0	1	0	0	0	0	0	0	0
+"species"	"Cupriavidus pinatubonensis"	0	0	0	0	0	0	0	1	0
+"species"	"Deinococcus geothermalis"	0	2	0	0	0	0	0	0	0
+"species"	"Delftia acidovorans"	0	962	1	22	0	344	0	232	0
+"species"	"Delftia sp. Cs1-4"	0	45	0	14	0	20	0	211	0
+"species"	"Desulfovibrio desulfuricans"	0	0	0	0	0	2	0	0	0
+"species"	"Dickeya dadantii"	0	7	1	0	0	12	10	3	0
+"species"	"Dickeya zeae"	0	3	0	0	0	10	6	0	0
+"species"	"Edwardsiella ictaluri"	0	2	1	0	0	8	13	0	0
+"species"	"Edwardsiella piscicida"	0	3	0	0	0	3	1	0	0
+"species"	"Edwardsiella tarda"	0	0	0	0	0	7	3	1	0
+"species"	"Enterobacter aerogenes"	0	36	20	17	0	118	60	68	0
+"species"	"Enterobacter asburiae"	0	62	63	4	0	125	63	15	0
+"species"	"Enterobacter cloacae"	0	141	162	25	2	356	270	324	0
+"species"	"Enterobacter lignolyticus"	0	10	38	0	0	53	76	6	0
+"species"	"Enterobacter sp. 638"	0	41	35	2	0	89	39	1	0
+"species"	"Enterobacter sp. R4-368"	0	8	19	0	0	16	4	1	0
+"species"	"Enterobacteria phage f1"	0	0	41	0	0	0	4	0	0
+"species"	"Enterobacteria phage HK106"	0	1	0	0	0	0	0	0	0
+"species"	"Enterobacteria phage HK629"	0	1	0	1	0	1	0	0	0
+"species"	"Enterobacteria phage HK630"	0	6	0	0	0	0	0	0	0
+"species"	"Enterobacteria phage lambda"	0	5	3	1	0	0	0	0	0
+"species"	"Enterobacteria phage M13"	0	0	63	0	0	0	9	0	0
+"species"	"Enterobacteria phage P1"	0	0	0	4	0	0	0	9	0
+"species"	"Enterobacteria phage P2"	0	0	0	1	0	0	0	0	0
+"species"	"Enterobacteria phage phiX174 sensu lato"	0	23198	45721	25107	38878	33934	62298	126558	38449
+"species"	"Enterobacteria phage SfI"	0	2	0	0	0	0	0	0	0
+"species"	"Enterobacteriaceae bacterium strain FGI 57"	0	26	30	1	0	50	11	3	0
+"species"	"Enterococcus casseliflavus"	0	0	0	0	0	2	1	0	0
+"species"	"Enterococcus faecalis"	0	155	26	236	14	359	248	449	10
+"species"	"Enterococcus faecium"	0	5	0	10	1	14	4	23	0
+"species"	"Enterococcus hirae"	0	2	0	0	0	2	0	1	0
+"species"	"Enterococcus mundtii"	0	7	2	0	0	9	1	0	0
+"species"	"Enterococcus phage EF62phi"	0	0	0	0	0	0	0	2	0
+"species"	"Enterococcus phage phiFL4A"	0	0	0	0	0	0	0	1	0
+"species"	"Erwinia amylovora"	0	2	0	0	0	2	4	0	0
+"species"	"Erwinia billingiae"	0	1	2	0	0	15	8	0	0
+"species"	"Erwinia pyrifoliae"	0	0	0	0	0	3	0	0	0
+"species"	"Erwinia sp. Ejp617"	0	0	0	0	0	1	0	0	0
+"species"	"Erwinia tasmaniensis"	0	5	11	1	0	3	5	0	0
+"species"	"Erythrobacter litoralis"	0	0	0	0	0	9	0	0	0
+"species"	"Escherichia coli"	183	1868	889	1029	36	4149	1261	4341	51
+"species"	"Exiguobacterium sp. AT1b"	0	0	0	0	0	1	0	0	0
+"species"	"Exiguobacterium sp. MH3"	0	21	0	0	0	0	0	0	0
+"species"	"Filifactor alocis"	57	16	0	20	0	39	27	13	0
+"species"	"Finegoldia magna"	0	54	7	9	0	144	43	12	0
+"species"	"Flavobacteriaceae bacterium 3519-10"	0	1	0	0	0	1	0	0	0
+"species"	"Frog virus 3"	0	0	0	0	0	0	0	1	0
+"species"	"Fusobacterium nucleatum"	24	842	1409	97	0	2535	1471	154	0
+"species"	"Gallibacterium anatis"	0	4	2	0	0	9	8	0	0
+"species"	"Gardnerella vaginalis"	0	0	0	4	0	1	0	1	0
+"species"	"Haemophilus influenzae"	8	7003	6819	4388	162	18705	10743	8955	153
+"species"	"Haemophilus parainfluenzae"	2	862	1130	80	6	2376	2150	434	6
+"species"	"Haemophilus phage HP1"	0	0	0	0	0	0	0	7	0
+"species"	"Haemophilus phage HP2"	0	0	0	0	0	0	0	2	0
+"species"	"Herbaspirillum seropedicae"	0	9	1	2	0	6	1	18	0
+"species"	"Herminiimonas arsenicoxydans"	0	20	6	5	0	45	56	32	0
+"species"	"Histophilus somni"	0	3	0	0	0	6	0	0	0
+"species"	"Human coronavirus NL63"	0	1026	6826	14	2	3173	15379	11	0
+"species"	"Human endogenous retrovirus K"	0	0	0	104	1	4	4	618	0
+"species"	"Human herpesvirus 1"	0	8	0	260	2	19	2	1512	3
+"species"	"Human herpesvirus 2"	0	0	0	0	0	0	0	4	0
+"species"	"Human herpesvirus 4"	0	0	0	2	0	0	0	4	0
+"species"	"Human herpesvirus 5"	0	0	0	0	0	0	0	2	0
+"species"	"Human immunodeficiency virus 1"	0	0	0	2	0	0	0	3	0
+"species"	"Human immunodeficiency virus 2"	0	0	0	0	0	0	0	3	0
+"species"	"Human mastadenovirus B"	0	2	0	0	0	2	0	8	0
+"species"	"Human mastadenovirus C"	0	0	0	2	0	1	0	14	2
+"species"	"Human metapneumovirus"	0	31	25	0	0	76	250	0	0
+"species"	"Human parainfluenza virus 2"	0	1	0	0	0	14	2	0	0
+"species"	"Human parainfluenza virus 3"	0	411	4843	9	1	1431	7529	2	2
+"species"	"Human respiratory syncytial virus"	0	128	1333	0	0	422	2230	4	0
+"species"	"Hyphomicrobium denitrificans"	0	0	4	0	0	0	0	0	0
+"species"	"Hyphomicrobium sp. MC1"	0	0	4	0	0	1	0	0	0
+"species"	"Influenza A virus"	0	53	22	0	0	83	89	0	0
+"species"	"Janthinobacterium sp. Marseille"	0	15	8	3	0	77	82	33	1
+"species"	"Jonesia denitrificans"	0	0	0	0	0	1	0	0	0
+"species"	"Kineococcus radiotolerans"	0	2	0	0	0	3	0	0	0
+"species"	"Kinetoplastibacterium blastocrithidii"	0	0	0	0	0	0	0	1	0
+"species"	"Klebsiella oxytoca"	0	48	18	1	0	115	66	40	1
+"species"	"Klebsiella pneumoniae"	0	306	201	1802	64	681	383	8409	50
+"species"	"Klebsiella variicola"	0	19	22	5	0	48	26	52	2
+"species"	"Kocuria rhizophila"	0	2	0	0	0	0	0	0	0
+"species"	"Kytococcus sedentarius"	0	4	0	0	0	0	0	0	0
+"species"	"Lactobacillus acidophilus"	0	0	0	1	0	8	14	0	0
+"species"	"Lactobacillus amylovorus"	1	1	0	0	0	9	6	5	0
+"species"	"Lactobacillus brevis"	0	0	0	0	0	0	0	1	0
+"species"	"Lactobacillus buchneri"	0	4	0	0	0	16	0	2	0
+"species"	"Lactobacillus casei"	0	31	4	15	0	61	28	45	0
+"species"	"Lactobacillus crispatus"	0	4	0	4	0	18	5	21	0
+"species"	"Lactobacillus delbrueckii"	0	0	0	1	0	1	0	10	0
+"species"	"Lactobacillus fermentum"	0	43	60	118	2	120	18	763	0
+"species"	"Lactobacillus gasseri"	0	64	94	43	2	147	243	119	0
+"species"	"Lactobacillus helveticus"	1	1	0	1	0	2	2	4	0
+"species"	"Lactobacillus johnsonii"	0	25	18	2	0	57	68	15	0
+"species"	"Lactobacillus kefiranofaciens"	0	0	0	2	0	1	0	4	0
+"species"	"Lactobacillus paracasei"	0	3	1	3	1	7	5	9	2
+"species"	"Lactobacillus phage KC5a"	0	0	0	2	0	0	0	6	0
+"species"	"Lactobacillus phage LF1"	0	0	0	0	0	0	0	1	0
+"species"	"Lactobacillus plantarum"	0	0	0	0	0	0	0	1	0
+"species"	"Lactobacillus reuteri"	1	32	0	5	0	56	36	14	2
+"species"	"Lactobacillus rhamnosus"	0	212	281	731	42	896	926	2052	42
+"species"	"Lactobacillus ruminis"	0	0	0	0	0	2	0	0	0
+"species"	"Lactobacillus sakei"	0	3	0	0	0	10	1	12	0
+"species"	"Lactobacillus salivarius"	0	2	0	2	0	5	8	8	0
+"species"	"Lactobacillus sanfranciscensis"	0	0	0	0	0	0	0	1	0
+"species"	"Lactococcus lactis"	0	10	0	0	0	4	4	0	1
+"species"	"Laribacter hongkongensis"	0	0	0	0	0	1	0	0	0
+"species"	"Legionella longbeachae"	0	1	0	0	0	5	15	0	0
+"species"	"Legionella pneumophila"	0	2	0	0	0	5	4	0	0
+"species"	"Leifsonia xyli"	0	1	0	0	0	0	0	0	0
+"species"	"Leptothrix cholodnii"	0	0	11	0	0	0	0	0	0
+"species"	"Leptotrichia buccalis"	1	9	5	0	0	20	19	0	0
+"species"	"Leuconostoc carnosum"	0	3	0	0	0	0	0	0	0
+"species"	"Leuconostoc citreum"	0	2	0	0	0	1	0	0	0
+"species"	"Leuconostoc gelidum"	0	28	0	0	0	5	0	0	0
+"species"	"Leuconostoc mesenteroides"	0	1	0	0	0	0	0	0	0
+"species"	"Listeria innocua"	0	0	0	0	0	0	0	0	1
+"species"	"Macrococcus caseolyticus"	0	1	0	0	0	3	9	1	0
+"species"	"Mageeibacillus indolicus"	3	0	0	0	0	2	0	2	0
+"species"	"Mannheimia haemolytica"	0	132	300	3	0	264	852	6	0
+"species"	"Megasphaera elsdenii"	0	1	0	0	0	1	0	0	0
+"species"	"Melissococcus plutonius"	0	0	0	0	0	0	0	1	0
+"species"	"Methylibium petroleiphilum"	0	2	92	0	0	10	0	2	0
+"species"	"Methylobacterium extorquens"	0	109	0	1	0	28	0	0	0
+"species"	"Methylobacterium populi"	0	7	0	0	0	2	0	0	0
+"species"	"Methylobacterium radiotolerans"	0	2	0	0	0	2	0	0	0
+"species"	"Methylophaga frappieri"	0	0	0	0	0	0	0	3	0
+"species"	"Methylotenera mobilis"	0	0	0	0	0	2	0	0	0
+"species"	"Methylotenera versatilis"	0	1	2	0	0	0	0	0	0
+"species"	"Micrococcus luteus"	0	4	0	0	0	31	0	1	0
+"species"	"Middle East respiratory syndrome coronavirus"	0	2	0	0	0	2	0	0	0
+"species"	"Mobiluncus curtisii"	0	0	0	0	0	5	0	3	0
+"species"	"Monkeypox virus"	0	3	0	0	0	0	0	3	0
+"species"	"Moraxella catarrhalis"	0	44675	18426	2376	132	101082	18851	6100	135
+"species"	"Mycobacterium abscessus"	0	0	0	1	0	1	0	5	0
+"species"	"Mycobacterium indicus pranii"	0	0	0	1	0	0	0	1	0
+"species"	"Mycobacterium intracellulare"	0	0	0	0	0	1	0	3	0
+"species"	"Mycobacterium sp. MOTT36Y"	0	1	0	0	0	0	0	0	0
+"species"	"Mycobacterium yongonense"	0	0	0	0	0	0	0	1	0
+"species"	"Mycoplasma arthritidis"	0	90	116	0	0	254	412	4	1
+"species"	"Mycoplasma hominis"	0	45	62	0	0	106	261	3	1
+"species"	"Neisseria gonorrhoeae"	0	21	20	6	0	69	23	204	1
+"species"	"Neisseria lactamica"	0	251	168	23	2	642	353	358	0
+"species"	"Neisseria meningitidis"	1	2293	2143	112	4	5869	2745	1288	8
+"species"	"Nitrosomonas europaea"	0	0	0	0	0	0	0	1	0
+"species"	"Nocardia farcinica"	0	0	0	0	0	1	0	0	0
+"species"	"Novosphingobium aromaticivorans"	0	0	0	0	0	2	0	0	0
+"species"	"Oceanobacillus iheyensis"	0	0	0	0	0	0	0	2	0
+"species"	"Ochrobactrum anthropi"	1	10	0	0	0	6	4	0	0
+"species"	"Odoribacter splanchnicus"	8	0	0	0	0	0	0	2	0
+"species"	"Olsenella uli"	0	0	0	0	0	0	0	4	0
+"species"	"Ornithobacterium rhinotracheale"	0	1	0	0	0	2	0	0	0
+"species"	"Oscillibacter valericigenes"	0	0	0	0	0	2	0	0	0
+"species"	"Paenibacillus sp. JDR-2"	0	0	0	0	0	1	0	0	0
+"species"	"Pandoraea sp. RB-44"	0	0	0	0	0	0	0	8	0
+"species"	"Pantoea ananatis"	0	0	1	0	0	8	2	0	0
+"species"	"Pantoea sp. At-9b"	0	0	1	0	0	2	2	0	0
+"species"	"Pantoea vagans"	0	2	6	0	0	4	1	2	0
+"species"	"Parabacteroides distasonis"	0	0	0	0	0	2	0	0	0
+"species"	"Paracoccus denitrificans"	0	0	0	0	0	1	0	0	0
+"species"	"Paraglaciecola psychrophila"	0	0	0	0	0	0	1	0	0
+"species"	"Parvibaculum lavamentivorans"	0	0	0	1	0	0	0	1	0
+"species"	"Pasteurella multocida"	0	133	34	11	1	326	141	43	1
+"species"	"Pectobacterium atrosepticum"	0	0	1	0	0	1	1	0	0
+"species"	"Pectobacterium carotovorum"	0	40	2	2	0	71	12	0	0
+"species"	"Pectobacterium sp. SCC3193"	0	5	0	0	0	18	13	0	0
+"species"	"Pectobacterium wasabiae"	0	12	1	0	0	36	20	2	0
+"species"	"Pediococcus claussenii"	0	0	1	0	0	2	0	2	0
+"species"	"Pediococcus pentosaceus"	0	0	2	0	0	0	0	0	0
+"species"	"Pepper mild mottle virus"	0	0	0	0	0	1	0	0	0
+"species"	"Peptoclostridium difficile"	0	2	0	3	1	4	0	5	0
+"species"	"Photobacterium profundum"	0	0	0	0	0	2	0	0	0
+"species"	"Photorhabdus luminescens"	0	1	2	0	0	0	0	0	0
+"species"	"Plautia stali symbiont"	0	0	0	0	0	1	0	1	0
+"species"	"Porphyromonas asaccharolytica"	4	26	0	0	0	32	14	0	0
+"species"	"Porphyromonas gingivalis"	13	20	18	8	0	69	37	26	0
+"species"	"Prevotella dentalis"	28	4	0	1	0	10	0	28	0
+"species"	"Prevotella denticola"	186	47	77	23	3	141	86	133	0
+"species"	"Prevotella intermedia"	282	13	0	9	3	37	18	37	0
+"species"	"Prevotella melaninogenica"	194	526	542	219	11	1390	758	712	14
+"species"	"Prevotella ruminicola"	0	0	0	0	0	2	0	0	0
+"species"	"Prevotella sp. oral taxon 299"	159	31	13	10	0	88	82	46	1
+"species"	"Propionibacterium acnes"	93	543	0	1	0	120	119	4	0
+"species"	"Propionibacterium freudenreichii"	0	1	0	0	0	1	0	1	0
+"species"	"Propionibacterium phage P100_1"	1	0	0	0	0	0	0	0	0
+"species"	"Propionibacterium phage P105"	0	0	0	0	0	1	0	0	0
+"species"	"Propionibacterium phage PA6"	2	0	0	0	0	0	0	0	0
+"species"	"Propionibacterium phage PHL067"	1	0	0	0	0	0	0	0	0
+"species"	"Propionibacterium phage PHL111M01"	1	0	0	0	0	0	0	0	0
+"species"	"Propionibacterium phage PHL113M01"	1	0	0	0	0	0	0	0	0
+"species"	"Propionibacterium phage PHL150"	1	0	0	0	0	0	0	0	0
+"species"	"Propionibacterium phage PHL308"	0	2	0	0	0	0	0	0	0
+"species"	"Propionibacterium phage Solid"	1	0	0	0	0	0	0	0	0
+"species"	"Propionibacterium propionicum"	0	2	0	1	0	5	0	11	0
+"species"	"Proteus mirabilis"	0	65	21	189	2	177	189	415	10
+"species"	"Providencia stuartii"	0	23	2	22	0	81	177	90	1
+"species"	"Pseudoalteromonas haloplanktis"	0	0	0	0	0	3	0	0	0
+"species"	"Pseudomonas aeruginosa"	4	1072	419	3572	8	2757	963	34270	13
+"species"	"Pseudomonas brassicacearum"	0	10	3	0	0	976	12	17	0
+"species"	"Pseudomonas denitrificans"	0	7	1	0	0	35	7	11	0
+"species"	"Pseudomonas entomophila"	0	0	0	1	0	372	0	6	0
+"species"	"Pseudomonas fluorescens"	6	192	105	136	1	4233	94	2266	0
+"species"	"Pseudomonas fulva"	0	2	0	0	0	41	1	0	0
+"species"	"Pseudomonas mendocina"	1	52	4	0	0	58	4	4	0
+"species"	"Pseudomonas monteilii"	0	1	1	2	0	103	0	3	0
+"species"	"Pseudomonas phage B3"	0	0	0	3	0	0	0	7	0
+"species"	"Pseudomonas phage D3"	0	1	0	0	0	0	0	9	0
+"species"	"Pseudomonas phage D3112"	0	0	0	1	0	0	0	4	0
+"species"	"Pseudomonas phage DMS3"	0	0	0	1	0	0	0	12	0
+"species"	"Pseudomonas phage F10"	0	0	0	0	0	0	0	4	0
+"species"	"Pseudomonas phage H70"	0	0	0	1	0	0	0	2	0
+"species"	"Pseudomonas phage JBD24"	0	0	0	1	0	0	0	4	0
+"species"	"Pseudomonas phage JBD30"	0	1	0	0	0	0	0	1	0
+"species"	"Pseudomonas phage JBD5"	0	0	0	0	0	0	0	1	0
+"species"	"Pseudomonas phage JD024"	0	0	0	0	0	0	0	4	0
+"species"	"Pseudomonas phage LPB1"	0	0	0	0	0	0	0	5	0
+"species"	"Pseudomonas phage MP22"	0	0	0	0	0	0	0	1	0
+"species"	"Pseudomonas phage MP29"	0	0	0	0	0	0	0	1	0
+"species"	"Pseudomonas phage MP38"	0	1	0	0	0	0	0	3	0
+"species"	"Pseudomonas phage MP48"	0	0	0	0	0	0	0	1	0
+"species"	"Pseudomonas phage PAJU2"	0	0	0	0	0	0	0	4	0
+"species"	"Pseudomonas phage Pf1"	0	0	0	0	0	0	0	2	0
+"species"	"Pseudomonas phage phi297"	0	0	0	1	0	0	0	27	0
+"species"	"Pseudomonas phage phiCTX"	0	0	0	2	0	0	0	4	0
+"species"	"Pseudomonas phage phiKZ"	0	0	31	4	0	1	0	9	0
+"species"	"Pseudomonas phage PMG1"	0	0	0	0	0	0	0	5	0
+"species"	"Pseudomonas phage vB_PaeP_Tr60_Ab31"	0	0	0	0	1	0	0	1	0
+"species"	"Pseudomonas phage vB_PaeS_PAO1_Ab30"	0	0	0	0	0	0	0	1	0
+"species"	"Pseudomonas poae"	0	37	24	6	0	1643	24	119	0
+"species"	"Pseudomonas protegens"	0	15	14	1	0	842	41	30	0
+"species"	"Pseudomonas putida"	2	30	20	8	0	543	5	86	0
+"species"	"Pseudomonas resinovorans"	0	3	1	2	0	31	4	6	0
+"species"	"Pseudomonas savastanoi"	0	3	11	0	0	132	5	1	0
+"species"	"Pseudomonas sp. TKP"	5	239	31	17	1	3130	9	326	0
+"species"	"Pseudomonas sp. UW4"	0	25	21	1	0	2059	34	25	0
+"species"	"Pseudomonas sp. VLB120"	0	5	0	2	0	66	0	9	0
+"species"	"Pseudomonas stutzeri"	2	25	1	1	0	131	5	22	0
+"species"	"Pseudomonas syringae"	0	3	12	0	0	118	5	6	0
+"species"	"Pseudomonas syringae group genomosp. 3"	0	4	1	0	0	121	0	2	0
+"species"	"Pseudoxanthomonas spadix"	0	0	0	0	0	1	0	0	0
+"species"	"Pseudoxanthomonas suwonensis"	0	0	1	0	0	5	5	0	0
+"species"	"Psychrobacter arcticus"	0	1	0	0	0	7	0	1	0
+"species"	"Psychrobacter cryohalolentis"	0	2	0	0	0	9	0	1	0
+"species"	"Psychrobacter sp. G"	0	1	0	0	0	6	0	0	0
+"species"	"Psychrobacter sp. PRwf-1"	0	164	10	0	0	307	9	6	0
+"species"	"Pusillimonas sp. T7-7"	0	0	0	0	0	1	0	0	0
+"species"	"Rahnella aquatilis"	0	5	1	0	0	27	17	0	0
+"species"	"Rahnella sp. Y9602"	0	2	2	0	0	16	16	0	0
+"species"	"Ralstonia pickettii"	48	20	0	0	0	7	0	7	0
+"species"	"Ralstonia solanacearum"	0	2	0	0	0	2	0	3	0
+"species"	"Ramlibacter tataouinensis"	0	1	2	0	0	2	0	0	0
+"species"	"Raoultella ornithinolytica"	0	7	2	0	0	27	23	1	0
+"species"	"Respiratory syncytial virus"	0	0	0	0	0	2	6	0	0
+"species"	"Rhinovirus A"	0	251	955	1	2	667	1524	3	0
+"species"	"Rhinovirus B"	0	1	0	0	0	9	2	0	0
+"species"	"Rhizobium etli"	0	0	0	0	0	2	0	0	0
+"species"	"Rhodococcus erythropolis"	0	3	0	0	0	2	0	0	0
+"species"	"Rhodoferax ferrireducens"	0	0	0	0	0	1	0	0	0
+"species"	"Riemerella anatipestifer"	0	0	0	0	0	6	0	0	0
+"species"	"Rothia dentocariosa"	9	120	95	23	1	244	186	141	2
+"species"	"Rothia mucilaginosa"	13	549	755	199	10	1259	1004	2366	6
+"species"	"Rubrivivax gelatinosus"	0	0	0	0	0	1	0	0	0
+"species"	"Salmonella bongori"	0	7	3	0	0	16	6	0	0
+"species"	"Salmonella enterica"	3	96	59	22	1	258	32	137	1
+"species"	"Sebaldella termitidis"	0	2	0	0	0	2	4	0	0
+"species"	"Selenomonas sputigena"	1	4	0	1	0	15	11	19	0
+"species"	"Semliki Forest virus"	0	1	0	0	0	0	0	0	0
+"species"	"Serratia liquefaciens"	0	43	83	1	0	145	127	2	1
+"species"	"Serratia marcescens"	0	838	512	131	4	1997	1078	1565	5
+"species"	"Serratia plymuthica"	0	104	38	2	1	267	91	2	0
+"species"	"Serratia proteamaculans"	0	28	13	0	0	76	28	0	0
+"species"	"Serratia sp. AS12"	0	26	18	0	0	77	25	3	0
+"species"	"Serratia sp. AS13"	0	36	17	0	0	67	37	0	0
+"species"	"Shewanella sp. ANA-3"	0	0	0	1	0	0	0	0	0
+"species"	"Shigella boydii"	0	14	9	1	0	20	18	17	0
+"species"	"Shigella dysenteriae"	0	13	6	0	0	30	20	10	0
+"species"	"Shigella flexneri"	0	39	29	9	0	89	31	47	0
+"species"	"Shigella sonnei"	0	31	18	7	2	54	35	31	2
+"species"	"Shimwellia blattae"	0	11	6	0	0	21	9	0	0
+"species"	"Siccibacter turicensis"	0	1	0	1	0	1	3	3	0
+"species"	"Sodalis glossinidius"	0	1	0	1	0	1	0	22	0
+"species"	"Solibacillus silvestris"	0	1	0	0	0	0	1	0	0
+"species"	"Sphingobium chlorophenolicum"	0	1	0	0	0	0	0	0	0
+"species"	"Sphingobium japonicum"	0	2	0	0	0	0	0	1	0
+"species"	"Sphingobium sp. SYK-6"	0	3	0	0	0	1	0	0	0
+"species"	"Sphingomonas sp. MM-1"	0	7	0	0	0	3	0	4	0
+"species"	"Sphingomonas wittichii"	0	1	0	0	0	0	0	0	0
+"species"	"Spirosoma linguale"	0	1	0	0	0	0	0	0	0
+"species"	"Squash mosaic virus"	0	4	0	0	0	18	41	1	0
+"species"	"Staphylococcus argenteus"	0	24	21	2	0	43	50	2	0
+"species"	"Staphylococcus aureus"	0	1311	1370	690	20	3708	2691	1208	19
+"species"	"Staphylococcus carnosus"	0	0	0	0	0	1	2	0	0
+"species"	"Staphylococcus epidermidis"	5	215	46	186	7	322	193	285	0
+"species"	"Staphylococcus haemolyticus"	0	20	3	4	0	27	21	10	0
+"species"	"Staphylococcus lugdunensis"	0	16	15	0	0	47	38	0	0
+"species"	"Staphylococcus pasteuri"	0	3	2	0	0	15	9	0	0
+"species"	"Staphylococcus phage 13"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage 47"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage 52A"	0	0	0	2	0	0	0	0	0
+"species"	"Staphylococcus phage 53"	0	0	0	0	0	1	0	0	0
+"species"	"Staphylococcus phage 69"	0	0	0	0	0	0	0	2	0
+"species"	"Staphylococcus phage 77"	0	0	0	1	0	0	0	0	0
+"species"	"Staphylococcus phage 88"	0	0	0	1	0	0	0	0	0
+"species"	"Staphylococcus phage 96"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage DW2"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage Ipla35"	0	0	0	1	0	0	0	1	0
+"species"	"Staphylococcus phage Ipla7"	0	0	0	0	0	0	0	2	0
+"species"	"Staphylococcus phage Ipla88"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage P954"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage PH15"	0	0	0	0	1	0	0	0	0
+"species"	"Staphylococcus phage phiBU01"	0	0	0	0	0	0	0	2	0
+"species"	"Staphylococcus phage phiETA"	0	0	0	0	0	0	0	0	2
+"species"	"Staphylococcus phage phiETA2"	0	0	0	1	0	0	0	0	0
+"species"	"Staphylococcus phage phiMR25"	0	0	0	2	0	0	0	2	0
+"species"	"Staphylococcus phage phiN315"	0	0	0	0	0	0	0	2	0
+"species"	"Staphylococcus phage phiNM"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage phiNM3"	0	0	0	0	0	0	0	2	0
+"species"	"Staphylococcus phage phiPVL-CN125"	0	0	0	0	0	0	0	2	0
+"species"	"Staphylococcus phage PT1028"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage SA12"	0	0	0	0	0	0	0	1	0
+"species"	"Staphylococcus phage SA13"	0	0	0	0	0	0	0	2	0
+"species"	"Staphylococcus phage Sap26"	0	0	0	1	0	0	0	0	0
+"species"	"Staphylococcus pseudintermedius"	0	1	1	2	0	4	4	1	0
+"species"	"Staphylococcus saprophyticus"	0	2	0	0	0	11	6	0	0
+"species"	"Staphylococcus warneri"	0	12	3	0	0	10	10	1	0
+"species"	"Stenotrophomonas maltophilia"	0	742	440	510	5	1102	421	6094	7
+"species"	"Streptobacillus moniliformis"	2	3	8	0	0	5	0	0	0
+"species"	"Streptococcus agalactiae"	0	24	70	455	18	66	137	745	17
+"species"	"Streptococcus anginosus"	115	6	18	25	5	12	1	93	2
+"species"	"Streptococcus constellatus"	15	8	1	36	2	19	3	77	2
+"species"	"Streptococcus dysgalactiae"	0	4	1	3	0	11	7	23	0
+"species"	"Streptococcus equi"	0	0	0	1	0	4	1	5	0
+"species"	"Streptococcus gallolyticus"	1	5	22	3	0	2	2	3	0
+"species"	"Streptococcus gordonii"	5	14	26	34	2	41	41	125	0
+"species"	"Streptococcus infantarius"	0	5	22	0	0	7	20	3	0
+"species"	"Streptococcus intermedius"	5	5	4	29	0	25	5	69	1
+"species"	"Streptococcus lutetiensis"	1	2	7	0	0	3	3	3	0
+"species"	"Streptococcus macedonicus"	2	0	0	1	0	1	1	3	0
+"species"	"Streptococcus mitis"	52	107	28	95	1	313	128	440	0
+"species"	"Streptococcus mutans"	2	11	0	7	0	7	0	6	0
+"species"	"Streptococcus oligofermentans"	1	11	5	10	1	18	5	51	2
+"species"	"Streptococcus oralis"	62	101	101	71	6	289	207	352	11
+"species"	"Streptococcus parasanguinis"	356	170	331	355	12	503	261	1590	18
+"species"	"Streptococcus parauberis"	0	1	2	0	0	2	0	0	0
+"species"	"Streptococcus pasteurianus"	0	0	8	0	0	0	0	0	0
+"species"	"Streptococcus phage DCC1738"	0	0	0	1	0	0	0	0	0
+"species"	"Streptococcus phage IC1"	0	0	0	0	0	0	0	3	0
+"species"	"Streptococcus phage K13"	0	0	0	0	1	0	0	1	0
+"species"	"Streptococcus pneumoniae"	59	214	238	119	7	568	466	550	10
+"species"	"Streptococcus pseudopneumoniae"	56	56	3	40	0	86	55	226	2
+"species"	"Streptococcus pyogenes"	0	27	22	41	3	94	32	76	2
+"species"	"Streptococcus pyogenes phage 315.4"	0	0	0	1	0	0	0	0	0
+"species"	"Streptococcus salivarius"	214	184	285	168	6	475	208	367	2
+"species"	"Streptococcus sanguinis"	50	39	123	8	2	29	35	63	0
+"species"	"Streptococcus sp. I-G2"	4	26	91	27	1	70	55	160	1
+"species"	"Streptococcus sp. I-P16"	14	26	73	52	3	93	53	165	0
+"species"	"Streptococcus suis"	3	9	22	7	0	39	10	17	1
+"species"	"Streptococcus thermophilus"	41	142	308	21	0	400	142	43	0
+"species"	"Streptococcus uberis"	0	0	0	0	0	2	0	1	0
+"species"	"Tannerella forsythia"	74	91	78	12	0	223	72	34	0
+"species"	"Tetragenococcus halophilus"	0	12	0	0	0	8	0	0	0
+"species"	"Thauera sp. MZ1T"	0	0	0	0	0	0	0	2	0
+"species"	"Thermus scotoductus"	0	1	0	0	0	0	0	0	0
+"species"	"Thermus thermophilus"	0	0	0	0	0	2	0	0	0
+"species"	"Thioalkalivibrio sulfidiphilus"	0	0	0	0	0	1	0	0	0
+"species"	"Thiomonas intermedia"	0	0	0	0	0	0	0	1	0
+"species"	"Tistrella mobilis"	0	0	0	2	0	0	0	6	0
+"species"	"Tolumonas auensis"	0	0	0	0	0	0	0	2	0
+"species"	"Tomato mosaic virus"	0	0	118	0	0	2	93	0	0
+"species"	"Torque teno virus"	1	0	0	0	0	0	0	6	0
+"species"	"Torque teno virus 16"	0	1	0	0	0	0	0	2	0
+"species"	"Treponema denticola"	27	22	165	5	0	63	50	23	0
+"species"	"Treponema pallidum"	0	0	0	0	0	3	0	0	0
+"species"	"Treponema pedis"	0	0	0	0	0	2	1	2	0
+"species"	"Treponema succinifaciens"	0	0	0	0	0	0	0	1	0
+"species"	"Tropheryma whipplei"	0	408	0	10	1	1187	218	15	1
+"species"	"Ureaplasma parvum"	0	1	0	0	0	0	0	0	0
+"species"	"Vaccinia virus"	0	17	40	40	9	12	0	99	4
+"species"	"Veillonella parvula"	75	322	173	34	4	823	702	190	0
+"species"	"Vibrio alginolyticus"	0	1	0	0	0	2	1	0	0
+"species"	"Vibrio antiquarius"	0	0	0	0	0	0	2	0	0
+"species"	"Vibrio cholerae"	0	0	0	0	0	1	0	5	0
+"species"	"Vibrio sp. EJY3"	0	0	1	0	0	2	1	0	0
+"species"	"Vibrio tasmaniensis"	0	0	0	0	0	0	1	0	0
+"species"	"Watermelon mosaic virus"	0	22	378	0	0	94	356	0	0
+"species"	"Weeksella virosa"	0	0	0	1	0	0	0	0	0
+"species"	"Xanthomonas albilineans"	0	5	7	0	0	4	1	0	0
+"species"	"Xanthomonas axonopodis"	0	0	1	0	0	0	0	1	0
+"species"	"Xanthomonas campestris"	0	4	3	0	0	2	0	2	0
+"species"	"Xanthomonas citri"	0	0	5	0	0	0	0	0	0
+"species"	"Xanthomonas euvesicatoria"	0	0	2	1	0	5	0	4	0
+"species"	"Xanthomonas fuscans"	0	0	4	0	0	1	0	0	0
+"species"	"Xanthomonas oryzae"	0	0	3	0	0	0	0	0	0
+"species"	"Xenorhabdus bovienii"	0	2	0	0	0	4	9	0	0
+"species"	"Xylella fastidiosa"	0	1	0	0	0	4	0	2	0
+"species"	"Yersinia enterocolitica"	0	1	1	0	0	12	17	0	0
+"species"	"Yersinia pestis"	0	47	40	3	0	109	133	18	0
+"species"	"Yersinia pseudotuberculosis"	0	23	17	0	0	51	47	3	0
+"strain"	"[Clostridium] saccharolyticum WM1"	0	1	0	0	0	0	0	0	0
+"strain"	"Achromobacter xylosoxidans A8"	0	7	27	1	0	7	19	6	0
+"strain"	"Achromobacter xylosoxidans NH44784-1996"	0	32	47	131	1	41	104	947	0
+"strain"	"Acidaminococcus fermentans DSM 20731"	0	0	0	0	0	1	0	0	0
+"strain"	"Acidaminococcus intestini RyC-MR95"	0	0	0	0	2	4	1	2	0
+"strain"	"Acidovorax avenae subsp. avenae ATCC 19860"	0	0	0	0	0	1	0	0	0
+"strain"	"Acidovorax ebreus TPSY"	0	1	0	0	0	0	0	0	0
+"strain"	"Acinetobacter baumannii 1656-2"	0	220	296	261	10	554	410	498	4
+"strain"	"Acinetobacter baumannii AB0057"	0	146	302	47	1	426	347	91	1
+"strain"	"Acinetobacter baumannii AB307-0294"	0	171	301	20	0	485	385	58	1
+"strain"	"Acinetobacter baumannii ACICU"	0	216	280	212	5	602	388	349	5
+"strain"	"Acinetobacter baumannii ATCC 17978"	0	190	267	38	0	466	322	86	3
+"strain"	"Acinetobacter baumannii AYE"	0	204	293	30	0	494	410	91	0
+"strain"	"Acinetobacter baumannii BJAB07104"	0	212	269	234	15	526	322	463	8
+"strain"	"Acinetobacter baumannii BJAB0715"	0	131	199	34	0	351	271	76	1
+"strain"	"Acinetobacter baumannii BJAB0868"	0	111	203	216	5	275	205	487	4
+"strain"	"Acinetobacter baumannii D1279779"	0	1	0	0	0	0	0	0	0
+"strain"	"Acinetobacter baumannii MDR-TJ"	0	220	314	245	21	563	416	536	5
+"strain"	"Acinetobacter baumannii MDR-ZJ06"	0	214	288	245	7	505	328	427	8
+"strain"	"Acinetobacter baumannii TYTH-1"	0	160	244	246	8	455	286	429	9
+"strain"	"Acinetobacter baumannii ZW85-1"	0	186	275	32	2	446	403	93	1
+"strain"	"Acinetobacter calcoaceticus PHEA-2"	0	178	62	0	0	103	61	7	0
+"strain"	"Acinetobacter oleivorans DR1"	0	25	65	1	0	55	116	3	0
+"strain"	"Actinobacillus pleuropneumoniae serovar 3 str. JL03"	0	80	78	1	0	221	75	3	0
+"strain"	"Actinobacillus pleuropneumoniae serovar 5b str. L20"	0	104	152	0	0	235	176	4	0
+"strain"	"Actinobacillus pleuropneumoniae serovar 7 str. AP76"	0	84	154	1	0	249	142	2	0
+"strain"	"Actinobacillus succinogenes 130Z"	0	10	4	0	0	21	3	0	0
+"strain"	"Actinobacillus suis H91-0380"	0	72	164	5	0	281	281	1	0
+"strain"	"Aerococcus urinae ACS-120-V-Col10a"	0	4	17	1	0	6	15	0	0
+"strain"	"Aeromonas salmonicida subsp. salmonicida A449"	0	0	0	0	0	0	0	2	0
+"strain"	"Aggregatibacter actinomycetemcomitans ANH9381"	0	0	2	0	0	7	7	0	0
+"strain"	"Aggregatibacter actinomycetemcomitans D7S-1"	0	4	1	0	0	2	7	0	0
+"strain"	"Aggregatibacter aphrophilus NJ8700"	0	77	206	10	0	187	202	43	0
+"strain"	"Agrobacterium fabrum str. C58"	0	7	0	0	0	2	0	0	0
+"strain"	"Agrobacterium vitis S4"	0	1	0	0	0	0	0	0	0
+"strain"	"Alcanivorax dieselolei B5"	0	0	0	0	0	0	0	2	0
+"strain"	"Alicycliphilus denitrificans BC"	0	4	0	5	0	2	0	29	0
+"strain"	"Alicycliphilus denitrificans K601"	0	0	0	1	0	0	0	5	0
+"strain"	"Alistipes shahii WAL 8301"	18	0	0	4	0	0	0	0	0
+"strain"	"Amycolicicoccus subflavus DQS3-9A1"	0	1	0	0	0	0	0	0	0
+"strain"	"Anaerococcus prevotii DSM 20548"	0	4	0	0	0	18	24	1	0
+"strain"	"Arcanobacterium haemolyticum DSM 20595"	2	0	0	0	0	0	0	7	0
+"strain"	"Atopobium parvulum DSM 20469"	10	45	112	2	0	81	105	58	0
+"strain"	"Azotobacter vinelandii CA"	0	0	0	0	0	5	0	0	0
+"strain"	"Azotobacter vinelandii CA6"	0	1	0	0	0	5	1	0	0
+"strain"	"Azotobacter vinelandii DJ"	0	1	0	0	0	7	0	0	0
+"strain"	"Bacillus anthracis str. A0248"	0	1	0	0	0	0	0	0	0
+"strain"	"Bacillus anthracis str. CDC 684"	0	1	0	0	0	0	1	0	0
+"strain"	"Bacillus cereus 03BB102"	0	0	1	0	0	0	0	0	0
+"strain"	"Bacillus cereus ATCC 10987"	0	0	0	1	0	0	0	0	0
+"strain"	"Bacillus cereus ATCC 14579"	0	1	1	0	0	0	0	1	0
+"strain"	"Bacillus cereus FRI-35"	0	1	0	0	0	0	2	0	0
+"strain"	"Bacillus cereus NC7401"	0	0	0	0	0	1	3	0	0
+"strain"	"Bacillus coagulans 2-6"	0	0	0	0	0	2	0	0	0
+"strain"	"Bacillus coagulans 36D1"	0	0	0	0	0	1	0	0	0
+"strain"	"Bacillus cytotoxicus NVH 391-98"	0	0	0	0	0	1	0	0	0
+"strain"	"Bacillus pumilus SAFR-032"	0	0	0	0	0	0	0	1	0
+"strain"	"Bacillus subtilis BSn5"	0	4	0	0	0	1	0	0	0
+"strain"	"Bacillus subtilis subsp. spizizenii str. W23"	0	0	0	0	0	0	1	0	0
+"strain"	"Bacillus subtilis subsp. subtilis str. 168"	0	0	0	0	0	0	1	0	0
+"strain"	"Bacillus thuringiensis serovar finitimus YBT-020"	0	0	2	0	0	1	0	0	0
+"strain"	"Bacteroides fragilis 638R"	4	9	0	8	1	10	4	24	0
+"strain"	"Bacteroides fragilis NCTC 9343"	0	7	0	9	2	4	10	20	2
+"strain"	"Bacteroides fragilis YCH46"	0	1	0	4	1	12	0	33	0
+"strain"	"Bacteroides salanitronis DSM 18170"	5	0	0	4	0	0	0	8	0
+"strain"	"Bacteroides vulgatus ATCC 8482"	0	3	0	0	0	5	2	0	0
+"strain"	"Bibersteinia trehalosi USDA-ARS-USMARC-192"	0	178	106	2	0	338	306	2	0
+"strain"	"Bifidobacterium animalis subsp. lactis ATCC 27673"	0	0	0	0	0	0	0	2	0
+"strain"	"Bifidobacterium animalis subsp. lactis BB-12"	1	0	0	0	0	0	0	0	0
+"strain"	"Bifidobacterium animalis subsp. lactis Bl12"	0	0	0	0	0	0	0	1	0
+"strain"	"Bifidobacterium animalis subsp. lactis BLC1"	0	0	0	1	0	0	0	0	0
+"strain"	"Bifidobacterium animalis subsp. lactis DSM 10140"	0	0	0	1	0	0	0	1	0
+"strain"	"Bifidobacterium animalis subsp. lactis V9"	0	0	0	1	0	0	0	1	0
+"strain"	"Bifidobacterium bifidum PRL2010"	0	0	0	0	0	1	0	0	0
+"strain"	"Bifidobacterium breve ACS-071-V-Sch8b"	0	1	0	3	0	4	0	21	0
+"strain"	"Bifidobacterium breve UCC2003"	0	0	0	5	0	3	1	22	0
+"strain"	"Bifidobacterium dentium Bd1"	29	0	0	3	0	6	0	20	0
+"strain"	"Bifidobacterium longum DJO10A"	1	2	0	0	0	1	0	8	0
+"strain"	"Bifidobacterium longum NCC2705"	1	1	0	1	0	1	0	5	0
+"strain"	"Bifidobacterium longum subsp. infantis 157F"	0	1	0	0	0	0	0	7	0
+"strain"	"Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088"	1	2	0	3	0	8	0	5	0
+"strain"	"Bifidobacterium longum subsp. longum BBMN68"	0	0	0	4	0	0	0	9	1
+"strain"	"Bifidobacterium longum subsp. longum F8"	1	0	0	0	0	0	0	4	0
+"strain"	"Bifidobacterium longum subsp. longum JCM 1217"	0	0	0	0	0	2	0	0	0
+"strain"	"Bifidobacterium longum subsp. longum JDM301"	0	1	0	0	0	2	0	12	0
+"strain"	"Bifidobacterium longum subsp. longum KACC 91563"	2	1	0	0	0	2	0	8	0
+"strain"	"Bifidobacterium thermophilum RBL67"	0	0	0	0	0	0	0	1	0
+"strain"	"Bordetella avium 197N"	0	1	0	0	0	2	0	0	0
+"strain"	"Bordetella bronchiseptica 253"	0	1	1	1	0	3	0	4	0
+"strain"	"Bordetella bronchiseptica MO149"	0	1	0	0	0	1	0	4	0
+"strain"	"Bordetella bronchiseptica RB50"	0	0	5	0	0	3	0	1	0
+"strain"	"Bordetella parapertussis 12822"	0	3	4	0	0	6	1	2	0
+"strain"	"Bordetella parapertussis Bpp5"	0	2	2	0	0	1	0	2	0
+"strain"	"Bordetella pertussis 18323"	0	0	0	0	0	3	0	6	0
+"strain"	"Bordetella pertussis CS"	0	1	0	7	0	1	0	15	0
+"strain"	"Bordetella pertussis Tohama I"	0	2	0	0	0	0	0	13	0
+"strain"	"Borrelia duttonii Ly"	0	0	0	0	0	0	0	3	0
+"strain"	"Brevundimonas subvibrioides ATCC 15264"	0	0	0	0	0	1	0	0	0
+"strain"	"Brucella abortus bv. 1 str. 9-941"	0	0	0	0	0	0	1	0	0
+"strain"	"Brucella canis HSK A52141"	0	0	0	0	0	0	1	1	0
+"strain"	"Brucella melitensis ATCC 23457"	0	0	0	0	0	0	1	0	0
+"strain"	"Brucella microti CCM 4915"	0	0	0	0	0	0	1	0	0
+"strain"	"Brucella pinnipedialis B2/94"	0	0	0	0	0	1	0	0	0
+"strain"	"Brucella suis 1330"	0	0	0	0	0	0	0	1	0
+"strain"	"Burkholderia ambifaria AMMD"	0	3	0	1	0	4	1	12	0
+"strain"	"Burkholderia ambifaria MC40-6"	0	1	0	0	0	0	0	18	0
+"strain"	"Burkholderia cenocepacia AU 1054"	0	4	0	5	0	4	3	122	0
+"strain"	"Burkholderia cenocepacia HI2424"	0	1	0	9	1	7	9	145	0
+"strain"	"Burkholderia cenocepacia J2315"	0	4	0	5	0	2	4	201	0
+"strain"	"Burkholderia cenocepacia MC0-3"	0	3	0	7	0	7	28	198	0
+"strain"	"Burkholderia cepacia GG4"	0	0	0	0	0	0	1	8	0
+"strain"	"Burkholderia glumae BGR1"	0	0	0	0	0	1	0	0	0
+"strain"	"Burkholderia multivorans ATCC 17616"	0	1	0	0	0	3	0	0	0
+"strain"	"Burkholderia pseudomallei 668"	0	0	0	0	0	2	0	0	0
+"strain"	"Burkholderia pseudomallei BPC006"	0	0	0	0	0	1	0	0	0
+"strain"	"Burkholderia pseudomallei K96243"	0	0	0	1	0	0	0	0	0
+"strain"	"Burkholderia thailandensis MSMB121"	0	0	0	0	0	0	0	1	0
+"strain"	"Burkholderia vietnamiensis G4"	0	1	0	0	0	7	4	3	0
+"strain"	"Butyrivibrio proteoclasticus B316"	0	0	0	0	0	0	0	1	0
+"strain"	"Campylobacter curvus 525.92"	0	1	0	0	0	10	0	0	0
+"strain"	"Campylobacter jejuni subsp. jejuni S3"	0	0	0	0	0	1	0	0	0
+"strain"	"Candidatus Kinetoplastibacterium blastocrithidii (ex Strigomonas culicis)"	0	0	0	0	0	0	0	1	0
+"strain"	"Capnocytophaga canimorsus Cc5"	0	0	0	0	0	5	1	0	0
+"strain"	"Capnocytophaga ochracea DSM 7271"	0	46	108	2	1	110	193	14	0
+"strain"	"Carnobacterium maltaromaticum LMA28"	0	9	7	1	0	18	2	0	0
+"strain"	"Cellulomonas flavigena DSM 20109"	0	0	0	0	0	0	0	1	0
+"strain"	"Chromohalobacter salexigens DSM 3043"	0	0	0	0	0	1	0	0	0
+"strain"	"Chroococcidiopsis thermalis PCC 7203"	0	0	0	0	0	2	0	0	0
+"strain"	"Citrobacter rodentium ICC168"	0	1	2	0	0	3	1	3	0
+"strain"	"Clostridium perfringens str. 13"	0	1	0	0	0	3	0	0	0
+"strain"	"Collimonas fungivorans Ter331"	0	10	8	4	0	38	21	26	0
+"strain"	"Comamonas testosteroni CNB-1"	0	1	0	0	0	0	0	1	0
+"strain"	"Comamonas testosteroni CNB-2"	0	0	0	0	0	1	0	0	0
+"strain"	"Common midwife toad ranavirus"	0	0	0	0	0	0	0	1	0
+"strain"	"Corynebacterium argentoratense DSM 44202"	0	140	91	1	0	419	93	7	0
+"strain"	"Corynebacterium aurimucosum ATCC 700975"	1	2009	541	46	6	4916	1069	481	2
+"strain"	"Corynebacterium callunae DSM 20147"	0	1	0	0	0	2	1	3	0
+"strain"	"Corynebacterium diphtheriae 241"	0	0	0	0	0	0	0	10	0
+"strain"	"Corynebacterium diphtheriae 31A"	0	1	0	14	0	5	0	70	1
+"strain"	"Corynebacterium diphtheriae BH8"	0	0	0	5	0	0	0	39	0
+"strain"	"Corynebacterium diphtheriae C7 (beta)"	0	0	0	10	1	2	0	50	1
+"strain"	"Corynebacterium diphtheriae CDCE 8392"	0	2	0	16	1	1	0	61	1
+"strain"	"Corynebacterium diphtheriae HC01"	0	0	0	0	0	0	0	11	0
+"strain"	"Corynebacterium diphtheriae HC02"	0	0	0	4	1	1	0	63	2
+"strain"	"Corynebacterium diphtheriae HC03"	0	1	0	1	0	0	0	4	0
+"strain"	"Corynebacterium diphtheriae HC04"	0	0	0	0	0	0	0	1	1
+"strain"	"Corynebacterium diphtheriae INCA 402"	0	0	0	8	1	2	0	61	1
+"strain"	"Corynebacterium diphtheriae NCTC 13129"	0	1	0	2	0	2	0	16	0
+"strain"	"Corynebacterium diphtheriae PW8"	0	1	0	17	0	0	0	90	0
+"strain"	"Corynebacterium diphtheriae VA01"	0	0	0	0	0	0	0	3	0
+"strain"	"Corynebacterium efficiens YS-314"	0	11	5	2	0	14	9	18	0
+"strain"	"Corynebacterium glutamicum ATCC 13032"	0	0	0	0	0	0	0	2	0
+"strain"	"Corynebacterium glutamicum K051"	0	0	0	0	0	0	0	1	0
+"strain"	"Corynebacterium glutamicum MB001"	0	0	0	0	0	0	0	2	0
+"strain"	"Corynebacterium glutamicum R"	0	0	0	0	0	0	0	4	0
+"strain"	"Corynebacterium glutamicum SCgG1"	0	0	0	0	0	0	0	2	0
+"strain"	"Corynebacterium glutamicum SCgG2"	0	0	0	0	0	0	0	2	0
+"strain"	"Corynebacterium halotolerans YIM 70093 = DSM 44683"	0	246	94	0	0	659	168	9	0
+"strain"	"Corynebacterium jeikeium K411"	0	7	2	22	1	12	0	192	1
+"strain"	"Corynebacterium kroppenstedtii DSM 44385"	0	0	0	2	0	0	0	12	0
+"strain"	"Corynebacterium maris DSM 45190"	0	0	0	0	0	1	0	1	0
+"strain"	"Corynebacterium pseudotuberculosis 1/06-A"	0	0	1	0	0	3	1	0	0
+"strain"	"Corynebacterium pseudotuberculosis 1002"	0	1	1	0	0	3	1	0	0
+"strain"	"Corynebacterium pseudotuberculosis 267"	0	2	1	0	0	8	1	0	0
+"strain"	"Corynebacterium pseudotuberculosis 3/99-5"	0	3	0	0	0	6	0	0	0
+"strain"	"Corynebacterium pseudotuberculosis 316"	0	3	1	0	0	5	0	0	0
+"strain"	"Corynebacterium pseudotuberculosis 42/02-A"	0	1	0	0	0	3	2	0	0
+"strain"	"Corynebacterium pseudotuberculosis C231"	0	1	0	0	0	1	1	0	0
+"strain"	"Corynebacterium pseudotuberculosis CIP 52.97"	0	2	0	0	0	7	1	0	0
+"strain"	"Corynebacterium pseudotuberculosis Cp162"	0	93	14	1	0	231	17	0	0
+"strain"	"Corynebacterium pseudotuberculosis FRC41"	0	1	0	0	0	3	3	0	0
+"strain"	"Corynebacterium pseudotuberculosis I19"	0	2	0	0	0	4	0	0	0
+"strain"	"Corynebacterium pseudotuberculosis P54B96"	0	3	1	0	0	7	0	0	0
+"strain"	"Corynebacterium pseudotuberculosis PAT10"	0	2	1	0	0	2	0	0	0
+"strain"	"Corynebacterium resistens DSM 45100"	0	2	0	48	2	4	0	338	2
+"strain"	"Corynebacterium terpenotabidum Y-11"	0	72	34	0	0	231	28	0	0
+"strain"	"Corynebacterium ulcerans 0102"	0	6	0	0	0	13	2	1	0
+"strain"	"Corynebacterium ulcerans 809"	0	2	1	0	0	12	0	0	0
+"strain"	"Corynebacterium ulcerans BR-AD22"	0	2	0	0	0	5	1	1	0
+"strain"	"Corynebacterium urealyticum DSM 7109"	0	4	0	24	0	5	0	152	1
+"strain"	"Corynebacterium urealyticum DSM 7111"	0	0	0	16	1	1	0	46	1
+"strain"	"Corynebacterium variabile DSM 44702"	1	116	27	0	0	295	41	5	0
+"strain"	"Cronobacter sakazakii ATCC BAA-894"	0	10	4	0	0	16	17	5	0
+"strain"	"Cronobacter sakazakii CMCC 45402"	0	5	1	3	0	14	23	13	0
+"strain"	"Cronobacter sakazakii ES15"	0	8	1	0	0	8	15	0	0
+"strain"	"Cronobacter sakazakii SP291"	0	4	6	6	0	9	8	21	0
+"strain"	"Cryptobacterium curtum DSM 15641"	4	1	0	1	0	2	0	16	0
+"strain"	"Cupriavidus metallidurans CH34"	0	26	0	1	0	11	0	10	0
+"strain"	"Dechlorosoma suillum PS"	0	3	0	0	0	1	0	4	0
+"strain"	"Deinococcus geothermalis DSM 11300"	0	2	0	0	0	0	0	0	0
+"strain"	"Delftia acidovorans SPH-1"	0	962	1	22	0	344	0	232	0
+"strain"	"Desulfovibrio desulfuricans subsp. desulfuricans str. ATCC 27774"	0	0	0	0	0	2	0	0	0
+"strain"	"Dickeya dadantii 3937"	0	5	1	0	0	10	3	2	0
+"strain"	"Dickeya dadantii Ech586"	0	0	0	0	0	1	7	0	0
+"strain"	"Dickeya dadantii Ech703"	0	2	0	0	0	1	0	1	0
+"strain"	"Dickeya zeae Ech1591"	0	3	0	0	0	10	6	0	0
+"strain"	"Edwardsiella ictaluri 93-146"	0	2	1	0	0	8	13	0	0
+"strain"	"Edwardsiella piscicida C07-087"	0	3	0	0	0	3	1	0	0
+"strain"	"Edwardsiella tarda EIB202"	0	0	0	0	0	4	1	1	0
+"strain"	"Edwardsiella tarda FL6-60"	0	0	0	0	0	3	2	0	0
+"strain"	"Enterobacter aerogenes EA1509E"	0	20	9	17	0	54	35	59	0
+"strain"	"Enterobacter aerogenes KCTC 2190"	0	16	11	0	0	64	25	9	0
+"strain"	"Enterobacter asburiae LF7a"	0	62	63	4	0	125	63	15	0
+"strain"	"Enterobacter cloacae EcWSU1"	0	31	70	6	1	92	68	38	0
+"strain"	"Enterobacter cloacae subsp. cloacae ATCC 13047"	0	28	9	6	1	67	84	81	0
+"strain"	"Enterobacter cloacae subsp. cloacae ENHKU01"	0	57	59	11	0	135	60	150	0
+"strain"	"Enterobacter cloacae subsp. dissolvens SDM"	0	25	24	2	0	62	58	55	0
+"strain"	"Enterobacter lignolyticus SCF1"	0	10	38	0	0	53	76	6	0
+"strain"	"Enterobacteria phage DE3"	0	1	1	0	0	0	0	0	0
+"strain"	"Enterobacteria phage ID22"	0	0	0	0	0	0	0	3	0
+"strain"	"Enterobacteria phage ID34"	0	0	0	0	0	0	0	2	0
+"strain"	"Enterobacteria phage ID45"	0	0	0	0	0	0	0	6	0
+"strain"	"Enterobacteria phage NC1"	0	2	5	0	1	2	9	19	1
+"strain"	"Enterobacteria phage NC11"	0	0	2	0	0	0	0	4	0
+"strain"	"Enterobacteria phage NC16"	0	34	54	24	61	46	82	189	55
+"strain"	"Enterobacteria phage NC37"	0	22	60	28	40	53	86	162	55
+"strain"	"Enterobacteria phage NC41"	0	1	0	1	0	0	1	12	1
+"strain"	"Enterobacteria phage NC5"	0	23	32	21	34	30	51	120	41
+"strain"	"Enterobacteria phage NC51"	0	47	94	36	85	46	128	319	75
+"strain"	"Enterobacteria phage NC56"	0	15	24	12	16	21	21	73	16
+"strain"	"Enterobacteria phage NC7"	0	1	2	1	3	4	4	19	2
+"strain"	"Enterobacteria phage P7"	0	0	0	3	0	0	0	2	0
+"strain"	"Enterobacteria phage phiX174"	0	20010	39339	21469	33484	29066	53614	109567	33036
+"strain"	"Enterobacteria phage S13"	0	997	1804	1163	1619	1474	2531	5247	1655
+"strain"	"Enterobacteria phage WA10"	0	0	2	1	3	0	3	25	5
+"strain"	"Enterococcus casseliflavus EC20"	0	0	0	0	0	2	1	0	0
+"strain"	"Enterococcus faecalis D32"	0	32	0	17	3	54	69	57	1
+"strain"	"Enterococcus faecalis OG1RF"	0	29	5	15	1	66	48	45	0
+"strain"	"Enterococcus faecalis str. Symbioflor 1"	0	24	2	26	2	69	62	48	0
+"strain"	"Enterococcus faecalis V583"	0	70	19	178	8	170	69	299	9
+"strain"	"Enterococcus faecium Aus0004"	0	1	0	1	0	5	3	2	0
+"strain"	"Enterococcus faecium Aus0085"	0	1	0	4	1	3	1	12	0
+"strain"	"Enterococcus faecium DO"	0	0	0	5	0	3	0	5	0
+"strain"	"Enterococcus faecium NRRL B-2354"	0	3	0	0	0	3	0	4	0
+"strain"	"Enterococcus hirae ATCC 9790"	0	2	0	0	0	2	0	1	0
+"strain"	"Enterococcus mundtii QU 25"	0	7	2	0	0	9	1	0	0
+"strain"	"Erwinia amylovora ATCC 49946"	0	1	0	0	0	2	2	0	0
+"strain"	"Erwinia amylovora CFBP1430"	0	1	0	0	0	0	2	0	0
+"strain"	"Erwinia billingiae Eb661"	0	1	2	0	0	15	8	0	0
+"strain"	"Erwinia pyrifoliae DSM 12163"	0	0	0	0	0	3	0	0	0
+"strain"	"Erwinia tasmaniensis Et1/99"	0	5	11	1	0	3	5	0	0
+"strain"	"Erythrobacter litoralis HTCC2594"	0	0	0	0	0	9	0	0	0
+"strain"	"Escherichia coli 'BL21-Gold(DE3)pLysS AG'"	0	33	11	2	0	63	17	17	0
+"strain"	"Escherichia coli 042"	0	54	31	44	0	193	96	140	1
+"strain"	"Escherichia coli 536"	0	26	16	30	2	50	15	130	2
+"strain"	"Escherichia coli ABU 83972"	180	34	19	30	1	71	20	108	1
+"strain"	"Escherichia coli APEC O1"	0	21	15	25	0	52	14	105	2
+"strain"	"Escherichia coli APEC O78"	0	18	8	3	0	44	18	25	0
+"strain"	"Escherichia coli ATCC 8739"	0	22	10	2	0	47	21	12	0
+"strain"	"Escherichia coli B str. REL606"	0	32	12	2	0	58	22	12	0
+"strain"	"Escherichia coli BL21(DE3)"	0	68	26	3	0	111	33	30	0
+"strain"	"Escherichia coli BW2952"	0	26	18	2	1	38	7	11	0
+"strain"	"Escherichia coli DH1"	0	56	37	5	0	136	33	19	2
+"strain"	"Escherichia coli ETEC H10407"	0	15	18	6	0	58	29	26	0
+"strain"	"Escherichia coli IAI39"	0	27	15	14	0	72	26	82	2
+"strain"	"Escherichia coli IHE3034"	0	31	27	30	1	64	24	80	3
+"strain"	"Escherichia coli JJ1886"	0	67	33	215	10	158	50	784	12
+"strain"	"Escherichia coli KO11FL"	0	46	15	2	0	113	43	17	0
+"strain"	"Escherichia coli LY180"	0	24	4	2	0	45	13	9	0
+"strain"	"Escherichia coli NA114"	0	177	71	157	6	349	55	649	6
+"strain"	"Escherichia coli O103:H2 str. 12009"	0	26	11	1	0	40	24	25	0
+"strain"	"Escherichia coli O104:H4 str. 2009EL-2050"	0	21	8	4	0	41	12	16	0
+"strain"	"Escherichia coli O104:H4 str. 2009EL-2071"	0	31	6	2	0	52	12	20	0
+"strain"	"Escherichia coli O104:H4 str. 2011C-3493"	0	20	10	6	0	47	22	32	0
+"strain"	"Escherichia coli O111:H- str. 11128"	0	18	15	3	0	45	19	21	0
+"strain"	"Escherichia coli O139:H28 str. E24377A"	0	18	7	4	0	45	13	31	0
+"strain"	"Escherichia coli O157:H7 str. EC4115"	0	19	8	1	0	54	20	16	0
+"strain"	"Escherichia coli O157:H7 str. EDL933"	0	14	9	1	0	43	14	9	0
+"strain"	"Escherichia coli O157:H7 str. Sakai"	0	25	7	5	0	61	21	11	0
+"strain"	"Escherichia coli O157:H7 str. TW14359"	0	31	10	5	0	50	19	12	0
+"strain"	"Escherichia coli O26:H11 str. 11368"	0	16	11	6	0	37	14	19	0
+"strain"	"Escherichia coli O55:H7 str. CB9615"	0	29	10	4	0	82	22	12	0
+"strain"	"Escherichia coli O55:H7 str. RM12579"	0	24	6	6	0	57	23	29	0
+"strain"	"Escherichia coli O7:K1 str. CE10"	0	31	19	13	0	78	22	78	1
+"strain"	"Escherichia coli O83:H1 str. NRG 857C"	0	44	13	27	2	53	22	120	2
+"strain"	"Escherichia coli P12b"	0	22	6	3	0	61	13	22	0
+"strain"	"Escherichia coli PMV-1"	1	39	20	20	2	78	30	121	0
+"strain"	"Escherichia coli SE11"	0	23	5	4	0	66	22	28	0
+"strain"	"Escherichia coli SE15"	0	170	73	148	7	380	71	564	10
+"strain"	"Escherichia coli SMS-3-5"	0	43	16	25	0	90	24	128	0
+"strain"	"Escherichia coli str. 'clone D i14'"	1	32	31	23	0	101	24	121	0
+"strain"	"Escherichia coli str. 'clone D i2'"	1	40	27	21	0	83	27	99	2
+"strain"	"Escherichia coli str. K-12 substr. MDS42"	0	23	21	1	0	45	13	10	0
+"strain"	"Escherichia coli str. K-12 substr. MG1655"	0	31	15	1	0	52	18	12	0
+"strain"	"Escherichia coli UM146"	0	28	26	28	2	80	28	101	3
+"strain"	"Escherichia coli UMN026"	0	133	44	48	0	336	44	235	1
+"strain"	"Escherichia coli UMNK88"	0	26	13	10	1	49	17	36	0
+"strain"	"Escherichia coli UTI89"	0	44	16	29	1	81	33	120	1
+"strain"	"Escherichia coli W"	0	53	31	1	0	93	58	25	0
+"strain"	"Escherichia coli Xuzhou21"	0	17	9	5	0	47	24	12	0
+"strain"	"Filifactor alocis ATCC 35896"	57	16	0	20	0	39	27	13	0
+"strain"	"Finegoldia magna ATCC 29328"	0	54	7	9	0	144	43	12	0
+"strain"	"Fusobacterium nucleatum subsp. animalis 4_8"	12	361	599	25	0	1024	627	60	0
+"strain"	"Fusobacterium nucleatum subsp. nucleatum ATCC 25586"	4	324	495	10	0	1000	533	12	0
+"strain"	"Fusobacterium nucleatum subsp. vincentii 3_1_36A2"	8	157	315	62	0	511	311	82	0
+"strain"	"Gallibacterium anatis UMN179"	0	4	2	0	0	9	8	0	0
+"strain"	"Gardnerella vaginalis 409-05"	0	0	0	2	0	1	0	1	0
+"strain"	"Gardnerella vaginalis ATCC 14019"	0	0	0	2	0	0	0	0	0
+"strain"	"Haemophilus ducreyi 35000HP"	0	29	28	0	0	56	5	3	0
+"strain"	"Haemophilus influenzae 10810"	0	643	630	268	13	1765	1050	658	16
+"strain"	"Haemophilus influenzae 86-028NP"	2	1307	1502	1460	50	3474	2081	2589	49
+"strain"	"Haemophilus influenzae F3031"	1	682	525	226	5	1688	674	525	7
+"strain"	"Haemophilus influenzae F3047"	0	539	367	204	6	1384	664	480	3
+"strain"	"Haemophilus influenzae KR494"	4	370	573	243	17	1110	966	645	12
+"strain"	"Haemophilus influenzae PittEE"	1	718	651	588	21	1849	976	1164	16
+"strain"	"Haemophilus influenzae PittGG"	0	750	604	269	12	1929	900	627	14
+"strain"	"Haemophilus influenzae R2846"	0	707	651	485	20	1861	1023	876	11
+"strain"	"Haemophilus influenzae R2866"	0	701	818	357	11	2283	1529	767	13
+"strain"	"Haemophilus influenzae Rd KW20"	0	586	498	288	7	1362	880	624	12
+"strain"	"Haemophilus parainfluenzae T3T1"	2	862	1130	80	6	2376	2150	434	6
+"strain"	"Haemophilus parasuis SH0165"	0	10	13	0	0	18	17	0	0
+"strain"	"Haemophilus somnus 129PT"	0	1	0	0	0	2	0	0	0
+"strain"	"Haemophilus somnus 2336"	0	2	0	0	0	4	0	0	0
+"strain"	"Herbaspirillum seropedicae SmR1"	0	9	1	2	0	6	1	18	0
+"strain"	"Horsepox virus"	0	2	0	0	0	0	0	0	0
+"strain"	"Human adenovirus 3"	0	0	0	0	0	1	0	3	0
+"strain"	"Human adenovirus 3+11p"	0	2	0	0	0	0	0	3	0
+"strain"	"Human adenovirus 6"	0	0	0	0	0	0	0	1	0
+"strain"	"Human adenovirus 7"	0	0	0	0	0	0	0	1	0
+"strain"	"Human coronavirus OC43"	0	3	0	0	0	42	80	0	0
+"strain"	"Human endogenous retrovirus K113"	0	0	0	39	0	0	0	294	0
+"strain"	"Human endogenous retrovirus K115"	0	0	0	65	1	4	4	324	0
+"strain"	"Human group 1 coronavirus associated with pneumonia"	0	14	64	0	0	32	200	0	0
+"strain"	"Human herpesvirus 4 type 2"	0	0	0	0	0	0	0	2	0
+"strain"	"Human papillomavirus type 18"	0	0	0	0	0	0	0	2	0
+"strain"	"Human rhinovirus A21"	0	222	933	1	2	579	1433	2	0
+"strain"	"Human rhinovirus A36"	0	1	0	0	0	1	14	0	0
+"strain"	"Human rhinovirus A43"	0	2	0	0	0	6	3	0	0
+"strain"	"Human rhinovirus A46"	0	10	6	0	0	19	43	1	0
+"strain"	"Human rhinovirus A49"	0	0	0	0	0	0	3	0	0
+"strain"	"Human rhinovirus A51"	0	15	16	0	0	42	9	0	0
+"strain"	"Human rhinovirus A60"	0	0	0	0	0	5	3	0	0
+"strain"	"Human rhinovirus A65"	0	0	0	0	0	6	1	0	0
+"strain"	"Human rhinovirus B17"	0	1	0	0	0	2	0	0	0
+"strain"	"Human rhinovirus B84"	0	0	0	0	0	7	2	0	0
+"strain"	"Hyphomicrobium denitrificans 1NES1"	0	0	1	0	0	0	0	0	0
+"strain"	"Hyphomicrobium denitrificans ATCC 51888"	0	0	3	0	0	0	0	0	0
+"strain"	"Influenza A virus (A/New York/392/2004(H3N2))"	0	53	22	0	0	83	89	0	0
+"strain"	"Jonesia denitrificans DSM 20603"	0	0	0	0	0	1	0	0	0
+"strain"	"Kineococcus radiotolerans SRS30216 = ATCC BAA-149"	0	2	0	0	0	3	0	0	0
+"strain"	"Klebsiella oxytoca E718"	0	26	13	1	0	70	35	37	1
+"strain"	"Klebsiella oxytoca KCTC 1686"	0	22	5	0	0	45	31	3	0
+"strain"	"Klebsiella pneumoniae 342"	0	21	12	9	1	37	35	53	1
+"strain"	"Klebsiella pneumoniae CG43"	0	32	22	277	6	93	36	1142	10
+"strain"	"Klebsiella pneumoniae JM45"	0	47	24	214	15	114	37	1159	6
+"strain"	"Klebsiella pneumoniae KCTC 2242"	0	33	25	230	8	69	46	1158	7
+"strain"	"Klebsiella pneumoniae subsp. pneumoniae 1084"	0	27	27	210	12	71	44	843	5
+"strain"	"Klebsiella pneumoniae subsp. pneumoniae HS11286"	0	38	22	243	3	67	41	1164	8
+"strain"	"Klebsiella pneumoniae subsp. pneumoniae MGH 78578"	0	41	23	261	10	80	38	1157	4
+"strain"	"Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044"	0	37	26	192	6	86	63	897	2
+"strain"	"Klebsiella pneumoniae subsp. rhinoscleromatis SB3432"	0	30	20	166	3	64	43	836	7
+"strain"	"Klebsiella variicola At-22"	0	19	22	5	0	48	26	52	2
+"strain"	"Kocuria rhizophila DC2201"	0	2	0	0	0	0	0	0	0
+"strain"	"Kytococcus sedentarius DSM 20547"	0	4	0	0	0	0	0	0	0
+"strain"	"Lactobacillus acidophilus 30SC"	0	0	0	1	0	3	5	0	0
+"strain"	"Lactobacillus acidophilus La-14"	0	0	0	0	0	4	5	0	0
+"strain"	"Lactobacillus acidophilus NCFM"	0	0	0	0	0	1	4	0	0
+"strain"	"Lactobacillus amylovorus GRL 1112"	0	1	0	0	0	4	3	2	0
+"strain"	"Lactobacillus amylovorus GRL1118"	1	0	0	0	0	5	3	3	0
+"strain"	"Lactobacillus brevis ATCC 367"	0	0	0	0	0	0	0	1	0
+"strain"	"Lactobacillus buchneri CD034"	0	2	0	0	0	8	0	2	0
+"strain"	"Lactobacillus buchneri NRRL B-30929"	0	2	0	0	0	8	0	0	0
+"strain"	"Lactobacillus casei ATCC 334"	0	8	2	2	0	9	5	7	0
+"strain"	"Lactobacillus casei BD-II"	0	2	1	1	0	13	2	7	0
+"strain"	"Lactobacillus casei BL23"	0	5	0	3	0	12	2	7	0
+"strain"	"Lactobacillus casei LC2W"	0	4	1	0	0	7	11	5	0
+"strain"	"Lactobacillus casei LOCK919"	0	6	0	8	0	8	3	15	0
+"strain"	"Lactobacillus casei str. Zhang"	0	0	0	0	0	0	0	2	0
+"strain"	"Lactobacillus casei W56"	0	6	0	1	0	12	5	2	0
+"strain"	"Lactobacillus crispatus ST1"	0	4	0	4	0	18	5	21	0
+"strain"	"Lactobacillus delbrueckii subsp. bulgaricus 2038"	0	0	0	0	0	0	0	3	0
+"strain"	"Lactobacillus delbrueckii subsp. bulgaricus ATCC 11842 = JCM 1002"	0	0	0	0	0	0	0	1	0
+"strain"	"Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365"	0	0	0	0	0	0	0	2	0
+"strain"	"Lactobacillus delbrueckii subsp. bulgaricus ND02"	0	0	0	1	0	1	0	4	0
+"strain"	"Lactobacillus fermentum CECT 5716"	0	13	19	48	0	34	7	244	0
+"strain"	"Lactobacillus fermentum F-6"	0	9	27	42	0	44	2	279	0
+"strain"	"Lactobacillus fermentum IFO 3956"	0	21	14	28	2	42	9	240	0
+"strain"	"Lactobacillus gasseri ATCC 33323 = JCM 1131"	0	64	94	43	2	147	243	119	0
+"strain"	"Lactobacillus helveticus CNRZ32"	1	0	0	0	0	1	2	3	0
+"strain"	"Lactobacillus helveticus DPC 4571"	0	1	0	0	0	0	0	1	0
+"strain"	"Lactobacillus helveticus R0052"	0	0	0	1	0	1	0	0	0
+"strain"	"Lactobacillus johnsonii DPC 6026"	0	7	3	1	0	15	10	2	0
+"strain"	"Lactobacillus johnsonii FI9785"	0	7	5	0	0	13	16	3	0
+"strain"	"Lactobacillus johnsonii N6.2"	0	2	4	0	0	11	21	4	0
+"strain"	"Lactobacillus johnsonii NCC 533"	0	9	6	1	0	18	21	6	0
+"strain"	"Lactobacillus kefiranofaciens ZW3"	0	0	0	2	0	1	0	4	0
+"strain"	"Lactobacillus paracasei subsp. paracasei 8700:2"	0	3	1	3	1	7	5	9	2
+"strain"	"Lactobacillus plantarum 16"	0	0	0	0	0	0	0	1	0
+"strain"	"Lactobacillus reuteri DSM 20016"	0	9	0	1	0	18	3	4	1
+"strain"	"Lactobacillus reuteri I5007"	0	10	0	2	0	5	8	1	0
+"strain"	"Lactobacillus reuteri JCM 1112"	0	2	0	2	0	10	10	6	1
+"strain"	"Lactobacillus reuteri SD2112"	1	5	0	0	0	10	8	3	0
+"strain"	"Lactobacillus reuteri TD1"	0	6	0	0	0	13	7	0	0
+"strain"	"Lactobacillus rhamnosus ATCC 8530"	0	31	58	103	5	144	154	275	8
+"strain"	"Lactobacillus rhamnosus GG"	0	76	91	229	15	301	289	660	17
+"strain"	"Lactobacillus rhamnosus Lc 705"	0	31	38	88	8	135	182	235	1
+"strain"	"Lactobacillus rhamnosus LOCK900"	0	35	43	219	9	171	119	602	13
+"strain"	"Lactobacillus rhamnosus LOCK908"	0	39	51	92	5	145	182	280	3
+"strain"	"Lactobacillus ruminis ATCC 27782"	0	0	0	0	0	2	0	0	0
+"strain"	"Lactobacillus sakei subsp. sakei 23K"	0	3	0	0	0	10	1	12	0
+"strain"	"Lactobacillus salivarius CECT 5713"	0	1	0	2	0	4	3	5	0
+"strain"	"Lactobacillus salivarius UCC118"	0	1	0	0	0	1	5	3	0
+"strain"	"Lactobacillus sanfranciscensis TMW 1.1304"	0	0	0	0	0	0	0	1	0
+"strain"	"Lactococcus lactis subsp. cremoris A76"	0	0	0	0	0	0	1	0	0
+"strain"	"Lactococcus lactis subsp. cremoris KW2"	0	2	0	0	0	0	0	0	0
+"strain"	"Lactococcus lactis subsp. cremoris MG1363"	0	0	0	0	0	0	0	0	1
+"strain"	"Lactococcus lactis subsp. cremoris SK11"	0	0	0	0	0	2	0	0	0
+"strain"	"Lactococcus lactis subsp. cremoris UC509.9"	0	3	0	0	0	0	0	0	0
+"strain"	"Lactococcus lactis subsp. lactis CV56"	0	2	0	0	0	2	1	0	0
+"strain"	"Lactococcus lactis subsp. lactis Il1403"	0	2	0	0	0	0	0	0	0
+"strain"	"Lactococcus lactis subsp. lactis KF147"	0	0	0	0	0	0	1	0	0
+"strain"	"Lactococcus lactis subsp. lactis KLDS 4.0325"	0	1	0	0	0	0	1	0	0
+"strain"	"Laribacter hongkongensis HLHK9"	0	0	0	0	0	1	0	0	0
+"strain"	"Legionella longbeachae NSW150"	0	1	0	0	0	5	15	0	0
+"strain"	"Legionella pneumophila 2300/99 Alcoy"	0	1	0	0	0	0	0	0	0
+"strain"	"Legionella pneumophila str. Lens"	0	0	0	0	0	0	1	0	0
+"strain"	"Legionella pneumophila str. Paris"	0	0	0	0	0	1	0	0	0
+"strain"	"Legionella pneumophila subsp. pneumophila LPE509"	0	1	0	0	0	1	1	0	0
+"strain"	"Legionella pneumophila subsp. pneumophila str. Hextuple_2q"	0	0	0	0	0	2	0	0	0
+"strain"	"Legionella pneumophila subsp. pneumophila str. Hextuple_3a"	0	0	0	0	0	1	2	0	0
+"strain"	"Leifsonia xyli subsp. cynodontis DSM 46306"	0	1	0	0	0	0	0	0	0
+"strain"	"Leptothrix cholodnii SP-6"	0	0	11	0	0	0	0	0	0
+"strain"	"Leptotrichia buccalis C-1013-b"	1	9	5	0	0	20	19	0	0
+"strain"	"Leuconostoc carnosum JB16"	0	3	0	0	0	0	0	0	0
+"strain"	"Leuconostoc citreum KM20"	0	2	0	0	0	1	0	0	0
+"strain"	"Leuconostoc gelidum JB7"	0	25	0	0	0	3	0	0	0
+"strain"	"Leuconostoc gelidum subsp. gasicomitatum LMG 18811"	0	3	0	0	0	2	0	0	0
+"strain"	"Leuconostoc mesenteroides subsp. mesenteroides ATCC 8293"	0	1	0	0	0	0	0	0	0
+"strain"	"Listeria innocua Clip11262"	0	0	0	0	0	0	0	0	1
+"strain"	"Macrococcus caseolyticus JCSC5402"	0	1	0	0	0	3	9	1	0
+"strain"	"Mageeibacillus indolicus UPII9-5"	3	0	0	0	0	2	0	2	0
+"strain"	"Mannheimia haemolytica D153"	0	19	39	0	0	34	120	2	0
+"strain"	"Mannheimia haemolytica D171"	0	19	37	0	0	38	123	0	0
+"strain"	"Mannheimia haemolytica D174"	0	18	43	1	0	40	110	0	0
+"strain"	"Mannheimia haemolytica M42548"	0	19	52	1	0	36	122	2	0
+"strain"	"Mannheimia haemolytica USDA-ARS-USMARC-183"	0	23	40	0	0	32	122	1	0
+"strain"	"Mannheimia haemolytica USDA-ARS-USMARC-185"	0	16	50	1	0	38	133	0	0
+"strain"	"Mannheimia haemolytica USMARC_2286"	0	18	39	0	0	46	122	1	0
+"strain"	"Mannheimia succiniciproducens MBEL55E"	0	9	3	0	0	19	3	0	0
+"strain"	"Megasphaera elsdenii DSM 20460"	0	1	0	0	0	1	0	0	0
+"strain"	"Melissococcus plutonius DAT561"	0	0	0	0	0	0	0	1	0
+"strain"	"Methylibium petroleiphilum PM1"	0	2	92	0	0	10	0	2	0
+"strain"	"Methylobacterium extorquens AM1"	0	88	0	1	0	23	0	0	0
+"strain"	"Methylobacterium extorquens CM4"	0	6	0	0	0	1	0	0	0
+"strain"	"Methylobacterium extorquens DM4"	0	11	0	0	0	4	0	0	0
+"strain"	"Methylobacterium extorquens PA1"	0	4	0	0	0	0	0	0	0
+"strain"	"Methylobacterium populi BJ001"	0	7	0	0	0	2	0	0	0
+"strain"	"Methylobacterium radiotolerans JCM 2831"	0	2	0	0	0	2	0	0	0
+"strain"	"Methylotenera mobilis JLW8"	0	0	0	0	0	2	0	0	0
+"strain"	"Methylotenera versatilis 301"	0	1	2	0	0	0	0	0	0
+"strain"	"Micrococcus luteus NCTC 2665"	0	4	0	0	0	31	0	1	0
+"strain"	"Mobiluncus curtisii ATCC 43063"	0	0	0	0	0	5	0	3	0
+"strain"	"Moraxella catarrhalis BBH18"	0	44675	18426	2376	132	101082	18851	6100	135
+"strain"	"Mycobacterium abscessus subsp. bolletii str. GO 06"	0	0	0	0	0	1	0	0	0
+"strain"	"Mycobacterium indicus pranii MTCC 9506"	0	0	0	1	0	0	0	1	0
+"strain"	"Mycobacterium intracellulare ATCC 13950"	0	0	0	0	0	1	0	2	0
+"strain"	"Mycobacterium intracellulare MOTT-64"	0	0	0	0	0	0	0	1	0
+"strain"	"Mycobacterium yongonense 05-1390"	0	0	0	0	0	0	0	1	0
+"strain"	"Mycoplasma arthritidis 158L3-1"	0	90	116	0	0	254	412	4	1
+"strain"	"Mycoplasma hominis ATCC 23114"	0	45	62	0	0	106	261	3	1
+"strain"	"Neisseria gonorrhoeae FA 1090"	0	9	10	1	0	22	5	111	0
+"strain"	"Neisseria gonorrhoeae NCCP11945"	0	12	10	5	0	47	18	93	1
+"strain"	"Neisseria lactamica 020-06"	0	251	168	23	2	642	353	358	0
+"strain"	"Neisseria meningitidis 053442"	0	117	307	12	0	249	299	137	2
+"strain"	"Neisseria meningitidis alpha710"	0	418	107	6	0	1136	199	102	0
+"strain"	"Neisseria meningitidis FAM18"	0	205	65	10	2	478	109	100	0
+"strain"	"Neisseria meningitidis G2136"	0	183	488	11	0	434	411	110	0
+"strain"	"Neisseria meningitidis H44/76"	1	94	151	7	0	235	183	80	0
+"strain"	"Neisseria meningitidis M01-240149"	0	418	84	14	0	1073	211	76	1
+"strain"	"Neisseria meningitidis M01-240355"	0	114	46	14	0	272	93	113	0
+"strain"	"Neisseria meningitidis M04-240196"	0	158	224	14	0	460	286	119	2
+"strain"	"Neisseria meningitidis MC58"	0	105	158	9	1	219	200	98	0
+"strain"	"Neisseria meningitidis NZ-05/33"	0	230	45	4	0	639	100	72	1
+"strain"	"Neisseria meningitidis WUE 2594"	0	114	165	5	0	303	259	128	1
+"strain"	"Neisseria meningitidis Z2491"	0	137	303	6	1	371	395	153	1
+"strain"	"Nitrosomonas europaea ATCC 19718"	0	0	0	0	0	0	0	1	0
+"strain"	"Nocardia farcinica IFM 10152"	0	0	0	0	0	1	0	0	0
+"strain"	"Novosphingobium aromaticivorans DSM 12444"	0	0	0	0	0	2	0	0	0
+"strain"	"Oceanobacillus iheyensis HTE831"	0	0	0	0	0	0	0	2	0
+"strain"	"Ochrobactrum anthropi ATCC 49188"	1	10	0	0	0	6	4	0	0
+"strain"	"Odoribacter splanchnicus DSM 20712"	8	0	0	0	0	0	0	2	0
+"strain"	"Olsenella uli DSM 7084"	0	0	0	0	0	0	0	4	0
+"strain"	"Ornithobacterium rhinotracheale DSM 15997"	0	1	0	0	0	2	0	0	0
+"strain"	"Oscillibacter valericigenes Sjm18-20"	0	0	0	0	0	2	0	0	0
+"strain"	"Pantoea ananatis AJ13355"	0	0	0	0	0	1	1	0	0
+"strain"	"Pantoea ananatis LMG 20103"	0	0	1	0	0	2	0	0	0
+"strain"	"Pantoea ananatis LMG 5342"	0	0	0	0	0	0	1	0	0
+"strain"	"Pantoea ananatis PA13"	0	0	0	0	0	5	0	0	0
+"strain"	"Pantoea vagans C9-1"	0	2	6	0	0	4	1	2	0
+"strain"	"Parabacteroides distasonis ATCC 8503"	0	0	0	0	0	2	0	0	0
+"strain"	"Paracoccus denitrificans PD1222"	0	0	0	0	0	1	0	0	0
+"strain"	"Paraglaciecola psychrophila 170"	0	0	0	0	0	0	1	0	0
+"strain"	"Parvibaculum lavamentivorans DS-1"	0	0	0	1	0	0	0	1	0
+"strain"	"Pasteurella multocida 36950"	0	33	10	1	1	81	36	9	0
+"strain"	"Pasteurella multocida subsp. multocida str. 3480"	0	39	5	3	0	68	36	7	0
+"strain"	"Pasteurella multocida subsp. multocida str. HN06"	0	33	10	2	0	84	38	16	0
+"strain"	"Pasteurella multocida subsp. multocida str. Pm70"	0	28	9	5	0	93	31	11	1
+"strain"	"Pectobacterium atrosepticum SCRI1043"	0	0	1	0	0	1	1	0	0
+"strain"	"Pectobacterium carotovorum subsp. carotovorum PC1"	0	37	1	1	0	55	8	0	0
+"strain"	"Pectobacterium carotovorum subsp. carotovorum PCC21"	0	3	1	1	0	16	4	0	0
+"strain"	"Pectobacterium wasabiae WPP163"	0	12	1	0	0	36	20	2	0
+"strain"	"Pediococcus claussenii ATCC BAA-344"	0	0	1	0	0	2	0	2	0
+"strain"	"Pediococcus pentosaceus SL4"	0	0	2	0	0	0	0	0	0
+"strain"	"Peptoclostridium difficile 630"	0	1	0	2	1	4	0	0	0
+"strain"	"Peptoclostridium difficile M120"	0	0	0	0	0	0	0	4	0
+"strain"	"Peptoclostridium difficile M68"	0	1	0	1	0	0	0	1	0
+"strain"	"Photobacterium profundum SS9"	0	0	0	0	0	2	0	0	0
+"strain"	"Photorhabdus luminescens subsp. laumondii TTO1"	0	1	2	0	0	0	0	0	0
+"strain"	"Porphyromonas asaccharolytica DSM 20707"	4	26	0	0	0	32	14	0	0
+"strain"	"Porphyromonas gingivalis ATCC 33277"	4	4	9	4	0	9	1	12	0
+"strain"	"Porphyromonas gingivalis TDC60"	0	5	2	2	0	30	24	3	0
+"strain"	"Porphyromonas gingivalis W83"	9	11	7	2	0	30	12	11	0
+"strain"	"Prevotella dentalis DSM 3688"	28	4	0	1	0	10	0	28	0
+"strain"	"Prevotella denticola F0289"	186	47	77	23	3	141	86	133	0
+"strain"	"Prevotella intermedia 17"	282	13	0	9	3	37	18	37	0
+"strain"	"Prevotella melaninogenica ATCC 25845"	194	526	542	219	11	1390	758	712	14
+"strain"	"Prevotella ruminicola 23"	0	0	0	0	0	2	0	0	0
+"strain"	"Prevotella sp. oral taxon 299 str. F0039"	159	31	13	10	0	88	82	46	1
+"strain"	"Propionibacterium acnes 266"	7	70	0	0	0	20	5	0	0
+"strain"	"Propionibacterium acnes 6609"	10	63	0	0	0	10	3	2	0
+"strain"	"Propionibacterium acnes ATCC 11828"	2	31	0	0	0	13	16	0	0
+"strain"	"Propionibacterium acnes C1"	13	50	0	0	0	18	5	1	0
+"strain"	"Propionibacterium acnes HL096PA1"	8	44	0	0	0	10	0	0	0
+"strain"	"Propionibacterium acnes KPA171202"	9	55	0	0	0	14	1	0	0
+"strain"	"Propionibacterium acnes SK137"	10	60	0	0	0	8	4	0	0
+"strain"	"Propionibacterium acnes TypeIA2 P.acn17"	15	61	0	0	0	9	31	0	0
+"strain"	"Propionibacterium acnes TypeIA2 P.acn31"	9	50	0	0	0	14	33	0	0
+"strain"	"Propionibacterium acnes TypeIA2 P.acn33"	10	59	0	1	0	4	21	1	0
+"strain"	"Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1"	0	1	0	0	0	1	0	1	0
+"strain"	"Propionibacterium phage PHL067M09"	1	0	0	0	0	0	0	0	0
+"strain"	"Propionibacterium phage PHL150M00"	1	0	0	0	0	0	0	0	0
+"strain"	"Propionibacterium phage PHL308M00"	0	2	0	0	0	0	0	0	0
+"strain"	"Propionibacterium propionicum F0230a"	0	2	0	1	0	5	0	11	0
+"strain"	"Proteus mirabilis BB2000"	0	21	13	78	0	81	87	149	7
+"strain"	"Proteus mirabilis HI4320"	0	44	8	111	2	96	102	266	3
+"strain"	"Providencia stuartii MRSN 2154"	0	23	2	22	0	81	177	90	1
+"strain"	"Pseudoalteromonas haloplanktis TAC125"	0	0	0	0	0	3	0	0	0
+"strain"	"Pseudomonas aeruginosa B136-33"	0	55	18	209	1	132	48	2062	0
+"strain"	"Pseudomonas aeruginosa c7447m"	0	46	27	188	0	130	56	1854	0
+"strain"	"Pseudomonas aeruginosa DK2"	0	65	22	201	1	173	47	1809	0
+"strain"	"Pseudomonas aeruginosa LES431"	0	45	24	175	1	149	46	1708	0
+"strain"	"Pseudomonas aeruginosa LESB58"	0	61	31	186	0	160	56	1708	1
+"strain"	"Pseudomonas aeruginosa M18"	0	61	32	176	1	181	48	1973	0
+"strain"	"Pseudomonas aeruginosa MTB-1"	0	49	18	219	0	179	50	2210	2
+"strain"	"Pseudomonas aeruginosa NCGM2.S1"	0	63	23	331	1	173	45	2870	3
+"strain"	"Pseudomonas aeruginosa PA1"	0	57	24	185	0	171	69	1671	1
+"strain"	"Pseudomonas aeruginosa PA1R"	0	74	13	156	0	176	58	1578	1
+"strain"	"Pseudomonas aeruginosa PA7"	0	87	29	366	1	166	46	3585	3
+"strain"	"Pseudomonas aeruginosa PAO1"	0	64	21	111	0	139	55	1369	0
+"strain"	"Pseudomonas aeruginosa PAO1-VE13"	0	62	22	159	1	145	66	1381	0
+"strain"	"Pseudomonas aeruginosa PAO1-VE2"	0	54	20	135	1	132	64	1336	0
+"strain"	"Pseudomonas aeruginosa PAO581"	0	51	22	138	0	130	58	1391	0
+"strain"	"Pseudomonas aeruginosa RP73"	0	53	28	204	0	124	46	1875	1
+"strain"	"Pseudomonas aeruginosa SCV20265"	4	75	31	196	0	151	62	1925	1
+"strain"	"Pseudomonas aeruginosa UCBPP-PA14"	0	50	14	237	0	146	43	1965	0
+"strain"	"Pseudomonas brassicacearum subsp. brassicacearum NFM421"	0	10	3	0	0	976	12	17	0
+"strain"	"Pseudomonas denitrificans ATCC 13867"	0	7	1	0	0	35	7	11	0
+"strain"	"Pseudomonas entomophila L48"	0	0	0	1	0	372	0	6	0
+"strain"	"Pseudomonas fluorescens A506"	4	98	25	92	0	2566	59	1022	0
+"strain"	"Pseudomonas fluorescens F113"	0	13	21	2	1	354	12	14	0
+"strain"	"Pseudomonas fluorescens Pf0-1"	0	13	14	0	0	741	9	13	0
+"strain"	"Pseudomonas fluorescens SBW25"	2	68	45	42	0	572	14	1217	0
+"strain"	"Pseudomonas fulva 12-X"	0	2	0	0	0	41	1	0	0
+"strain"	"Pseudomonas mendocina NK-01"	0	15	0	0	0	17	0	2	0
+"strain"	"Pseudomonas mendocina ymp"	1	37	4	0	0	41	4	2	0
+"strain"	"Pseudomonas monteilii SB3078"	0	0	0	1	0	46	0	2	0
+"strain"	"Pseudomonas monteilii SB3101"	0	1	1	1	0	57	0	1	0
+"strain"	"Pseudomonas phage PaMx73"	0	0	0	0	0	0	0	3	0
+"strain"	"Pseudomonas poae RE*1-1-14"	0	37	24	6	0	1643	24	119	0
+"strain"	"Pseudomonas protegens CHA0"	0	7	7	1	0	426	17	21	0
+"strain"	"Pseudomonas protegens Pf-5"	0	8	7	0	0	416	24	9	0
+"strain"	"Pseudomonas putida BIRD-1"	0	1	0	0	0	99	0	0	0
+"strain"	"Pseudomonas putida F1"	0	1	1	0	0	16	0	0	0
+"strain"	"Pseudomonas putida GB-1"	0	1	0	0	0	93	0	3	0
+"strain"	"Pseudomonas putida H8234"	0	8	2	4	0	61	0	26	0
+"strain"	"Pseudomonas putida HB3267"	0	3	0	4	0	87	0	37	0
+"strain"	"Pseudomonas putida KT2440"	0	2	0	0	0	106	0	2	0
+"strain"	"Pseudomonas putida NBRC 14164"	0	3	6	0	0	30	1	0	0
+"strain"	"Pseudomonas putida ND6"	2	3	1	0	0	14	1	12	0
+"strain"	"Pseudomonas putida S16"	0	1	0	0	0	16	0	3	0
+"strain"	"Pseudomonas putida W619"	0	7	10	0	0	21	3	3	0
+"strain"	"Pseudomonas resinovorans NBRC 106553"	0	3	1	2	0	31	4	6	0
+"strain"	"Pseudomonas savastanoi pv. phaseolicola 1448A"	0	3	11	0	0	132	5	1	0
+"strain"	"Pseudomonas stutzeri A1501"	0	5	0	0	0	31	0	3	0
+"strain"	"Pseudomonas stutzeri ATCC 17588 = LMG 11199"	0	5	1	0	0	5	2	6	0
+"strain"	"Pseudomonas stutzeri CCUG 29243"	0	3	0	1	0	55	1	4	0
+"strain"	"Pseudomonas stutzeri DSM 10701"	0	0	0	0	0	10	1	0	0
+"strain"	"Pseudomonas stutzeri DSM 4166"	0	10	0	0	0	11	1	2	0
+"strain"	"Pseudomonas stutzeri RCH2"	2	2	0	0	0	19	0	7	0
+"strain"	"Pseudomonas syringae pv. syringae B728a"	0	3	12	0	0	118	5	6	0
+"strain"	"Pseudomonas syringae pv. tomato str. DC3000"	0	4	1	0	0	121	0	2	0
+"strain"	"Pseudoxanthomonas spadix BD-a59"	0	0	0	0	0	1	0	0	0
+"strain"	"Pseudoxanthomonas suwonensis 11-1"	0	0	1	0	0	5	5	0	0
+"strain"	"Psychrobacter arcticus 273-4"	0	1	0	0	0	7	0	1	0
+"strain"	"Psychrobacter cryohalolentis K5"	0	2	0	0	0	9	0	1	0
+"strain"	"Rahnella aquatilis CIP 78.65 = ATCC 33071"	0	0	0	0	0	10	8	0	0
+"strain"	"Rahnella aquatilis HX2"	0	5	1	0	0	17	9	0	0
+"strain"	"Ralstonia eutropha H16"	0	1	0	0	0	0	0	0	0
+"strain"	"Ralstonia eutropha JMP134"	0	0	0	0	0	0	0	1	0
+"strain"	"Ralstonia pickettii 12D"	31	4	0	0	0	1	0	4	0
+"strain"	"Ralstonia pickettii 12J"	17	16	0	0	0	6	0	3	0
+"strain"	"Ralstonia solanacearum CMR15"	0	1	0	0	0	0	0	0	0
+"strain"	"Ralstonia solanacearum FQY_4"	0	1	0	0	0	0	0	0	0
+"strain"	"Ralstonia solanacearum GMI1000"	0	0	0	0	0	1	0	3	0
+"strain"	"Ralstonia solanacearum Po82"	0	0	0	0	0	1	0	0	0
+"strain"	"Ramlibacter tataouinensis TTB310"	0	1	2	0	0	2	0	0	0
+"strain"	"Raoultella ornithinolytica B6"	0	7	2	0	0	27	23	1	0
+"strain"	"Respiratory syncytial virus type A"	0	0	0	0	0	0	1	0	0
+"strain"	"Rhizobium etli CIAT 652"	0	0	0	0	0	2	0	0	0
+"strain"	"Rhodococcus erythropolis PR4"	0	3	0	0	0	2	0	0	0
+"strain"	"Rhodoferax ferrireducens T118"	0	0	0	0	0	1	0	0	0
+"strain"	"Riemerella anatipestifer ATCC 11845 = DSM 15868"	0	0	0	0	0	2	0	0	0
+"strain"	"Riemerella anatipestifer RA-CH-1"	0	0	0	0	0	3	0	0	0
+"strain"	"Riemerella anatipestifer RA-GD"	0	0	0	0	0	1	0	0	0
+"strain"	"Rothia dentocariosa ATCC 17931"	9	120	95	23	1	244	186	141	2
+"strain"	"Rothia mucilaginosa DY-18"	13	549	755	199	10	1259	1004	2366	6
+"strain"	"Rubrivivax gelatinosus IL144"	0	0	0	0	0	1	0	0	0
+"strain"	"Salmonella bongori N268-08"	0	2	1	0	0	9	2	0	0
+"strain"	"Salmonella bongori NCTC 12419"	0	5	2	0	0	7	4	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar 4,[5],12:i:- str. 08-1736"	0	2	0	0	0	7	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Agona str. 24249"	0	1	1	0	0	3	3	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Agona str. SL483"	0	3	1	0	0	5	1	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000189"	0	1	1	0	0	7	1	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67"	0	2	1	2	0	5	0	6	0
+"strain"	"Salmonella enterica subsp. enterica serovar Cubana str. CFSAN002050"	0	6	3	3	0	11	1	5	0
+"strain"	"Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853"	0	1	3	0	0	6	0	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Enteritidis str. P125109"	0	0	1	0	0	3	1	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91"	0	6	2	0	0	6	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. CDC1983-67"	0	3	0	0	0	7	3	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. RKS5078"	0	1	1	0	0	3	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Heidelberg str. 41578"	0	4	3	0	0	8	4	5	0
+"strain"	"Salmonella enterica subsp. enterica serovar Heidelberg str. B182"	0	2	10	0	0	5	1	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN002069"	0	5	1	1	0	13	1	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Heidelberg str. SL476"	0	1	1	5	0	9	1	14	0
+"strain"	"Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992"	0	4	1	0	0	10	2	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Newport str. SL254"	3	2	1	2	1	8	1	16	0
+"strain"	"Salmonella enterica subsp. enterica serovar Newport str. USMARC-S3124.1"	0	2	1	0	0	7	1	4	0
+"strain"	"Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601"	0	2	0	0	0	7	2	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150"	0	1	0	0	0	2	1	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594"	0	0	0	0	0	5	0	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Pullorum str. S06004"	0	2	1	0	0	3	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633"	0	6	3	2	0	10	2	14	0
+"strain"	"Salmonella enterica subsp. enterica serovar Thompson str. RM6836"	0	6	1	0	0	17	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhi str. CT18"	0	6	2	2	0	5	0	6	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhi str. P-stx-12"	0	1	1	2	0	6	0	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhi str. Ty21a"	0	1	3	0	0	1	2	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S"	0	0	1	0	0	8	1	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. 798"	0	1	0	0	0	7	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. D23580"	0	3	3	0	0	6	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. DT104"	0	2	3	0	0	9	0	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. DT2"	0	4	1	0	0	8	1	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"	0	3	1	0	0	9	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344"	0	1	0	0	0	3	0	1	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. ST4/74"	0	0	3	0	0	5	0	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. T000240"	0	5	0	3	0	4	0	28	1
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. U288"	0	2	1	0	0	5	1	4	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium str. UK-1"	0	2	1	0	0	10	1	0	0
+"strain"	"Salmonella enterica subsp. enterica serovar Typhimurium var. 5- str. CFSAN001921"	0	2	2	0	0	5	0	26	0
+"strain"	"Sebaldella termitidis ATCC 33386"	0	2	0	0	0	2	4	0	0
+"strain"	"Selenomonas sputigena ATCC 35185"	1	4	0	1	0	15	11	19	0
+"strain"	"Serratia liquefaciens ATCC 27592"	0	43	83	1	0	145	127	2	1
+"strain"	"Serratia marcescens FGI94"	0	49	6	0	0	108	16	6	0
+"strain"	"Serratia marcescens WW4"	0	789	506	131	4	1889	1062	1559	5
+"strain"	"Serratia plymuthica 4Rx13"	0	46	14	1	0	94	37	0	0
+"strain"	"Serratia plymuthica AS9"	0	22	10	1	0	69	25	1	0
+"strain"	"Serratia plymuthica S13"	0	36	14	0	1	104	29	1	0
+"strain"	"Serratia proteamaculans 568"	0	28	13	0	0	76	28	0	0
+"strain"	"Shigella boydii Sb227"	0	14	9	1	0	20	18	17	0
+"strain"	"Shigella dysenteriae Sd197"	0	13	6	0	0	30	20	10	0
+"strain"	"Shigella flexneri 2002017"	0	12	15	3	0	38	9	20	0
+"strain"	"Shigella flexneri 2a str. 301"	0	11	8	4	0	25	13	15	0
+"strain"	"Shigella flexneri 5 str. 8401"	0	16	6	2	0	26	9	12	0
+"strain"	"Shigella sonnei 53G"	0	18	10	4	1	28	20	17	1
+"strain"	"Shigella sonnei Ss046"	0	13	8	3	1	26	15	14	1
+"strain"	"Shimwellia blattae DSM 4481 = NBRC 105725"	0	11	6	0	0	21	9	0	0
+"strain"	"Siccibacter turicensis z3032"	0	1	0	1	0	1	3	3	0
+"strain"	"Sodalis glossinidius str. 'morsitans'"	0	1	0	1	0	1	0	22	0
+"strain"	"Solibacillus silvestris StLB046"	0	1	0	0	0	0	1	0	0
+"strain"	"Sphingobium chlorophenolicum L-1"	0	1	0	0	0	0	0	0	0
+"strain"	"Sphingobium japonicum UT26S"	0	2	0	0	0	0	0	1	0
+"strain"	"Sphingomonas wittichii RW1"	0	1	0	0	0	0	0	0	0
+"strain"	"Spirosoma linguale DSM 74"	0	1	0	0	0	0	0	0	0
+"strain"	"Staphylococcus aureus 04-02981"	0	39	30	22	2	98	72	23	0
+"strain"	"Staphylococcus aureus 08BA02176"	0	32	28	6	1	78	65	6	0
+"strain"	"Staphylococcus aureus Bmb9393"	0	37	29	15	0	78	50	26	0
+"strain"	"Staphylococcus aureus CA-347"	0	25	31	12	0	62	50	47	0
+"strain"	"Staphylococcus aureus M1"	0	4	9	24	1	18	15	40	1
+"strain"	"Staphylococcus aureus RF122"	0	27	28	2	1	80	35	5	0
+"strain"	"Staphylococcus aureus subsp. aureus 11819-97"	0	29	29	15	0	83	38	27	0
+"strain"	"Staphylococcus aureus subsp. aureus 55/2053"	0	20	21	5	0	49	45	14	0
+"strain"	"Staphylococcus aureus subsp. aureus 6850"	0	31	25	6	0	60	53	18	1
+"strain"	"Staphylococcus aureus subsp. aureus 71193"	0	17	31	6	0	95	81	9	0
+"strain"	"Staphylococcus aureus subsp. aureus CN1"	0	22	20	20	0	76	100	19	0
+"strain"	"Staphylococcus aureus subsp. aureus COL"	0	34	30	19	1	97	66	32	0
+"strain"	"Staphylococcus aureus subsp. aureus ECT-R 2"	0	28	27	28	1	80	68	42	0
+"strain"	"Staphylococcus aureus subsp. aureus ED133"	0	26	46	5	0	68	38	16	0
+"strain"	"Staphylococcus aureus subsp. aureus ED98"	0	17	34	17	0	60	53	32	0
+"strain"	"Staphylococcus aureus subsp. aureus HO 5096 0412"	0	33	33	8	0	77	63	11	0
+"strain"	"Staphylococcus aureus subsp. aureus JH1"	0	55	48	22	1	137	92	45	2
+"strain"	"Staphylococcus aureus subsp. aureus JH9"	0	31	37	22	2	117	51	44	0
+"strain"	"Staphylococcus aureus subsp. aureus JKD6159"	0	20	22	4	0	62	70	10	0
+"strain"	"Staphylococcus aureus subsp. aureus LGA251"	0	28	26	7	1	99	53	8	0
+"strain"	"Staphylococcus aureus subsp. aureus M013"	0	22	36	22	0	70	52	25	0
+"strain"	"Staphylococcus aureus subsp. aureus MRSA252"	0	19	23	12	0	77	53	17	2
+"strain"	"Staphylococcus aureus subsp. aureus MSSA476"	0	33	37	10	0	81	76	16	2
+"strain"	"Staphylococcus aureus subsp. aureus Mu3"	0	27	36	17	1	90	69	28	1
+"strain"	"Staphylococcus aureus subsp. aureus Mu50"	0	28	29	19	0	92	63	40	0
+"strain"	"Staphylococcus aureus subsp. aureus MW2"	0	25	43	15	0	80	61	15	0
+"strain"	"Staphylococcus aureus subsp. aureus N315"	0	27	24	17	0	87	65	32	0
+"strain"	"Staphylococcus aureus subsp. aureus NCTC 8325"	0	31	40	22	1	88	63	41	0
+"strain"	"Staphylococcus aureus subsp. aureus SA40"	0	31	27	7	0	80	44	16	2
+"strain"	"Staphylococcus aureus subsp. aureus SA957"	0	29	18	13	0	64	40	25	0
+"strain"	"Staphylococcus aureus subsp. aureus ST228"	0	189	220	131	2	568	404	257	4
+"strain"	"Staphylococcus aureus subsp. aureus ST398"	0	33	22	4	0	85	68	8	0
+"strain"	"Staphylococcus aureus subsp. aureus str. JKD6008"	0	35	25	18	0	105	60	26	0
+"strain"	"Staphylococcus aureus subsp. aureus str. Newman"	0	32	26	25	3	80	67	35	0
+"strain"	"Staphylococcus aureus subsp. aureus T0131"	0	34	31	15	1	102	61	24	2
+"strain"	"Staphylococcus aureus subsp. aureus TCH60"	0	37	25	10	0	82	50	13	0
+"strain"	"Staphylococcus aureus subsp. aureus TW20"	0	28	30	14	0	89	49	23	0
+"strain"	"Staphylococcus aureus subsp. aureus USA300_FPR3757"	0	39	41	26	1	82	71	43	2
+"strain"	"Staphylococcus aureus subsp. aureus VC40"	0	29	27	19	0	66	57	27	0
+"strain"	"Staphylococcus aureus subsp. aureus Z172"	0	28	26	9	0	66	60	23	0
+"strain"	"Staphylococcus carnosus subsp. carnosus TM300"	0	0	0	0	0	1	2	0	0
+"strain"	"Staphylococcus epidermidis ATCC 12228"	1	87	22	106	3	130	109	158	0
+"strain"	"Staphylococcus epidermidis RP62A"	4	128	24	80	4	192	84	127	0
+"strain"	"Staphylococcus haemolyticus JCSC1435"	0	20	3	4	0	27	21	10	0
+"strain"	"Staphylococcus lugdunensis HKU09-01"	0	5	10	0	0	27	24	0	0
+"strain"	"Staphylococcus lugdunensis N920143"	0	11	5	0	0	20	14	0	0
+"strain"	"Staphylococcus pasteuri SP1"	0	3	2	0	0	15	9	0	0
+"strain"	"Staphylococcus pseudintermedius ED99"	0	0	0	1	0	1	1	0	0
+"strain"	"Staphylococcus pseudintermedius HKU10-03"	0	1	1	1	0	3	3	1	0
+"strain"	"Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305"	0	2	0	0	0	11	6	0	0
+"strain"	"Staphylococcus warneri SG1"	0	12	3	0	0	10	10	1	0
+"strain"	"Stenotrophomonas maltophilia D457"	0	165	124	191	1	337	137	2101	2
+"strain"	"Stenotrophomonas maltophilia JV3"	0	351	146	45	1	326	112	976	1
+"strain"	"Stenotrophomonas maltophilia K279a"	0	162	146	254	3	299	105	2500	3
+"strain"	"Stenotrophomonas maltophilia R551-3"	0	64	24	20	0	140	67	517	1
+"strain"	"Streptobacillus moniliformis DSM 12112"	2	3	8	0	0	5	0	0	0
+"strain"	"Streptococcus agalactiae 09mas018883"	0	3	4	45	2	7	14	114	2
+"strain"	"Streptococcus agalactiae 2603V/R"	0	7	14	172	8	15	77	241	6
+"strain"	"Streptococcus agalactiae A909"	0	2	10	62	2	9	7	102	2
+"strain"	"Streptococcus agalactiae GD201008-001"	0	2	11	52	3	2	3	85	2
+"strain"	"Streptococcus agalactiae ILRI005"	0	1	3	16	0	13	5	31	1
+"strain"	"Streptococcus agalactiae NEM316"	0	4	8	85	2	12	29	116	3
+"strain"	"Streptococcus agalactiae SA20-06"	0	3	7	10	0	5	1	32	0
+"strain"	"Streptococcus anginosus C1051"	61	2	4	8	1	5	0	44	1
+"strain"	"Streptococcus anginosus C238"	54	4	14	17	4	7	1	49	1
+"strain"	"Streptococcus constellatus subsp. pharyngis C1050"	7	2	1	15	1	5	2	23	1
+"strain"	"Streptococcus constellatus subsp. pharyngis C232"	5	1	0	12	1	9	0	32	0
+"strain"	"Streptococcus constellatus subsp. pharyngis C818"	3	5	0	9	0	5	1	22	1
+"strain"	"Streptococcus dysgalactiae subsp. equisimilis 167"	0	0	1	0	0	1	1	2	0
+"strain"	"Streptococcus dysgalactiae subsp. equisimilis AC-2713"	0	2	0	0	0	2	4	6	0
+"strain"	"Streptococcus dysgalactiae subsp. equisimilis ATCC 12394"	0	0	0	1	0	4	0	7	0
+"strain"	"Streptococcus dysgalactiae subsp. equisimilis GGS_124"	0	1	0	1	0	0	2	0	0
+"strain"	"Streptococcus dysgalactiae subsp. equisimilis RE378"	0	1	0	1	0	4	0	8	0
+"strain"	"Streptococcus equi subsp. equi 4047"	0	0	0	1	0	0	1	0	0
+"strain"	"Streptococcus equi subsp. zooepidemicus ATCC 35246"	0	0	0	0	0	2	0	2	0
+"strain"	"Streptococcus gallolyticus subsp. gallolyticus ATCC 43143"	1	2	7	0	0	2	1	2	0
+"strain"	"Streptococcus gallolyticus subsp. gallolyticus ATCC BAA-2069"	0	1	6	1	0	0	0	0	0
+"strain"	"Streptococcus gallolyticus UCN34"	0	2	9	2	0	0	1	1	0
+"strain"	"Streptococcus gordonii str. Challis substr. CH1"	5	14	26	34	2	41	41	125	0
+"strain"	"Streptococcus infantarius subsp. infantarius CJ18"	0	5	22	0	0	7	20	3	0
+"strain"	"Streptococcus intermedius B196"	3	3	1	11	0	9	3	25	0
+"strain"	"Streptococcus intermedius C270"	2	0	0	11	0	8	0	23	1
+"strain"	"Streptococcus intermedius JTH08"	0	2	3	7	0	8	2	21	0
+"strain"	"Streptococcus lutetiensis 033"	1	2	7	0	0	3	3	3	0
+"strain"	"Streptococcus macedonicus ACA-DC 198"	2	0	0	1	0	1	1	3	0
+"strain"	"Streptococcus mitis B6"	52	107	28	95	1	313	128	440	0
+"strain"	"Streptococcus mutans GS-5"	0	2	0	1	0	1	0	3	0
+"strain"	"Streptococcus mutans LJ23"	2	2	0	1	0	0	0	2	0
+"strain"	"Streptococcus mutans NN2025"	0	4	0	4	0	4	0	1	0
+"strain"	"Streptococcus mutans UA159"	0	3	0	1	0	2	0	0	0
+"strain"	"Streptococcus oligofermentans AS 1.3089"	1	11	5	10	1	18	5	51	2
+"strain"	"Streptococcus oralis Uo5"	62	101	101	71	6	289	207	352	11
+"strain"	"Streptococcus parasanguinis ATCC 15912"	179	65	153	183	7	213	123	767	5
+"strain"	"Streptococcus parasanguinis FW213"	177	105	178	172	5	290	138	823	13
+"strain"	"Streptococcus parauberis KCTC 11537"	0	1	2	0	0	2	0	0	0
+"strain"	"Streptococcus pasteurianus ATCC 43144"	0	0	8	0	0	0	0	0	0
+"strain"	"Streptococcus pneumoniae 670-6B"	2	9	9	5	1	33	24	30	1
+"strain"	"Streptococcus pneumoniae 70585"	6	11	6	6	1	22	18	17	0
+"strain"	"Streptococcus pneumoniae A026"	3	5	13	5	0	13	30	17	0
+"strain"	"Streptococcus pneumoniae AP200"	2	6	6	3	0	18	20	15	0
+"strain"	"Streptococcus pneumoniae CGSP14"	1	5	14	8	0	18	15	21	0
+"strain"	"Streptococcus pneumoniae G54"	0	6	9	3	0	9	9	27	0
+"strain"	"Streptococcus pneumoniae gamPNI0373"	2	3	7	7	0	20	18	16	0
+"strain"	"Streptococcus pneumoniae Hungary19A-6"	3	10	9	13	1	25	24	53	2
+"strain"	"Streptococcus pneumoniae INV104"	1	14	16	3	0	19	11	13	0
+"strain"	"Streptococcus pneumoniae INV200"	0	7	6	2	0	24	13	31	1
+"strain"	"Streptococcus pneumoniae JJA"	3	12	14	6	1	28	12	32	2
+"strain"	"Streptococcus pneumoniae OXC141"	2	12	7	2	0	19	13	15	0
+"strain"	"Streptococcus pneumoniae P1031"	6	7	8	5	0	22	18	28	0
+"strain"	"Streptococcus pneumoniae R6"	2	6	13	3	0	38	18	19	0
+"strain"	"Streptococcus pneumoniae SPN032672"	3	17	10	4	0	36	23	18	0
+"strain"	"Streptococcus pneumoniae SPN033038"	2	5	9	5	0	36	28	19	0
+"strain"	"Streptococcus pneumoniae SPN034156"	2	9	6	4	1	19	12	19	0
+"strain"	"Streptococcus pneumoniae SPN034183"	0	9	14	3	0	14	19	15	0
+"strain"	"Streptococcus pneumoniae SPN994038"	2	10	5	1	0	13	15	19	0
+"strain"	"Streptococcus pneumoniae SPN994039"	5	5	5	1	0	14	12	12	0
+"strain"	"Streptococcus pneumoniae SPNA45"	3	19	5	8	2	65	16	32	1
+"strain"	"Streptococcus pneumoniae ST556"	0	5	9	5	0	18	27	23	0
+"strain"	"Streptococcus pneumoniae Taiwan19F-14"	4	8	14	3	0	18	32	16	2
+"strain"	"Streptococcus pneumoniae TCH8431/19A"	1	7	11	9	0	11	23	19	1
+"strain"	"Streptococcus pneumoniae TIGR4"	4	7	13	5	0	16	16	24	0
+"strain"	"Streptococcus pseudopneumoniae IS7493"	56	56	3	40	0	86	55	226	2
+"strain"	"Streptococcus pyogenes A20"	0	4	0	5	1	7	3	13	0
+"strain"	"Streptococcus pyogenes Alab49"	0	1	1	1	0	6	6	8	1
+"strain"	"Streptococcus pyogenes HSC5"	0	3	3	2	0	6	3	4	1
+"strain"	"Streptococcus pyogenes M1 476"	0	1	2	10	1	12	1	11	0
+"strain"	"Streptococcus pyogenes MGAS10270"	0	3	1	0	0	5	3	4	0
+"strain"	"Streptococcus pyogenes MGAS10394"	0	1	0	2	0	6	2	5	0
+"strain"	"Streptococcus pyogenes MGAS10750"	0	1	1	1	0	7	4	4	0
+"strain"	"Streptococcus pyogenes MGAS15252"	0	1	1	3	0	3	0	0	0
+"strain"	"Streptococcus pyogenes MGAS1882"	0	1	1	0	0	3	0	2	0
+"strain"	"Streptococcus pyogenes MGAS2096"	0	2	1	3	0	5	0	4	0
+"strain"	"Streptococcus pyogenes MGAS315"	0	2	1	1	0	3	3	1	0
+"strain"	"Streptococcus pyogenes MGAS6180"	0	2	3	2	0	5	0	2	0
+"strain"	"Streptococcus pyogenes MGAS8232"	0	2	0	1	0	7	0	5	0
+"strain"	"Streptococcus pyogenes MGAS9429"	0	0	2	3	0	6	1	2	0
+"strain"	"Streptococcus pyogenes NZ131"	0	1	0	4	0	2	3	6	0
+"strain"	"Streptococcus pyogenes SSI-1"	0	2	4	2	0	3	1	1	0
+"strain"	"Streptococcus pyogenes str. Manfredo"	0	0	1	1	1	8	2	4	0
+"strain"	"Streptococcus salivarius CCHSS3"	75	72	143	74	4	168	79	188	2
+"strain"	"Streptococcus salivarius JIM8777"	139	112	142	94	2	307	129	179	0
+"strain"	"Streptococcus sanguinis SK36"	50	39	123	8	2	29	35	63	0
+"strain"	"Streptococcus suis 05ZYH33"	0	2	2	2	0	0	0	2	0
+"strain"	"Streptococcus suis A7"	0	0	1	0	0	2	0	1	0
+"strain"	"Streptococcus suis BM407"	0	1	1	2	0	4	1	5	0
+"strain"	"Streptococcus suis D12"	0	0	0	0	0	2	0	1	0
+"strain"	"Streptococcus suis D9"	0	1	1	0	0	3	0	0	0
+"strain"	"Streptococcus suis GZ1"	0	0	2	1	0	7	1	1	0
+"strain"	"Streptococcus suis JS14"	0	0	2	1	0	3	1	3	0
+"strain"	"Streptococcus suis P1/7"	0	1	2	0	0	3	0	0	0
+"strain"	"Streptococcus suis S735"	0	0	4	0	0	1	1	1	0
+"strain"	"Streptococcus suis SC070731"	1	0	0	0	0	1	0	2	1
+"strain"	"Streptococcus suis SC84"	0	0	1	1	0	1	1	0	0
+"strain"	"Streptococcus suis SS12"	0	1	1	0	0	1	2	0	0
+"strain"	"Streptococcus suis ST1"	1	0	1	0	0	1	0	0	0
+"strain"	"Streptococcus suis ST3"	0	2	0	0	0	0	0	0	0
+"strain"	"Streptococcus suis T15"	0	1	1	0	0	4	1	0	0
+"strain"	"Streptococcus suis TL13"	0	0	0	0	0	2	1	1	0
+"strain"	"Streptococcus suis YB51"	1	0	3	0	0	4	1	0	0
+"strain"	"Streptococcus thermophilus CNRZ1066"	10	21	60	7	0	62	23	6	0
+"strain"	"Streptococcus thermophilus JIM 8232"	3	20	57	1	0	69	34	9	0
+"strain"	"Streptococcus thermophilus LMD-9"	6	31	42	4	0	85	18	7	0
+"strain"	"Streptococcus thermophilus LMG 18311"	12	37	67	3	0	55	21	3	0
+"strain"	"Streptococcus thermophilus MN-ZLW-002"	7	16	31	5	0	62	20	12	0
+"strain"	"Streptococcus thermophilus ND03"	3	17	51	1	0	67	26	6	0
+"strain"	"Streptococcus uberis 0140J"	0	0	0	0	0	2	0	1	0
+"strain"	"Tannerella forsythia 92A2"	74	91	78	12	0	223	72	34	0
+"strain"	"Tetragenococcus halophilus NBRC 12172"	0	12	0	0	0	8	0	0	0
+"strain"	"Thermus scotoductus SA-01"	0	1	0	0	0	0	0	0	0
+"strain"	"Thermus thermophilus HB27"	0	0	0	0	0	2	0	0	0
+"strain"	"Thioalkalivibrio sulfidiphilus HL-EbGr7"	0	0	0	0	0	1	0	0	0
+"strain"	"Thiomonas intermedia K12"	0	0	0	0	0	0	0	1	0
+"strain"	"Tistrella mobilis KA081020-065"	0	0	0	2	0	0	0	6	0
+"strain"	"Tolumonas auensis DSM 9187"	0	0	0	0	0	0	0	2	0
+"strain"	"Treponema denticola ATCC 35405"	27	22	165	5	0	63	50	23	0
+"strain"	"Treponema pallidum subsp. pertenue str. Gauthier"	0	0	0	0	0	2	0	0	0
+"strain"	"Treponema pallidum subsp. pertenue str. SamoaD"	0	0	0	0	0	1	0	0	0
+"strain"	"Treponema pedis str. T A4"	0	0	0	0	0	2	1	2	0
+"strain"	"Treponema succinifaciens DSM 2489"	0	0	0	0	0	0	0	1	0
+"strain"	"Tropheryma whipplei str. Twist"	0	205	0	7	1	573	133	9	1
+"strain"	"Tropheryma whipplei TW08/27"	0	203	0	3	0	614	85	6	0
+"strain"	"Ureaplasma parvum serovar 3 str. ATCC 700970"	0	1	0	0	0	0	0	0	0
+"strain"	"Vaccinia virus Copenhagen"	0	0	0	1	0	0	0	1	0
+"strain"	"Vaccinia virus GLV-1h68"	0	0	0	0	0	0	0	2	0
+"strain"	"Vaccinia virus Tian Tan"	0	0	1	1	0	0	0	0	0
+"strain"	"Vaccinia virus WAU86/88-1"	0	0	0	0	1	0	0	2	0
+"strain"	"Veillonella parvula DSM 2008"	75	322	173	34	4	823	702	190	0
+"strain"	"Vibrio alginolyticus NBRC 15630 = ATCC 17749"	0	1	0	0	0	2	1	0	0
+"strain"	"Vibrio cholerae MJ-1236"	0	0	0	0	0	0	0	1	0
+"strain"	"Vibrio cholerae O1 str. 2010EL-1786"	0	0	0	0	0	1	0	4	0
+"strain"	"Vibrio tasmaniensis LGP32"	0	0	0	0	0	0	1	0	0
+"strain"	"Weeksella virosa DSM 16922"	0	0	0	1	0	0	0	0	0
+"strain"	"Xanthomonas albilineans GPE PC73"	0	5	7	0	0	4	1	0	0
+"strain"	"Xanthomonas axonopodis pv. citri str. 306"	0	0	2	0	0	0	0	0	0
+"strain"	"Xanthomonas axonopodis Xac29-1"	0	0	1	0	0	0	0	1	0
+"strain"	"Xanthomonas campestris pv. campestris"	0	2	0	0	0	1	0	0	0
+"strain"	"Xanthomonas campestris pv. campestris str. 8004"	0	0	0	0	0	1	0	1	0
+"strain"	"Xanthomonas campestris pv. campestris str. ATCC 33913"	0	1	2	0	0	0	0	1	0
+"strain"	"Xanthomonas campestris pv. raphani 756C"	0	1	1	0	0	0	0	0	0
+"strain"	"Xanthomonas campestris pv. vesicatoria str. 85-10"	0	0	2	1	0	5	0	4	0
+"strain"	"Xanthomonas citri subsp. citri Aw12879"	0	0	3	0	0	0	0	0	0
+"strain"	"Xanthomonas oryzae pv. oryzae KACC 10331"	0	0	1	0	0	0	0	0	0
+"strain"	"Xanthomonas oryzae pv. oryzae MAFF 311018"	0	0	2	0	0	0	0	0	0
+"strain"	"Xenorhabdus bovienii SS-2004"	0	2	0	0	0	4	9	0	0
+"strain"	"Xylella fastidiosa 9a5c"	0	0	0	0	0	0	0	1	0
+"strain"	"Xylella fastidiosa M23"	0	0	0	0	0	2	0	0	0
+"strain"	"Xylella fastidiosa subsp. fastidiosa GB514"	0	0	0	0	0	1	0	0	0
+"strain"	"Xylella fastidiosa Temecula1"	0	1	0	0	0	1	0	1	0
+"strain"	"Yersinia enterocolitica subsp. enterocolitica 8081"	0	0	1	0	0	8	11	0	0
+"strain"	"Yersinia enterocolitica subsp. palearctica 105.5R(r)"	0	0	0	0	0	1	2	0	0
+"strain"	"Yersinia enterocolitica subsp. palearctica Y11"	0	1	0	0	0	3	4	0	0
+"strain"	"Yersinia pestis A1122"	0	3	4	1	0	19	11	1	0
+"strain"	"Yersinia pestis Angola"	0	9	2	0	0	16	16	2	0
+"strain"	"Yersinia pestis biovar Medievalis str. Harbin 35"	0	7	6	0	0	12	17	0	0
+"strain"	"Yersinia pestis biovar Microtus str. 91001"	0	4	5	0	0	6	15	4	0
+"strain"	"Yersinia pestis CO92"	0	2	2	1	0	6	14	1	0
+"strain"	"Yersinia pestis D106004"	0	0	4	0	0	11	13	1	0
+"strain"	"Yersinia pestis D182038"	0	5	4	1	0	8	12	4	0
+"strain"	"Yersinia pestis KIM10+"	0	5	4	0	0	16	14	1	0
+"strain"	"Yersinia pestis Pestoides F"	0	7	5	0	0	8	10	3	0
+"strain"	"Yersinia pestis Z176003"	0	5	4	0	0	7	11	1	0
+"strain"	"Yersinia pseudotuberculosis IP 31758"	0	6	4	0	0	11	14	0	0
+"strain"	"Yersinia pseudotuberculosis IP 32953"	0	6	3	0	0	15	10	2	0
+"strain"	"Yersinia pseudotuberculosis PB1/+"	0	7	4	0	0	17	15	1	0
+"strain"	"Yersinia pseudotuberculosis YPIII"	0	4	6	0	0	8	8	0	0
+"superkingdom"	"Bacteria"	2667	77007	45819	21316	723	191969	62369	98960	690
+"superkingdom"	"Viruses"	9	25285	60563	25577	38899	40205	90673	129040	38462
