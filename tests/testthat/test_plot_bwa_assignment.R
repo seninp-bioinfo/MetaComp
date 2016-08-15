@@ -1,8 +1,8 @@
 #
 # load BWA assignment
 #
-dat <- data.frame(load_metaphlan_assignment(
-  "../test_data/SSputum-no-cDNA/metaphlan/allReads-metaphlan.list.txt"))
+dat <- data.frame(load_bwa_assignment(
+  "../test_data/SSputum-no-cDNA/bwa/allReads-bwa.list.txt"))
 
 # create an outout folder
 #
@@ -16,7 +16,7 @@ png_name <- file.path(tmp_folder, "test_png.png")
 
 # generate a PDF and also get a ggplot out
 #
-gplot <- plot_metaphlan_assignment(dat, "family", "Test Plot #1",
+gplot <- plot_bwa_assignment(dat, "family", "Test Plot #1",
              "SSputum-no-cDNA", file.path(tmp_folder, "test_pdf"))
 
 # write down the plot as PNG

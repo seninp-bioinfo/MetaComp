@@ -6,30 +6,30 @@ NULL
 #'
 #' This implementation is built upon ggplot geom_tile.
 #'
-#' @param assignment The gottcha-like assignment table.
+#' @param assignment The BWA-like assignment table.
 #' @param level The taxonomic level to plot (i.e., family, strain, etc...).
 #' @param plot_title The plot title, e.g., "Project XX, Run YY".
-#' @param column_title The column title, e.g.,  "allReads-gottcha-speDB-b".
+#' @param column_title The column title.
 #' @param filename The PDF file name mask.
 #'
 #' @return the ggplot2 plot.
 #'
 #' @export
-plot_gottcha_assignment <- function(assignment, level, plot_title, column_title, filename) {
+plot_bwa_assignment <- function(assignment, level, plot_title, column_title, filename) {
 
-  LEVEL <- TAXA <- NORM_COV <- tool <- NULL # fix the CRAN note
+  LEVEL <- TAXA <- NORM_ROLLUP <- tool <- NULL # fix the CRAN note
 
   # subset rows
   sub_table <- dplyr::filter(assignment, LEVEL == level)
 
   # subset columns
-  vals <- dplyr::select(sub_table, TAXA, NORM_COV)
+  vals <- dplyr::select(sub_table, TAXA, NORM_ROLLUP)
 
   # sort rows by the abundance
-  vals <- dplyr::arrange(vals, NORM_COV)
+  vals <- dplyr::arrange(vals, NORM_ROLLUP)
 
   # rescale values
-  vals$NORM_COV <- vals$NORM_COV * 100
+  vals$NORM_ROLLUP <- vals$NORM_ROLLUP
 
   # assign factor to TAXA
   vals$TAXA <- factor(x = vals$TAXA, levels = vals$TAXA, ordered = T)
@@ -37,7 +37,7 @@ plot_gottcha_assignment <- function(assignment, level, plot_title, column_title,
   # assign the column title
   vals$tool <- column_title
 
-     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = NORM_COV) ) +
+     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = NORM_ROLLUP) ) +
        ggplot2::theme_bw() +
        ggplot2::geom_tile(color = "grey", size = 0.3) +
        ggplot2::ggtitle(plot_title) +
