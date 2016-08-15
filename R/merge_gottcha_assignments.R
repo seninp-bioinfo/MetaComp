@@ -27,7 +27,7 @@ merge_gottcha_assignments <- function(assignments) {
   # the current list's element
   #
   for (i in 2:length(assignments)) {
-    res  <- base::merge(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_COV),
+    res  <- base::merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_COV),
                   by = c("LEVEL", "TAXA"), all = T)
     names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
   }
