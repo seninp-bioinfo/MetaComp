@@ -25,7 +25,7 @@ ent_row <- dplyr::filter( family_table, TAXA == "Moraxella catarrhalis")
 
 # [0.2] test
 expect_that(ent_row$ROLLUP, equals(135))
-expect_that(ent_row$NORM_ROLLUP, equals(0.0034481))
+expect_that(ent_row$NORM_ROLLUP, equals(0.3448099714))
 
 #
 # test the failure

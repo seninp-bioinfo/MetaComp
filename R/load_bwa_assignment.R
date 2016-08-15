@@ -38,7 +38,7 @@ load_bwa_assignment <- function(filepath) {
 
   df <- merge(df, levels)
 
-  df$NORM_ROLLUP <- df$ROLLUP / df$SUM
+  df$NORM_ROLLUP <- df$ROLLUP / df$SUM * 100
 
   # return results, "as a data frame" to avoid any confusion
   #
