@@ -4,12 +4,15 @@
 \alias{plot_merged_assignment}
 \title{Generates a single column ggplot for a taxonomic assignment table.}
 \usage{
-plot_merged_assignment(assignment, taxonomy_level, title, filename)
+plot_merged_assignment(assignment, taxonomy_level, size_limit = 60, title,
+  filename)
 }
 \arguments{
 \item{assignment}{The gottcha-like merged assignment table.}
 
 \item{taxonomy_level}{The level which need to be plotted.}
+
+\item{size_limit}{the max amount of rows to plot (default is 60).}
 
 \item{title}{The plot title.}
 

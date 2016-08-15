@@ -9,11 +9,12 @@ NULL
 #'
 #' @param assignment The gottcha-like merged assignment table.
 #' @param taxonomy_level The level which need to be plotted.
+#' @param size_limit the max amount of rows to plot (default is 60).
 #' @param title The plot title.
 #' @param filename The output file mask, PDF and SVG files will be produced with Cairo device.
 #'
 #' @export
-plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) {
+plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60, title, filename) {
 
   TAXA <- LEVEL <- value <- variable <- NULL # fix the CRAN note
 
@@ -42,6 +43,12 @@ plot_merged_assignment <- function(assignment, taxonomy_level, title, filename) 
 
   # order rows by the sum value
   df <- dplyr::arrange(df, sum)
+
+  # cut the table by the threshold
+  if (dim(df)[1] > size_limit) {
+    df <- df[1:60, ]
+  }
+
   df$TAXA <- factor(x = df$TAXA, levels = unique(df$TAXA), ordered = T)
 
   # melt for plotting
