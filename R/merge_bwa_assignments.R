@@ -22,14 +22,17 @@ merge_bwa_assignments <- function(assignments) {
   #
   res <- dplyr::select(assignments[[1]], LEVEL, TAXA, NORM_ROLLUP)
   names(res) <- c(names(res)[1:2], names(assignments)[1])
+  print(str(res))
 
   # iterate over the rest of the input list whilst merging the resulting table with
   # the current list's element
   #
   for (i in 2:length(assignments)) {
-    res  <- base::merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_ROLLUP),
-                  by.x = c("LEVEL", "TAXA"), by.y = c("LEVEL", "TAXA"), all = T)
+    print(str(assignments[[i]]))
+    res  <- merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_ROLLUP),
+                  by = c("LEVEL", "TAXA"), all = T)
     names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
+    print(str(res))
   }
 
   # merge produces NAs when there is no corresponding value in to-be-merged column, fix these with
