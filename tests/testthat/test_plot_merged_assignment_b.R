@@ -43,24 +43,24 @@ find_file <-  function(path = ".", filename = "", recursive = TRUE) {
 #
 projects$assignment <-
   plyr::daply(projects, plyr::.(accession), function(x) {
-    find_file(paste(x$folder, "/", sep = ""), "allReads-metaphlan.list.txt", recursive = T)
+    find_file(paste(x$folder, "/", sep = ""), "allReads-bwa.list.txt", recursive = T)
   })
 #
 # cleanup those without an assignment
 #
-projects <- dplyr::filter(projects, !(is.na(assignment)))
+projects <- dplyr::filter(projects, !(is.na(assignment)))[1:3, ]
 #
 # make a list
 #
 input_assignments_list <- plyr::dlply(projects, plyr::.(accession), function(x){
-  dat <- load_metaphlan_assignment(x$assignment)
+  dat <- load_bwa_assignment(x$assignment)
   dat
 })
 names(input_assignments_list) <- projects$accession
 #
 #
 #
-merged <- merge_metaphlan_assignments(input_assignments_list)
+merged <- merge_bwa_assignments(input_assignments_list)
 #
 # create a folder
 #
