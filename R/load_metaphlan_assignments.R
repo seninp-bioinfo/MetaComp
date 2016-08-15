@@ -2,7 +2,7 @@
 #' @importFrom plyr dlply
 NULL
 
-#' Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
+#' Efficiently loads a METAPHLAN (or other EDGE-like taxonomic assignment) tables from a list
 #' of files. Outputs a named list of assignments.
 #'
 #' @param filepath A path to tab delimeted, two-column file whose first column is a project_id
