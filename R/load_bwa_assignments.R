@@ -11,7 +11,7 @@ NULL
 #' @return a list of all read assignments.
 #'
 #' @export
-load_metaphlan_assignments <- function(filepath) {
+load_bwa_assignments <- function(filepath) {
 
   V1 <- NULL
 

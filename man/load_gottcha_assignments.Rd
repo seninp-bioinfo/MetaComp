@@ -2,7 +2,7 @@
 % Please edit documentation in R/load_gottcha_assignments.R
 \name{load_gottcha_assignments}
 \alias{load_gottcha_assignments}
-\title{Efficiently loads a Metaphlan (or other EDGE-like taxonomic assignment) tables from a list
+\title{Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
 of files. Outputs a named list of assignments.}
 \usage{
 load_gottcha_assignments(filepath)
@@ -15,7 +15,7 @@ load_gottcha_assignments(filepath)
 a list of all read assignments.
 }
 \description{
-Efficiently loads a Metaphlan (or other EDGE-like taxonomic assignment) tables from a list
+Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
 of files. Outputs a named list of assignments.
 }
 

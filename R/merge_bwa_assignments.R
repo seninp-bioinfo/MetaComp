@@ -1,8 +1,8 @@
 #' @importFrom dplyr select
 NULL
 
-#' Merges two or more GOTTCHA-like taxonomical assignments. The input data frames are assumed to
-#' have the following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge
+#' Merges two or more BWA-like taxonomical assignments. The input data frames are assumed to
+#' have the following columns: LEVEL, TAXA, and NORM_ROLLUP -- these will be used in the merge
 #' procedure, all other columns will be ignored.
 #'
 #' @param assignments A named list of assignments (the list element's name will be used as a
@@ -12,22 +12,22 @@ NULL
 #'          the input assignments ids.
 #'
 #' @export
-merge_gottcha_assignments <- function(assignments) {
+merge_bwa_assignments <- function(assignments) {
 
   # fix CRAN notes
   #
-  LEVEL <- TAXA <- NORM_COV <- NULL # fix the CRAN note
+  LEVEL <- TAXA <- NORM_ROLLUP <- NULL # fix the CRAN note
 
   # extract only rows wich correspond to the desired taxonomy level and name the first column
   #
-  res <- dplyr::select(assignments[[1]], LEVEL, TAXA, NORM_COV)
+  res <- dplyr::select(assignments[[1]], LEVEL, TAXA, NORM_ROLLUP)
   names(res) <- c(names(res)[1:2], names(assignments)[1])
 
   # iterate over the rest of the input list whilst merging the resulting table with
   # the current list's element
   #
   for (i in 2:length(assignments)) {
-    res  <- merge(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_COV),
+    res  <- merge(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_ROLLUP),
                   by = c("LEVEL", "TAXA"), all = T)
     names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
   }
