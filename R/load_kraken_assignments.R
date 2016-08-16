@@ -1,5 +1,4 @@
 #' @importFrom data.table fread
-#' @importFrom plyr dlply
 NULL
 
 #' Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
@@ -13,8 +12,6 @@ NULL
 #' @export
 load_kraken_assignments <- function(filepath) {
 
-  V1 <- NULL
-
   # check for the file existence
   #
   if ( !file.exists(filepath) ) {
@@ -27,9 +24,13 @@ load_kraken_assignments <- function(filepath) {
 
   # read files
   #
-  input_assignments_list <- plyr::dlply(df, plyr::.(V1), .parallel = F, function(x) {
-    MetaComp::load_kraken_assignment(x$V2)
-  })
+  input_assignments_list = list(MetaComp::load_kraken_assignment(df[1,]$V2))
+  if (dim(df)[1] > 1) {
+    for (i in 2:(dim(df)[1])) {
+      input_assignments_list <- c(input_assignments_list,
+                                     list(MetaComp::load_kraken_assignment(df[i,]$V2)))
+    }
+  }
 
   # name the list
   #
