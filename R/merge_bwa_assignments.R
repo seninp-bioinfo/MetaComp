@@ -27,7 +27,6 @@ merge_bwa_assignments <- function(assignments) {
   # the current list's element
   #
   for (i in 2:length(assignments)) {
-    print(str(assignments[[i]]))
     res  <- merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_ROLLUP),
                   by = c("LEVEL", "TAXA"), all = T)
     names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
