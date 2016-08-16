@@ -27,7 +27,7 @@ load_metaphlan_assignments <- function(filepath) {
 
   # read files
   #
-  input_assignments_list <- plyr::dlply(df, plyr::.(V1), function(x) {
+  input_assignments_list <- plyr::dlply(df, plyr::.(V1), .parallel = F, function(x) {
     MetaComp::load_metaphlan_assignment(x$V2)
   })
 
