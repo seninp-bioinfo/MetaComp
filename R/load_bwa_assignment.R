@@ -34,9 +34,10 @@ load_bwa_assignment <- function(filepath) {
   # normalize ...
   #
   levels <- ddply(df, "LEVEL", function(x) { sum(x$ROLLUP) })
+
   names(levels) <- c("LEVEL", "SUM")
 
-  df <- merge(df, levels)
+  df <- base::merge.data.frame(df, levels, by = c("LEVEL"))
 
   df$NORM_ROLLUP <- df$ROLLUP / df$SUM * 100
 
