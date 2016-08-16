@@ -63,7 +63,8 @@ plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60,
 
   # melt for plotting
   melted_df <- reshape2::melt(within(df, rm(SUM)), id.vars = c("TAXA"))
-  melted_df$variable <- factor(x = as.character(melted_df$variable), levels = levels(x_colnames), ordered = T)
+  melted_df$variable <- factor(x = as.character(melted_df$variable),
+                               levels = levels(x_colnames), ordered = T)
 
   p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
         ggplot2::theme_bw() +
