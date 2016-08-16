@@ -1,5 +1,4 @@
 #' @importFrom data.table fread
-#' @importFrom plyr dlply
 NULL
 
 #' Efficiently loads a BWA (or other EDGE-like taxonomic assignment) tables from a list
