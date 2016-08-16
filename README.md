@@ -77,7 +77,7 @@ this command line arguments are (some of these are clickable -- so you can see e
 * `Rscript` - a way to execute the [R script](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/Rscript.html)
 * [`merge_and_plot_gottcha_assignments.R`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merge_and_plot_gottcha_assignments.R)- the above script filename
 * [`assignments_table_gottcha.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/assignments_table_gottcha.txt) - the tab delimeted table of assignments (two columns: `project_id` TAB `assignment_path`)
-* [`merged_assignments.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merged_assignments.txt) - the tab-delimeted output file name
+* [`merged_assignments_gottcha.txt`](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/merged_assignments_gottcha.txt) - the tab-delimeted output file name
 * `family` - a LEVEL at which the plot should be produced
 * `"Merge test plot"`- the output plot's title
-* `merge_test` - the output plot filename mask, [`".pdf"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_test.pdf) and [`".svg"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_test.svg) files will be produced...
+* `merge_test` - the output plot filename mask, [`".pdf"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_gottcha_test.pdf) and [`".svg"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_gottcha_test.svg) files will be produced...
