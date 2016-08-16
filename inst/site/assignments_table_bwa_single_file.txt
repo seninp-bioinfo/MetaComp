@@ -1,0 +1,1 @@
+Project_SSputum-DNase-RAB ../../tests/test_data/SSputum-DNase-RAB/bwa/allReads-bwa.list.txt

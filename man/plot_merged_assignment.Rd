@@ -4,8 +4,8 @@
 \alias{plot_merged_assignment}
 \title{Generates a single column ggplot for a taxonomic assignment table.}
 \usage{
-plot_merged_assignment(assignment, taxonomy_level, size_limit = 60, title,
-  filename)
+plot_merged_assignment(assignment, taxonomy_level, size_limit = 60,
+  plot_title, filename)
 }
 \arguments{
 \item{assignment}{The gottcha-like merged assignment table.}
@@ -14,7 +14,7 @@ plot_merged_assignment(assignment, taxonomy_level, size_limit = 60, title,
 
 \item{size_limit}{the max amount of rows to plot (default is 60).}
 
-\item{title}{The plot title.}
+\item{plot_title}{The plot title.}
 
 \item{filename}{The output file mask, PDF and SVG files will be produced with Cairo device.}
 }

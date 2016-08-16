@@ -1,6 +1,7 @@
 #' @importFrom reshape2 melt
 #' @importFrom cowplot switch_axis_position
 #' @importFrom plyr daply
+#' @importFrom dplyr desc
 #' @importFrom grDevices dev.off
 #' @importFrom Cairo CairoPDF
 #' @importFrom Cairo CairoSVG
@@ -13,13 +14,14 @@ NULL
 #' @param assignment The gottcha-like merged assignment table.
 #' @param taxonomy_level The level which need to be plotted.
 #' @param size_limit the max amount of rows to plot (default is 60).
-#' @param title The plot title.
+#' @param plot_title The plot title.
 #' @param filename The output file mask, PDF and SVG files will be produced with Cairo device.
 #'
 #' @export
-plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60, title, filename) {
+plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60,
+                                   plot_title, filename) {
 
-  TAXA <- LEVEL <- value <- variable <- NULL # fix the CRAN note
+  TAXA <- LEVEL <- SUM <- value <- variable <- NULL # fix the CRAN note
 
   # filter only the requested level
   df <- dplyr::filter(assignment, LEVEL == taxonomy_level)
@@ -39,28 +41,35 @@ plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60, 
   }
 
   # compute row sum for each of rows
-  df$sum <- plyr::daply(df, plyr::.(TAXA), function(x){
+  sums <- plyr::ddply(df, plyr::.(TAXA), function(x){
                                                         sum(x[-1]) / (length(x) - 1)
-                                                      }
+                                                    }
                         )
+  names(sums) <- c("TAXA", "SUM")
+
+  df <- base::merge.data.frame(df, sums, by = c("TAXA"))
+
+  df$TAXA <- as.character(df$TAXA)
+
+  # cut the table by the threshold if too long
+  if (dim(df)[1] > size_limit) {
+    df <- dplyr::arrange(df, dplyr::desc(SUM))
+    df <- df[1:size_limit, ]
+  }
 
   # order rows by the sum value
-  df <- dplyr::arrange(df, sum)
-
-  # cut the table by the threshold
-  if (dim(df)[1] > size_limit) {
-    df <- df[1:60, ]
-  }
+  df <- dplyr::arrange(df, SUM)
 
   df$TAXA <- factor(x = df$TAXA, levels = unique(df$TAXA), ordered = T)
 
   # melt for plotting
-  melted_df <- reshape2::melt(within(df, rm(sum)), id.vars = c("TAXA"))
+  melted_df <- reshape2::melt(within(df, rm(SUM)), id.vars = c("TAXA"))
+  #melted_df$variable <- as.character(melted_df$variable)
 
   p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
         ggplot2::theme_bw() +
         ggplot2::geom_tile(color = "grey80", size = 0.3) +
-        ggplot2::ggtitle(title) +
+        ggplot2::ggtitle(plot_title) +
         ggplot2::scale_x_discrete(expand = c(0, 0)) +
         ggplot2::scale_y_discrete(expand = c(0, 0)) +
         ggplot2::coord_fixed(ratio = 1) +
