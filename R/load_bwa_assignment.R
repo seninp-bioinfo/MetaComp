@@ -33,7 +33,9 @@ load_bwa_assignment <- function(filepath) {
 
   # normalize ...
   #
-  levels <- ddply(df, "LEVEL", function(x) { sum(x$ROLLUP) })
+  levels <- plyr::ddply(df, "LEVEL", function(x) {
+                                        sum(x$ROLLUP)
+                                      })
 
   names(levels) <- c("LEVEL", "SUM")
 
