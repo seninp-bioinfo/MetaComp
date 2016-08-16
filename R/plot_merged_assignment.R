@@ -49,8 +49,6 @@ plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60,
 
   df <- base::merge.data.frame(df, sums, by = c("TAXA"))
 
-  df$TAXA <- as.character(df$TAXA)
-
   # cut the table by the threshold if too long
   if (dim(df)[1] > size_limit) {
     df <- dplyr::arrange(df, dplyr::desc(SUM))
@@ -61,9 +59,11 @@ plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60,
   df <- dplyr::arrange(df, SUM)
 
   df$TAXA <- factor(x = df$TAXA, levels = unique(df$TAXA), ordered = T)
+  x_colnames <- factor(x = colnames(df)[-1], levels = colnames(df)[-1], ordered = T)
 
   # melt for plotting
   melted_df <- reshape2::melt(within(df, rm(SUM)), id.vars = c("TAXA"))
+  melted_df$variable <- factor(x = variable, levels = levels(x_colnames), oredered = T)
 
   p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
         ggplot2::theme_bw() +
