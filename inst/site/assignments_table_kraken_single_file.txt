@@ -1,0 +1,1 @@
+Project_SSputum-dil-no-RAB  ../../tests/test_data/SSputum-dil-no-RAB/kraken_mini/allReads-kraken_mini.list.txt

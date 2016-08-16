@@ -22,14 +22,15 @@ merge_gottcha_assignments <- function(assignments) {
   #
   res <- dplyr::select(assignments[[1]], LEVEL, TAXA, NORM_COV)
   names(res) <- c(names(res)[1:2], names(assignments)[1])
-
   # iterate over the rest of the input list whilst merging the resulting table with
   # the current list's element
   #
-  for (i in 2:length(assignments)) {
-    res  <- base::merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_COV),
-                  by = c("LEVEL", "TAXA"), all = T)
-    names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
+  if (length(assignments) > 1) {
+    for (i in 2:length(assignments)) {
+       res  <- base::merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_COV),
+                    by = c("LEVEL", "TAXA"), all = T)
+     names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
+    }
   }
 
   # merge produces NAs when there is no corresponding value in to-be-merged column, fix these with
