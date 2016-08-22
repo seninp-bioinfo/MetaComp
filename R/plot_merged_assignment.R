@@ -69,7 +69,6 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
   } else {
     # sort any way ...
     if (sorting_order == "alphabetical") {
-      print(paste(" -> alphabetical is ON"))
       # order rows by the name
       df <- dplyr::arrange(df, desc(TAXA))
     } else {
@@ -78,7 +77,6 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
     }
   }
 
-  print(paste(" -> size df", dim(df)[1]))
   df$TAXA <- factor(x = df$TAXA, levels = unique(df$TAXA), ordered = T)
   x_colnames <- factor(x = colnames(df)[-1], levels = colnames(df)[-1], ordered = T)
 
