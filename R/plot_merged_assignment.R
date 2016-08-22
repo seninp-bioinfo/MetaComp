@@ -13,13 +13,15 @@ NULL
 #'
 #' @param assignment The gottcha-like merged assignment table.
 #' @param taxonomy_level The level which need to be plotted.
-#' @param size_limit the max amount of rows to plot (default is 60).
+#' @param sorting_order the order in which rows shall be sorted, "abundance" is defult,
+#'                       "alphabetical" is an alternative.
+#' @param row_limit the max amount of rows to plot (default is 60).
 #' @param plot_title The plot title.
 #' @param filename The output file mask, PDF and SVG files will be produced with Cairo device.
 #'
 #' @export
-plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60,
-                                   plot_title, filename) {
+plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "abundance",
+                                   row_limit = 60, plot_title, filename) {
 
   TAXA <- LEVEL <- SUM <- value <- variable <- NULL # fix the CRAN note
 
@@ -50,14 +52,36 @@ plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60,
   df <- base::merge.data.frame(df, sums, by = c("TAXA"))
 
   # cut the table by the threshold if too long
-  if (dim(df)[1] > size_limit) {
-    df <- dplyr::arrange(df, dplyr::desc(SUM))
-    df <- df[1:size_limit, ]
+  print(paste("using sorting order: ", sorting_order, str(dim(df)[1]), "row_limit", str(row_limit)))
+  if (dim(df)[1] > row_limit) {
+    print(paste(" -> pruning to ", row_limit))
+    if (sorting_order == "alphabetical") {
+      print(paste(" -> alphabetical is ON"))
+      # order rows by the name
+      df <- dplyr::arrange(df, TAXA)
+      df <- df[1:row_limit, ]
+      # inverse the order for plotting
+      df <- dplyr::arrange(df, desc(TAXA))
+    } else {
+      # order rows by the sum value
+      df <- dplyr::arrange(df, dplyr::desc(SUM))
+      df <- df[1:row_limit, ]
+      # inverse the order for plotting
+      df <- dplyr::arrange(df, SUM)
+    }
+  } else {
+    # sort any way ...
+    if (sorting_order == "alphabetical") {
+      print(paste(" -> alphabetical is ON"))
+      # order rows by the name
+      df <- dplyr::arrange(df, desc(TAXA))
+    } else {
+      # order rows by the sum value
+      df <- dplyr::arrange(df, SUM)
+    }
   }
 
-  # order rows by the sum value
-  df <- dplyr::arrange(df, SUM)
-
+  print(paste(" -> size df", dim(df)[1]))
   df$TAXA <- factor(x = df$TAXA, levels = unique(df$TAXA), ordered = T)
   x_colnames <- factor(x = colnames(df)[-1], levels = colnames(df)[-1], ordered = T)
 

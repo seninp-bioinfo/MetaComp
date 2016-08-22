@@ -17,6 +17,7 @@ NULL
 load_bwa_assignment <- function(filepath) {
 
   levels <- NULL
+
   # check for the file existence
   #
   if ( !file.exists(filepath) ) {

@@ -4,15 +4,18 @@
 \alias{plot_merged_assignment}
 \title{Generates a single column ggplot for a taxonomic assignment table.}
 \usage{
-plot_merged_assignment(assignment, taxonomy_level, size_limit = 60,
-  plot_title, filename)
+plot_merged_assignment(assignment, taxonomy_level,
+  sorting_order = "abundance", row_limit = 60, plot_title, filename)
 }
 \arguments{
 \item{assignment}{The gottcha-like merged assignment table.}
 
 \item{taxonomy_level}{The level which need to be plotted.}
 
-\item{size_limit}{the max amount of rows to plot (default is 60).}
+\item{sorting_order}{the order in which rows shall be sorted, "abundance" is defult,
+"alphabetical" is an alternative.}
+
+\item{row_limit}{the max amount of rows to plot (default is 60).}
 
 \item{plot_title}{The plot title.}
 

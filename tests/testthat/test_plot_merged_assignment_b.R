@@ -68,8 +68,12 @@ tmp_folder <- file.path(getwd(), "sandbox")
 dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 #
-gplot <- plot_merged_assignment(merged, "species", 60, "Test Plot #3",
-                                file.path(tmp_folder, "test_pdf3"))
+gplot <- plot_merged_assignment(assignment = merged,
+                                taxonomy_level = "species",
+                                sorting_order = "abundance",
+                                row_limit = 60,
+                                plot_title = "Test Plot #2",
+                                filename = file.path(tmp_folder, "test_pdf3"))
 
 expect_that(file.exists(file.path(tmp_folder, "test_pdf3.pdf")), is_true())
 
