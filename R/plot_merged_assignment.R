@@ -58,7 +58,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
       df <- dplyr::arrange(df, TAXA)
       df <- df[1:row_limit, ]
       # inverse the order for plotting
-      df <- dplyr::arrange(df, desc(TAXA))
+      df <- dplyr::arrange(df, dplyr::desc(TAXA))
     } else {
       # order rows by the sum value
       df <- dplyr::arrange(df, dplyr::desc(SUM))
@@ -70,7 +70,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
     # sort any way ...
     if (sorting_order == "alphabetical") {
       # order rows by the name
-      df <- dplyr::arrange(df, desc(TAXA))
+      df <- dplyr::arrange(df, dplyr::desc(TAXA))
     } else {
       # order rows by the sum value
       df <- dplyr::arrange(df, SUM)
