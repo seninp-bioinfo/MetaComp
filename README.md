@@ -57,7 +57,9 @@ The following script can be used to run the merge procedure in a batch mode:
     destFile <- args[2]
     taxonomyLevelArg <- args[3]
     plotTitleArg <- args[4]
-    plotFile <- args[5]
+    plotFileArg <- args[5]
+    rowLimitArg <- args[6]
+    sortingOrderArg <- args[7]
     #
     # read the data and produce the merged table
     merged <- merge_gottcha_assignments(load_gottcha_assignments(srcFile))
@@ -66,12 +68,14 @@ The following script can be used to run the merge procedure in a batch mode:
     write.table(merged, file = destFile, col.names = T, row.names = F, quote = T, sep = "\t")
     #
     # produce a PDF of the merged assignment
-    plot_merged_assignment(merged, taxonomyLevelArg, plotTitleArg, plotFile)
+    plot_merged_assignment(assignment = merged, taxonomy_level = taxonomyLevelArg,
+                       sorting_order = sortingOrderArg, row_limit = base::strtoi(rowLimitArg),
+                       plot_title = plotTitleArg, filename = plotFileArg)
     
 To execute the scrip, use Rscript as shown below:
 
     $> Rscript merge_and_plot_gottcha_assignments.R assignments_table_gottcha.txt merged_assignments.txt \
-                                                                     family "Merge test plot" merge_test
+                                        family "Merge test plot" merge_test 20 "alphabetical"
     
 this command line arguments are (some of these are clickable -- so you can see examples):
 * `Rscript` - a way to execute the [R script](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/Rscript.html)
@@ -81,3 +85,5 @@ this command line arguments are (some of these are clickable -- so you can see e
 * `family` - a LEVEL at which the plot should be produced
 * `"Merge test plot"`- the output plot's title
 * `merge_test` - the output plot filename mask, [`".pdf"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_gottcha_test.pdf) and [`".svg"`](https://github.com/seninp-bioinfo/MetaComp/blob/master/inst/site/merge_gottcha_test.svg) files will be produced...
+* `20` the max number of rows to plot (in the specified sorting order)
+* `alphabetical` the merged *plot* sorting order
