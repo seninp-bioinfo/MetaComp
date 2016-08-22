@@ -52,11 +52,8 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
   df <- base::merge.data.frame(df, sums, by = c("TAXA"))
 
   # cut the table by the threshold if too long
-  print(paste("using sorting order: ", sorting_order, str(dim(df)[1]), "row_limit", str(row_limit)))
   if (dim(df)[1] > row_limit) {
-    print(paste(" -> pruning to ", row_limit))
     if (sorting_order == "alphabetical") {
-      print(paste(" -> alphabetical is ON"))
       # order rows by the name
       df <- dplyr::arrange(df, TAXA)
       df <- df[1:row_limit, ]
