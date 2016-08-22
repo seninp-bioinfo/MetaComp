@@ -75,7 +75,7 @@ The following script can be used to run the merge procedure in a batch mode:
 To execute the scrip, use Rscript as shown below:
 
     $> Rscript merge_and_plot_gottcha_assignments.R assignments_table_gottcha.txt merged_assignments.txt \
-                                        family "Merge test plot" merge_test 20 "alphabetical"
+                                        family "Merge test plot" merge_test 20 alphabetical
     
 this command line arguments are (some of these are clickable -- so you can see examples):
 * `Rscript` - a way to execute the [R script](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/Rscript.html)
