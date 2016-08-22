@@ -42,9 +42,9 @@ plot_merged_assignment <- function(assignment, taxonomy_level, size_limit = 60,
 
   # compute row sum for each of rows
   sums <- plyr::ddply(df, plyr::.(TAXA), function(x){
-                                                        sum(x[-1]) / (length(x) - 1)
+                            sum(x[-1]) / (length(x) - 1)
                                                     }
-                        )
+                     )
   names(sums) <- c("TAXA", "SUM")
 
   df <- base::merge.data.frame(df, sums, by = c("TAXA"))
