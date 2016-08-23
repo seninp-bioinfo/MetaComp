@@ -2,6 +2,7 @@
 #' @importFrom cowplot switch_axis_position
 #' @importFrom plyr daply
 #' @importFrom dplyr desc
+#' @importFrom dplyr select
 #' @importFrom grDevices dev.off
 #' @importFrom Cairo CairoPDF
 #' @importFrom Cairo CairoSVG
@@ -78,6 +79,18 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
   }
 
   df$TAXA <- factor(x = df$TAXA, levels = unique(df$TAXA), ordered = T)
+
+  ## sort project names
+  #
+  # extract project names
+  project_names <- as.character(unlist(colnames(df)[2:(dim(df)[2] - 1)]))
+  # order alphabetically
+  project_names_order <- order(project_names)
+  # create the desired column ordering
+  column_index <- c(1, project_names_order + 1, as.numeric(dim(df)[2]) )
+  # re-order columns
+  df <- dplyr::select(df, column_index )
+
   x_colnames <- factor(x = colnames(df)[-1], levels = colnames(df)[-1], ordered = T)
 
   # melt for plotting
