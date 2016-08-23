@@ -14,8 +14,16 @@ destFile <- args[2]
 taxonomyLevelArg <- args[3]
 plotTitleArg <- args[4]
 plotFileArg <- args[5]
-rowLimitArg <- args[6]
-sortingOrderArg <- args[7]
+#
+# extended functionality was added in the release #3, and we don't want to break the legacy systems
+#
+if (length(args) > 5) {
+  rowLimitArg <- args[6]
+  sortingOrderArg <- args[7]
+} else {
+  rowLimitArg <- 60
+  sortingOrderArg <- "abundance"
+}
 #
 # read the data and produce the merged table
 merged <- merge_kraken_assignments(load_kraken_assignments(srcFile))
