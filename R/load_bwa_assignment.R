@@ -18,7 +18,7 @@ NULL
 #' @export
 load_bwa_assignment <- function(filepath) {
 
-  levels <- NULL
+  levels <- TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
   # check for the file existence
   #
