@@ -46,10 +46,12 @@ load_bwa_assignment <- function(filepath) {
 
   df$ABUNDANCE <- df$ROLLUP / df$SUM * 100
 
+  # rename the abundance column
+  #
   names(df) <- sub("ROLLUP", "COUNT", names(df))
 
   # return results, "as a data frame" to avoid any confusion...
   #
-  as.data.frame( dplyr::select(df, TAXA, LEVEL, COUNT, ABUNDANCE))
+  as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
 
 }

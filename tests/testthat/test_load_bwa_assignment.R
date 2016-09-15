@@ -10,7 +10,7 @@ expect_that( dim(dat)[1], equals(558) )
 expect_that( dim(dat)[2], equals(4) )
 
 # col names test
-expect_that(colnames(dat), equals( c("TAXA", "LEVEL", "COUNT", "ABUNDANCE") ) )
+expect_that(colnames(dat), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 
 # test the specific line of file
 
