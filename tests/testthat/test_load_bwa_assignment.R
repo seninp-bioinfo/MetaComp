@@ -7,13 +7,10 @@ dat <- data.frame(load_bwa_assignment("../test_data/SSputum-no-RAB/bwa/allReads-
 expect_that( dim(dat)[1], equals(558) )
 
 #rows import test
-expect_that( dim(dat)[2], equals(6) )
+expect_that( dim(dat)[2], equals(4) )
 
 # col names test
-expect_that(colnames(dat)[1], matches("LEVEL"))
-
-#
-expect_that(colnames(dat)[ dim(dat)[2] ], matches("NORM_ROLLUP"))
+expect_that(colnames(dat), equals( c("TAXA", "LEVEL", "COUNT", "ABUNDANCE") ) )
 
 # test the specific line of file
 
@@ -24,8 +21,8 @@ family_table <- dplyr::filter( dat, LEVEL == "species")
 ent_row <- dplyr::filter( family_table, TAXA == "Moraxella catarrhalis")
 
 # [0.2] test
-expect_that(ent_row$ROLLUP, equals(135))
-expect_that(ent_row$NORM_ROLLUP, equals(0.3448099714))
+expect_that(ent_row$COUNT, equals(135))
+expect_that(ent_row$ABUNDANCE, equals(0.3448099714))
 
 #
 # test the failure
