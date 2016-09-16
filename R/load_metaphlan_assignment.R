@@ -10,7 +10,8 @@ NULL
 #'
 #' @param filepath A path to EDGE-generated tab-delimeted Metaphlan taxonomy assignment file.
 #'
-#' @return a data frame representing the read table.
+#' @return a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
+#'         taxonomically anchored sequences from the sample.
 #'
 #' @export
 load_metaphlan_assignment <- function(filepath) {
