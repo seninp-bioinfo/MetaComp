@@ -18,19 +18,19 @@ NULL
 #' @export
 plot_bwa_assignment <- function(assignment, level, plot_title, column_title, filename) {
 
-  LEVEL <- TAXA <- NORM_ROLLUP <- tool <- NULL # fix the CRAN note
+  LEVEL <- TAXA <- ABUNDANCE <- tool <- NULL # fix the CRAN note
 
   # subset rows
   sub_table <- dplyr::filter(assignment, LEVEL == level)
 
   # subset columns
-  vals <- dplyr::select(sub_table, TAXA, NORM_ROLLUP)
+  vals <- dplyr::select(sub_table, TAXA, ABUNDANCE)
 
   # sort rows by the abundance
-  vals <- dplyr::arrange(vals, NORM_ROLLUP)
+  vals <- dplyr::arrange(vals, ABUNDANCE)
 
   # rescale values
-  vals$NORM_ROLLUP <- vals$NORM_ROLLUP
+  vals$ABUNDANCE <- vals$ABUNDANCE
 
   # assign factor to TAXA
   vals$TAXA <- factor(x = vals$TAXA, levels = vals$TAXA, ordered = T)
@@ -38,7 +38,7 @@ plot_bwa_assignment <- function(assignment, level, plot_title, column_title, fil
   # assign the column title
   vals$tool <- column_title
 
-     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = NORM_ROLLUP) ) +
+     p <- ggplot2::ggplot( data = vals, ggplot2::aes(y = TAXA, x = tool, fill = ABUNDANCE) ) +
        ggplot2::theme_bw() +
        ggplot2::geom_tile(color = "grey", size = 0.3) +
        ggplot2::ggtitle(plot_title) +

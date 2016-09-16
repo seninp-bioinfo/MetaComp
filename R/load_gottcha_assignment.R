@@ -1,4 +1,5 @@
 #' @importFrom data.table fread
+#' @importFrom dplyr select
 NULL
 
 #' Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) table from a file.
@@ -9,10 +10,13 @@ NULL
 #'
 #' @param filepath A path to EDGE-generated tab-delimeted GOTTCHA taxonomy assignment file.
 #'
-#' @return a data frame representing the read table.
+#' @return a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
+#'         taxonomically anchored sequences from the sample.
 #'
 #' @export
 load_gottcha_assignment <- function(filepath) {
+
+  TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
   # check for the file existence
   #
@@ -24,8 +28,18 @@ load_gottcha_assignment <- function(filepath) {
   #
   df <- data.table::fread(filepath, sep = "\t", header = T)
 
-  # return results, "as a data frame" to avoid any confusion
+  # remove empty (non-assigned) lines
   #
-  as.data.frame(df)
+  df <- df[df$LEVEL != "", ]
+
+  # rename the abundance column
+  #
+  names(df) <- sub("READ_COUNT", "COUNT", names(df))
+  names(df) <- sub("NORM_COV", "ABUNDANCE", names(df))
+
+
+  # return results, "as a data frame" to avoid any confusion...
+  #
+  as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
 
 }

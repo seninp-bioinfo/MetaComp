@@ -2,7 +2,7 @@
 NULL
 
 #' Merges two or more GOTTCHA-like taxonomical assignments. The input data frames are assumed to
-#' have the following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge
+#' have the following columns: LEVEL, TAXA, and ABUNDANCE -- these will be used in the merge
 #' procedure, all other columns will be ignored.
 #'
 #' @param assignments A named list of assignments (the list element's name will be used as a
@@ -16,18 +16,18 @@ merge_gottcha_assignments <- function(assignments) {
 
   # fix CRAN notes
   #
-  LEVEL <- TAXA <- NORM_COV <- NULL # fix the CRAN note
+  LEVEL <- TAXA <- ABUNDANCE <- NULL # fix the CRAN note
 
   # extract only rows wich correspond to the desired taxonomy level and name the first column
   #
-  res <- dplyr::select(assignments[[1]], LEVEL, TAXA, NORM_COV)
+  res <- dplyr::select(assignments[[1]], LEVEL, TAXA, ABUNDANCE)
   names(res) <- c(names(res)[1:2], names(assignments)[1])
   # iterate over the rest of the input list whilst merging the resulting table with
   # the current list's element
   #
   if (length(assignments) > 1) {
     for (i in 2:length(assignments)) {
-       res  <- base::merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, NORM_COV),
+       res  <- base::merge.data.frame(res, dplyr::select(assignments[[i]], LEVEL, TAXA, ABUNDANCE),
                     by = c("LEVEL", "TAXA"), all = T)
      names(res) <- c(names(res)[1:(length(names(res)) - 1)], names(assignments)[i])
     }

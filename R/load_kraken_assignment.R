@@ -1,4 +1,5 @@
 #' @importFrom data.table fread
+#' @importFrom dplyr select
 NULL
 
 #' Efficiently loads a EDGE-produced Kraken taxonomic assignment from a file.
@@ -10,10 +11,13 @@ NULL
 #'
 #' @param filepath A path to EDGE-generated tab-delimeted Kraken taxonomy assignment file.
 #'
-#' @return a data frame representing the read table.
+#' @return a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
+#'         taxonomically anchored sequences from the sample.
 #'
 #' @export
 load_kraken_assignment <- function(filepath) {
+
+  TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
   # check for the file existence
   #
@@ -29,13 +33,17 @@ load_kraken_assignment <- function(filepath) {
   #
   df <- df[df$LEVEL != "", ]
 
-  # add a normilized rollup
+  # add a normilized abundance
   #
   max_rollup <- df[df$LEVEL == "root", ]$ROLLUP
-  df$NORM_ROLLUP <- df$ROLLUP / max_rollup * 100
+  df$ABUNDANCE <- df$ROLLUP / max_rollup * 100
 
-  # return results, "as a data frame" to avoid any confusion
+  # rename the abundance column
   #
-  as.data.frame(df)
+  names(df) <- sub("ROLLUP", "COUNT", names(df))
+
+  # return results, "as a data frame" to avoid any confusion...
+  #
+  as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
 
 }

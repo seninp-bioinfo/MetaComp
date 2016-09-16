@@ -1,5 +1,6 @@
 #' @importFrom data.table fread
 #' @importFrom plyr ddply
+#' @importFrom dplyr select
 NULL
 
 #' Efficiently loads a EDGE-produced BWA taxonomic assignment from a file.
@@ -11,12 +12,13 @@ NULL
 #'
 #' @param filepath A path to EDGE-generated tab-delimeted bwa taxonomy assignment file.
 #'
-#' @return a data frame representing the read table.
+#' @return a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
+#'         taxonomically anchored sequences from the sample.
 #'
 #' @export
 load_bwa_assignment <- function(filepath) {
 
-  levels <- NULL
+  levels <- TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
   # check for the file existence
   #
@@ -42,10 +44,14 @@ load_bwa_assignment <- function(filepath) {
 
   df <- base::merge.data.frame(df, levels, by = c("LEVEL"))
 
-  df$NORM_ROLLUP <- df$ROLLUP / df$SUM * 100
+  df$ABUNDANCE <- df$ROLLUP / df$SUM * 100
 
-  # return results, "as a data frame" to avoid any confusion
+  # rename the abundance column
   #
-  as.data.frame(df)
+  names(df) <- sub("ROLLUP", "COUNT", names(df))
+
+  # return results, "as a data frame" to avoid any confusion...
+  #
+  as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
 
 }

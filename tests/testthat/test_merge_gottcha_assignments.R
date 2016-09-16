@@ -1,24 +1,24 @@
 #
 # load GOTTCHA assignment
 #
-dat1 <- data.frame(load_gottcha_assignment("../test_data/248/allReads-kraken_mini.list.txt"))
-names(dat1)[3] <- "NORM_COV"
+dat1 <- data.frame(load_gottcha_assignment(
+  "../test_data/SSputum-dil-DNase-cDNA/gottcha-speDB-v/allReads-gottcha-speDB-v.list.txt"))
 
 # extract species list
 #
 species <- dplyr::filter(dat1, LEVEL == "species")
-expect_that(length(species$TAXA), equals(214))
+expect_that(length(species$TAXA), equals(15))
 #
 # all the rest we will keep the same
 #
 gottcha_assignment1 <- dplyr::filter(dat1, LEVEL != "species")
 gottcha_assignment2 <- dplyr::filter(dat1, LEVEL != "species")
 #
-species1 <- species[1:150, ]
-species2 <- species[110:214, ]
+species1 <- species[1:7, ]
+species2 <- species[8:15, ]
 #
-expect_that(dim(species1)[1], equals(150))
-expect_that(dim(species2)[1], equals(105))
+expect_that(dim(species1)[1], equals(7))
+expect_that(dim(species2)[1], equals(8))
 #
 #
 gottcha_assignment1 <- rbind(gottcha_assignment1, species1)
