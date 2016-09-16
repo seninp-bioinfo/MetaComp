@@ -2,7 +2,7 @@
 NULL
 
 #' Merges two or more GOTTCHA-like taxonomical assignments. The input data frames are assumed to
-#' have the following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge
+#' have the following columns: LEVEL, TAXA, and ABUNDANCE -- these will be used in the merge
 #' procedure, all other columns will be ignored.
 #'
 #' @param assignments A named list of assignments (the list element's name will be used as a

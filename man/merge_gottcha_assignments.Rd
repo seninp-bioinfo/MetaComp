@@ -3,7 +3,7 @@
 \name{merge_gottcha_assignments}
 \alias{merge_gottcha_assignments}
 \title{Merges two or more GOTTCHA-like taxonomical assignments. The input data frames are assumed to
-have the following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge
+have the following columns: LEVEL, TAXA, and ABUNDANCE -- these will be used in the merge
 procedure, all other columns will be ignored.}
 \usage{
 merge_gottcha_assignments(assignments)
@@ -18,7 +18,7 @@ A merged table, which is a data frame whose rows are taxonomical ids and columns
 }
 \description{
 Merges two or more GOTTCHA-like taxonomical assignments. The input data frames are assumed to
-have the following columns: LEVEL, TAXA, and NORM_COV -- these will be used in the merge
+have the following columns: LEVEL, TAXA, and ABUNDANCE -- these will be used in the merge
 procedure, all other columns will be ignored.
 }
 
