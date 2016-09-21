@@ -16,13 +16,16 @@ NULL
 
 convert_merge_table_to_phyloseq_otu_table <- function(filepath, TAXON){
 
+  LEVEL <- NULL
+
+
   # read the merge table
   df <- data.table::fread(filepath, sep = "\t", header = T)
   df$LEVEL <- base::as.character(df$LEVEL)
 
 
   # subset to given taxa level and remove the LEVEL column
-  taxa_level_table <- base::subset(df, LEVEL == TAXON, select=-c(LEVEL))
+  taxa_level_table <- base::subset(df, LEVEL == TAXON, select = -c(LEVEL))
 
 
   # change TAXA as row name (required when converting to matrix)
@@ -34,5 +37,6 @@ convert_merge_table_to_phyloseq_otu_table <- function(filepath, TAXON){
 
   # convert to otu table object as per phyloseq
   OTU <- phyloseq::otu_table(taxa_leve_mat, taxa_are_rows = T)
+
   OTU
 }
