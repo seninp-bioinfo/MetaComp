@@ -22,7 +22,7 @@ convert_to_otu_table <- function(filepath, TAXON){
 
 
   # subset to given taxa level and remove the LEVEL column
-  taxa_level_table <- base::subset(df, LEVEL == TAXON, select=-c(LEVEL))
+  taxa_level_table <- base::subset(df, LEVEL == TAXON, select = -c(LEVEL))
 
 
   # change TAXA as row name (required when converting to matrix)
