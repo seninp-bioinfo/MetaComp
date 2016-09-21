@@ -1,7 +1,7 @@
 language: r
 
 r: bioc-devel
-sudo: false
+sudo: true
 cache: packages
 
 warnings_are_errors: true
