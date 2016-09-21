@@ -14,7 +14,8 @@ Imports:
     data.table,
     ggplot2,
     cowplot,
-    Cairo
+    Cairo,
+    phyloseq
 Suggests:
     testthat,
     knitr,
