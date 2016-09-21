@@ -8,6 +8,7 @@ before_install:
   - chmod 755 ./travis-tool.sh
   - ./travis-tool.sh bootstrap
   - ./travis-tool.sh github_package hadley/testthat
+  - ./travis-tool.sh github_package Bioconductor-mirror/BiocInstaller
   - ./travis-tool.sh github_package joey711/phyloseq
   - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
   - sudo apt-get -qq update
