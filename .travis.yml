@@ -1,6 +1,9 @@
 language: r
+
+r: bioc-devel
 sudo: true
 cache: packages
+
 warnings_are_errors: true
 
 before_install:
@@ -10,6 +13,9 @@ before_install:
   - ./travis-tool.sh github_package hadley/testthat
   - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
   - sudo apt-get -qq update
+
+r_packages:
+  - phyloseq
 
 r_binary_packages:
   - reshape2
