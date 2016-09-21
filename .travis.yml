@@ -24,7 +24,6 @@ r_binary_packages:
   - ggplot2
   - Cairo
   - scales
-  - phyloseq
 
 r_github_packages:
   - jimhester/covr
