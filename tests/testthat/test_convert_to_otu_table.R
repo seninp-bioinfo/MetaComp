@@ -23,10 +23,5 @@ expect_that(sum(dat[,1]), equals(1.0))
 #
 # test the failures
 #
-<<<<<<< HEAD:tests/testthat/test_convert_merge_table_to_phyloseq_otu_table.R
-expect_that(convert_merge_table_to_phyloseq_otu_table("../test_data/merged_table.tsv",
-                                                      "non_existent_taxa_level"), throws_error())
-=======
 #expect_that(convert_merge_table_to_phyloseq_otu_table("../test_data/nonexistantfile.txt", "class"), throws_error())
 expect_that(convert_to_otu_table("../test_data/merged_table.tsv", "non_existent_taxa_level"), throws_error())
->>>>>>> compar_metagenomics:tests/testthat/test_convert_to_otu_table.R
