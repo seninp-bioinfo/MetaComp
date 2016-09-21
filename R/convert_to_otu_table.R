@@ -14,7 +14,7 @@ NULL
 #'
 #' @export
 
-convert_merge_table_to_phyloseq_otu_table <- function(filepath, TAXON){
+convert_to_otu_table <- function(filepath, TAXON){
 
   # read the merge table
   df <- data.table::fread(filepath, sep = "\t", header = T)
