@@ -1,22 +1,33 @@
+#' @importFrom data.table fread
 #' @importFrom phyloseq otu_table
+
 NULL
 
-#' Extracts phyloseq format otu table from merged table for given TAXA
-#' otu here corresponds to TAXA.
+#' Create Phyloseq format otu table
 #'
-#' This implementation is built upon phyloseq.
+#' Synthesize phyloseq format otu table from merged table for given taxonomic level.
+#' OTU here corresponds to the taxonomic level. This implementation is built upon phyloseq. We recommend not to use this for strain
+#' level classification as creation of taxa_table doesn't work with strain level or
+#' plasmid sequences.
 #'
-#' @param filepath merge table containig samples as columns and taxa as rows.
+#' @param filepath to merge table containig samples as columns and taxa as rows.
 #'
-#' @param TAXON The taxonomic level to create OTU table.
+#' @param TAXON A taxonomic level (phylum, class, order, family, species) to create OTU table.
+#'        It has to be all small letters.
 #'
-#' @return phyloseq otu table.
+#' @return phyloseq otu table
 #'
 #' @export
+
 convert_to_otu_table <- function(filepath, TAXON){
 
   LEVEL <- NULL
 
+  # check for the file existence
+  #
+  if ( !file.exists(filepath) ) {
+    stop(paste("Specified file \"", filepath, "\" doesn't exist!"))
+  }
 
   # read the merge table
   df <- data.table::fread(filepath, sep = "\t", header = T)
@@ -27,15 +38,17 @@ convert_to_otu_table <- function(filepath, TAXON){
   taxa_level_table <- base::subset(df, LEVEL == TAXON, select = -c(LEVEL))
 
 
-  # change TAXA as row name (required when converting to matrix)
-  base::rownames(taxa_level_table) <- taxa_level_table$TAXA
+  # assign taxa names to a variable
+  row_names <- taxa_level_table$TAXA
   taxa_level_table$TAXA <- NULL
 
+
   # convert to matrix
-  taxa_leve_mat <- base::as.matrix(taxa_level_table)
+  taxa_level_mat <- base::as.matrix(base::data.frame(taxa_level_table, row.names = row_names))
+
 
   # convert to otu table object as per phyloseq
-  OTU <- phyloseq::otu_table(taxa_leve_mat, taxa_are_rows = T)
+  OTU <- phyloseq::otu_table(taxa_level_mat, taxa_are_rows = T)
 
   OTU
 }
