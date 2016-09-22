@@ -1,8 +1,10 @@
 library(dtplyr)
 library(RSQLite)
 #
+# nolint start
 data_df <- as.data.frame(data.table::fread("cat tests/test_data/taxonomy.tsv.gz | zcat"))
 data_dt <- as.data.table(data_df)
+# nolint end
 #
 db <- RSQLite::dbConnect(SQLite(), dbname = ":memory:")
 RSQLite::dbWriteTable(db, "taxonomy", data_df)
