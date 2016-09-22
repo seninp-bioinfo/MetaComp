@@ -3,17 +3,17 @@
 \name{convert_to_otu_table}
 \alias{convert_to_otu_table}
 \title{Extracts phyloseq format otu table from merged table for given TAXA
-otu here corresponds to TAXA}
+otu here corresponds to TAXA.}
 \usage{
 convert_to_otu_table(filepath, TAXON)
 }
 \arguments{
 \item{filepath}{merge table containig samples as columns and taxa as rows.}
 
-\item{TAXA}{The taxonomic level to create OTU table.}
+\item{TAXON}{The taxonomic level to create OTU table.}
 }
 \value{
-phyloseq otu table
+phyloseq otu table.
 }
 \description{
 This implementation is built upon phyloseq.

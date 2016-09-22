@@ -1,16 +1,16 @@
 #' @importFrom phyloseq otu_table
-
 NULL
 
 #' Extracts phyloseq format otu table from merged table for given TAXA
-#' otu here corresponds to TAXA
+#' otu here corresponds to TAXA.
 #'
 #' This implementation is built upon phyloseq.
 #'
 #' @param filepath merge table containig samples as columns and taxa as rows.
-#' @param TAXA The taxonomic level to create OTU table.
 #'
-#' @return phyloseq otu table
+#' @param TAXON The taxonomic level to create OTU table.
+#'
+#' @return phyloseq otu table.
 #'
 #' @export
 convert_to_otu_table <- function(filepath, TAXON){
