@@ -2,20 +2,23 @@
 % Please edit documentation in R/convert_to_otu_table.R
 \name{convert_to_otu_table}
 \alias{convert_to_otu_table}
-\title{Extracts phyloseq format otu table from merged table for given TAXA
-otu here corresponds to TAXA.}
+\title{Create Phyloseq format otu table}
 \usage{
 convert_to_otu_table(filepath, TAXON)
 }
 \arguments{
-\item{filepath}{merge table containig samples as columns and taxa as rows.}
+\item{filepath}{to merge table containig samples as columns and taxa as rows.}
 
-\item{TAXON}{The taxonomic level to create OTU table.}
+\item{TAXON}{A taxonomic level (phylum, class, order, family, species) to create OTU table.
+It has to be all small letters.}
 }
 \value{
-phyloseq otu table.
+phyloseq otu table
 }
 \description{
-This implementation is built upon phyloseq.
+Synthesize phyloseq format otu table from merged table for given taxonomic level.
+OTU here corresponds to the taxonomic level. This implementation is built upon phyloseq. We recommend not to use this for strain
+level classification as creation of taxa_table doesn't work with strain level or
+plasmid sequences.
 }
 
