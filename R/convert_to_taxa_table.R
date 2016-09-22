@@ -22,6 +22,8 @@ NULL
 
 convert_to_taxa_table <- function(OtuTable, TAXON){
 
+  NAME <- taxid <- NULL
+
   # check if the Taxon is the right one
   #
   if ( !(TAXON %in% c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")) ) {
