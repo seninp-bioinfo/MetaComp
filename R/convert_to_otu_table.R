@@ -13,7 +13,6 @@ NULL
 #' @return phyloseq otu table
 #'
 #' @export
-
 convert_to_otu_table <- function(filepath, TAXON){
 
   LEVEL <- NULL
