@@ -25,3 +25,5 @@ expect_that(sum(dat[, 1]), equals(1.0))
 #
 expect_that(convert_to_otu_table("../test_data/merged_table.tsv",
                                  "non_existent_taxa_level"), throws_error())
+expect_that(convert_to_otu_table("../test_data/fake_merged_table.tsv",
+                                 "non_existent_taxa_level"), throws_error())

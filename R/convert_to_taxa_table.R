@@ -121,7 +121,7 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
   base::subset(taxa_table, select =
                          c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
 
-  base::rownames(taxa_table) <- taxa_table[, TAXON]
+  base::rownames(taxa_table) <- make.names(taxa_table[, TAXON], unique = FALSE, allow_ = TRUE)
 
   phyloseq::tax_table(base::as.matrix(taxa_table))
 
