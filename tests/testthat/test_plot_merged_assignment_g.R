@@ -69,7 +69,7 @@ dir.create(path = tmp_folder, recursive = TRUE, showWarnings = FALSE)
 #
 #
 gplot <- plot_merged_assignment(assignment = merged,
-                                taxonomy_level = "species",
+                                taxonomy_level = "family",
                                 sorting_order = "abundance",
                                 row_limit = 60,
                                 plot_title = "Test Plot #2",
