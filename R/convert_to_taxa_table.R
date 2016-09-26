@@ -49,17 +49,18 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
 
   #
   # get the path of the taxonomy table
-  ncbi_taxa_filepath <- system.file("extdata/taxonomy.tsv.gz", package="MetaComp")
+  ncbi_taxa_filepath <- system.file("extdata/taxonomy.tsv.gz", package = "MetaComp")
   #
 
   #
   # read in the taxonomy file.
-  data <- base::as.data.frame(data.table::fread(base::sprintf('gunzip -c %s', ncbi_taxa_filepath), header=T))
+  data <- base::as.data.frame(data.table::fread(base::sprintf('gunzip -c %s', ncbi_taxa_filepath),
+                                                header = T))
   base::colnames(data) <- c("taxid", "dont_know", "parent_taxid", "LEVEL", "NAME")
   #
 
   # loop through name of taxa and build a taxa_table
-  for (taxa in taxa_name){
+  for (taxa in taxa_name) {
 
     #
     taxon_level <- dplyr::filter(data, NAME == taxa)$LEVEL[1]
@@ -113,8 +114,14 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
 
   }
 
-  base::colnames(taxa_table) <- c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")
-  base::subset(taxa_table, select=c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
+  base::colnames(taxa_table) <-
+                         c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")
+
+  base::subset(taxa_table, select =
+                         c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
+
   base::rownames(taxa_table) <- taxa_table[, TAXON]
+
   phyloseq::tax_table(base::as.matrix(taxa_table))
+
 }
