@@ -14,3 +14,8 @@ the_list <- load_gottcha_assignments(data_file)
 expect_that(length(the_list), equals(12))
 
 expect_that(names(the_list[12]), equals("Project_248"))
+
+#
+# test the failure
+#
+expect_that(load_gottcha_assignments("../test_data/nonexistantfile.txt"), throws_error())
