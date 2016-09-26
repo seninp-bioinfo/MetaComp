@@ -100,7 +100,8 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
         one_row[taxon_level] <- taxon_name
 
         #
-        # get parent_taxID and loop through until parent_taxID doesnt equal to 131567 (highest classification)
+        # get parent_taxID and loop through until parent_taxID
+        #                                     doesn't equal to 131567 (highest classification)
         parent_taxID <- dplyr::filter(data, taxid == taxID)$parent_taxid[1]
         #
 
