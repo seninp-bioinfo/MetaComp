@@ -27,4 +27,4 @@ expect_that(ent_row$ABUNDANCE, equals(0.3448099714))
 #
 # test the failure
 #
-expect_that(load_gottcha_assignment("../test_data/nonexistantfile.txt"), throws_error())
+expect_that(load_bwa_assignment("../test_data/nonexistantfile.txt"), throws_error())
