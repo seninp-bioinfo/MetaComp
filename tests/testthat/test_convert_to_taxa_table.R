@@ -26,4 +26,3 @@ expect_that(convert_to_taxa_table_table(phylum_otu, "class"), throws_error())
 #
 # when wrong taxonomic level is given to convert an otu table
 expect_that(convert_to_taxa_table_table(phylum_otu, "Class"), throws_error())
-#
