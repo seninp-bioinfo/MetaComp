@@ -1,6 +1,5 @@
 #' @importFrom data.table fread
 #' @importFrom dplyr filter bind_rows
-#' @importFrom devtools system.file
 NULL
 
 #' Create a phyloseq taxon table
@@ -48,10 +47,17 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
 
 
   #
-  # get the path of the taxonomy table
-  ncbi_taxa_filepath <- system.file("extdata/taxonomy.tsv.gz", package = "MetaComp")
-  #
-
+  # get the path of the taxonomy table which can be in two locations
+  ncbi_taxa_filepath <- NULL
+  taxonomy_location1 <- "../../inst/extdata/taxonomy.tsv.gz"
+  taxonomy_location2 <- "../../extdata/taxonomy.tsv.gz"
+  if (file.exists(taxonomy_location1)) {
+    ncbi_taxa_filepath <- taxonomy_location1
+  } else if (file.exists(taxonomy_location2)) {
+    ncbi_taxa_filepath <- taxonomy_location2
+  } else {
+    ncbi_taxa_filepath <- system.file("extdata", "taxonomy.tsv.gz", package = "MetaComp")
+  }
   #
   # read in the taxonomy file.
   data <- base::as.data.frame(data.table::fread(base::sprintf('gunzip -c %s', ncbi_taxa_filepath),
