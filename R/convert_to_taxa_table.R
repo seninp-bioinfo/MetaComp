@@ -11,7 +11,7 @@ NULL
 #'
 #' @param OtuTable produced by convert_to_otu_table
 #'
-#' @param TAXON taxonomic level (First letter must be caps). It should be the same taxonomic level
+#' @param TAXON taxonomic level. It should be the same taxonomic level
 #' that its corresponding otu table is at.
 #'
 #' @return phyloseq formatted taxonomic table
@@ -23,6 +23,10 @@ NULL
 convert_to_taxa_table <- function(OtuTable, TAXON){
 
   NAME <- taxid <- NULL
+
+  # convert the first letter to uppercase and rest to smaller case
+  TAXON <- paste(toupper(substring(TAXON, 1,1)), tolower(substring(TAXON, 2)),
+                 sep = "", collapse = " ")
 
   # check if the Taxon is the right one
   #
