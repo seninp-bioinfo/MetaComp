@@ -18,12 +18,10 @@ expect_that(row.names(taxdat)[1], equals("Actinobacteria"))
 # test the failures
 #
 # when given non existing level of taxonomy
-expect_that(convert_to_taxa_table_table(phylum_otu, "non_existent_level"), throws_error())
+expect_that(convert_to_taxa_table(phylum_otu, "non_existent_level"), throws_error())
 #
 # when taxonomic level is not formatted correctly
-#
-expect_that(convert_to_taxa_table_table(phylum_otu, "class"), throws_error())
+expect_that(convert_to_taxa_table(phylum_otu, "class"), throws_error())
 #
 # when wrong taxonomic level is given to convert an otu table
-expect_that(convert_to_taxa_table_table(phylum_otu, "Class"), throws_error())
-#
+expect_that(convert_to_taxa_table(phylum_otu, "Class"), throws_error())

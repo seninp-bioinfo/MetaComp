@@ -18,9 +18,12 @@ expect_that(colnames(dat), equals(c("Project_100187", "Project_100197",
                                      "Project_100456", "Project_248")))
 
 # check if relative abundance add up to 1
-expect_that(sum(dat[,1]), equals(1.0))
+expect_that(sum(dat[, 1]), equals(1.0))
 
 #
 # test the failures
 #
-expect_that(convert_to_otu_table("../test_data/merged_table.tsv", "non_existent_taxa_level"), throws_error())
+expect_that(convert_to_otu_table("../test_data/merged_table.tsv",
+                                 "non_existent_taxa_level"), throws_error())
+expect_that(convert_to_otu_table("../test_data/fake_merged_table.tsv",
+                                 "non_existent_taxa_level"), throws_error())

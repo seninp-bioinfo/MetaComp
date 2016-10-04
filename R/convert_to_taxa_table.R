@@ -1,6 +1,5 @@
 #' @importFrom data.table fread
 #' @importFrom dplyr filter bind_rows
-#' @importFrom devtools system.file
 NULL
 
 #' Create a phyloseq taxon table
@@ -48,18 +47,26 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
 
 
   #
-  # get the path of the taxonomy table
-  ncbi_taxa_filepath <- system.file("extdata/taxonomy.tsv.gz", package="MetaComp")
-  #
-
+  # get the path of the taxonomy table which can be in two locations
+  ncbi_taxa_filepath <- NULL
+  taxonomy_location1 <- "../../inst/extdata/taxonomy.tsv.gz"
+  taxonomy_location2 <- "../../extdata/taxonomy.tsv.gz"
+  if (file.exists(taxonomy_location1)) {
+    ncbi_taxa_filepath <- taxonomy_location1
+  } else if (file.exists(taxonomy_location2)) {
+    ncbi_taxa_filepath <- taxonomy_location2
+  } else {
+    ncbi_taxa_filepath <- system.file("extdata", "taxonomy.tsv.gz", package = "MetaComp")
+  }
   #
   # read in the taxonomy file.
-  data <- base::as.data.frame(data.table::fread(base::sprintf('gunzip -c %s', ncbi_taxa_filepath), header=T))
+  data <- base::as.data.frame(data.table::fread(base::sprintf('gunzip -c %s', ncbi_taxa_filepath),
+                                                header = T))
   base::colnames(data) <- c("taxid", "dont_know", "parent_taxid", "LEVEL", "NAME")
   #
 
   # loop through name of taxa and build a taxa_table
-  for (taxa in taxa_name){
+  for (taxa in taxa_name) {
 
     #
     taxon_level <- dplyr::filter(data, NAME == taxa)$LEVEL[1]
@@ -99,7 +106,8 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
         one_row[taxon_level] <- taxon_name
 
         #
-        # get parent_taxID and loop through until parent_taxID doesnt equal to 131567 (highest classification)
+        # get parent_taxID and loop through until parent_taxID
+        #                                     doesn't equal to 131567 (highest classification)
         parent_taxID <- dplyr::filter(data, taxid == taxID)$parent_taxid[1]
         #
 
@@ -113,8 +121,14 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
 
   }
 
-  base::colnames(taxa_table) <- c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")
-  base::subset(taxa_table, select=c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
-  base::rownames(taxa_table) <- taxa_table[, TAXON]
+  base::colnames(taxa_table) <-
+                         c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")
+
+  base::subset(taxa_table, select =
+                         c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
+
+  base::rownames(taxa_table) <- make.names(taxa_table[, TAXON], unique = FALSE, allow_ = TRUE)
+
   phyloseq::tax_table(base::as.matrix(taxa_table))
+
 }
