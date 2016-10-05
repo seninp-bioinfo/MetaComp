@@ -9,7 +9,7 @@ convert_to_taxa_table(OtuTable, TAXON)
 \arguments{
 \item{OtuTable}{produced by convert_to_otu_table}
 
-\item{TAXON}{taxonomic level (First letter must be caps). It should be the same taxonomic level
+\item{TAXON}{taxonomic level. It should be the same taxonomic level
 that its corresponding otu table is at.}
 }
 \value{

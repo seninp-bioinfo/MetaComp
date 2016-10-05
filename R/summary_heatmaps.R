@@ -5,12 +5,14 @@
 
 NULL
 
-#' Creates a pdf file with summary heatmaps (derived from phyloseq) of specific taxonomic order (when given) or all possible taxonomic order
+#' Summarize taxonomic data on different taxonomic levels.
+#'
+#' Creates a pdf file and outputs a cowplot object with summary heatmaps (derived from phyloseq) of specific taxonomic order (when given) or all possible taxonomic order
 #'
 #'
 #' @param filepath path to merged_table containing samples as column
 #' @param LEVEL A taxonomic level (phylum, class, order, family, species) to create OTU table.
-#' @param out_pdf , default = taxa_heatmap.pdf The PDF file name mask.
+#' @param out_pdf default = taxa_heatmap.pdf The PDF file name mask.
 #'
 #' @return A cowplot object
 #'
