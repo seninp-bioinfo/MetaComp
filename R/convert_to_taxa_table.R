@@ -25,7 +25,7 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
   NAME <- taxid <- NULL
 
   # convert the first letter to uppercase and rest to smaller case
-  TAXON <- paste(toupper(substring(TAXON, 1,1)), tolower(substring(TAXON, 2)),
+  TAXON <- paste(toupper(substring(TAXON, 1, 1)), tolower(substring(TAXON, 2)),
                  sep = "", collapse = " ")
 
   # check if the Taxon is the right one
