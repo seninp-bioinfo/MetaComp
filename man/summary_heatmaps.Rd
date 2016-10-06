@@ -2,8 +2,7 @@
 % Please edit documentation in R/summary_heatmaps.R
 \name{summary_heatmaps}
 \alias{summary_heatmaps}
-\title{Summarize taxonomic data on different taxonomic levels.
-Creates a pdf file and outputs a cowplot object with summary heatmaps (derived from phyloseq) of specific taxonomic order (when given) or all possible taxonomic order}
+\title{Summarize taxonomic data on different taxonomic levels.}
 \usage{
 summary_heatmaps(filepath, LEVEL = NULL, out_pdf = "taxa_heatmap.pdf")
 }
@@ -18,7 +17,6 @@ summary_heatmaps(filepath, LEVEL = NULL, out_pdf = "taxa_heatmap.pdf")
 A cowplot object
 }
 \description{
-Summarize taxonomic data on different taxonomic levels.
 Creates a pdf file and outputs a cowplot object with summary heatmaps (derived from phyloseq) of specific taxonomic order (when given) or all possible taxonomic order
 }
 
