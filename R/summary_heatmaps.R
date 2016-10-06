@@ -29,7 +29,7 @@ summary_heatmaps <- function(filepath, LEVEL = NULL, out_pdf = "taxa_heatmap.pdf
 
   # check if the merged file given is of right format
   #
-  if ( !all((c('TAXA', 'LEVEL')  %in% colnames(utils::read.table(filepath, header = T))))) {
+  if ( !all( (c('TAXA', 'LEVEL')  %in% colnames(utils::read.table(filepath, header = T))))) {
     stop(paste("Specified file \"", filepath, "\" is not of right format!"))
   }
 
@@ -41,7 +41,8 @@ summary_heatmaps <- function(filepath, LEVEL = NULL, out_pdf = "taxa_heatmap.pdf
 
     # extracts all taxa_level in the
     #
-    taxa_level <- base::as.character(base::sort(base::unique(utils::read.table(filepath, header = T)$LEVEL)))
+    taxa_level <- base::as.character(base::sort(base::unique(utils::read.table(filepath,
+                                                                               header = T)$LEVEL)))
 
     # remove strain level classification
     #
@@ -66,7 +67,8 @@ summary_heatmaps <- function(filepath, LEVEL = NULL, out_pdf = "taxa_heatmap.pdf
     #
     plots <- base::list()
     for (tax_level in names(otables)) {
-      plots[[tax_level]] <- phyloseq::plot_heatmap(otables[[tax_level]], low = "#e66101", high = "#5e3c99") +
+      plots[[tax_level]] <- phyloseq::plot_heatmap(otables[[tax_level]],
+                                                   low = "#e66101", high = "#5e3c99") +
         ggplot2::labs(title = tax_level) + ggplot2::ylab(tax_level)
     }
 
