@@ -15,7 +15,8 @@ Imports:
     ggplot2,
     cowplot,
     Cairo,
-    phyloseq
+    phyloseq,
+    pheatmap
 Suggests:
     testthat,
     knitr,
