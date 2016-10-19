@@ -1,6 +1,5 @@
 #' @importFrom phyloseq phyloseq
 #' @importFrom phyloseq sample_data
-#' @importFrom base gsub
 #'
 #'
 
