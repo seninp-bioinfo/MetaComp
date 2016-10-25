@@ -1,10 +1,3 @@
-#
-# load merged table
-#
-
-dat1 <- summary_pheatmap("../test_data/merged_table.tsv", LEVEL = NULL)
-
-
 # create an outout folder
 #
 tmp_folder <- file.path(getwd(), "sandbox")
@@ -37,7 +30,7 @@ expect_that(summary_pheatmap("../test_data/merged_table.tsv", "man"), throws_err
 
 # when a merged table file that doesnt exist is given
 #
-expect_that(summary_pheatmap("../test_data/merged_table.csv", "man"), throws_error())
+expect_that(summary_pheatmap("../test_data/merged_table.csv", "class"), throws_error())
 
 # when an option that is not part of pheatmap is given
 #
