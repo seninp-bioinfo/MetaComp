@@ -16,7 +16,8 @@ Imports:
     cowplot,
     Cairo,
     phyloseq,
-    pheatmap
+    pheatmap,
+    vegan
 Suggests:
     testthat,
     knitr,
