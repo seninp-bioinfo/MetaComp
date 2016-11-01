@@ -4,12 +4,12 @@
 \alias{convert_to_taxa_table}
 \title{Create a phyloseq taxon table}
 \usage{
-convert_to_taxa_table(OtuTable, TAXON)
+convert_to_taxa_table(OtuTable, LEVEL)
 }
 \arguments{
 \item{OtuTable}{produced by convert_to_otu_table}
 
-\item{TAXON}{taxonomic level (First letter must be caps). It should be the same taxonomic level
+\item{LEVEL}{taxonomic level. It should be the same taxonomic level
 that its corresponding otu table is at.}
 }
 \value{

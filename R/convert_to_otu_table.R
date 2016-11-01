@@ -33,6 +33,9 @@ convert_to_otu_table <- function(filepath, TAXON){
   df <- data.table::fread(filepath, sep = "\t", header = T)
   df$LEVEL <- base::as.character(df$LEVEL)
 
+  # convert the to smaller case
+  TAXON <- tolower(TAXON)
+
 
   # subset to given taxa level and remove the LEVEL column
   taxa_level_table <- base::subset(df, LEVEL == TAXON, select = -c(LEVEL))

@@ -1,5 +1,6 @@
 #' @importFrom data.table fread
 #' @importFrom dplyr filter bind_rows
+
 NULL
 
 #' Create a phyloseq taxon table
@@ -11,7 +12,7 @@ NULL
 #'
 #' @param OtuTable produced by convert_to_otu_table
 #'
-#' @param TAXON taxonomic level (First letter must be caps). It should be the same taxonomic level
+#' @param LEVEL taxonomic level. It should be the same taxonomic level
 #' that its corresponding otu table is at.
 #'
 #' @return phyloseq formatted taxonomic table
@@ -20,22 +21,28 @@ NULL
 #'
 #'
 
-convert_to_taxa_table <- function(OtuTable, TAXON){
+convert_to_taxa_table <- function(OtuTable, LEVEL){
 
   NAME <- taxid <- NULL
 
-  # check if the Taxon is the right one
+  # convert the first letter to uppercase and rest to smaller case
   #
-  if ( !(TAXON %in% c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")) ) {
-    stop(paste("Specified file \"", TAXON, "\" doesn't exist or not correctly formatted!"))
+  LEVEL <- paste(toupper(substring(LEVEL, 1, 1)), tolower(substring(LEVEL, 2)),
+                 sep = "", collapse = " ")
+
+  # check if the Taxon is a subset of these valid ones
+  #
+  if ( !(LEVEL %in% c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")) ) {
+    stop(paste("Specified \"", LEVEL, "\" doesn't exist or not correctly formatted!"))
   }
 
-  #
   # get taxa name from otu table
+  #
   taxa_name <- base::row.names(OtuTable)
   #
 
   #create an empty taxa table
+  #
   taxa_table <- base::data.frame(superkingdom = character(),
                                  phylum = character(),
                                  class = character(),
@@ -46,8 +53,8 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
                                  stringsAsFactors = F)
 
 
-  #
   # get the path of the taxonomy table which can be in two locations
+  #
   ncbi_taxa_filepath <- NULL
   taxonomy_location1 <- "../../inst/extdata/taxonomy.tsv.gz"
   taxonomy_location2 <- "../../extdata/taxonomy.tsv.gz"
@@ -58,15 +65,70 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
   } else {
     ncbi_taxa_filepath <- system.file("extdata", "taxonomy.tsv.gz", package = "MetaComp")
   }
-  #
+
   # read in the taxonomy file.
+  #
   data <- base::as.data.frame(data.table::fread(base::sprintf('gunzip -c %s', ncbi_taxa_filepath),
                                                 header = T))
   base::colnames(data) <- c("taxid", "dont_know", "parent_taxid", "LEVEL", "NAME")
-  #
 
   # loop through name of taxa and build a taxa_table
+  #
   for (taxa in taxa_name) {
+
+    # remove one_row variable if exists, its important
+    # when taking into account species thats not present
+    # taxonomy table
+    #
+    if (exists("one_row")) {
+      rm(one_row)
+    }
+
+    # check if taxa exist in the taxonomy table
+    #
+
+    # if indeed it doesnt exist
+    #
+    if (base::nrow(dplyr::filter(data, NAME == taxa)) == 0L) {
+
+        # check if its a two word taxa name, most likely species, start classification from genus
+        #
+        if (base::length(base::strsplit(taxa, " ")[[1]]) > 1) {
+
+            #
+            # Check if there is [C/c]andidatus in the name and used the second word, if present
+            if (any(c("Candidatus", "candidatus") %in% base::strsplit(taxa, " ")[[1]])) {
+
+              #
+              # assign Species level taxa information
+              #
+              one_row <- base::data.frame(Species = taxa)
+
+              #
+              # assign genus level information to taxa
+              #
+              taxa <- base::strsplit(taxa, " ")[[1]][2]
+
+            }
+
+            # if there is no candidatus, take the first word
+            #
+            else {
+                one_row <- base::data.frame(species = taxa)
+                taxa <- base::strsplit(taxa, " ")[[1]][1]
+
+            }
+
+        # if no two word taxa, then probably print an error message here
+        #
+        }
+        else {
+          stop(paste("Specified \"", taxa, "\" doesn't exist in taxonomy file!"))
+        }
+    }
+    else {
+      taxa <- taxa
+    }
 
     #
     taxon_level <- dplyr::filter(data, NAME == taxa)$LEVEL[1]
@@ -80,8 +142,15 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
     taxID <- dplyr::filter(data, NAME == taxa)$taxid[1]
     #
 
-    one_row <- base::data.frame(taxon_level = taxa)
-    colnames(one_row) <- taxon_level
+    if (exists("one_row")) {
+      one_row[[taxon_level]] <- taxa
+    }
+    else {
+      one_row <- base::data.frame(taxon_level = taxa)
+      colnames(one_row) <- taxon_level
+
+    }
+
     #
 
     if (parent_taxID != "1") {
@@ -127,7 +196,8 @@ convert_to_taxa_table <- function(OtuTable, TAXON){
   base::subset(taxa_table, select =
                          c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
 
-  base::rownames(taxa_table) <- make.names(taxa_table[, TAXON], unique = FALSE, allow_ = TRUE)
+
+  base::rownames(taxa_table) <- make.names(taxa_table[, LEVEL], unique = FALSE, allow_ = TRUE)
 
   phyloseq::tax_table(base::as.matrix(taxa_table))
 
