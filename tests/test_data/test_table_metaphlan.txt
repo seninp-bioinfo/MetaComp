@@ -1,4 +1,3 @@
-Project_248 ../test_data/248/allReads-metaphlan.list.txt
 SSputum-dil-DNase-cDNA  ../test_data/SSputum-dil-DNase-cDNA/metaphlan/allReads-metaphlan.list.txt
 SSputum-dil-DNase-RAB ../test_data/SSputum-dil-DNase-RAB/metaphlan/allReads-metaphlan.list.txt
 SSputum-dil-no-cDNA ../test_data/SSputum-dil-no-cDNA/metaphlan/allReads-metaphlan.list.txt

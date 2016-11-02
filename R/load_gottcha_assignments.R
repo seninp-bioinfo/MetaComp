@@ -20,7 +20,7 @@ load_gottcha_assignments <- function(filepath) {
 
   # read the file
   #
-  df <- data.table::fread(filepath, sep = "\t", header = F)
+  df <- data.table::fread(filepath, header = F)
 
   # read files
   #
