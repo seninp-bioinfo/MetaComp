@@ -9,6 +9,11 @@ r_packages:
   - phyloseq
 
 r_binary_packages:
+  - curl
+  - openssl
+  - xml2
+  - evaluate
+  - praise
   - stringi
   - reshape2
   - dplyr
