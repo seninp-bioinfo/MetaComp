@@ -9,6 +9,7 @@ r_packages:
   - phyloseq
 
 r_binary_packages:
+  - stringi
   - reshape2
   - dplyr
   - data.table
