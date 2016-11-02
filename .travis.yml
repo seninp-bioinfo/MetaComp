@@ -5,6 +5,10 @@ cache: packages
 
 warnings_are_errors: true
 
+apt_packages:
+  - libicu-dev
+  - libxml2-dev
+
 r_packages:
   - phyloseq
 
