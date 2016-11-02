@@ -28,6 +28,7 @@ r_binary_packages:
 r_github_packages:
   - jimhester/covr
   - jimhester/lintr
+  - hadley/ggplot2
 
 after_success:
   - Rscript -e 'covr::codecov()'

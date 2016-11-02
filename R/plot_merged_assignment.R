@@ -102,7 +102,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
         ggplot2::theme_bw() +
         ggplot2::geom_tile(color = "grey80", size = 0.3) +
         ggplot2::ggtitle(plot_title) +
-        ggplot2::scale_x_discrete(expand = c(0, 0)) +
+        ggplot2::scale_x_discrete(expand = c(0, 0), position = "top") +
         ggplot2::scale_y_discrete(expand = c(0, 0)) +
         ggplot2::coord_fixed(ratio = 1) +
         ggplot2::scale_fill_gradientn(name = "Normalized abundance: ",
@@ -122,7 +122,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                    axis.title.x = ggplot2::element_text(size = 0),
                    axis.title.y = ggplot2::element_blank(),
                    axis.text.x = ggplot2::element_text(size = 10, angle = 55,
-                                                       hjust = 1.1, vjust = 1),
+                                                       hjust = 0, vjust = 1),
                    axis.ticks.y = ggplot2::element_blank(),
                    axis.text.y = ggplot2::element_text(size = 10),
                    panel.grid.major.y = ggplot2::element_blank(),
@@ -131,15 +131,16 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                    #legend.justification = c(0, 0.3),
                    #plot.margin=grid::unit(c(0.1,0.1,3,0.1), 'lines'),
                    legend.direction = "horizontal", legend.position = "bottom")
+  p
 
-  p <- cowplot::switch_axis_position(p, axis = "x")
+  #p <- cowplot::switch_axis_position(p, axis = "x")
 
   Cairo::CairoPDF(file = filename, width = 0.3 * length(df[1, ]) + 6,
                   height = 0.15 * length(df$TAXA) + 5,
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
-  print(cowplot::ggdraw(p))
+  print(p)
   dev.off()
 
   Cairo::CairoSVG(file = filename, width = 0.3 * length(df[1, ]) + 6,
