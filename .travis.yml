@@ -5,6 +5,9 @@ cache: packages
 
 warnings_are_errors: true
 
+r_packages:
+  - phyloseq
+
 r_binary_packages:
   - phyloseq
   - reshape2
