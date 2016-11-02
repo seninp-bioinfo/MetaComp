@@ -1,5 +1,4 @@
 #' @importFrom reshape2 melt
-#' @importFrom cowplot switch_axis_position
 #' @importFrom plyr daply
 #' @importFrom dplyr desc
 #' @importFrom dplyr select
@@ -148,7 +147,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
-  print(cowplot::ggdraw(p))
+  print(p)
   dev.off()
 
 }
