@@ -13,6 +13,7 @@ Imports:
     dplyr,
     data.table,
     ggplot2,
+    cowplot,
     Cairo,
     phyloseq,
     pheatmap,
