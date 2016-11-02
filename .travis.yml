@@ -1,7 +1,6 @@
 language: r
 
-r: bioc-devel
-sudo: true
+sudo: false
 cache: packages
 
 warnings_are_errors: true
@@ -10,9 +9,9 @@ before_install:
   - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
   - chmod 755 ./travis-tool.sh
   - ./travis-tool.sh bootstrap
-  - ./travis-tool.sh github_package hadley/testthat
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get -qq update
+
+install:
+  - ./travis-tool.sh install_deps
 
 r_packages:
   - phyloseq
@@ -24,6 +23,7 @@ r_binary_packages:
   - Cairo
 
 r_github_packages:
+  - hadley/testthat
   - jimhester/covr
   - jimhester/lintr
   - hadley/ggplot2
