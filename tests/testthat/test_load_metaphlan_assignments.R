@@ -18,4 +18,4 @@ expect_that(names(the_list[8]), equals("SSputum-no-RAB"))
 #
 # test the failure
 #
-expect_that(load_metaphlan_assignments("../test_data/nonexistantfile.txt"), throws_error())
+expect_that(load_metaphlan_assignments("../test_data/nonexistentfile.txt"), throws_error())
