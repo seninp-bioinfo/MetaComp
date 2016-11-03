@@ -18,4 +18,4 @@ expect_that(names(the_list[5]), equals("Anterior_nares_female_SRR353621"))
 #
 # test the failure
 #
-expect_that(load_gottcha_assignments("../test_data/nonexistantfile.txt"), throws_error())
+expect_that(load_gottcha2_assignments("../test_data/nonexistantfile.txt"), throws_error())
