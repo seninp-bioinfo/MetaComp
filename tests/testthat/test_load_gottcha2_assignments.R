@@ -13,7 +13,7 @@ the_list <- load_gottcha2_assignments(data_file)
 #
 expect_that(length(the_list), equals(5))
 
-expect_that(names(the_list[7]), equals("Anterior_nares_female_SRR353621"))
+expect_that(names(the_list[5]), equals("Anterior_nares_female_SRR353621"))
 
 #
 # test the failure

@@ -1,8 +1,8 @@
 #
 # load GOTTCHA2 assignment #1
 #
-dat <- data.frame(load_gottcha2_assignment(paste("../test_data/Anterior_nares_female_SRR353621/",
-  "Anterior_nares_female_SRR353621_gottcha2-speDB-refseq/allReads.summary.tsv", sep = "")))
+dat <- data.frame(load_gottcha2_assignment(paste("../test_data/SRR353621/",
+  "SRR353621_gottcha2-speDB-refseq/allReads.summary.tsv", sep = "")))
 
 # columns import test
 expect_that( dim(dat)[1], equals(201) )

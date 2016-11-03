@@ -1,8 +1,8 @@
 #
 # load GOTTCHA assignment
 #
-dat1 <- data.frame(load_gottcha2_assignment(paste("../test_data/Anterior_nares_female_SRR353621/",
-   "Anterior_nares_female_SRR353621_gottcha2-speDB-refseq/allReads.summary.tsv", sep = "")))
+dat1 <- data.frame(load_gottcha2_assignment(paste("../test_data/SRR353621/",
+   "SRR353621_gottcha2-speDB-refseq/allReads.summary.tsv", sep = "")))
 
 # extract species list
 #

@@ -21,7 +21,7 @@ projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
               stringsAsFactors = F)
 # the weird transform...
 # nolint start
-projects <- data.frame(folder = projects[grep(".*_SRR*", projects$folder), ], stringsAsFactors = F)
+projects <- data.frame(folder = projects[grep(".*SRR*", projects$folder), ], stringsAsFactors = F)
 # nolint end
 #
 # accessions (projects_id)
