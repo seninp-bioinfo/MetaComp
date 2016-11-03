@@ -28,3 +28,10 @@ expect_that(ent_row$ABUNDANCE, equals(0.3448099714))
 # test the failure
 #
 expect_that(load_bwa_assignment("../test_data/nonexistantfile.txt"), throws_error())
+
+#
+# test an empty file
+#
+empty_df <- load_bwa_assignment("../test_data/an_empty_file.tsv")
+expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
+expect_that(dim(empty_df)[1], equals(0) )

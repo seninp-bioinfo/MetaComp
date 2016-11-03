@@ -16,33 +16,36 @@ NULL
 #' @export
 load_gottcha2_assignment <- function(filepath) {
 
-  print(paste(filepath))
-
   TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
   # check for the file existence
   #
   if ( !file.exists(filepath) ) {
-    stop(paste("Specified file \"", filepath, "\" doesn't exist!"))
+    stop(paste("Specified file \"", filepath, "\" doesn't exist!", sep = ""))
   }
 
-  # read the file
+  # if file is empty, return an empty table
   #
-  df <- data.table::fread(filepath, sep = "\t", header = T)
+  file_info <- file.info(filepath)
+  if ( 0 == file_info$size ) {
+    data.frame( LEVEL = character(), TAXA = character(), COUNT = integer(), ABUNDANCE = double())
+  } else {
+    # read the file
+    #
+    df <- data.table::fread(filepath, sep = "\t", header = T)
 
-  # remove empty (non-assigned) lines
-  #
-  df <- df[df$LEVEL != "", ]
+    # remove empty (non-assigned) lines
+    #
+    df <- df[df$LEVEL != "", ]
 
-  # rename the abundance column
-  #
-  names(df) <- sub("NAME", "TAXA", names(df))
-  names(df) <- sub("REL_ABUNDANCE", "ABUNDANCE", names(df))
-  names(df) <- sub("READ_COUNT", "COUNT", names(df))
+    # rename the abundance column
+    #
+    names(df) <- sub("NAME", "TAXA", names(df))
+    names(df) <- sub("REL_ABUNDANCE", "ABUNDANCE", names(df))
+    names(df) <- sub("READ_COUNT", "COUNT", names(df))
 
-
-  # return results, "as a data frame" to avoid any confusion...
-  #
-  as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
-
+    # return results, "as a data frame" to avoid any confusion...
+    #
+    as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
+  }
 }

@@ -15,7 +15,7 @@ load_kraken_assignments <- function(filepath) {
   # check for the file existence
   #
   if ( !file.exists(filepath) ) {
-    stop(paste("Specified file \"", filepath, "\" doesn't exist!"))
+    stop(paste("Specified file \"", filepath, "\" doesn't exist!", sep = ""))
   }
 
   # read the file

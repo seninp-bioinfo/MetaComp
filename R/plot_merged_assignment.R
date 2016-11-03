@@ -130,9 +130,6 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                    #legend.justification = c(0, 0.3),
                    #plot.margin=grid::unit(c(0.1,0.1,3,0.1), 'lines'),
                    legend.direction = "horizontal", legend.position = "bottom")
-  p
-
-  #p <- cowplot::switch_axis_position(p, axis = "x")
 
   Cairo::CairoPDF(file = filename, width = 0.3 * length(df[1, ]) + 6,
                   height = 0.15 * length(df$TAXA) + 5,

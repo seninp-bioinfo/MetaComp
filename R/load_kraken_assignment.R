@@ -22,7 +22,7 @@ load_kraken_assignment <- function(filepath) {
   # check for the file existence
   #
   if ( !file.exists(filepath) ) {
-    stop(paste("Specified file \"", filepath, "\" doesn't exist!"))
+    stop(paste("Specified file \"", filepath, "\" doesn't exist!", sep = ""))
   }
 
   # if file is empty, return an empty table

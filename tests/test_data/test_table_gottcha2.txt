@@ -1,0 +1,5 @@
+Buccal_mucosa_male_SRR061287  ../test_data/Buccal_mucosa_male_SRR061287/Buccal_mucosa_male_SRR061287_gottcha2-speDB-refseq/allReads.summary.tsv
+Anterior_nares_female_SRR353621 ../test_data/Anterior_nares_female_SRR353621/Anterior_nares_female_SRR353621_gottcha2-speDB-refseq/allReads.summary.tsv
+Tongue_dorsum_female_SRR059928  ../test_data/Tongue_dorsum_female_SRR059928/Tongue_dorsum_female_SRR059928_gottcha2-speDB-refseq/allReads.summary.tsv
+Anterior_nares_male_SRR062284 ../test_data/Anterior_nares_male_SRR062284/Anterior_nares_male_SRR062284_gottcha2-speDB-refseq/allReads.summary.tsv
+Anterior_nares_female_SRR353621 ../test_data/Anterior_nares_female_SRR353621/Anterior_nares_female_SRR353621_gottcha2-speDB-refseq/allReads.summary.tsv
