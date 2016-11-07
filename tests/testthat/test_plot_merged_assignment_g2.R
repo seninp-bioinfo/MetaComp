@@ -21,13 +21,12 @@ projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
               stringsAsFactors = F)
 # the weird transform...
 # nolint start
-projects <- data.frame(folder = projects[grep(".*SSputum.*", projects$folder), ], stringsAsFactors = F)
+projects <- data.frame(folder = projects[grep(".*SRR*", projects$folder), ], stringsAsFactors = F)
 # nolint end
 #
 # accessions (projects_id)
 #
-projects$accession <- paste("Project_", stringr::str_match(projects$folder, ".*/(.*)/")[, 2],
-                            sep = "")
+projects$accession <- stringr::str_match(projects$folder, ".*/(.*)/")[, 2]
 #
 # taxonomic assignments
 #
@@ -43,7 +42,7 @@ find_file <-  function(path = ".", filename = "", recursive = TRUE) {
 #
 projects$assignment <-
   plyr::daply(projects, plyr::.(accession), function(x) {
-    find_file(paste(x$folder, "/", sep = ""), "allReads-gottcha-strDB-b.list.txt", recursive = T)
+    find_file(paste(x$folder, "/", sep = ""), "allReads.summary.tsv", recursive = T)
   })
 #
 # cleanup those without an assignment
@@ -53,7 +52,7 @@ projects <- dplyr::filter(projects, !(is.na(assignment)))
 # make a list
 #
 input_assignments_list <- plyr::dlply(projects, plyr::.(accession), function(x){
-  dat <- load_gottcha_assignment(x$assignment)
+  dat <- load_gottcha2_assignment(x$assignment)
   dat
 })
 names(input_assignments_list) <- projects$accession

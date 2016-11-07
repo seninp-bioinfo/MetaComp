@@ -1,33 +1,34 @@
 language: r
 
-r: bioc-devel
 sudo: true
 cache: packages
 
 warnings_are_errors: true
 
-before_install:
-  - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
-  - chmod 755 ./travis-tool.sh
-  - ./travis-tool.sh bootstrap
-  - ./travis-tool.sh github_package hadley/testthat
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get -qq update
+apt_packages:
+  - libicu-dev
+  - libxml2-dev
 
 r_packages:
   - phyloseq
 
 r_binary_packages:
+  - curl
+  - openssl
+  - xml2
+  - evaluate
+  - praise
+  - stringi
   - reshape2
   - dplyr
   - data.table
-  - ggplot2
   - Cairo
-  - scales
 
 r_github_packages:
+  - hadley/testthat
   - jimhester/covr
   - jimhester/lintr
+  - hadley/ggplot2
 
 after_success:
   - Rscript -e 'covr::codecov()'

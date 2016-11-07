@@ -28,4 +28,11 @@ expect_that(ent_row$ROLLUP, equals(15.76274))
 #
 # test the failure
 #
-expect_that(load_metaphlan_assignment("../test_data/nonexistantfile.txt"), throws_error())
+expect_that(load_metaphlan_assignment("../test_data/nonexistentfile.txt"), throws_error())
+
+#
+# test an empty file
+#
+empty_df <- load_metaphlan_assignment("../test_data/an_empty_file.tsv")
+expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
+expect_that(dim(empty_df)[1], equals(0) )

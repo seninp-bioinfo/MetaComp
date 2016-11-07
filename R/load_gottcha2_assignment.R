@@ -2,20 +2,19 @@
 #' @importFrom dplyr select
 NULL
 
-#' Efficiently loads a EDGE-produced Kraken taxonomic assignment from a file.
-#' An assumption has been made -- since Kraken/EDGE tables are generated in an automated fashion,
+#' Efficiently loads a GOTTCHA2 (or other EDGE-like taxonomic assignment) table from a file.
+#' An assumption has been made -- since GOTTCHA2/EDGE tables are generated in an automated fashion,
 #' they should be properly formatted -- thus the code doesn't check for any inconsistencies except
-#' for the very file existence. Note however, the unassigned to taxa entries are removed.
-#' This implementation fully relies on the read.table function from data.table package
-#' gaining performance over traditional R techniques.
+#' for the very file existence. This implementation fully relies on the read.table function
+#' from data.table package gaining performance over traditional R techniques.
 #'
-#' @param filepath A path to EDGE-generated tab-delimeted Kraken taxonomy assignment file.
+#' @param filepath A path to EDGE-generated tab-delimeted GOTTCHA2 taxonomy assignment file.
 #'
-#' @return a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
-#'         taxonomically anchored sequences from the sample.
+#' @return a data frame containing four columns: NAME, LEVEL, READ_COUNT, and REL_ABUNDANCE,
+#'         representing taxonomically anchored sequences from the sample.
 #'
 #' @export
-load_kraken_assignment <- function(filepath) {
+load_gottcha2_assignment <- function(filepath) {
 
   TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
@@ -31,7 +30,6 @@ load_kraken_assignment <- function(filepath) {
   if ( 0 == file_info$size ) {
     data.frame( LEVEL = character(), TAXA = character(), COUNT = integer(), ABUNDANCE = double())
   } else {
-
     # read the file
     #
     df <- data.table::fread(filepath, sep = "\t", header = T)
@@ -40,14 +38,11 @@ load_kraken_assignment <- function(filepath) {
     #
     df <- df[df$LEVEL != "", ]
 
-    # add a normilized abundance
-    #
-    max_rollup <- df[df$LEVEL == "root", ]$ROLLUP
-    df$ABUNDANCE <- df$ROLLUP / max_rollup * 100
-
     # rename the abundance column
     #
-    names(df) <- sub("ROLLUP", "COUNT", names(df))
+    names(df) <- sub("NAME", "TAXA", names(df))
+    names(df) <- sub("REL_ABUNDANCE", "ABUNDANCE", names(df))
+    names(df) <- sub("READ_COUNT", "COUNT", names(df))
 
     # return results, "as a data frame" to avoid any confusion...
     #

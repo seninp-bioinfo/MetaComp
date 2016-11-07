@@ -1,3 +1,4 @@
+
 #' @importFrom data.table fread
 #' @importFrom dplyr select
 NULL
@@ -21,25 +22,33 @@ load_gottcha_assignment <- function(filepath) {
   # check for the file existence
   #
   if ( !file.exists(filepath) ) {
-    stop(paste("Specified file \"", filepath, "\" doesn't exist!"))
+    stop(paste("Specified file \"", filepath, "\" doesn't exist!", sep = ""))
   }
 
-  # read the file
+  # if file is empty, return an empty table
   #
-  df <- data.table::fread(filepath, sep = "\t", header = T)
+  file_info <- file.info(filepath)
+  if ( 0 == file_info$size ) {
+    data.frame( LEVEL = character(), TAXA = character(), COUNT = integer(), ABUNDANCE = double())
+  } else {
 
-  # remove empty (non-assigned) lines
-  #
-  df <- df[df$LEVEL != "", ]
+    # read the file
+    #
+    df <- data.table::fread(filepath, sep = "\t", header = T)
 
-  # rename the abundance column
-  #
-  names(df) <- sub("READ_COUNT", "COUNT", names(df))
-  names(df) <- sub("NORM_COV", "ABUNDANCE", names(df))
+    # remove empty (non-assigned) lines
+    #
+    df <- df[df$LEVEL != "", ]
+
+    # rename the abundance column
+    #
+    names(df) <- sub("READ_COUNT", "COUNT", names(df))
+    names(df) <- sub("NORM_COV", "ABUNDANCE", names(df))
 
 
-  # return results, "as a data frame" to avoid any confusion...
-  #
-  as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
+    # return results, "as a data frame" to avoid any confusion...
+    #
+    as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
+  }
 
 }

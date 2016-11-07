@@ -1,7 +1,7 @@
 #' @importFrom data.table fread
 NULL
 
-#' Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
+#' Efficiently loads a GOTTCHA2 (or other EDGE-like taxonomic assignment) tables from a list
 #' of files. Outputs a named list of assignments.
 #'
 #' @param filepath A path to tab delimeted, two-column file whose first column is a project_id
@@ -10,7 +10,7 @@ NULL
 #' @return a list of all read assignments.
 #'
 #' @export
-load_kraken_assignments <- function(filepath) {
+load_gottcha2_assignments <- function(filepath) {
 
   # check for the file existence
   #
@@ -24,11 +24,11 @@ load_kraken_assignments <- function(filepath) {
 
   # read files
   #
-  input_assignments_list <- list(MetaComp::load_kraken_assignment(df[1, ]$V2))
+  input_assignments_list <- list(MetaComp::load_gottcha2_assignment(df[1, ]$V2))
   if (dim(df)[1] > 1) {
     for (i in 2:(dim(df)[1])) {
       input_assignments_list <- c(input_assignments_list,
-                                     list(MetaComp::load_kraken_assignment(df[i, ]$V2)))
+                                     list(MetaComp::load_gottcha2_assignment(df[i, ]$V2)))
     }
   }
 

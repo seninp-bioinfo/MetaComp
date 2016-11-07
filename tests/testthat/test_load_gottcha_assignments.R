@@ -11,11 +11,11 @@ the_list <- load_gottcha_assignments(data_file)
 
 # tests
 #
-expect_that(length(the_list), equals(12))
+expect_that(length(the_list), equals(7))
 
-expect_that(names(the_list[12]), equals("Project_248"))
+expect_that(names(the_list[7]), equals("Project_SSputum-no-RAB"))
 
 #
 # test the failure
 #
-expect_that(load_gottcha_assignments("../test_data/nonexistantfile.txt"), throws_error())
+expect_that(load_gottcha_assignments("../test_data/nonexistentfile.txt"), throws_error())
