@@ -13,11 +13,7 @@ Imports:
     dplyr,
     data.table,
     ggplot2,
-    cowplot,
-    Cairo,
-    phyloseq,
-    pheatmap,
-    vegan
+    Cairo
 Suggests:
     testthat,
     knitr,
