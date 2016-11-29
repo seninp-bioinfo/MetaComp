@@ -8,7 +8,7 @@ Metagenome comparison toolkit. The toolkit is being developed for [EDGE platform
 #### 0.0 Installation from latest sources
     install.packages("devtools")
     library(devtools)
-    install_github(repo = 'seninp-bioinfo/MetaComp', ref = "v1.1")
+    install_github(repo = 'seninp-bioinfo/MetaComp', ref = "v1.3")
     
 to use the library, simply load it into R environment:
 
