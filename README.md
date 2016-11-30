@@ -8,13 +8,11 @@ Metagenome comparison toolkit. The toolkit is being developed for [EDGE platform
 #### 0.0 Installation from latest sources
     install.packages("devtools")
     library(devtools)
-    install_github(repo = 'seninp-bioinfo/MetaComp', ref = "v1.1")
+    install_github(repo = 'seninp-bioinfo/MetaComp', ref = "v1.3")
     
 to use the library, simply load it into R environment:
 
     library(MetaComp)
-
-Note, that as per Nov 2, 2016, `cowplot` [does not support axis switching anymore](https://cran.r-project.org/web/packages/cowplot/vignettes/axis_position.html), but `ggplot 2.2.0` (i.e. the development version) [will](https://blog.rstudio.org/2016/09/30/ggplot2-2-2-0-coming-soon/) -- thus, please install `ggplot2` dev version directly from github for the package functionality... Note, that one of our users (thanks Tatsuya!) recommends to use `dep=FALSE` when installing the dev version of `ggplot2`, or it will try to update `cowplot` to the latest release...
 
 #### 1.0 Reading a single taxonomic assignment files
     the_gottcha_assignment <- load_gottcha_assignment(data_file_g)
