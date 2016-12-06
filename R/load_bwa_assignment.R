@@ -37,28 +37,35 @@ load_bwa_assignment <- function(filepath) {
     #
     df <- data.table::fread(filepath, sep = "\t", header = T)
 
-    # remove empty (non-assigned) lines
+    # BWA output is never empty, but has a title...
     #
-    df <- df[df$LEVEL != "", ]
+    if (0 == length(df$LEVEL) ) {
+      data.frame( LEVEL = character(), TAXA = character(), COUNT = integer(), ABUNDANCE = double())
+    } else {
 
-    # normalize ...
-    #
-    levels <- plyr::ddply(df, "LEVEL", function(x) {
-                                        sum(x$ROLLUP)
-                                      })
+      # remove empty (non-assigned) lines
+      #
+      df <- df[df$LEVEL != "", ]
 
-    names(levels) <- c("LEVEL", "SUM")
+      # normalize ...
+      #
+      levels <- plyr::ddply(df, "LEVEL", function(x) {
+        sum(x$ROLLUP)
+      })
 
-    df <- base::merge.data.frame(df, levels, by = c("LEVEL"))
+      names(levels) <- c("LEVEL", "SUM")
 
-    df$ABUNDANCE <- df$ROLLUP / df$SUM * 100
+      df <- base::merge.data.frame(df, levels, by = c("LEVEL"))
 
-    # rename the abundance column
-    #
-    names(df) <- sub("ROLLUP", "COUNT", names(df))
+      df$ABUNDANCE <- df$ROLLUP / df$SUM * 100
 
-    # return results, "as a data frame" to avoid any confusion...
-    #
-    as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
+      # rename the abundance column
+      #
+      names(df) <- sub("ROLLUP", "COUNT", names(df))
+
+      # return results, "as a data frame" to avoid any confusion...
+      #
+      as.data.frame( dplyr::select(df, LEVEL, TAXA, COUNT, ABUNDANCE))
+    }
   }
 }
