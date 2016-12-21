@@ -180,7 +180,53 @@ dat <- matrix(unlist(dat), nrow = length(r_names), byrow = F)
 
 #
 #
-p <- plot_ly(z = dat, colors = colorRamp(c("darkblue", "blue", "lightblue", "cyan2", "green",
+p <- plot_ly(z = dat, colors = colorRampPalette(c("darkblue", "blue", "lightblue", "cyan2", "green",
              "yellow", "orange", "darkorange1", "red", bias = 10)), type = "heatmap",
              x = c_names, y = r_names)
+p
+#
+#
+#
+#
+library(reshape2)
+dd <- data.frame(value = c(seq(0.01, 5, 0.01), seq(5, 100, 5)), x = factor( x = paste(c(1:20)), levels = c(1:20)),
+                                             y = factor(x = paste(rep(1:26, each = 20)), levels = c(1:26)) )
+jet.colors <- colorRampPalette(c("#00007F", "blue", "#007FFF", "cyan","#7FFF7F", "yellow", "#FF7F00", "red", "#7F0000"))
+jet.colors <- colorRampPalette(c("darkblue", "blue", "lightblue", "cyan2", "green", "yellow", "orange", "darkorange1", "red"))
+
+jet.colors <- colorRampPalette(c("darkblue", "blue", "lightblue", "cyan2", "green",
+                                 "yellow", "orange", "darkorange1", "red"))
+
+p <- ggplot2::ggplot(data = dd, aes(x = x, y = y, fill = value)) +
+  ggplot2::theme_bw() +
+  ggplot2::geom_tile(color = "grey80", size = 0.3) + geom_text(aes(label = value), size = 2.3) +
+  ggplot2::ggtitle("test plot") +
+  ggplot2::scale_x_discrete(expand = c(0, 0), position = "top") +
+  ggplot2::scale_y_discrete(expand = c(0, 0)) +
+  ggplot2::coord_fixed(ratio = 1) +
+  ggplot2::scale_fill_gradientn(name = "Normalized abundance: ",
+                                limits = c(0.01, 100), colours =
+                                  jet.colors(30), trans = "log",
+                                breaks = c(0.01, 0.1, 1, 10, 100),
+                                # nolint start
+                                labels = expression(10^-2, 10^-1, 10^0, 10^1, 10^2),
+                                # nolint end
+    guide = ggplot2::guide_colorbar(title.theme =
+    ggplot2::element_text(size = 12, angle = 0),
+    title.vjust = 0.9, barheight = 0.6, barwidth = 6,
+    label.theme = ggplot2::element_text(size = 9, angle = 0),
+    label.hjust = 0.2)) +
+  ggplot2::theme(plot.title = ggplot2::element_text(size = 14),
+                 axis.title.x = ggplot2::element_text(size = 0),
+                 axis.title.y = ggplot2::element_blank(),
+                 axis.text.x = ggplot2::element_text(size = 10, angle = 55,
+                                                     hjust = 0, vjust = 1),
+                 axis.ticks.y = ggplot2::element_blank(),
+                 axis.text.y = ggplot2::element_text(size = 10),
+                 panel.grid.major.y = ggplot2::element_blank(),
+                 panel.grid.minor.y = ggplot2::element_blank(),
+                 #legend.position = c(0, 0),
+                 #legend.justification = c(0, 0.3),
+                 #plot.margin=grid::unit(c(0.1,0.1,3,0.1), 'lines'),
+                 legend.direction = "horizontal", legend.position = "bottom")
 p
