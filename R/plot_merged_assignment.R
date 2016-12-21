@@ -107,7 +107,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
         ggplot2::scale_fill_gradientn(name = "Normalized abundance: ",
             limits = c(0.1, 100), trans = "log", colours =
             c("darkblue", "blue", "lightblue", "cyan2", "green",
-                 "yellow", "orange", "darkorange1", "red", bias = 10),
+                 "yellow", "orange", "darkorange1", "red"),
                   breaks = c(0.1, 1, 10, 100),
                   # nolint start
                   labels = expression(10^-1, 10^0, 10^1, 10^2),
