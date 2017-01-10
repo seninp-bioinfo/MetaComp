@@ -82,7 +82,8 @@ if (values_range[2] <= 1) {
   }
 }
 # compute row sum for each of rows
-sums <- plyr::ddply(df, plyr::.(TAXA), function(x){ sum(x[-1]) / (length(x) - 1) })
+sums <- plyr::ddply(df, plyr::.(TAXA), function(x){
+  sum(x[-1]) / (length(x) - 1) })
 names(sums) <- c("TAXA", "SUM")
 df <- base::merge.data.frame(df, sums, by = c("TAXA"))
 # cut the table by the threshold if too long
