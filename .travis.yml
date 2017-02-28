@@ -9,8 +9,8 @@ apt_packages:
   - libicu-dev
   - libxml2-dev
 
-r_packages:
-  - phyloseq
+#r_packages:
+#  - phyloseq
 
 r_binary_packages:
   - curl
