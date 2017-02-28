@@ -1,5 +1,5 @@
 Package: MetaComp
-Version: 0.0.1
+Version: 1.0.1
 Title: Tools for Merging and Plotting EDGE (GOTTCHA, BWA, Kraken, MetaPhlAn) Taxonomy Assignments
 Description: Implements generic functions for heatmaps manipulation.
 Authors@R: person("Pavel", "Senin", , "psenin@lanl.gov", c("aut", "cre"))
