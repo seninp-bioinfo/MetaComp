@@ -18,4 +18,3 @@ a list of all read assignments.
 Efficiently loads a GOTTCHA (or other EDGE-like taxonomic assignment) tables from a list
 of files. Outputs a named list of assignments.
 }
-

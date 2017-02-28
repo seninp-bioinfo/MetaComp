@@ -26,4 +26,3 @@ for the very file existence. Note however, the unassigned to taxa entries are re
 This implementation fully relies on the read.table function from data.table package
 gaining performance over traditional R techniques.
 }
-

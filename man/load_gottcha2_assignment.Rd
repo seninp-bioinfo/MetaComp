@@ -24,4 +24,3 @@ they should be properly formatted -- thus the code doesn't check for any inconsi
 for the very file existence. This implementation fully relies on the read.table function
 from data.table package gaining performance over traditional R techniques.
 }
-

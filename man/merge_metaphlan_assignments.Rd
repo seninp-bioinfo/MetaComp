@@ -21,4 +21,3 @@ Merges two or more Metaphlan-like taxonomical assignments. The input data frames
 have the following columns: LEVEL, TAXA, and ROLLUP -- these will be used in the merge
 procedure, all other columns will be ignored.
 }
-

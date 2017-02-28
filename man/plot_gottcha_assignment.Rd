@@ -23,4 +23,3 @@ the ggplot2 plot.
 \description{
 This implementation is built upon ggplot geom_tile.
 }
-

@@ -24,4 +24,3 @@ plot_merged_assignment(assignment, taxonomy_level,
 \description{
 This implementation...
 }
-
