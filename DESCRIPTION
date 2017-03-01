@@ -1,8 +1,7 @@
 Package: MetaComp
 Version: 1.0.1
 Title: Tools for Merging and Visualization of EDGE (GOTTCHA, BWA, Kraken, MetaPhlAn) Taxonomy Assignments
-Description: Implements routines for taxonomy assignments collection, aggregation, and visualization. 
-Outputs SVG and PDF heatmap plots representing a comparison of taxa abundances across projects. 
+Description: Implements routines for taxonomy assignments collection, aggregation, and visualization; it outputs SVG and PDF heatmap plots representing a comparison of taxa abundances across projects. 
 Authors@R: person("Pavel", "Senin", , "psenin@lanl.gov", c("aut", "cre"))
 URL: https://github.com/seninp-bioinfo/MetaComp
 BugReports: https://github.com/seninp-bioinfo/MetaComp/issues
