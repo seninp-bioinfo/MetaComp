@@ -17,8 +17,7 @@ list_dirs <- function(path = ".", pattern = NULL, all.dirs = FALSE,
 # projects
 #
 projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
-              list_dirs(file.path(dirname(getwd()), "test_data", sep = "")), sep = ""),
-              stringsAsFactors = F)
+              list_dirs(file.path(dirname(getwd()), "test_data"))), stringsAsFactors = F)
 # the weird transform...
 # nolint start
 projects <- data.frame(folder = projects[grep(".*SRR*", projects$folder), ], stringsAsFactors = F)
@@ -26,7 +25,8 @@ projects <- data.frame(folder = projects[grep(".*SRR*", projects$folder), ], str
 #
 # accessions (projects_id)
 #
-name_pattern <- paste(".*", .Platform$file.sep, "(.*)", .Platform$file.sep, sep = "")
+print(paste(projects))
+name_pattern <- paste(".*", .Platform$file.sep, "(.*)", sep = "")
 projects$accession <- paste("Project_", stringr::str_match(projects$folder,
                                                            name_pattern)[, 2], sep = "")
 #
@@ -44,7 +44,8 @@ find_file <-  function(path = ".", filename = "", recursive = TRUE) {
 #
 projects$assignment <-
   plyr::daply(projects, plyr::.(accession), function(x) {
-    find_file(paste(x$folder, "/", sep = ""), "allReads.summary.tsv", recursive = T)
+    find_file(paste(x$folder, .Platform$file.sep, sep = ""),
+              "allReads.summary.tsv", recursive = T)
   })
 #
 # cleanup those without an assignment
