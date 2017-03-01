@@ -12,7 +12,7 @@ NULL
 #'          the input assignments ids.
 #'
 #' @export
-merge_bwa_assignments_count <- function(assignments) {
+merge_bwa_counts <- function(assignments) {
 
   # fix CRAN notes
   #
