@@ -28,6 +28,6 @@ gottcha_assignment2 <- rbind(species2, gottcha_assignment2)
 input <- list("project1" = gottcha_assignment1, "project2" = gottcha_assignment2)
 #
 #
-merged <- merge_gottcha_assignments_count(input)
+merged <- merge_gottcha_counts(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))
