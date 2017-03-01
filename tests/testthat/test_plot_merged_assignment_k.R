@@ -27,7 +27,6 @@ projects <- data.frame(folder = projects[ - (grep(digit_pattern, projects$folder
 #
 # accessions (projects_id)
 #
-print(paste(projects))
 name_pattern <- paste(".*", .Platform$file.sep, "(.*)", sep = "")
 projects$accession <- paste("Project_", stringr::str_match(projects$folder,
                                                            name_pattern)[, 2], sep = "")
