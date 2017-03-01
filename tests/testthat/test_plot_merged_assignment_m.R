@@ -4,31 +4,33 @@
 # test folders
 #
 list_dirs <- function(path = ".", pattern = NULL, all.dirs = FALSE,
-                                      full.names = FALSE, ignore.case = FALSE) {
+                      full.names = FALSE, ignore.case = FALSE) {
   # use full.names=TRUE to pass to file.info
-    all <-  list.files(path, pattern, all.dirs, full.names = TRUE, recursive = FALSE, ignore.case)
-    dirs <- all[file.info(all)$isdir]
-    if (isTRUE(full.names))
-      return(dirs)
-    else
-      return(basename(dirs))
+  all <-  list.files(path, pattern, all.dirs, full.names = TRUE, recursive = FALSE, ignore.case)
+  dirs <- all[file.info(all)$isdir]
+  if (isTRUE(full.names))
+    return(dirs)
+  else
+    return(basename(dirs))
 }
 #
 # projects
 #
 projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
-              list_dirs(file.path(dirname(getwd()), "test_data", sep = "")), sep = ""),
-              stringsAsFactors = F)
+                 list_dirs(file.path(dirname(getwd()), "test_data", sep = "")), sep = ""),
+                       stringsAsFactors = F)
 # the weird transform...
 # nolint start
-projects <- data.frame(folder = projects[ - (grep("/\\d+/", projects$folder)), ], stringsAsFactors = F)
+digit_pattern <- paste(.Platform$file.sep, "\\d+", .Platform$file.sep, sep = "")
+projects <- data.frame(folder = projects[ - (grep(digit_pattern, projects$folder)), ],
+                       stringsAsFactors = F)
 # nolint end
 #
 # accessions (projects_id)
 #
+name_pattern <- paste(".*", .Platform$file.sep, "(.*)", .Platform$file.sep, sep = "")
 projects$accession <- paste("Project_", stringr::str_match(projects$folder,
-                       paste(".*", .Platform$file.sep, "(.*)", .Platform$file.sep, sep = ""))[, 2],
-                       sep = "")
+                                                           name_pattern)[, 2], sep = "")
 #
 # taxonomic assignments
 #

@@ -21,14 +21,16 @@ projects <- data.frame(folder = file.path(dirname(getwd()), "test_data",
               stringsAsFactors = F)
 # the weird transform...
 # nolint start
-projects <- data.frame(folder = projects[ - (grep("/\\d+/", projects$folder)), ], stringsAsFactors = F)
+digit_pattern <- paste(.Platform$file.sep, "\\d+", .Platform$file.sep, sep = "")
+projects <- data.frame(folder = projects[ - (grep(digit_pattern, projects$folder)), ],
+                       stringsAsFactors = F)
 # nolint end
 #
 # accessions (projects_id)
 #
+name_pattern <- paste(".*", .Platform$file.sep, "(.*)", .Platform$file.sep, sep = "")
 projects$accession <- paste("Project_", stringr::str_match(projects$folder,
-                       paste(".*", .Platform$file.sep, "(.*)", .Platform$file.sep, sep = ""))[, 2],
-                       sep = "")
+                       name_pattern)[, 2], sep = "")
 #
 # taxonomic assignments
 #

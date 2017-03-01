@@ -26,9 +26,9 @@ projects <- data.frame(folder = projects[grep(".*SSputum.*", projects$folder), ]
 #
 # accessions (projects_id)
 #
+name_pattern <- paste(".*", .Platform$file.sep, "(.*)", .Platform$file.sep, sep = "")
 projects$accession <- paste("Project_", stringr::str_match(projects$folder,
-                       paste(".*", .Platform$file.sep, "(.*)", .Platform$file.sep, sep = ""))[, 2],
-                       sep = "")
+                                                           name_pattern)[, 2], sep = "")
 #
 # taxonomic assignments
 #
