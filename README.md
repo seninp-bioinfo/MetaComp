@@ -4,6 +4,10 @@ Metagenome comparison toolkit. The toolkit is being developed for [EDGE platform
 
 [![Build Status](https://travis-ci.org/seninp-bioinfo/MetaComp.svg?branch=master)](https://travis-ci.org/seninp-bioinfo/MetaComp?branch=master)
 [![codecov.io](http://codecov.io/github/seninp-bioinfo/MetaComp/coverage.svg?branch=master)](http://codecov.io/github/seninp-bioinfo/MetaComp?branch=master)
+[![CRAN](http://www.r-pkg.org/badges/version/MetaComp)](https://cran.r-project.org/package=MetaComp)
+[![License](http://img.shields.io/:license-gpl2-green.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
+[![Downloads from Rstudio mirror per month](http://cranlogs.r-pkg.org/badges/MetaComp?color=brightgreen)](http://www.r-pkg.org/pkg/MetaComp)
+[![Downloads from Rstudio mirror](http://cranlogs.r-pkg.org/badges/grand-total/MetaComp?color=brightgreen)](http://www.r-pkg.org/pkg/MetaComp)
 
 #### 0.0 Installation from latest sources
     install.packages("devtools")
