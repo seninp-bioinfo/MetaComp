@@ -1,6 +1,6 @@
 Package: MetaComp
 Version: 1.0.1
-Title: Tools for Merging and HeatMap-like Visualization of EDGE (GOTTCHA/GOTTCHA2, bwa, Kraken, MetaPhlAn) Taxonomy Assignments
+Title: Tools for Merging and HeatMap-Like Visualization of EDGE (GOTTCHA/GOTTCHA2, bwa, Kraken, MetaPhlAn) Taxonomy Assignments
 Description: Implements routines for metagenome sample taxonomy assignments collection, 
     aggregation, and visualization. Produces SVG and PDF heatmap-like plots comparing taxa abundances across projects. 
 Authors@R: person("Pavel", "Senin", , "psenin@lanl.gov", c("aut", "cre"))
