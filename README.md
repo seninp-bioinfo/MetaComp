@@ -2,6 +2,7 @@
 
 Metagenome taxonomy assignment comparison toolkit. The toolkit is being developed for [EDGE platform](https://github.com/LANL-Bioinformatics/EDGE) and reflects its backend specificity. The routines, however, can be used as a stand-alone library for multi-project comparative visualization of taxonomy assignments obtained for metagenomic samples processed with GOTTCHA/GOTTCHA2, BWA, KRAKEN, or METAPHLAN.
 
+[![CRAN](http://www.r-pkg.org/badges/version/MetaComp)](https://cran.r-project.org/package=MetaComp)
 [![Build Status](https://travis-ci.org/seninp-bioinfo/MetaComp.svg?branch=master)](https://travis-ci.org/seninp-bioinfo/MetaComp?branch=master)
 [![codecov.io](http://codecov.io/github/seninp-bioinfo/MetaComp/coverage.svg?branch=master)](http://codecov.io/github/seninp-bioinfo/MetaComp?branch=master)
 [![License](http://img.shields.io/:license-gpl2-green.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
