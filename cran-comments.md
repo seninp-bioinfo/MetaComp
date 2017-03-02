@@ -1,6 +1,6 @@
 ## Re-Submission
 
-This is a fixed initial submission of MetaComp -- a set of routines enabling a visual comparison 
+This is a second time fixed initial submission of MetaComp -- a set of routines enabling a visual comparison 
 of multi-project metagenomic taxonomy assignments. While MetaComp is a part of EDGE Bioinformatics
 platform, the code can be used as a stand-alone library for multi-project visualization of 
 taxonomy assignments obtained with GOTTCHA, BWA, KRAKEN, and METAPHLAN.
@@ -11,8 +11,8 @@ Fixed Initial submission. Fixed DESCRIPTION by removing unneeded packages and in
 of non-existent vignettes -- the CRAN comment was "Package has a VignetteBuilder field but no prebuilt 
 vignette index."
 
-Also rewritten the Description -- the comment was "Also, perhaps you can use the Description to 
-explain the Title?""
+Also rewritten the Description -- shorten the title and extended the description -- 
+the comment was "Also, perhaps you can use the Description to explain the Title?"
 
 ## Test environments
 
