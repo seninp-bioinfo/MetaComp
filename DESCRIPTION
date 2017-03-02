@@ -1,5 +1,5 @@
 Package: MetaComp
-Version: 1.0.2
+Version: 1.0.1
 Title: EDGE Taxonomy Assignments Visualization
 Description: Implements routines for metagenome sample taxonomy assignments collection, 
     aggregation, and visualization. Accepts the EDGE-formatted output from GOTTCHA/GOTTCHA2, 
