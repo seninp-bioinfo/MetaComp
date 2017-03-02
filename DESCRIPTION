@@ -22,4 +22,3 @@ LinkingTo:
 LazyData: true
 License: GPL-2
 RoxygenNote: 6.0.1
-VignetteBuilder: knitr
