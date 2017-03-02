@@ -16,9 +16,7 @@ Imports:
     ggplot2,
     Cairo
 Suggests:
-    testthat,
-    knitr,
-    rmarkdown
+    testthat
 LinkingTo:
 LazyData: true
 License: GPL-2
