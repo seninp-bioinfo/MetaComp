@@ -9,14 +9,17 @@ Metagenome taxonomy assignment comparison toolkit. The toolkit is being develope
 [![Downloads from Rstudio mirror per month](http://cranlogs.r-pkg.org/badges/MetaComp?color=brightgreen)](http://www.r-pkg.org/pkg/MetaComp)
 [![Downloads from Rstudio mirror](http://cranlogs.r-pkg.org/badges/grand-total/MetaComp?color=brightgreen)](http://www.r-pkg.org/pkg/MetaComp)
 
-#### 0.0 Installation from latest sources
-    install.packages("devtools")
-    library(devtools)
-    install_github(repo = 'seninp-bioinfo/MetaComp', ref = "v1.3")
+#### 0.0 Installation from CRAN
+    install.packages("MetaComp")
     
 to use the library, simply load it into R environment:
 
     library(MetaComp)
+
+#### 0.1 Installation from latest sources
+    install.packages("devtools")
+    library(devtools)
+    install_github(repo = 'seninp-bioinfo/MetaComp')
 
 #### 1.0 Reading a single taxonomic assignment files
     the_gottcha_assignment <- load_gottcha_assignment(data_file_g)
