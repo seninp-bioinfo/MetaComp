@@ -1,6 +1,6 @@
 # MetaComp
 
-Metagenome taxonomy assignment comparison toolkit. The toolkit is being developed for [EDGE platform](https://github.com/LANL-Bioinformatics/EDGE) and reflects its backend specificity. The routines, however, can be used as a stand-alone library for multi-project comparative visualization of taxonomy assignments obtained for metagenomic samples processed with GOTTCHA/GOTTCHA2, BWA, KRAKEN, or METAPHLAN.
+Metagenome taxonomy assignment comparison toolkit. The toolkit is being developed for [EDGE platform](https://github.com/LANL-Bioinformatics/EDGE) and reflects its backend specificity. The routines, however, can be used as a stand-alone library for multi-project comparative visualization of taxonomy assignments obtained for metagenomic samples processed with GOTTCHA/GOTTCHA2, BWA, KRAKEN, or METAPHLAN. The heatmaps can be also visualized with this [D3.js-based code](https://github.com/seninp-bioinfo/d3heat) which allows to see the exact abundance values in each cell.
 
 [![CRAN](http://www.r-pkg.org/badges/version/MetaComp)](https://cran.r-project.org/package=MetaComp)
 [![Build Status](https://travis-ci.org/seninp-bioinfo/MetaComp.svg?branch=master)](https://travis-ci.org/seninp-bioinfo/MetaComp?branch=master)
