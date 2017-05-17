@@ -78,6 +78,10 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
       # order rows by the sum value
       df <- dplyr::arrange(df, SUM)
       to_keep <- which(df$SUM > min_row_abundance)
+      if (length(to_keep) == 0) {
+        # keep just one so it doesnt fail
+        df <- df[1, ]
+      }
       df <- df[to_keep, ]
     }
   }
