@@ -16,12 +16,15 @@ NULL
 #' @param sorting_order the order in which rows shall be sorted, "abundance" is defult,
 #'                       "alphabetical" is an alternative.
 #' @param row_limit the max amount of rows to plot (default is 60).
+#' @param min_row_abundance the minimal sum of abundances in a row required to plot.
+#'  Rows whose sum is less than this value are dropped even if row_limit is specified.
+#'  Ignored for "alphabetical" order. (default 0.0).
 #' @param plot_title The plot title.
 #' @param filename The output file mask, PDF and SVG files will be produced with Cairo device.
 #'
 #' @export
 plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "abundance",
-                                   row_limit = 60, plot_title, filename) {
+               row_limit = 60, min_row_abundance = 0, plot_title, filename) {
 
   TAXA <- LEVEL <- SUM <- value <- variable <- NULL # fix the CRAN note
 
@@ -74,6 +77,8 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
     } else {
       # order rows by the sum value
       df <- dplyr::arrange(df, SUM)
+      to_keep <- which(df$SUM > min_row_abundance)
+      df <- df[to_keep, ]
     }
   }
 
@@ -136,7 +141,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
-  print(p)
+  suppressWarnings(print(p))
   dev.off()
 
   Cairo::CairoSVG(file = filename, width = 0.3 * length(df[1, ]) + 6,
@@ -144,7 +149,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
-  print(p)
+  suppressWarnings(print(p))
   dev.off()
 
 }
