@@ -2,19 +2,19 @@
 #' @importFrom dplyr select
 NULL
 
-#' Efficiently loads a DIAMOND (or other EDGE-like taxonomic assignment) table from a file.
-#' An assumption has been made -- since DIAMOND/EDGE tables are generated in an automated fashion,
+#' Efficiently loads a PANGIA (or other EDGE-like taxonomic assignment) table from a file.
+#' An assumption has been made -- since PANGIA/EDGE tables are generated in an automated fashion,
 #' they should be properly formatted -- thus the code doesn't check for any inconsistencies except
 #' for the very file existence. This implementation fully relies on the read.table function
 #' from data.table package gaining performance over traditional R techniques.
 #'
-#' @param filepath A path to EDGE-generated tab-delimeted DIAMOND taxonomy assignment file.
+#' @param filepath A path to EDGE-generated tab-delimeted PANGIA taxonomy assignment file.
 #'
 #' @return a data frame containing four columns: LEVEL, TAXA, COUNT, and ABUNDANCE,
 #'         representing taxonomically anchored sequences from the sample.
 #'
 #' @export
-load_diamond_assignment <- function(filepath) {
+load_pangia_assignment <- function(filepath) {
 
   TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
@@ -41,8 +41,15 @@ load_diamond_assignment <- function(filepath) {
     # rename the abundance column
     #
     names(df) <- sub("NAME", "TAXA", names(df))
+    #
+    # since ABUNDANCE EXISTS, lets rename it
+    names(df) <- sub("^ABUNDANCE$", "ABSOLUTE_ABUNDANCE", names(df))
+    #
     names(df) <- sub("^REL_ABU.*$", "ABUNDANCE", names(df))
-    names(df) <- sub("ASSIGN", "COUNT", names(df))
+    names(df) <- sub("READ_COUNT_RNR", "COUNT", names(df))
+    #
+    # need to correct normalized count values (doubles) to integer numbers
+    df$COUNT = as.integer(df$COUNT)
 
     # return results, "as a data frame" to avoid any confusion...
     #
