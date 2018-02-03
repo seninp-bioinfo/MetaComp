@@ -2,6 +2,7 @@
 
 export(load_bwa_assignment)
 export(load_bwa_assignments)
+export(load_diamond_assignment)
 export(load_gottcha2_assignment)
 export(load_gottcha2_assignments)
 export(load_gottcha_assignment)

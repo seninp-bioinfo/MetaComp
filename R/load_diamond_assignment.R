@@ -2,7 +2,7 @@
 #' @importFrom dplyr select
 NULL
 
-#' Efficiently loads a GOTTCHA2 (or other EDGE-like taxonomic assignment) table from a file.
+#' Efficiently loads a DIAMOND (or other EDGE-like taxonomic assignment) table from a file.
 #' An assumption has been made -- since GOTTCHA2/EDGE tables are generated in an automated fashion,
 #' they should be properly formatted -- thus the code doesn't check for any inconsistencies except
 #' for the very file existence. This implementation fully relies on the read.table function
@@ -14,7 +14,7 @@ NULL
 #'         representing taxonomically anchored sequences from the sample.
 #'
 #' @export
-load_gottcha2_assignment <- function(filepath) {
+load_diamond_assignment <- function(filepath) {
 
   TAXA <- LEVEL <- COUNT <- ABUNDANCE <- NULL
 
@@ -41,8 +41,8 @@ load_gottcha2_assignment <- function(filepath) {
     # rename the abundance column
     #
     names(df) <- sub("NAME", "TAXA", names(df))
-    names(df) <- sub("REL_ABUNDANCE", "ABUNDANCE", names(df))
-    names(df) <- sub("READ_COUNT", "COUNT", names(df))
+    names(df) <- sub("REL_ABU*", "ABUNDANCE", names(df))
+    names(df) <- sub("ASSIGN", "COUNT", names(df))
 
     # return results, "as a data frame" to avoid any confusion...
     #
