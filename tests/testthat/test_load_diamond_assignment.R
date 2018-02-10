@@ -1,7 +1,7 @@
 #
 # load GOTTCHA2 assignment #1
 #
-dat <- data.frame(load_diamond_assignment(file.path("../test_data/up2018",
+dat <- data.frame(load_diamond_assignment(file.path("../test_data/test_all_taxa/",
   "allReads-diamond.list.txt")))
 
 # columns import test
