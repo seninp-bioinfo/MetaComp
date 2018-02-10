@@ -1,13 +1,13 @@
-# load GOTTCHA assignments
+# load PANGIA assignments
 #
 
 # projects
 #
-data_file <- "../test_data/test_table_diamond.txt"
+data_file <- "../test_data/test_table_pangia.txt"
 
 # read em
 #
-the_list <- load_diamond_assignments(data_file)
+the_list <- load_pangia_assignments(data_file)
 
 # tests
 #

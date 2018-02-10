@@ -1,4 +1,4 @@
-# load GOTTCHA assignments
+# load DIAMOND assignments
 #
 
 # projects
