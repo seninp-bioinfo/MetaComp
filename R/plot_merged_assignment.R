@@ -126,7 +126,8 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                       title.vjust = 0.9, barheight = 0.6, barwidth = 6,
                       label.theme = ggplot2::element_text(size = 9, angle = 0),
                       label.hjust = 0.2)) +
-       ggplot2::theme(plot.title = ggplot2::element_text(size = 14),
+       ggplot2::theme(plot.title = ggplot2::element_text(size = 16, hjust = 1),
+                      #plot.title = element_text(hjust = 1),
                    axis.title.x = ggplot2::element_text(size = 0),
                    axis.title.y = ggplot2::element_blank(),
                    axis.text.x = ggplot2::element_text(size = 10, angle = 55,
@@ -140,11 +141,23 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                    #plot.margin=grid::unit(c(0.1,0.1,3,0.1), 'lines'),
                    legend.direction = "horizontal", legend.position = "bottom")
 
+  # align to left workaround
+  #
+  #
+  #title.grob <- grid::textGrob(
+  #    label = plot_title,
+  #    x = grid::unit(0, "lines"),
+  #    y = grid::unit(0, "lines"),
+  #    hjust = -1, vjust = 0,
+  #    gp = grid::gpar(fontsize = 16))
+  #p1 <- suppressWarnings(gridExtra::arrangeGrob(p, top = title.grob))
+
   Cairo::CairoPDF(file = filename, width = 0.3 * length(df[1, ]) + 6,
                   height = 0.15 * length(df$TAXA) + 5,
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
+  #suppressWarnings(grid::grid.draw(p1))
   suppressWarnings(print(p))
   dev.off()
 
@@ -153,6 +166,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
+  #suppressWarnings(grid::grid.draw(p1))
   suppressWarnings(print(p))
   dev.off()
 
