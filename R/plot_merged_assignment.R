@@ -5,6 +5,11 @@
 #' @importFrom grDevices dev.off
 #' @importFrom Cairo CairoPDF
 #' @importFrom Cairo CairoSVG
+#' @importFrom grid textGrob
+#' @importFrom grid gpar
+#' @importFrom grid unit
+#' @importFrom grid grid.draw
+#' @importFrom gridExtra arrangeGrob
 NULL
 
 #' Generates a single column ggplot for a taxonomic assignment table.
@@ -140,12 +145,21 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                    #plot.margin=grid::unit(c(0.1,0.1,3,0.1), 'lines'),
                    legend.direction = "horizontal", legend.position = "bottom")
 
+  title.grob <- grid::textGrob(
+      label = plot_title,
+      x = grid::unit(0, "lines"),
+      y = grid::unit(0, "lines"),
+      hjust = 0, vjust = 0,
+      gp = grid::gpar(fontsize = 14))
+
+  p1 <- suppressWarnings(gridExtra::arrangeGrob(p, top = title.grob))
+
   Cairo::CairoPDF(file = filename, width = 0.3 * length(df[1, ]) + 6,
                   height = 0.15 * length(df$TAXA) + 5,
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
-  suppressWarnings(print(p))
+  suppressWarnings(grid::grid.draw(p1))
   dev.off()
 
   Cairo::CairoSVG(file = filename, width = 0.3 * length(df[1, ]) + 6,
@@ -153,7 +167,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
                   onefile = TRUE, family = "Helvetica",
                   title = "R Graphics Output", version = "1.1",
                   paper = "special", bg = "white", pointsize = 10)
-  suppressWarnings(print(p))
+  suppressWarnings(grid::grid.draw(p1))
   dev.off()
 
 }

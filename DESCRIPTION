@@ -16,6 +16,8 @@ Imports:
     dplyr,
     data.table,
     ggplot2,
+    grid,
+    gridExtra,
     Cairo
 Suggests:
     testthat
