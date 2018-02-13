@@ -10,7 +10,7 @@ NULL
 #' This implementation fully relies on the read.table function from data.table package
 #' gaining performance over traditional R techniques.
 #'
-#' @param filepath A path to EDGE-generated tab-delimeted bwa taxonomy assignment file.
+#' @param filepath A path to EDGE-generated tab-delimited bwa taxonomy assignment file.
 #'
 #' @return a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
 #'         taxonomically anchored sequences from the sample.

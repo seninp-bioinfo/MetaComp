@@ -4,7 +4,7 @@ NULL
 #' Efficiently loads a DIAMOND (or other EDGE-like taxonomic assignment) tables from a list
 #' of files. Outputs a named list of assignments.
 #'
-#' @param filepath A path to tab delimeted, two-column file whose first column is a project_id
+#' @param filepath A path to tab delimited, two-column file whose first column is a project_id
 #' (which will be used to name this assignment) and the second column is the assignment filename.
 #'
 #' @return a list of all read assignments.

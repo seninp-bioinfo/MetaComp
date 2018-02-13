@@ -3,7 +3,7 @@ Version: 1.1.0
 Title: EDGE Taxonomy Assignments Visualization
 Description: Implements routines for metagenome sample taxonomy assignments collection, 
     aggregation, and visualization. Accepts the EDGE-formatted output from GOTTCHA/GOTTCHA2, 
-    BWA, Kraken, MetaPhlAn, DIAMOND, qnd Pangia. Produces SVG and PDF heatmap-like plots 
+    BWA, Kraken, MetaPhlAn, DIAMOND, and Pangia. Produces SVG and PDF heatmap-like plots 
     comparing taxa abundances across projects. 
 Authors@R: person("Pavel", "Senin", , "senin@hawaii.edu", c("aut", "cre"))
 URL: https://github.com/seninp-bioinfo/MetaComp

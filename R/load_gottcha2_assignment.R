@@ -8,7 +8,7 @@ NULL
 #' for the very file existence. This implementation fully relies on the read.table function
 #' from data.table package gaining performance over traditional R techniques.
 #'
-#' @param filepath A path to EDGE-generated tab-delimeted GOTTCHA2 taxonomy assignment file.
+#' @param filepath A path to EDGE-generated tab-delimited GOTTCHA2 taxonomy assignment file.
 #'
 #' @return a data frame containing four columns: LEVEL, TAXA, COUNT, and ABUNDANCE,
 #'         representing taxonomically anchored sequences from the sample.
