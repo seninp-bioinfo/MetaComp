@@ -1,24 +1,16 @@
-## Re-Submission
+## New submission
 
-This is a second time fixed initial submission of MetaComp -- a set of routines enabling a visual comparison 
-of multi-project metagenomic taxonomy assignments. While MetaComp is a part of EDGE Bioinformatics
-platform, the code can be used as a stand-alone library for multi-project visualization of 
-taxonomy assignments obtained with GOTTCHA, BWA, KRAKEN, and METAPHLAN.
+We added few additional aligners output parsers, specifically for DIAMOND and PANGIA.
 
 ## Changes
 
-Fixed Initial submission. Fixed DESCRIPTION by removing unneeded packages and indication
-of non-existent vignettes -- the CRAN comment was "Package has a VignetteBuilder field but no prebuilt 
-vignette index."
-
-Also rewritten the Description -- shorten the title and extended the description -- 
-the comment was "Also, perhaps you can use the Description to explain the Title?"
+Added new functions for parsing, merging, and plotting of DIAMOND and PANGIA EDGE-like output
 
 ## Test environments
 
-* Apple OS x86_64-apple-darwin13.4.0 (64-bit), R 3.3.2 (2016-10-31)
-* Ubuntu LTS 14.04.5 (on travis-ci), R 3.3.1 (2016-06-21)
-* win-builder (devel and release)
+* Ubuntu LTS 16.04 (localhost), R 3.4.3
+* Ubuntu LTS 14.04 (travis), R 3.4.2
+* WinBuilder, x86_64-w64-mingw32 (64-bit), R (unstable) (2018-02-12 r74246)
 
 ## R CMD check results
 
