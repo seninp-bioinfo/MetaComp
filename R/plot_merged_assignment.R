@@ -109,7 +109,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
   p <- ggplot2::ggplot( data = melted_df, ggplot2::aes(y = TAXA, x = variable, fill = value) ) +
         ggplot2::theme_bw() +
         ggplot2::geom_tile(color = "grey80", size = 0.3) +
-        ggplot2::ggtitle(plot_title) +
+        ggplot2::ggtitle(NULL) +
         ggplot2::scale_x_discrete(expand = c(0, 0), position = "top") +
         ggplot2::scale_y_discrete(expand = c(0, 0)) +
         ggplot2::coord_fixed(ratio = 1) +
