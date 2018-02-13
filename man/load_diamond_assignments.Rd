@@ -8,7 +8,7 @@ of files. Outputs a named list of assignments.}
 load_diamond_assignments(filepath)
 }
 \arguments{
-\item{filepath}{A path to tab delimeted, two-column file whose first column is a project_id
+\item{filepath}{A path to tab delimited, two-column file whose first column is a project_id
 (which will be used to name this assignment) and the second column is the assignment filename.}
 }
 \value{

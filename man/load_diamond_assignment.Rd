@@ -11,7 +11,7 @@ from data.table package gaining performance over traditional R techniques.}
 load_diamond_assignment(filepath)
 }
 \arguments{
-\item{filepath}{A path to EDGE-generated tab-delimeted DIAMOND taxonomy assignment file.}
+\item{filepath}{A path to EDGE-generated tab-delimited DIAMOND taxonomy assignment file.}
 }
 \value{
 a data frame containing four columns: LEVEL, TAXA, COUNT, and ABUNDANCE,

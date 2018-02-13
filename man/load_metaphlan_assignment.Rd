@@ -12,7 +12,7 @@ gaining performance over traditional R techniques.}
 load_metaphlan_assignment(filepath)
 }
 \arguments{
-\item{filepath}{A path to EDGE-generated tab-delimeted Metaphlan taxonomy assignment file.}
+\item{filepath}{A path to EDGE-generated tab-delimited Metaphlan taxonomy assignment file.}
 }
 \value{
 a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing

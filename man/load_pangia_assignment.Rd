@@ -11,7 +11,7 @@ from data.table package gaining performance over traditional R techniques.}
 load_pangia_assignment(filepath)
 }
 \arguments{
-\item{filepath}{A path to EDGE-generated tab-delimeted PANGIA taxonomy assignment file.}
+\item{filepath}{A path to EDGE-generated tab-delimited PANGIA taxonomy assignment file.}
 }
 \value{
 a data frame containing four columns: LEVEL, TAXA, COUNT, and ABUNDANCE,

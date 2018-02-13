@@ -12,7 +12,7 @@ gaining performance over traditional R techniques.}
 load_bwa_assignment(filepath)
 }
 \arguments{
-\item{filepath}{A path to EDGE-generated tab-delimeted bwa taxonomy assignment file.}
+\item{filepath}{A path to EDGE-generated tab-delimited bwa taxonomy assignment file.}
 }
 \value{
 a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing

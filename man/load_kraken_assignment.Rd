@@ -12,7 +12,7 @@ gaining performance over traditional R techniques.}
 load_kraken_assignment(filepath)
 }
 \arguments{
-\item{filepath}{A path to EDGE-generated tab-delimeted Kraken taxonomy assignment file.}
+\item{filepath}{A path to EDGE-generated tab-delimited Kraken taxonomy assignment file.}
 }
 \value{
 a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing

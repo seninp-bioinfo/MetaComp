@@ -11,7 +11,7 @@ from data.table package gaining performance over traditional R techniques.}
 load_gottcha_assignment(filepath)
 }
 \arguments{
-\item{filepath}{A path to EDGE-generated tab-delimeted GOTTCHA taxonomy assignment file.}
+\item{filepath}{A path to EDGE-generated tab-delimited GOTTCHA taxonomy assignment file.}
 }
 \value{
 a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
