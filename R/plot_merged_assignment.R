@@ -149,7 +149,7 @@ plot_merged_assignment <- function(assignment, taxonomy_level, sorting_order = "
       label = plot_title,
       x = grid::unit(0, "lines"),
       y = grid::unit(0, "lines"),
-      hjust = 0, vjust = 0,
+      hjust = -0.3, vjust = 0,
       gp = grid::gpar(fontsize = 14))
 
   p1 <- suppressWarnings(gridExtra::arrangeGrob(p, top = title.grob))
