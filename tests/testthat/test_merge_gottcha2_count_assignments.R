@@ -1,8 +1,8 @@
 #
-# load GOTTCHA assignment
+# load GOTTCHA2 assignment
 #
-dat1 <- data.frame(load_gottcha2_assignment(paste("../test_data/SRR353621/",
-   "SRR353621_gottcha2-speDB-refseq/allReads.summary.tsv", sep = "")))
+dat1 <- load_edge_assignment(file.path("../test_data/SRR353621/SRR353621_gottcha2-speDB-refseq",
+              "allReads.summary.tsv"), type = 'gottcha2')
 
 # extract species list
 #
@@ -28,6 +28,6 @@ gottcha_assignment2 <- rbind(species2, gottcha_assignment2)
 input <- list("project1" = gottcha_assignment1, "project2" = gottcha_assignment2)
 #
 #
-merged <- merge_gottcha_counts(input)
+merged <- merge_edge_counts(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))

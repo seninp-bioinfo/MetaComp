@@ -1,8 +1,8 @@
 #
-# load GOTTCHA2 assignment #1
+# load PANGIA assignment
 #
-dat <- data.frame(load_pangia_assignment(file.path("../test_data/test_all_taxa",
-  "allReads-pangia.list.txt")))
+dat <- load_edge_assignment(file.path("../test_data/test_all_taxa",
+                                    "allReads-pangia.list.txt"), type = 'pangia')
 
 # columns import test
 expect_that( dim(dat)[1], equals(35) )
@@ -29,11 +29,11 @@ expect_that(ent_row$ABUNDANCE, equals(0.9998))
 #
 # test the failure
 #
-expect_that(load_pangia_assignment("../test_data/nonexistentfile.txt"), throws_error())
+expect_that(load_edge_assignment("../test_data/nonexistentfile.txt", type = 'pangia'), throws_error())
 
 #
 # test an empty file
 #
-empty_df <- load_pangia_assignment("../test_data/an_empty_file.tsv")
+empty_df <- load_edge_assignment("../test_data/an_empty_file.tsv", type = 'pangia')
 expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 expect_that(dim(empty_df)[1], equals(0) )

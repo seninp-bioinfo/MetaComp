@@ -1,8 +1,8 @@
 #
 # load GOTTCHA assignment
 #
-dat1 <- data.frame(load_gottcha_assignment(
-  "../test_data/SSputum-dil-DNase-cDNA/gottcha-speDB-v/allReads-gottcha-speDB-v.list.txt"))
+dat1 <- load_edge_assignment(file.path("../test_data/SSputum-dil-DNase-cDNA/gottcha-speDB-v",
+                                       "allReads-gottcha-speDB-v.list.txt"), type = 'gottcha')
 
 # extract species list
 #
@@ -28,6 +28,6 @@ gottcha_assignment2 <- rbind(species2, gottcha_assignment2)
 input <- list("project1" = gottcha_assignment1, "project2" = gottcha_assignment2)
 #
 #
-merged <- merge_gottcha_assignments(input)
+merged <- merge_edge_assignments(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))

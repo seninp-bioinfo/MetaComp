@@ -1,8 +1,7 @@
 #
-# load GOTTCHA assignment
+# load DIAMOND assignment
 #
-dat1 <- data.frame(load_diamond_assignment(
-  "../test_data/test_all_taxa/allReads-diamond.list.txt"))
+dat1 <-load_edge_assignment("../test_data/test_all_taxa/allReads-diamond.list.txt", type = 'diamond')
 
 # extract species list
 #
@@ -28,6 +27,6 @@ diamond_assignment2 <- rbind(species2, diamond_assignment2)
 input <- list("project1" = diamond_assignment1, "project2" = diamond_assignment2)
 #
 #
-merged <- merge_diamond_assignments(input)
+merged <- merge_edge_assignments(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))

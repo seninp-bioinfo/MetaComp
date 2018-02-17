@@ -1,8 +1,8 @@
 #
-# load GOTTCHA assignment #1
+# load GOTTCHA assignment
 #
-dat <- data.frame(load_gottcha_assignment(
-  "../test_data/SSputum-dil-DNase-cDNA/gottcha-strDB-b/allReads-gottcha-strDB-b.list.txt"))
+dat <- load_edge_assignment(file.path("../test_data/SSputum-dil-DNase-cDNA/gottcha-strDB-b",
+            "allReads-gottcha-strDB-b.list.txt"), type = 'gottcha')
 
 # columns import test
 expect_that( dim(dat)[1], equals(65) )
@@ -29,11 +29,11 @@ expect_that(ent_row$ABUNDANCE, equals(0.04961472))
 #
 # test the failure
 #
-expect_that(load_gottcha_assignment("../test_data/nonexistentfile.txt"), throws_error())
+expect_that(load_edge_assignment("../test_data/nonexistentfile.txt", type = 'gottcha'), throws_error())
 
 #
 # test an empty file
 #
-empty_df <- load_gottcha_assignment("../test_data/an_empty_file.tsv")
+empty_df <- load_edge_assignment("../test_data/an_empty_file.tsv", type = 'gottcha')
 expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 expect_that(dim(empty_df)[1], equals(0) )

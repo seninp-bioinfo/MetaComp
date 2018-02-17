@@ -1,8 +1,8 @@
 #
 # load Kraken assignment #1
 #
-dat <- data.frame(load_kraken_assignment(
-  "../test_data/SSputum-dil-DNase-cDNA/kraken_mini/allReads-kraken_mini.list.txt"))
+dat <- load_edge_assignment(file.path("../test_data/SSputum-dil-DNase-cDNA/kraken_mini/",
+        "allReads-kraken_mini.list.txt"), type = 'kraken')
 
 # columns import test
 expect_that( dim(dat)[1], equals(2977) )
@@ -27,11 +27,11 @@ expect_that(ent_row$ABUNDANCE, equals(0.2913297))
 #
 # test the failure
 #
-expect_that(load_kraken_assignment("../test_data/nonexistentfile.txt"), throws_error())
+expect_that(load_edge_assignment("../test_data/nonexistentfile.txt", type = 'kraken'), throws_error())
 
 #
 # test an empty file
 #
-empty_df <- load_kraken_assignment("../test_data/an_empty_file.tsv")
+empty_df <- load_edge_assignment("../test_data/an_empty_file.tsv", type = 'kraken')
 expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 expect_that(dim(empty_df)[1], equals(0) )

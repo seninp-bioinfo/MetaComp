@@ -1,7 +1,7 @@
 #
 # load GOTTCHA assignment
 #
-dat <- data.frame(load_gottcha_assignment("../test_data/248/allReads-gottcha-strDB-b.list.txt"))
+dat <- load_edge_assignment("../test_data/248/allReads-gottcha-strDB-b.list.txt", type = 'gottcha')
 
 # create an outout folder
 #
@@ -15,7 +15,7 @@ png_name <- file.path(tmp_folder, "test_png.png")
 
 # generate a PDF and also get a ggplot out
 #
-gplot <- plot_gottcha_assignment(dat, "family", "Test Plot #1",
+gplot <- plot_edge_assignment(dat, "family", "Test Plot #1",
              "allReads-gottcha-strDB-b", file.path(tmp_folder, "test_pdf"))
 
 # write down the plot as PNG

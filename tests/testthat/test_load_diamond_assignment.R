@@ -1,8 +1,8 @@
 #
-# load GOTTCHA2 assignment #1
+# load DIAMOND assignment
 #
-dat <- data.frame(load_diamond_assignment(file.path("../test_data/test_all_taxa/",
-  "allReads-diamond.list.txt")))
+dat <- data.frame(load_edge_assignment(file.path("../test_data/test_all_taxa/",
+  "allReads-diamond.list.txt"), type = 'diamond'))
 
 # columns import test
 expect_that( dim(dat)[1], equals(234) )
@@ -29,11 +29,11 @@ expect_that(ent_row$ABUNDANCE, equals(0.0958))
 #
 # test the failure
 #
-expect_that(load_diamond_assignment("../test_data/nonexistentfile.txt"), throws_error())
+expect_that(load_edge_assignment("../test_data/nonexistentfile.txt", type = 'diamond'), throws_error())
 
 #
 # test an empty file
 #
-empty_df <- load_diamond_assignment("../test_data/an_empty_file.tsv")
+empty_df <- load_edge_assignment("../test_data/an_empty_file.tsv", type = 'diamond')
 expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 expect_that(dim(empty_df)[1], equals(0) )

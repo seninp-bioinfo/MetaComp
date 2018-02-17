@@ -1,4 +1,4 @@
-# load GOTTCHA assignments
+# load BWA assignments
 #
 #
 # test folders
@@ -56,14 +56,14 @@ projects <- dplyr::filter(projects, !(is.na(assignment)))[1:3, ]
 # make a list
 #
 input_assignments_list <- plyr::dlply(projects, plyr::.(accession), function(x){
-  dat <- load_bwa_assignment(x$assignment)
+  dat <- load_edge_assignment(x$assignment, type = 'bwa')
   dat
 })
 names(input_assignments_list) <- projects$accession
 #
 #
 #
-merged <- merge_bwa_assignments(input_assignments_list)
+merged <- merge_edge_assignments(input_assignments_list)
 #
 # create a folder
 #

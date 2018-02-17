@@ -1,8 +1,7 @@
 #
 # load pangia assignment
 #
-dat <- data.frame(load_pangia_assignment(
-  "../test_data/HMP_stagger/allReads-pangia.list.txt"))
+dat <- load_edge_assignment("../test_data/HMP_stagger/allReads-pangia.list.txt", type = 'pangia')
 
 # create an outout folder
 #
@@ -16,7 +15,7 @@ png_name <- file.path(tmp_folder, "test_png.png")
 
 # generate a PDF and also get a ggplot out
 #
-gplot <- plot_pangia_assignment(dat, "genus", "Test Plot #1",
+gplot <- plot_edge_assignment(dat, "genus", "Test Plot #1",
              "HMP stagger", file.path(tmp_folder, "test_pdf"))
 
 # write down the plot as PNG

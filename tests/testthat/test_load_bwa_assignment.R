@@ -1,7 +1,7 @@
 #
-# load GOTTCHA assignment #1
+# load BWA assignment
 #
-dat <- data.frame(load_bwa_assignment("../test_data/SSputum-no-RAB/bwa/allReads-bwa.list.txt"))
+dat <- data.frame(load_edge_assignment("../test_data/SSputum-no-RAB/bwa/allReads-bwa.list.txt", type = 'bwa'))
 
 # columns import test
 expect_that( dim(dat)[1], equals(558) )
@@ -27,18 +27,18 @@ expect_that(ent_row$ABUNDANCE, equals(0.3448099714))
 #
 # test the failure
 #
-expect_that(load_bwa_assignment("../test_data/nonexistentfile.txt"), throws_error())
+expect_that(load_edge_assignment("../test_data/nonexistentfile.txt", type = 'bwa'), throws_error())
 
 #
 # test a BWA 'empty' file
 #
-empty_df <- load_bwa_assignment("../test_data/bwa_emtpy_list.txt")
+empty_df <- load_edge_assignment("../test_data/bwa_emtpy_list.txt", type = 'bwa')
 expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 expect_that(dim(empty_df)[1], equals(0) )
 
 #
 # test a true empty file
 #
-empty_df <- load_bwa_assignment("../test_data/an_empty_file.tsv")
+empty_df <- load_edge_assignment("../test_data/an_empty_file.tsv", type = 'bwa')
 expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 expect_that(dim(empty_df)[1], equals(0) )

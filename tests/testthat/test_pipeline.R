@@ -13,10 +13,10 @@ test_data_file <- file.path(test_data_folder, "test_data/test_table_gottcha.txt"
 #
 
 # [0.0]
-assignments <- load_gottcha_assignments(test_data_file)
+assignments <- load_edge_assignments(test_data_file, type = 'gottcha')
 
 # [1.0]
-merged_assignments_table <- merge_gottcha_assignments(assignments)
+merged_assignments_table <- merge_edge_assignments(assignments)
 
 # [2.0] create a folder
 #

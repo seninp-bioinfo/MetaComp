@@ -1,8 +1,8 @@
 #
 # load GOTTCHA assignment
 #
-dat1 <- data.frame(load_metaphlan_assignment(
-  "../test_data/SSputum-no-cDNA/metaphlan/allReads-metaphlan.list.txt"))
+dat1 <- data.frame(load_edge_assignment(
+  "../test_data/SSputum-no-cDNA/metaphlan/allReads-metaphlan.list.txt", type = 'metaphlan'))
 
 # extract species list
 #
@@ -28,6 +28,6 @@ metaphlan_assignment2 <- rbind(species2, metaphlan_assignment2)
 input <- list("project1" = metaphlan_assignment1, "project2" = metaphlan_assignment2)
 #
 #
-merged <- merge_metaphlan_assignments(input)
+merged <- merge_edge_assignments(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))

@@ -1,8 +1,7 @@
 #
 # load BWA assignment
 #
-dat <- data.frame(load_bwa_assignment(
-  "../test_data/SSputum-no-cDNA/bwa/allReads-bwa.list.txt"))
+dat <- load_edge_assignment("../test_data/SSputum-no-cDNA/bwa/allReads-bwa.list.txt", type = 'bwa')
 
 # create an outout folder
 #
@@ -16,7 +15,7 @@ png_name <- file.path(tmp_folder, "test_png.png")
 
 # generate a PDF and also get a ggplot out
 #
-gplot <- plot_bwa_assignment(dat, "family", "Test Plot #1",
+gplot <- plot_edge_assignment(dat, "family", "Test Plot #1",
              "SSputum-no-cDNA", file.path(tmp_folder, "test_pdf"))
 
 # write down the plot as PNG

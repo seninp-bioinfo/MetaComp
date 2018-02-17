@@ -1,8 +1,8 @@
 #
 # load KRAKEN assignment
 #
-dat1 <- data.frame(load_kraken_assignment(
-  "../test_data/SSputum-no-cDNA/kraken_mini/allReads-kraken_mini.list.txt"))
+dat1 <- load_edge_assignment(file.path("../test_data/SSputum-no-cDNA/kraken_mini",
+          "allReads-kraken_mini.list.txt"), type = 'kraken')
 
 # extract species list
 #
@@ -28,6 +28,6 @@ kraken_assignment2 <- rbind(species2, kraken_assignment2)
 input <- list("project1" = kraken_assignment1, "project2" = kraken_assignment2)
 #
 #
-merged <- merge_kraken_assignments(input)
+merged <- merge_edge_assignments(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))

@@ -1,8 +1,8 @@
 #
 # load PANGIA assignment
 #
-dat1 <- data.frame(load_pangia_assignment(
-  "../test_data/test_all_taxa/allReads-pangia.list.txt"))
+dat1 <- data.frame(load_edge_assignment(
+  "../test_data/test_all_taxa/allReads-pangia.list.txt", type = 'pangia'))
 
 # extract strain list
 #
@@ -28,6 +28,6 @@ pangia_assignment2 <- rbind(strain2, pangia_assignment2)
 input <- list("project1" = pangia_assignment1, "project2" = pangia_assignment2)
 #
 #
-merged <- merge_pangia_assignments(input)
+merged <- merge_edge_assignments(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))

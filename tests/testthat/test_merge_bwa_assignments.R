@@ -1,8 +1,7 @@
 #
 # load BWA assignment
 #
-dat1 <- data.frame(load_bwa_assignment(
-  "../test_data/SSputum-no-cDNA/bwa/allReads-bwa.list.txt"))
+dat1 <- load_edge_assignment("../test_data/SSputum-no-cDNA/bwa/allReads-bwa.list.txt", type = 'bwa')
 
 # extract species list
 #
@@ -28,6 +27,7 @@ bwa_assignment2 <- rbind(species2, bwa_assignment2)
 input <- list("project1" = bwa_assignment1, "project2" = bwa_assignment2)
 #
 #
-merged <- merge_bwa_assignments(input)
+merged <- merge_edge_assignments(input)
 #
 expect_that(dim(merged)[1], equals(dim(dat1)[1]))
+

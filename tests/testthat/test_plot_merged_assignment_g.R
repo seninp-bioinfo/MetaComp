@@ -54,14 +54,14 @@ projects <- dplyr::filter(projects, !(is.na(assignment)))
 # make a list
 #
 input_assignments_list <- plyr::dlply(projects, plyr::.(accession), function(x){
-  dat <- load_gottcha_assignment(x$assignment)
+  dat <- load_edge_assignment(x$assignment, type = 'gottcha')
   dat
 })
 names(input_assignments_list) <- projects$accession
 #
 #
 #
-merged <- merge_gottcha_assignments(input_assignments_list)
+merged <- merge_edge_assignments(input_assignments_list)
 #
 # create a folder
 #

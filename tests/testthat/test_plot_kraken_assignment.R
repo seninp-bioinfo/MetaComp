@@ -1,8 +1,7 @@
 #
-# load GOTTCHA assignment
+# load KRAKEN assignment
 #
-dat <- data.frame(load_kraken_assignment(
-  "../test_data/SSputum-no-cDNA/kraken_mini/allReads-kraken_mini.list.txt"))
+dat <- load_edge_assignment("../test_data/SSputum-no-cDNA/kraken_mini/allReads-kraken_mini.list.txt", type = 'kraken')
 
 # create an outout folder
 #
@@ -16,7 +15,7 @@ png_name <- file.path(tmp_folder, "test_png.png")
 
 # generate a PDF and also get a ggplot out
 #
-gplot <- plot_kraken_assignment(dat, "family", "Test Plot #1",
+gplot <- plot_edge_assignment(dat, "family", "Test Plot #1",
              "SSputum-no-cDNA", file.path(tmp_folder, "test_pdf"))
 
 # write down the plot as PNG

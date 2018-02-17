@@ -1,8 +1,8 @@
 #
-# load GOTTCHA assignment #1
+# load METAPHLAN assignment
 #
-dat <- data.frame(load_metaphlan_assignment(
-  "../test_data/SSputum-dil-DNase-cDNA/metaphlan/allReads-metaphlan.list.txt"))
+dat <- load_edge_assignment(file.path("../test_data/SSputum-dil-DNase-cDNA/metaphlan",
+        "allReads-metaphlan.list.txt"), type = 'metaphlan')
 
 # columns import test
 expect_that( dim(dat)[1], equals(25) )
@@ -14,7 +14,7 @@ expect_that( dim(dat)[2], equals(4) )
 expect_that(colnames(dat)[1], matches("LEVEL"))
 
 #
-expect_that(colnames(dat)[ dim(dat)[2] ], matches("ASSIGNED"))
+expect_that(colnames(dat)[ dim(dat)[2] ], matches("ABUNDANCE"))
 
 # [0.0] subset family
 family_table <- dplyr::filter( dat, LEVEL == "family")
@@ -23,16 +23,16 @@ family_table <- dplyr::filter( dat, LEVEL == "family")
 ent_row <- dplyr::filter( family_table, TAXA == "Propionibacteriaceae")
 
 # [0.2] test
-expect_that(ent_row$ROLLUP, equals(15.76274))
+expect_that(ent_row$ABUNDANCE, equals(15.76274))
 
 #
 # test the failure
 #
-expect_that(load_metaphlan_assignment("../test_data/nonexistentfile.txt"), throws_error())
+expect_that(load_edge_assignment("../test_data/nonexistentfile.txt", type = 'metaphlan'), throws_error())
 
 #
 # test an empty file
 #
-empty_df <- load_metaphlan_assignment("../test_data/an_empty_file.tsv")
+empty_df <- load_edge_assignment("../test_data/an_empty_file.tsv", type = 'metaphlan')
 expect_that(colnames(empty_df), equals( c("LEVEL", "TAXA", "COUNT", "ABUNDANCE") ) )
 expect_that(dim(empty_df)[1], equals(0) )
