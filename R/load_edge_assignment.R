@@ -19,6 +19,14 @@ NULL
 #' @return a data frame containing four columns: TAXA, LEVEL, COUNT, and ABUNDANCE, representing
 #'         taxonomically anchored sequences from the sample.
 #'
+#' @examples
+#' pa_fpath <- system.file("extdata", "HMP_even//allReads-pangia.list.txt", package="MetaComp")
+#' pangia_assignment = load_edge_assignment(pa_fpath, type = "pangia")
+#'
+#' table(pangia_assignment$LEVEL)
+#'
+#' pangia_assignment[pangia_assignment$LEVEL == "phylum",]
+#'
 #' @export
 load_edge_assignment <- function(filepath, type) {
 

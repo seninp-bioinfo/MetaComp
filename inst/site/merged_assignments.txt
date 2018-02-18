@@ -1,240 +1,111 @@
-"LEVEL"	"TAXA"	"HMP_even"	"HMP_stagger"	"test_all_taxa"
-"class"	"Actinobacteria"	0.0457	0.0023	0
-"class"	"Alphaproteobacteria"	0.0273	0.1729	0
-"class"	"Bacilli"	0.2071	0.6349	0
-"class"	"Bacteroidia"	0.1165	3e-04	0
-"class"	"Betaproteobacteria"	0.0285	0.0013	0
-"class"	"Clostridia"	0.0495	0.0176	0
-"class"	"Deinococci"	0.3415	0.002	0
-"class"	"Epsilonproteobacteria"	0.0346	0.0012	0
-"class"	"Gammaproteobacteria"	0.1404	0.1131	1
-"class"	"Methanobacteria"	0.0089	0.0543	0
-"family"	"Bacillaceae"	0.0096	0.0036	0
-"family"	"Bacteroidaceae"	0.1165	3e-04	0
-"family"	"Clostridiaceae"	0.0495	0.0176	0
-"family"	"Deinococcaceae"	0.3415	0.002	0
-"family"	"Enterobacteriaceae"	0.0182	0.0876	0.9998
-"family"	"Enterococcaceae"	0.0163	0	0
-"family"	"Flaviviridae"	0	0	0
-"family"	"Helicobacteraceae"	0.0346	0.0012	0
-"family"	"Lactobacillaceae"	3e-04	1e-04	0
-"family"	"Listeriaceae"	0.0241	9e-04	0
-"family"	"Methanobacteriaceae"	0.0089	0.0543	0
-"family"	"Moraxellaceae"	0.1147	0.0043	0
-"family"	"Neisseriaceae"	0.0285	0.0013	0
-"family"	"Picornaviridae"	0	0	2e-04
-"family"	"Propionibacteriaceae"	0.0457	0.0023	0
-"family"	"Pseudomonadaceae"	0.0075	0.0209	0
-"family"	"Rhodobacteraceae"	0.0273	0.1729	0
-"family"	"Staphylococcaceae"	0.0887	0.5197	0
-"family"	"Streptococcaceae"	0.0682	0.1106	0
-"family"	"Xanthomonadaceae"	0	1e-04	0
-"family"	"Yersiniaceae"	1e-04	2e-04	0
-"genus"	"Acinetobacter"	0.1147	0.0043	0
-"genus"	"Bacillus"	0.0096	0.0036	0
-"genus"	"Bacteroides"	0.1165	3e-04	0
-"genus"	"Cardiovirus"	0	0	2e-04
-"genus"	"Clostridium"	0.0495	0.0176	0
-"genus"	"Deinococcus"	0.3415	0.002	0
-"genus"	"Enterococcus"	0.0163	0	0
-"genus"	"Escherichia"	0.0165	0.0794	0.9249
-"genus"	"Helicobacter"	0.0346	0.0012	0
-"genus"	"Hepacivirus"	0	0	0
-"genus"	"Lactobacillus"	3e-04	1e-04	0
-"genus"	"Listeria"	0.0241	9e-04	0
-"genus"	"Methanobrevibacter"	0.0089	0.0543	0
-"genus"	"Neisseria"	0.0285	0.0013	0
-"genus"	"Propionibacterium"	0.0457	0.0023	0
-"genus"	"Pseudomonas"	0.0075	0.0209	0
-"genus"	"Rhodobacter"	0.0273	0.1729	0
-"genus"	"Serratia"	1e-04	2e-04	0
-"genus"	"Shigella"	0.0017	0.0082	0.0749
-"genus"	"Staphylococcus"	0.0887	0.5197	0
-"genus"	"Stenotrophomonas"	0	1e-04	0
-"genus"	"Streptococcus"	0.0682	0.1106	0
-"order"	"Bacillales"	0.1224	0.5242	0
-"order"	"Bacteroidales"	0.1165	3e-04	0
-"order"	"Campylobacterales"	0.0346	0.0012	0
-"order"	"Clostridiales"	0.0495	0.0176	0
-"order"	"Deinococcales"	0.3415	0.002	0
-"order"	"Enterobacterales"	0.0183	0.0878	0.9998
-"order"	"Lactobacillales"	0.0848	0.1107	0
-"order"	"Methanobacteriales"	0.0089	0.0543	0
-"order"	"Neisseriales"	0.0285	0.0013	0
-"order"	"Picornavirales"	0	0	2e-04
-"order"	"Propionibacteriales"	0.0457	0.0023	0
-"order"	"Pseudomonadales"	0.1222	0.0251	0
-"order"	"Rhodobacterales"	0.0273	0.1729	0
-"order"	"Xanthomonadales"	0	1e-04	0
-"phylum"	"Actinobacteria"	0.0457	0.0023	0
-"phylum"	"Bacteroidetes"	0.1165	3e-04	0
-"phylum"	"Deinococcus-Thermus"	0.3415	0.002	0
-"phylum"	"Euryarchaeota"	0.0089	0.0543	0
-"phylum"	"Firmicutes"	0.2566	0.6525	0
-"phylum"	"Proteobacteria"	0.2308	0.2886	1
-"species"	"Acinetobacter baumannii"	0.1128	0.0042	0
-"species"	"Acinetobacter oleivorans"	7e-04	0	0
-"species"	"Acinetobacter pittii"	0.0011	0	0
-"species"	"Acinetobacter sp. ADP1"	0	0	0
-"species"	"Bacillus cereus"	0.0077	0.0029	0
-"species"	"Bacillus thuringiensis"	0.0012	5e-04	0
-"species"	"Bacteroides vulgatus"	0.1155	3e-04	0
-"species"	"Cardiovirus A"	0	0	2e-04
-"species"	"Clostridium beijerinckii"	0.0492	0.0175	0
-"species"	"Deinococcus radiodurans"	0.3412	0.002	0
-"species"	"Enterococcus faecalis"	0.0163	0	0
-"species"	"Escherichia coli"	0.0165	0.0793	0.924
-"species"	"Escherichia fergusonii"	0	0	9e-04
-"species"	"Helicobacter pylori"	0.0346	0.0012	0
-"species"	"Lactobacillus gasseri"	3e-04	1e-04	0
-"species"	"Listeria monocytogenes"	0.024	9e-04	0
-"species"	"Methanobrevibacter smithii"	0.0089	0.0543	0
-"species"	"Neisseria meningitidis"	0.0265	0.0012	0
-"species"	"Propionibacterium acnes"	0.0457	0.0023	0
-"species"	"Pseudomonas aeruginosa"	0.0075	0.0209	0
-"species"	"Rhodobacter sphaeroides"	0.0273	0.1729	0
-"species"	"Serratia marcescens"	1e-04	2e-04	0
-"species"	"Shigella boydii"	0	0.0019	0.018
-"species"	"Shigella dysenteriae"	0	7e-04	0.0056
-"species"	"Shigella flexneri"	0	0.0035	0.0309
-"species"	"Shigella sonnei"	0	0	0.0203
-"species"	"Staphylococcus argenteus"	0	6e-04	0
-"species"	"Staphylococcus aureus"	0.0389	0.2926	0
-"species"	"Staphylococcus epidermidis"	0.0496	0.2255	0
-"species"	"Staphylococcus haemolyticus"	1e-04	4e-04	0
-"species"	"Staphylococcus lugdunensis"	0	2e-04	0
-"species"	"Staphylococcus pseudintermedius"	0	1e-04	0
-"species"	"Staphylococcus warneri"	0	1e-04	0
-"species"	"Stenotrophomonas maltophilia"	0	1e-04	0
-"species"	"Streptococcus agalactiae"	0.001	0.006	0
-"species"	"Streptococcus dysgalactiae"	0	1e-04	0
-"species"	"Streptococcus mutans"	0.0222	0.1037	0
-"species"	"Streptococcus pneumoniae"	0.0443	1e-04	0
-"strain"	"Acinetobacter baumannii 1656-2"	0.0079	3e-04	0
-"strain"	"Acinetobacter baumannii AB0057"	0.0085	3e-04	0
-"strain"	"Acinetobacter baumannii AB307-0294"	0.0084	3e-04	0
-"strain"	"Acinetobacter baumannii ACICU"	0.0077	3e-04	0
-"strain"	"Acinetobacter baumannii AYE"	0.0083	0	0
-"strain"	"Acinetobacter baumannii BJAB07104"	0.0078	3e-04	0
-"strain"	"Acinetobacter baumannii BJAB0715"	0.0108	4e-04	0
-"strain"	"Acinetobacter baumannii BJAB0868"	0.0076	3e-04	0
-"strain"	"Acinetobacter baumannii D1279779"	0.0115	4e-04	0
-"strain"	"Acinetobacter baumannii MDR-TJ"	0.0077	3e-04	0
-"strain"	"Acinetobacter baumannii MDR-ZJ06"	0.0075	3e-04	0
-"strain"	"Acinetobacter baumannii TYTH-1"	0.0075	3e-04	0
-"strain"	"Acinetobacter baumannii ZW85-1"	0.0111	4e-04	0
-"strain"	"Acinetobacter oleivorans DR1"	7e-04	0	0
-"strain"	"Acinetobacter pittii PHEA-2"	0.0011	0	0
-"strain"	"Acinetobacter sp. ADP1"	0	0	0
-"strain"	"Bacillus cereus ATCC 10987"	0.0037	0.0014	0
-"strain"	"Bacillus cereus biovar anthracis"	0	1e-04	0
-"strain"	"Bacillus cereus biovar anthracis str. CI"	0	1e-04	0
-"strain"	"Bacillus cereus E33L"	2e-04	0	0
-"strain"	"Bacillus cereus FRI-35"	0.0016	6e-04	0
-"strain"	"Bacillus cereus Q1"	5e-04	0	0
-"strain"	"Bacillus thuringiensis HD-789"	1e-04	0	0
-"strain"	"Bacillus thuringiensis MC28"	0	0	0
-"strain"	"Bacteroides vulgatus ATCC 8482"	0.1152	3e-04	0
-"strain"	"Clostridium beijerinckii NCIMB 8052"	0.049	0.0172	0
-"strain"	"Deinococcus radiodurans R1"	0.3402	0.002	0
-"strain"	"Encephalomyocarditis virus"	0	0	2e-04
-"strain"	"Enterococcus faecalis OG1RF"	0.0057	0	0
-"strain"	"Escherichia coli 042"	0	7e-04	0.0051
-"strain"	"Escherichia coli 55989"	0	0	0.011
-"strain"	"Escherichia coli APEC O1"	0	4e-04	0
-"strain"	"Escherichia coli APEC O78"	0	0	0.0138
-"strain"	"Escherichia coli CFT073"	0	4e-04	0.0023
-"strain"	"Escherichia coli DH1"	0.0015	0.0071	0.1037
-"strain"	"Escherichia coli ED1a"	0	0	0.0027
-"strain"	"Escherichia coli ETEC H10407"	0	0.0024	0
-"strain"	"Escherichia coli HS"	0	0.0017	0
-"strain"	"Escherichia coli O104:H4 str. 2009EL-2050"	2e-04	0	0
-"strain"	"Escherichia coli O111:H- str. 11128"	0	0.0011	0
-"strain"	"Escherichia coli O157:H7 str. EDL933"	0	9e-04	0
-"strain"	"Escherichia coli O44:H18"	0	7e-04	0.0051
-"strain"	"Escherichia coli P12b"	0	0.0023	0
-"strain"	"Escherichia coli SE11"	0	0.0012	0
-"strain"	"Escherichia coli SMS-3-5"	0	6e-04	0.0039
-"strain"	"Escherichia coli str. K-12 substr. MDS42"	0	0	0.0413
-"strain"	"Escherichia coli str. K-12 substr. MG1655"	0	0	0.053
-"strain"	"Escherichia coli UMN026"	0	0	0.0061
-"strain"	"Escherichia fergusonii ATCC 35469"	0	0	9e-04
-"strain"	"Helicobacter pylori 26695"	0.0097	0	0
-"strain"	"Helicobacter pylori Aklavik86"	2e-04	0	0
-"strain"	"Helicobacter pylori F32"	3e-04	0	0
-"strain"	"Helicobacter pylori OK113"	3e-04	0	0
-"strain"	"Lactobacillus gasseri ATCC 33323 = JCM 1131"	3e-04	1e-04	0
-"strain"	"Listeria monocytogenes EGD-e"	0.0022	1e-04	0
-"strain"	"Listeria monocytogenes SLCC2376"	2e-04	0	0
-"strain"	"Methanobrevibacter smithii ATCC 35061"	0.0089	0.0534	0
-"strain"	"Neisseria meningitidis G2136"	0.0014	0	0
-"strain"	"Neisseria meningitidis H44/76"	0.0039	0	0
-"strain"	"Neisseria meningitidis M01-240355"	0.0015	0	0
-"strain"	"Neisseria meningitidis M04-240196"	0.0022	0	0
-"strain"	"Neisseria meningitidis MC58"	0.0043	2e-04	0
-"strain"	"Propionibacterium acnes KPA171202"	0.0067	3e-04	0
-"strain"	"Propionibacterium acnes subsp. defendens ATCC 11828"	0.0033	2e-04	0
-"strain"	"Pseudomonas aeruginosa B136-33"	4e-04	0.001	0
-"strain"	"Pseudomonas aeruginosa M18"	4e-04	0.0012	0
-"strain"	"Pseudomonas aeruginosa PA7"	0	3e-04	0
-"strain"	"Rhodobacter sphaeroides 2.4.1"	0.0152	0.0945	0
-"strain"	"Rhodobacter sphaeroides ATCC 17025"	0	8e-04	0
-"strain"	"Rhodobacter sphaeroides ATCC 17029"	0.0065	0.0409	0
-"strain"	"Rhodobacter sphaeroides KD131"	0.0054	0.0338	0
-"strain"	"Serratia marcescens WW4"	1e-04	2e-04	0
-"strain"	"Shigella boydii CDC 3083-94"	0	9e-04	0.0086
-"strain"	"Shigella dysenteriae Sd197"	0	7e-04	0.0054
-"strain"	"Shigella flexneri 2002017"	0	9e-04	0
-"strain"	"Shigella flexneri 5 str. 8401"	0	9e-04	0.0074
-"strain"	"Shigella sonnei Ss046"	0	0	0.0096
-"strain"	"Staphylococcus argenteus sp. aureus"	0	6e-04	0
-"strain"	"Staphylococcus aureus 08BA02176"	0	0.0038	0
-"strain"	"Staphylococcus aureus Bmb9393"	8e-04	0.0063	0
-"strain"	"Staphylococcus aureus CA-347"	6e-04	0.0048	0
-"strain"	"Staphylococcus aureus M1"	0	0.0078	0
-"strain"	"Staphylococcus aureus RF122"	6e-04	0.0044	0
-"strain"	"Staphylococcus aureus subsp. aureus 11819-97"	0.0011	0.0085	0
-"strain"	"Staphylococcus aureus subsp. aureus 6850"	6e-04	0.0047	0
-"strain"	"Staphylococcus aureus subsp. aureus 71193"	5e-04	0	0
-"strain"	"Staphylococcus aureus subsp. aureus CN1"	0.0014	0.0098	0
-"strain"	"Staphylococcus aureus subsp. aureus ED133"	7e-04	0.0051	0
-"strain"	"Staphylococcus aureus subsp. aureus ED98"	8e-04	0.0062	0
-"strain"	"Staphylococcus aureus subsp. aureus HO 5096 0412"	8e-04	0.0058	0
-"strain"	"Staphylococcus aureus subsp. aureus JKD6159"	7e-04	0.0053	0
-"strain"	"Staphylococcus aureus subsp. aureus LGA251"	6e-04	0.0046	0
-"strain"	"Staphylococcus aureus subsp. aureus M013"	0	0.0044	0
-"strain"	"Staphylococcus aureus subsp. aureus MRSA252"	6e-04	0.0041	0
-"strain"	"Staphylococcus aureus subsp. aureus MSSA476"	0.001	0.0074	0
-"strain"	"Staphylococcus aureus subsp. aureus MW2"	0	0.0075	0
-"strain"	"Staphylococcus aureus subsp. aureus NCTC 8325"	9e-04	0.007	0
-"strain"	"Staphylococcus aureus subsp. aureus ST228"	0.0066	0.049	0
-"strain"	"Staphylococcus aureus subsp. aureus ST398"	0	0.0039	0
-"strain"	"Staphylococcus aureus subsp. aureus ST72"	0.0014	0.0098	0
-"strain"	"Staphylococcus aureus subsp. aureus str. JKD6008"	8e-04	0.0063	0
-"strain"	"Staphylococcus aureus subsp. aureus str. Newman"	0.001	0.0079	0
-"strain"	"Staphylococcus aureus subsp. aureus TCH60"	0	0.0039	0
-"strain"	"Staphylococcus aureus subsp. aureus TW20"	9e-04	0.0064	0
-"strain"	"Staphylococcus aureus subsp. aureus USA300_TCH1516"	0	0.0075	0
-"strain"	"Staphylococcus epidermidis ATCC 12228"	0.0283	0.1267	0
-"strain"	"Staphylococcus epidermidis RP62A"	0.0211	0.0951	0
-"strain"	"Staphylococcus haemolyticus JCSC1435"	1e-04	4e-04	0
-"strain"	"Staphylococcus lugdunensis HKU09-01"	0	1e-04	0
-"strain"	"Staphylococcus lugdunensis N920143"	0	1e-04	0
-"strain"	"Staphylococcus warneri SG1"	0	1e-04	0
-"strain"	"Stenotrophomonas maltophilia D457"	0	0	0
-"strain"	"Stenotrophomonas maltophilia group"	0	1e-04	0
-"strain"	"Stenotrophomonas maltophilia JV3"	0	0	0
-"strain"	"Stenotrophomonas maltophilia K279a"	0	1e-04	0
-"strain"	"Streptococcus agalactiae 2603V/R"	2e-04	0.0014	0
-"strain"	"Streptococcus agalactiae ILRI005"	1e-04	7e-04	0
-"strain"	"Streptococcus agalactiae serogroup V"	2e-04	0.0014	0
-"strain"	"Streptococcus dysgalactiae subsp. equisimilis RE378"	0	0	0
-"strain"	"Streptococcus mutans GS-5"	0.0053	0.0245	0
-"strain"	"Streptococcus mutans LJ23"	0	0.0216	0
-"strain"	"Streptococcus mutans NN2025"	0	0.022	0
-"strain"	"Streptococcus mutans UA159"	0.0073	0.0337	0
-"strain"	"Streptococcus pneumoniae AP200"	0	0	0
-"strain"	"Streptococcus pneumoniae TIGR4"	0.0047	0	0
-"superkingdom"	"Archaea"	0.0089	0.0543	0
-"superkingdom"	"Bacteria"	0.9911	0.9457	0.9998
-"superkingdom"	"Viruses"	0	0	2e-04
+"LEVEL"	"TAXA"	"Project_248"	"SSputum-dil-DNase-cDNA"	"SSputum-dil-DNase-RAB"	"SSputum-dil-no-cDNA"	"SSputum-dil-no-RAB"	"SSputum-DNase-cDNA"	"SSputum-DNase-RAB"	"SSputum-no-cDNA"	"SSputum-no-RAB"
+"class"	"Actinobacteria"	0	77.47643	0	25.57721	0	71.77754	0	23.82496	100
+"class"	"Bacilli"	8.32286	0	0	7.87264	0	0	0	10.47293	0
+"class"	"Bacteroidia"	71.98234	0	0	0	0	0	0	1.85827	0
+"class"	"Betaproteobacteria"	0	8.56136	0	17.37323	0	0	0	10.66978	0
+"class"	"Clostridia"	0	0	0	0	0	0	0	0.90434	0
+"class"	"Gammaproteobacteria"	0	13.96221	0	49.17693	100	28.22246	0	52.11151	0
+"class"	"Negativicutes"	19.69479	0	0	0	0	0	0	0.1582	0
+"family"	"Actinomycetaceae"	0	0	0	0	0	0	0	0.21302	0
+"family"	"Bacillales uncl"	0	0	0	0	0	0	0	0.14797	0
+"family"	"Clostridiales Family XI Incertae Sedis"	0	0	0	0	0	0	0	0.90434	0
+"family"	"Comamonadaceae"	0	0.7304	0	0	0	0	0	0	0
+"family"	"Coriobacteriaceae"	0	0	0	0	0	0	0	0.26195	0
+"family"	"Corynebacteriaceae"	0	0	0	23.29752	0	1.70137	0	19.86486	100
+"family"	"Dermacoccaceae"	0	14.19004	0	0	0	0	0	0	0
+"family"	"Enterobacteriaceae"	0	0	0	3.84821	0	0	0	4.77664	0
+"family"	"Enterococcaceae"	0	0	0	0	0	0	0	0.16697	0
+"family"	"Lactobacillaceae"	0	0	0	2.43381	0	0	0	2.65346	0
+"family"	"Microbacteriaceae"	0	47.52366	0	0	0	70.07617	0	0	0
+"family"	"Micrococcaceae"	0	0	0	2.27968	0	0	0	3.48514	0
+"family"	"Moraxellaceae"	0	13.96221	0	15.32731	100	28.22246	0	14.02089	0
+"family"	"Neisseriaceae"	0	7.83096	0	17.37323	0	0	0	10.66978	0
+"family"	"Pasteurellaceae"	0	0	0	20.21912	0	0	0	17.18428	0
+"family"	"Porphyromonadaceae"	31.7593	0	0	0	0	0	0	0.20668	0
+"family"	"Prevotellaceae"	40.22304	0	0	0	0	0	0	1.65159	0
+"family"	"Propionibacteriaceae"	0	15.76274	0	0	0	0	0	0	0
+"family"	"Pseudomonadaceae"	0	0	0	7.13347	0	0	0	12.1222	0
+"family"	"Staphylococcaceae"	0	0	0	0	0	0	0	0.97648	0
+"family"	"Streptococcaceae"	8.32286	0	0	5.43883	0	0	0	6.52806	0
+"family"	"Veillonellaceae"	19.69479	0	0	0	0	0	0	0.1582	0
+"family"	"Xanthomonadaceae"	0	0	0	2.64882	0	0	0	4.0075	0
+"genus"	"Acinetobacter"	0	0	0	0	0	0	0	2.16007	0
+"genus"	"Actinomyces"	0	0	0	0	0	0	0	0.21302	0
+"genus"	"Atopobium"	0	0	0	0	0	0	0	0.26195	0
+"genus"	"Corynebacterium"	0	0	0	23.29752	0	1.70137	0	19.86486	100
+"genus"	"Delftia"	0	0.7304	0	0	0	0	0	0	0
+"genus"	"Dermacoccus"	0	14.19004	0	0	0	0	0	0	0
+"genus"	"Enterococcus"	0	0	0	0	0	0	0	0.16697	0
+"genus"	"Escherichia"	0	0	0	1.54843	0	0	0	1.59947	0
+"genus"	"Gemella"	0	0	0	0	0	0	0	0.14797	0
+"genus"	"Haemophilus"	0	0	0	20.21912	0	0	0	17.18428	0
+"genus"	"Klebsiella"	0	0	0	2.29979	0	0	0	3.17718	0
+"genus"	"Lactobacillus"	0	0	0	2.43381	0	0	0	2.65346	0
+"genus"	"Megasphaera"	0.45657	0	0	0	0	0	0	0	0
+"genus"	"Moraxella"	0	13.96221	0	15.32731	100	28.22246	0	11.86083	0
+"genus"	"Neisseria"	0	0	0	16.63209	0	0	0	8.4891	0
+"genus"	"Peptoniphilus"	0	0	0	0	0	0	0	0.90434	0
+"genus"	"Porphyromonas"	31.7593	0	0	0	0	0	0	0.20668	0
+"genus"	"Prevotella"	40.22304	0	0	0	0	0	0	1.65159	0
+"genus"	"Propionibacterium"	0	15.76274	0	0	0	0	0	0	0
+"genus"	"Pseudomonas"	0	0	0	7.13347	0	0	0	12.1222	0
+"genus"	"Rothia"	0	0	0	2.27968	0	0	0	3.48514	0
+"genus"	"Staphylococcus"	0	0	0	0	0	0	0	0.97648	0
+"genus"	"Stenotrophomonas"	0	0	0	2.64882	0	0	0	4.0075	0
+"genus"	"Streptococcus"	8.32286	0	0	5.43883	0	0	0	6.52806	0
+"genus"	"Tropheryma"	0	47.52366	0	0	0	70.07617	0	0	0
+"genus"	"Veillonella"	19.23822	0	0	0	0	0	0	0.1582	0
+"kingdom"	"Bacteria"	100	100	0	100	100	100	0	100	100
+"order"	"Actinomycetales"	0	77.47643	0	25.57721	0	71.77754	0	23.56301	100
+"order"	"Bacillales"	0	0	0	0	0	0	0	1.12445	0
+"order"	"Bacteroidales"	71.98234	0	0	0	0	0	0	1.85827	0
+"order"	"Burkholderiales"	0	0.7304	0	0	0	0	0	0	0
+"order"	"Clostridiales"	0	0	0	0	0	0	0	0.90434	0
+"order"	"Coriobacteriales"	0	0	0	0	0	0	0	0.26195	0
+"order"	"Enterobacteriales"	0	0	0	3.84821	0	0	0	4.77664	0
+"order"	"Lactobacillales"	8.32286	0	0	7.87264	0	0	0	9.34848	0
+"order"	"Neisseriales"	0	7.83096	0	17.37323	0	0	0	10.66978	0
+"order"	"Pasteurellales"	0	0	0	20.21912	0	0	0	17.18428	0
+"order"	"Pseudomonadales"	0	13.96221	0	22.46077	100	28.22246	0	26.14309	0
+"order"	"Selenomonadales"	19.69479	0	0	0	0	0	0	0.1582	0
+"order"	"Xanthomonadales"	0	0	0	2.64882	0	0	0	4.0075	0
+"phylum"	"Actinobacteria"	0	77.47643	0	25.57721	0	71.77754	0	23.82496	100
+"phylum"	"Bacteroidetes"	71.98234	0	0	0	0	0	0	1.85827	0
+"phylum"	"Firmicutes"	28.01766	0	0	7.87264	0	0	0	11.53547	0
+"phylum"	"Proteobacteria"	0	22.52357	0	66.55016	100	28.22246	0	62.78129	0
+"species"	"Acinetobacter baumannii"	0	0	0	0	0	0	0	2.16007	0
+"species"	"Actinomyces odontolyticus"	0	0	0	0	0	0	0	0.21302	0
+"species"	"Atopobium parvulum"	0	0	0	0	0	0	0	0.04448	0
+"species"	"Atopobium vaginae"	0	0	0	0	0	0	0	0.21747	0
+"species"	"Corynebacterium striatum"	0	0	0	23.29752	0	1.70137	0	19.86486	100
+"species"	"Delftia acidovorans"	0	0.7304	0	0	0	0	0	0	0
+"species"	"Enterococcus faecalis"	0	0	0	0	0	0	0	0.16697	0
+"species"	"Escherichia coli"	0	0	0	0	0	0	0	1.59947	0
+"species"	"Haemophilus influenzae"	0	0	0	20.21912	0	0	0	14.99928	0
+"species"	"Haemophilus parainfluenzae"	0	0	0	0	0	0	0	0.61133	0
+"species"	"Klebsiella pneumoniae"	0	0	0	1.24947	0	0	0	1.43005	0
+"species"	"Lactobacillus fermentum"	0	0	0	0	0	0	0	0.52209	0
+"species"	"Lactobacillus rhamnosus"	0	0	0	2.43381	0	0	0	2.13138	0
+"species"	"Megasphaera micronuciformis"	0.45657	0	0	0	0	0	0	0	0
+"species"	"Moraxella catarrhalis"	0	13.96221	0	15.32731	100	28.22246	0	11.86083	0
+"species"	"Neisseria mucosa"	0	0	0	16.63209	0	0	0	8.4891	0
+"species"	"Porphyromonas endodontalis"	31.7593	0	0	0	0	0	0	0.20668	0
+"species"	"Prevotella bivia"	0	0	0	0	0	0	0	0.70311	0
+"species"	"Prevotella melaninogenica"	0	0	0	0	0	0	0	0.34949	0
+"species"	"Prevotella oris"	21.26904	0	0	0	0	0	0	0.03023	0
+"species"	"Prevotella tannerae"	18.954	0	0	0	0	0	0	0	0
+"species"	"Prevotella veroralis"	0	0	0	0	0	0	0	0.56876	0
+"species"	"Propionibacterium acnes"	0	15.76274	0	0	0	0	0	0	0
+"species"	"Pseudomonas aeruginosa"	0	0	0	7.13347	0	0	0	11.74115	0
+"species"	"Pseudomonas fluorescens"	0	0	0	0	0	0	0	0.38105	0
+"species"	"Rothia mucilaginosa"	0	0	0	2.27968	0	0	0	3.48514	0
+"species"	"Staphylococcus aureus"	0	0	0	0	0	0	0	0.97648	0
+"species"	"Stenotrophomonas maltophilia"	0	0	0	2.64882	0	0	0	4.0075	0
+"species"	"Streptococcus agalactiae"	0	0	0	0	0	0	0	0.90162	0
+"species"	"Streptococcus australis"	0	0	0	0	0	0	0	0.12389	0
+"species"	"Streptococcus infantis"	0	0	0	0	0	0	0	0.56578	0
+"species"	"Streptococcus mitis"	0	0	0	1.47868	0	0	0	0.88703	0
+"species"	"Streptococcus parasanguinis"	8.32286	0	0	3.96015	0	0	0	3.78202	0
+"species"	"Streptococcus salivarius"	0	0	0	0	0	0	0	0.26771	0
+"species"	"Tropheryma whipplei"	0	47.52366	0	0	0	70.07617	0	0	0
+"species"	"Veillonella atypica"	19.23822	0	0	0	0	0	0	0	0

@@ -29,3 +29,12 @@ for the very file existence. Note however, the unassigned to taxa entries are re
 This implementation fully relies on the fread function from data.table package
 gaining performance over traditional R techniques.
 }
+\examples{
+pa_fpath <- system.file("extdata", "HMP_even//allReads-pangia.list.txt", package="MetaComp")
+pangia_assignment = load_edge_assignment(pa_fpath, type = "pangia")
+
+table(pangia_assignment$LEVEL)
+
+pangia_assignment[pangia_assignment$LEVEL == "phylum",]
+
+}

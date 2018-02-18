@@ -10,6 +10,19 @@ NULL
 #'
 #' @return A merged table, which is a data frame whose rows are taxonomical ids and columns are
 #'          the input assignments ids.
+#' @examples
+#' \dontrun{
+#' hmp_even_fp <- system.file("extdata", "HMP_even", package="MetaComp")
+#' hmp_stagger_fp <- system.file("extdata", "HMP_stagger", package="MetaComp")
+#' data_files <- data.frame(V1 = c("HMP_even", "HMP_stagger"),
+#'                          V2 = c(file.path(hmp_even_fp, "allReads-gottcha2-speDB-b.list.txt"),
+#'                                 file.path(hmp_stagger_fp, "allReads-gottcha2-speDB-b.list.txt")))
+#' write.table(data_files, file.path(tempdir(), "assignments.txt"),
+#'                                                  row.names = FALSE, col.names = FALSE)
+#' gottcha2_assignments = merge_edge_assignments(
+#'                          load_edge_assignments(
+#'                            file.path(tempdir(), "assignments.txt"), type = "gottcha2")
+#' }
 #'
 #' @export
 merge_edge_assignments <- function(assignments) {
