@@ -1,0 +1,1 @@
+Buccal_mucosa_male_SRR061287  ../../tests/test_data/SRR061287/SRR061287_gottcha2-speDB-refseq/allReads.summary.tsv

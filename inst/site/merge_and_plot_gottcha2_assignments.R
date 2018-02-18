@@ -26,7 +26,7 @@ if (length(args) > 5) {
 }
 #
 # read the data and produce the merged table
-merged <- merge_gottcha_assignments(load_gottcha2_assignments(srcFile))
+merged <- merge_edge_assignments(load_edge_assignments(srcFile, type = "gottcha2"))
 #
 # write the merge table as a TAB-delimeted file
 write.table(merged, file = destFile, col.names = T, row.names = F, quote = T, sep = "\t")
