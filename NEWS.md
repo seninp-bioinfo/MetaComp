@@ -1,4 +1,4 @@
-## MetaComp 1.1.0
+## MetaComp 1.1.1
 
 Updated package with parser for DIAMOND and PANGIA alignments.
 
