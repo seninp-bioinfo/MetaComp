@@ -32,7 +32,7 @@ write.table(data_files, file.path(tempdir(), "assignments.txt"),
                                                  row.names = FALSE, col.names = FALSE)
 gottcha2_assignments = merge_edge_assignments(
                          load_edge_assignments(
-                           file.path(tempdir(), "assignments.txt"), type = "gottcha2")
+                           file.path(tempdir(), "assignments.txt"), type = "gottcha2"))
 }
 
 }

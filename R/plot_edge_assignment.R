@@ -15,6 +15,13 @@ NULL
 #'
 #' @return the ggplot2 plot.
 #'
+#' @examples
+#' pa_fpath <- system.file("extdata", "HMP_even//allReads-pangia.list.txt", package="MetaComp")
+#' pangia_assignment = load_edge_assignment(pa_fpath, type = "pangia")
+#'
+#' plot_edge_assignment(pangia_assignment, "phylum", "Pangia", "HMP Even",
+#'                                                      file.path(tempdir(), "assignment.pdf"))
+#'
 #' @export
 plot_edge_assignment <- function(assignment, level, plot_title, column_title, filename) {
 
