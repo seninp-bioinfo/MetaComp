@@ -22,22 +22,22 @@ to use the library, simply load it into R environment:
     install_github(repo = 'seninp-bioinfo/MetaComp')
 
 #### 1.0 Reading a single taxonomic assignment files
-    the_gottcha_assignment <- load_gottcha_assignment(data_file_g)
-    the_kraken_assignment <- load_kraken_assignment(data_file_k)
-    the_metaphlan_assignment <- load_metaphlan_assignment(data_file_m)
+    the_gottcha2_assignment <- load_edge_assignment(data_file_g2, type = 'gottcha2')
+    the_kraken_assignment <- load_edge_assignment(data_file_k, type = 'kraken')
+    the_pangia_assignment <- load_edge_assignment(data_file_p, type = 'pangia')
     
 #### 1.1 Reading multiple taxonomic assignment files
 The package functions `load_xxx_assignments` (where `xxx` stands for gottcha, kraken, or metaphlan) are designed to read a tool-specific assignment files. The configuration file for these functions must be tab-delimeted two columns file where the first column is the project id (used as the project's name in plotting), and the second column is an actual assignment file path:
 
-    the_assignments_list_g <- load_gottcha_assignments(config_file_g)
-    the_assignments_list_k <- load_kraken_assignments(config_file_k)
-    the_assignments_list_m <- load_metaphlan_assignments(config_file_m)
+    the_assignments_list_g2 <- load_edge_assignments(config_file_g2, type = 'gottcha2')
+    the_assignments_list_k <- load_edge_assignments(config_file_k, type = 'kraken')
+    the_assignments_list_p <- load_edge_assignments(config_file_pangia, type = 'pangia')
 
 #### 2.0 Merging multiple taxonomic assignments into a single table
-The `merge_xxx_assignments` function is capable to merge a named list of GOTTCHA, Kraken, or MetaPhlAn assignments into a single table using `LEVEL` and `TAXA` columns as ids. 
+The `merge_edge_assignments` function is capable to merge a named list of GOTTCHA, Kraken, or MetaPhlAn assignments into a single table using `LEVEL` and `TAXA` columns as ids. 
 
 #### 3.0 Plotting a single assignment as a heatmap
-The function `plot_xxx_assignment` accepts a single assignment table and outputs a ggplot object or produces a PDF plot using ggplot2's `geom_tile`.
+The function `plot_edge_assignment` accepts a single assignment table and outputs a ggplot object or produces a PDF plot using ggplot2's `geom_tile`.
 
 ![Single column plot](https://raw.githubusercontent.com/seninp-bioinfo/MetaComp/master/inst/site/test1.png)
     
@@ -65,11 +65,19 @@ The following script can be used to run the merge procedure in a batch mode:
     taxonomyLevelArg <- args[3]
     plotTitleArg <- args[4]
     plotFileArg <- args[5]
-    rowLimitArg <- args[6]
-    sortingOrderArg <- args[7]
+    #
+    # extended functionality was added in the release #3, and we don't want to break the legacy systems
+    #
+    if (length(args) > 5) {
+        rowLimitArg <- args[6]
+        sortingOrderArg <- args[7]
+    } else {
+        rowLimitArg <- 60
+        sortingOrderArg <- "abundance"
+    }
     #
     # read the data and produce the merged table
-    merged <- merge_gottcha_assignments(load_gottcha_assignments(srcFile))
+    merged <- merge_edge_assignments(load_edge_assignments(srcFile, type = "gottcha2"))
     #
     # write the merge table as a TAB-delimeted file
     write.table(merged, file = destFile, col.names = T, row.names = F, quote = T, sep = "\t")
@@ -78,6 +86,7 @@ The following script can be used to run the merge procedure in a batch mode:
     plot_merged_assignment(assignment = merged, taxonomy_level = taxonomyLevelArg,
                        sorting_order = sortingOrderArg, row_limit = base::strtoi(rowLimitArg),
                        plot_title = plotTitleArg, filename = plotFileArg)
+
     
 To execute the scrip, use Rscript as shown below:
 
