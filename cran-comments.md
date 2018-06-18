@@ -1,17 +1,10 @@
-## This is resubmission
+## This is new submission
 
-Submission comments were:
-* Please use tempdir() in your examples if you want to same something (like the PDF heatmap-like plots).
-* We also see: New maintainer: Pavel Senin <senin@hawaii.edu> Old maintainer(s): Pavel Senin <psenin@lanl.gov> 
-  Please confirm via email from the old email address.
-
-Added examples to fix (1), and (2) I no longer have access to that email as I am no longer employed by LANL -- 
-which shouldn't matter cause I'm the same prson, LoL.
+Clearing CRAN warnings due to unspecified stringr:: imports in few tests.
 
 ## Changes
 
-Added new functions for parsing, merging, and plotting of DIAMOND and PANGIA EDGE-like output. 
-Redesigned API to make to make it simple and to the point.
+Used base package functionality intead of stringr:: functions.
 
 ## Test environments
 

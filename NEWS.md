@@ -1,3 +1,7 @@
+## MetaComp 1.1.2
+
+Maintenance release. Cleaning CRAN warnings due to unspecified stringr:: imports.
+
 ## MetaComp 1.1.1
 
 Updated package with parser for DIAMOND and PANGIA alignments.
