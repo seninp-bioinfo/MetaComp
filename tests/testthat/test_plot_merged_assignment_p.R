@@ -29,8 +29,7 @@ projects <- data.frame(folder = projects[c(grep(HMP_pattern, projects$folder), g
 # accessions (projects_id)
 #
 name_pattern <- paste(".*", .Platform$file.sep, "(.*)", sep = "")
-projects$accession <- paste("Project_", stringr::str_match(projects$folder,
-                                                           name_pattern)[, 2], sep = "")
+projects$accession <- paste0("Project_", gsub(name_pattern, "\\1", projects$folder, perl = T))
 #
 # taxonomic assignments
 #
