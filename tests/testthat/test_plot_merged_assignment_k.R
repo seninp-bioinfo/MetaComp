@@ -77,6 +77,6 @@ gplot <- plot_merged_assignment(assignment = merged,
                                 plot_title = "Test Plot #3",
                                 filename = file.path(tmp_folder, "test_pdf3"))
 
-expect_that(file.exists(file.path(tmp_folder, "test_pdf3.pdf")), is_true())
+expect_true(file.exists(file.path(tmp_folder, "test_pdf3.pdf")))
 
 unlink(tmp_folder, recursive = T)

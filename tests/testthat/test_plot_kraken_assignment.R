@@ -28,13 +28,13 @@ dev.off()
 
 # check that the files has been created
 #
-expect_that(file.exists(png_name), is_true())
-expect_that(file.exists(pdf_name), is_true())
+expect_true(file.exists(png_name))
+expect_true(file.exists(pdf_name))
 
 # check that the size >0
 #
-expect_that(file.info(png_name)$size > 0, is_true())
-expect_that(file.info(pdf_name)$size > 0, is_true())
+expect_true(file.info(png_name)$size > 0)
+expect_true(file.info(pdf_name)$size > 0)
 
 # cleanup after the test
 #

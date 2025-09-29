@@ -11,10 +11,10 @@ expect_that( dim(dat)[1], equals(25) )
 expect_that( dim(dat)[2], equals(4) )
 
 # col names test
-expect_that(colnames(dat)[1], matches("LEVEL"))
+expect_match(colnames(dat)[1], "LEVEL")
 
 #
-expect_that(colnames(dat)[ dim(dat)[2] ], matches("ABUNDANCE"))
+expect_match(colnames(dat)[ dim(dat)[2] ], "ABUNDANCE")
 
 # [0.0] subset family
 family_table <- dplyr::filter( dat, LEVEL == "family")
