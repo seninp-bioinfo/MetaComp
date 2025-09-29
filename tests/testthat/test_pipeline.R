@@ -34,7 +34,7 @@ gplot <- plot_merged_assignment(assignment = merged_assignments_table,
 
 # [2.2] test that file exists
 #
-expect_that(file.exists(file.path(tmp_folder, "test_pdf3.pdf")), is_true())
+expect_true(file.exists(file.path(tmp_folder, "test_pdf3.pdf")))
 
 # [2.3] clean up
 #
